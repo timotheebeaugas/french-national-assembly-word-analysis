@@ -1,0 +1,33 @@
+{
+  "name": "french-national-assembly-word-analysis",
+  "version": "1.0.0",
+  "description": "Recovery and analysis of words from parliamentary work",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon ./dist/index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timotheebeaugas/french-national-assembly-word-analysis.git"
+  },
+  "keywords": [
+    "france",
+    "national",
+    "assembly",
+    "politic",
+    "work"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timotheebeaugas/french-national-assembly-word-analysis/issues"
+  },
+  "homepage": "https://github.com/timotheebeaugas/french-national-assembly-word-analysis#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "typescript": "^4.7.4"
+  }
+}
