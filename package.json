@@ -4,8 +4,7 @@
   "description": "Recovery and analysis of words from parliamentary work",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "nodemon ./dist/index.js",
+    "start": "nodemon -r dotenv/config ./dist/index.js",
     "test": "npm test"
   },
   "repository": {
@@ -26,8 +25,11 @@
   },
   "homepage": "https://github.com/timotheebeaugas/french-national-assembly-word-analysis#readme",
   "dependencies": {
+    "@types/node": "^18.7.4",
     "axios": "^0.27.2",
+    "cron": "^2.1.0",
     "dotenv": "^16.0.1",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "yauzl": "^2.10.0"
   }
 }
