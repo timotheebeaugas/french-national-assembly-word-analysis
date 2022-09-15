@@ -1,11 +1,10 @@
-import axios from "../node_modules/axios/index";
-const CronJob = require('cron').CronJob;
+import axios from "axios";
 const fs = require("fs");
 
 interface Url {
   value: string;
 }
-
+console.log("object");
 interface localFile {
   input: string,
   output: string
@@ -34,16 +33,6 @@ const downloadZipFile = new Promise((resolve, reject) => {
   .then((data: any)=>{
     data.pipe(fs.createWriteStream(LOCALFILE.input));  
   }); */
-
-let job = new CronJob(
-  '0 0 * * *', 
-  function() {
-    // run task here
-  },
-  null,
-  true,
-  'Europe/Paris'
-  );
 
 const zlib = require('zlib');
 

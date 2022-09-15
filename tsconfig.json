@@ -6,6 +6,6 @@
       "preserveConstEnums": true,
       "outDir": "dist"
     },
-    "include": ["src/**/*", "tests/**/*"]
+    "include": ["components/*", "src/**/*", "tests/**/*", "app.ts"]
   }
 
