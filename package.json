@@ -9,6 +9,7 @@
     "test": "npm test",
     "build": "tsc"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/timotheebeaugas/french-national-assembly-word-analysis.git"
@@ -31,6 +32,7 @@
     "axios": "^0.27.2",
     "cron": "^2.1.0",
     "dotenv": "^16.0.1",
+    "module-name": "0.0.1-security",
     "typescript": "^4.7.4",
     "yauzl": "^2.10.0"
   }

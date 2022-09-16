@@ -1,18 +1,15 @@
 export class ParserAbstract {
   readonly fileName: string;
+  private _data: unknown;
 
   constructor(file: string) {
     this.fileName = file;
+    this._data = null;
   }
 
-  data: {
-    date: string;
-    title: string;
-    quotes: string;
-  };
-
   run() {
-    return this.data
+    return this._data
   }
 }
 
+export const twoPi = 1 * 2; 

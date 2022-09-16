@@ -1,16 +1,10 @@
 const ParserAbstract = require("./ParserAbstract.ts");
 
-class ParserXML extends ParserAbstract {
-  constructor(readonly fileName: string) {
-    super(fileName);
+export class ParserXML extends ParserAbstract {
+  constructor(readonly fileName: string, _data: unknown) {
+    super(fileName, _data);
   }
-  getDate() {
-    return this.run().date;
-  }
-  getTitle() {
-    return this.run().title;
-  }
-  getQuotes() {
-    return this.run().quotes;
+  parseXML(_data: unknown){
+    this._data = "xml"
   }
 }

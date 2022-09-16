@@ -1,13 +1,12 @@
-"use strict";
-exports.__esModule = true;
-exports.ParserAbstract = void 0;
 var ParserAbstract = (function () {
     function ParserAbstract(file) {
         this.fileName = file;
+        this._data = null;
     }
     ParserAbstract.prototype.run = function () {
-        return this.data;
+        return this._data;
     };
     return ParserAbstract;
 }());
-exports.ParserAbstract = ParserAbstract;
+export { ParserAbstract };
+export var twoPi = 1 * 2;

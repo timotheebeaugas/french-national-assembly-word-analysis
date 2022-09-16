@@ -16,19 +16,14 @@ var __extends = (this && this.__extends) || (function () {
 var ParserAbstract = require("./ParserAbstract.ts");
 var ParserXML = (function (_super) {
     __extends(ParserXML, _super);
-    function ParserXML(fileName) {
-        var _this = _super.call(this, fileName) || this;
+    function ParserXML(fileName, _data) {
+        var _this = _super.call(this, fileName, _data) || this;
         _this.fileName = fileName;
         return _this;
     }
-    ParserXML.prototype.getDate = function () {
-        return this.run().date;
-    };
-    ParserXML.prototype.getTitle = function () {
-        return this.run().title;
-    };
-    ParserXML.prototype.getQuotes = function () {
-        return this.run().quotes;
+    ParserXML.prototype.parseXML = function (_data) {
+        this._data = "xml";
     };
     return ParserXML;
 }(ParserAbstract));
+export { ParserXML };
