@@ -2,10 +2,12 @@
   "name": "french-national-assembly-word-analysis",
   "version": "1.0.0",
   "description": "Recovery and analysis of words from parliamentary work",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon -r dotenv/config ./dist/index.js",
-    "test": "npm test"
+    "start": "nodemon -r dotenv/config ./dist/app.js",
+    "tsc": "tsc -w",
+    "test": "npm test",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",

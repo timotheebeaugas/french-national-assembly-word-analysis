@@ -6,7 +6,6 @@ filtrer
 tester (jest?)
 rédiger documentation
 
-
 which methods: Promises or Async ?
 
 # frontend #

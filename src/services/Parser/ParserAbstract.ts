@@ -1,5 +1,18 @@
-//class parent
+export class ParserAbstract {
+  readonly fileName: string;
 
-// méthod run (param: fichier type)
-    //  return object data du fichier
-    // plusieurs getters pour alimenter l'obj : getdate, get title, quetquotes
+  constructor(file: string) {
+    this.fileName = file;
+  }
+
+  data: {
+    date: string;
+    title: string;
+    quotes: string;
+  };
+
+  run() {
+    return this.data
+  }
+}
+
