@@ -32,7 +32,6 @@
     "cron": "^2.1.0",
     "dotenv": "^16.0.1",
     "module-name": "0.0.1-security",
-    "typescript": "^4.7.4",
     "yauzl": "^2.10.0"
   },
   "devDependencies": {}

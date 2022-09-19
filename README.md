@@ -14,3 +14,5 @@ produire une analyse
 
 # deployement #
 mettre le projet en prod
+
+use npm `v16.17.0`

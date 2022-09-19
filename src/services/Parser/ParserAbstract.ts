@@ -1,15 +1,15 @@
-export class ParserAbstract {
-  readonly fileName: string;
-  private _data: unknown;
-
-  constructor(file: string) {
-    this.fileName = file;
-    this._data = null;
-  }
-
-  run() {
-    return this._data
-  }
+interface Data<Type> {
+  date: Type;
+  title: Type;
+  quotes: Type;
 }
 
-export const twoPi = 1 * 3; 
+export class ParserAbstract {
+  readonly _file: string;
+
+  constructor(fileName: string) {
+    this._file = fileName;
+  }
+
+}
+  
