@@ -20,9 +20,9 @@ const downloadZipFile = new Promise((resolve, reject) => {
     data.pipe(fs.createWriteStream(LOCALFILE.input));  
   }); */
 
-import { ParserAbstract, twoPi } from "./src/services/Parser/ParserAbstract";
-import { ParserXML } from "./src/services/Parser/ParserXML";
+import { ParserAbstract, twoPi } from "./src/services/Parser/ParserAbstract.js";
+import { ParserXML } from "./src/services/Parser/ParserXML.js";
 
 //const test = new ParserAbstract("foo")
 
-console.log(twoPi);
+console.log(twoPi); 

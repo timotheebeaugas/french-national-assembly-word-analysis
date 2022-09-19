@@ -12,4 +12,4 @@ export class ParserAbstract {
   }
 }
 
-export const twoPi = 1 * 2; 
+export const twoPi = 1 * 3; 

@@ -5,9 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon -r dotenv/config ./dist/app.js",
-    "tsc": "tsc -w",
     "test": "npm test",
-    "build": "tsc"
+    "build": "tsc -w"
   },
   "type": "module",
   "repository": {
@@ -35,5 +34,6 @@
     "module-name": "0.0.1-security",
     "typescript": "^4.7.4",
     "yauzl": "^2.10.0"
-  }
+  },
+  "devDependencies": {}
 }

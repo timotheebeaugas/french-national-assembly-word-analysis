@@ -9,4 +9,4 @@ var ParserAbstract = (function () {
     return ParserAbstract;
 }());
 export { ParserAbstract };
-export var twoPi = 1 * 2;
+export var twoPi = 1 * 3;
