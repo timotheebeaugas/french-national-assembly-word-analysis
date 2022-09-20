@@ -1,3 +1,4 @@
-import { ParserAbstract } from "./src/services/Parser/ParserAbstract.js";
-const test = new ParserAbstract("foo");
-console.log(test._file);
+import { ParserXML } from "./src/services/Parser/ParserXML.js";
+const test = new ParserXML("unzippedPublicDebateReports");
+test.parse();
+console.log(test._parsedData);

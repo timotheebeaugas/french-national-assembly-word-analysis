@@ -4,6 +4,7 @@
       "target": "es6",
       "noImplicitAny": true,
       "removeComments": true,
+      "moduleResolution": "node",
       "preserveConstEnums": true,
       "outDir": "dist",
     },

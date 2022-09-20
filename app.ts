@@ -21,7 +21,8 @@ const downloadZipFile = new Promise((resolve, reject) => {
   }); */
 
 import { ParserAbstract } from "./src/services/Parser/ParserAbstract.js";
+import { ParserXML } from "./src/services/Parser/ParserXML.js";
 
-const test = new ParserAbstract("foo")
-
- console.log(test._file);
+const test = new ParserXML("unzippedPublicDebateReports");
+test.parse()
+console.log(test._parsedData);

@@ -1,14 +1,16 @@
-interface Data<Type> {
-  date: Type;
-  title: Type;
-  quotes: Type;
-}
+import * as fs from "fs";
 
 export class ParserAbstract {
-  readonly _file: string;
+  public _rowdata: string;
+  public _parsedData: string;
 
-  constructor(fileName: string) {
-    this._file = fileName;
+  constructor(public fileName: string) {
+    this._rowdata = null;
+  }
+
+  readFileContent(fileType: string){
+    const data = fs.readFileSync('./tmp/' + this.fileName + fileType, {encoding:'utf8', flag:'r'});
+    this._rowdata = data
   }
 
 }
