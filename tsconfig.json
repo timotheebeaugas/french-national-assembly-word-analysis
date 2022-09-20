@@ -1,12 +1,13 @@
 {
     "compilerOptions": {
-      "module": "CommonJS",
+      "module": "es6",
+      "target": "es6",
       "noImplicitAny": true,
       "removeComments": true,
+      "moduleResolution": "node",
       "preserveConstEnums": true,
-
-      "outDir": "dist"
+      "outDir": "dist",
     },
-    "include": ["src/**/*", "tests/**/*"]
+    "include": ["components/*", "models/*", "src/**/*", "tests/**/*", "app.ts"]
   }
 
