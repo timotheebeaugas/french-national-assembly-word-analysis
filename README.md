@@ -1,29 +1,8 @@
-<<<<<<< HEAD
-# French national assembly words analysis #
-=======
-# backend #
->>>>>>> f5ab689... unzip
+# bakcend #
 
-This project weekly fetch debats reports of the French National Assembly: `https://www.assemblee-nationale.fr/`.   
-Datas are stored and analysed before publications.
+# frontend #
 
-## Project description ##
-
-    .
-    ├── components          # Endpoints
-    ├── config              # Environment variables
-    ├── src
-        ├── controllers     #
-        ├── models          # Database models
-        └── services        # Reusables methods
-    ├── test                # Unit testing
-    ├── tmp                 # Location for temporary files
-    ├── utils               # Reusable Types
-    ├── README.md           # Instructions
-    ├── app.ts              # Main file
-    ├── package-lock.json   # Packages
-    ├── package.json        # Packages and metadatas
-    └── tsconfig.json       # Configuration for Typescript
+# deployement #
 
 ## Technologies used ##
 

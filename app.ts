@@ -79,13 +79,10 @@ test.unzipOneFile("publicDebateReports.zip")
     data.pipe(fs.createWriteStream(LOCALFILE.input));  
   }); */
 
-/* import { LOCAL_FILES_PATHS } from "./utils/env"
-console.log(LOCAL_FILES_PATHS) */
-
 import { ParserXML } from "./src/services/Parser/ParserXML.js";
 
 const test = new ParserXML("unzippedPublicDebateReports");
 test.readFile()
 test.parse()
 test.saveData()
->>>>>>> 9f8b472... .
+console.log(test.parsedData) 

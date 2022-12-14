@@ -1,11 +1,10 @@
-import { Object } from "./Types"
+type Object = {
+  [key: string]: string | undefined;
+};
 
 export const SOURCE_FILE_URL: string | undefined = process.env.SOURCE_FILE_URL;
 
-export const LOCAL_FILES_PATHS: Object = {
-  input: "./tmp/",
-  output: "./tmp/",
+export const LOCALFILES_PATHS: Object = {
+  input: process.env.INPUT,
+  output: process.env.OUTPUT,
 };
-
-export const FETCH_URL_INTERVAL: string | undefined = "0 0 * * *";
-
