@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon -r dotenv/config ./dist/app.js",
     "test": "npm test",
-    "build": "tsc -w"
+    "build": "tsc",
+    "dev": "tsc -w"
   },
   "type": "module",
   "repository": {
