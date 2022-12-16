@@ -9,6 +9,10 @@
       "allowSyntheticDefaultImports": true,
       "outDir": "dist",
     },
+<<<<<<< HEAD
     "include": ["components/*", "models/*", "src/**/*", "tests/**/*", "utils/*", "config/*", "tmp/*", "app.ts"],
+=======
+    "include": ["components/*", "models/*", "src/**/*", "tests/**/*", "utils/*", "app.ts"],
+>>>>>>> 21269f2... remastering config and constants
   }
 

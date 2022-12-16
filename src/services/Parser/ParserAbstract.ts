@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import fs from "fs";
 import { ParsedData, MetaData, Content } from "./Types";
 import { LOCAL_TMP_PATHS } from "../../constants.js"
@@ -8,16 +9,27 @@ import { LOCAL_TMP_PATHS } from "../../constants.js"
 export abstract class ParserAbstract {
 
 =======
+=======
+import * as fs from "fs";
+>>>>>>> 21269f2... remastering config and constants
 import { ParsedData, MetaData, Content } from "./Types";
+import {LOCAL_FILES_PATHS} from "../../../utils/constants.js"
+
+/** Parent class for parsing raw data  */
 
 export abstract class ParserAbstract {
+<<<<<<< HEAD
 >>>>>>> db48bbb... dev parserAbstract and parserXML w/ TypeScript
+=======
+
+>>>>>>> 21269f2... remastering config and constants
   protected rawdata: string;
   protected fileType: string;
   public parsedData: ParsedData;
   public parsedContentData: Partial<Content>;
   public parsedMetaData: Partial<MetaData>;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   /**
    * Create a parser.
@@ -28,11 +40,21 @@ export abstract class ParserAbstract {
 
 =======
 >>>>>>> db48bbb... dev parserAbstract and parserXML w/ TypeScript
+=======
+  /**
+   * Create a parser.
+   * @param {string} fileName - The filename value.
+   * @const {string} rawdata - null
+   * @const {Partial<MetaData>} parsedMetaData - null
+   */
+
+>>>>>>> 21269f2... remastering config and constants
   constructor(readonly fileName: string) {
     this.rawdata = null;
     this.parsedMetaData = null;
   }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   /**
    * Throw an exception.
@@ -89,14 +111,30 @@ export abstract class ParserAbstract {
    */
 
 =======
+=======
+  /**
+   * Throw an exception.
+   * @param {string} message - The error message value.
+   * Print error message.
+   * @return {never} 
+   */
+
+>>>>>>> 21269f2... remastering config and constants
   error(message: string): never {
     throw new Error(message);
   }
 
+  /**
+   * Open the file and stringify data.
+   * Store value as string in protected const
+   * @return {void} 
+   */
+ 
   readFile(): void {
+    
     try {
       const data = fs.readFileSync(
-        process.env.LOCAL_INPUT + this.fileName + this.fileType,
+        LOCAL_FILES_PATHS.input + this.fileName + this.fileType,
         { encoding: "utf8", flag: "r" }
       );
       this.rawdata = data;
@@ -105,7 +143,12 @@ export abstract class ParserAbstract {
     }
   }
 
-  saveData() {
+  /** 
+   * Store parsed data in public const
+   * @return {void} 
+   */
+
+  saveData(): void {
     const data = this.parsedData;
     if (data) {
       this.parsedMetaData = data.compteRendu.metadonnees;
@@ -119,6 +162,14 @@ export abstract class ParserAbstract {
     }
   }
 
+<<<<<<< HEAD
 >>>>>>> db48bbb... dev parserAbstract and parserXML w/ TypeScript
+=======
+  /** 
+   * @abstract for for inheritance
+   * @return {void} 
+   */
+
+>>>>>>> 21269f2... remastering config and constants
   abstract parse(): void;
 }

@@ -69,5 +69,14 @@ npm dev
   
 ## Contributing
 
+<<<<<<< HEAD
 - Clément B. - [github](https://github.com/clementbrizard)
 - Timothée B. - [github](https://github.com/timotheebeaugas)
+=======
+use npm `v16.17.0`
+
+comments
+cron
+point entrée url
+stockage données
+>>>>>>> 21269f2... remastering config and constants

@@ -1,6 +1,7 @@
 import { ParserAbstract } from "./ParserAbstract.js";
 import { XMLParser, XMLBuilder } from "fast-xml-parser";
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /** Child class for parsing raw data  */
 =======
@@ -8,11 +9,16 @@ import { ParsedData, MetaData } from "./Types";
 
 /*
 >>>>>>> db48bbb... dev parserAbstract and parserXML w/ TypeScript
+=======
+
+/** Child class for parsing raw data  */
+>>>>>>> 21269f2... remastering config and constants
 
 export class ParserXML extends ParserAbstract {
 
   /**
    * Create a parser.
+<<<<<<< HEAD
    * @param fileName - The filename value.
    * @const fileType - .xml format
    */
@@ -37,14 +43,23 @@ export class ParserXML extends ParserAbstract {
     }
   }
 } */
+=======
+   * @param {string} fileName - The filename value.
+   * @const {string} fileType - .xml format
+   */
+>>>>>>> 21269f2... remastering config and constants
 
-export class ParserXML extends ParserAbstract {
   constructor(fileName: string) {
     super(fileName);
     this.fileType = ".xml";
   }
 
-  parse() {
+  /**
+   * Parse data with external package named fast-xml-parser.
+   * @return {void} 
+   */
+
+  parse(): void {
     try {
       const parser = new XMLParser();
       const JSONObject = parser.parse(this.rawdata);
