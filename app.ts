@@ -1,29 +1,10 @@
-<<<<<<< HEAD
 /** First of all.
  * Import configuration files. 
 */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 import * as dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
-=======
-
-import dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
->>>>>>> f5ab689... unzip
 dotenv.config({path: './config/.env'})
 
 
-/* import axios from "axios";
->>>>>>> 21269f2... remastering config and constants
-
-import dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
-dotenv.config({path: './config/.env'})
-
-<<<<<<< HEAD
-import { Unzipper } from "./src/services/Unzipper/Unzip.js";
-const test = new Unzipper()
-=======
-=======
 /* import axios from "axios";
 
 const LOCALFILE: localFile = {
@@ -78,6 +59,9 @@ test.unzipOneFile("publicDebateReports.zip")
   .then((data: any)=>{
     data.pipe(fs.createWriteStream(LOCALFILE.input));  
   }); */
+
+/* import { LOCAL_FILES_PATHS } from "./utils/env"
+console.log(LOCAL_FILES_PATHS) */
 
 import { ParserXML } from "./src/services/Parser/ParserXML.js";
 
