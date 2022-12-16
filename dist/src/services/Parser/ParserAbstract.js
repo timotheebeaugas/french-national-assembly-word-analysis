@@ -1,4 +1,5 @@
 import * as fs from "fs";
+import { LOCAL_FILES_PATHS } from "../../../utils/constants.js";
 export class ParserAbstract {
     constructor(fileName) {
         this.fileName = fileName;
@@ -10,7 +11,7 @@ export class ParserAbstract {
     }
     readFile() {
         try {
-            const data = fs.readFileSync(process.env.LOCAL_INPUT + this.fileName + this.fileType, { encoding: "utf8", flag: "r" });
+            const data = fs.readFileSync(LOCAL_FILES_PATHS.input + this.fileName + this.fileType, { encoding: "utf8", flag: "r" });
             this.rawdata = data;
         }
         catch (_a) {

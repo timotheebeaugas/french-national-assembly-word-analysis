@@ -8,6 +8,6 @@
       "preserveConstEnums": true,
       "outDir": "dist",
     },
-    "include": ["components/*", "models/*", "src/**/*", "tests/**/*", "app.ts"]
+    "include": ["components/*", "models/*", "src/**/*", "tests/**/*", "utils/*", "app.ts"],
   }
 

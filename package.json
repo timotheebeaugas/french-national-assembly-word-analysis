@@ -4,7 +4,7 @@
   "description": "Recovery and analysis of words from parliamentary work",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon -r dotenv/config ./dist/app.js",
+    "start": "nodemon ./dist/app.js",
     "test": "npm test",
     "build": "tsc",
     "dev": "tsc -w"
