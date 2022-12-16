@@ -1,3 +1,10 @@
+/** First of all.
+ * Import configuration files. 
+*/
+import * as dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+dotenv.config({path: './config/.env'})
+
+
 /* import axios from "axios";
 
 const LOCALFILE: localFile = {
@@ -11,7 +18,7 @@ const downloadZipFile = new Promise((resolve, reject) => {
     resolve(response.data)
   })
   .catch(function (error) {
-    reject(error)
+    reject(error) 
   })
 });
 
@@ -19,6 +26,9 @@ const downloadZipFile = new Promise((resolve, reject) => {
   .then((data: any)=>{
     data.pipe(fs.createWriteStream(LOCALFILE.input));  
   }); */
+
+/* import { LOCAL_FILES_PATHS } from "./utils/env"
+console.log(LOCAL_FILES_PATHS) */
 
 import { ParserXML } from "./src/services/Parser/ParserXML.js";
 
