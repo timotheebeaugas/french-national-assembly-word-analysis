@@ -1,17 +1,16 @@
-import * as fs from "fs";
-import * as yauzl from "yauzl";
-import { LOCAL_FILES_PATHS } from "../../../utils/constants.js";
+import yauzl from "yauzl";
+import fs from "fs";
+import { LOCAL_TMP_PATHS } from "../../../utils/constants.js";
 export class Unzipper {
-    constructor(fileName) {
-        this.fileName = fileName;
-        this.outputFileName = null;
+    constructor() {
+        this.outputFileType = ".xml";
     }
     error(message) {
         throw new Error(message);
     }
-    unzipOneFile() {
+    unzipOneFile(fileName) {
         try {
-            yauzl.open(LOCAL_FILES_PATHS.input + this.fileName, { lazyEntries: true }, function (err, zipfile) {
+            yauzl.open(LOCAL_TMP_PATHS.input + fileName, { lazyEntries: true }, function (err, zipfile) {
                 if (err)
                     throw err;
                 zipfile.readEntry();
@@ -26,7 +25,7 @@ export class Unzipper {
                             readStream.on("end", function () {
                                 zipfile.readEntry();
                             });
-                            readStream.pipe(fs.createWriteStream(LOCAL_FILES_PATHS.output));
+                            readStream.pipe(fs.createWriteStream(LOCAL_TMP_PATHS.output + fileName + '.xml'));
                         });
                     }
                 });

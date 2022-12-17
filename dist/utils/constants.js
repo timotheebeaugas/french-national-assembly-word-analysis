@@ -1,4 +1,4 @@
-export const LOCAL_FILES_PATHS = {
+export const LOCAL_TMP_PATHS = {
     input: "./tmp/",
     output: "./tmp/",
 };
