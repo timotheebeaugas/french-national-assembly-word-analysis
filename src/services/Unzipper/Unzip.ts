@@ -5,16 +5,16 @@ import { LOCAL_FILES_PATHS } from "../../../utils/constants.js"
 /** Class for open and unzip a file  */
 export class Unzipper {
 
-  public readonly outputFileType: string;
+  public readonly outputFileName: string;
 
   /**
    * Create a unzipper.
    * @param {string} fileName - The filename value.
-   * @const {string} outputFileType - ".xml"
+   * @const {string} outputFileName - ".xml"
    */
 
   constructor(readonly fileName: string) {
-    this.outputFileType = ".xml"
+    this.outputFileName = null;
   }
 
     /**
@@ -33,9 +33,9 @@ export class Unzipper {
    * @return {string} when the work is done or @function error if an error occur
    */
 
-  unzipOneFile(): string | void{
+  unzipOneFile(): void{
     try{
-      yauzl.open("../../." + LOCAL_FILES_PATHS.input + this.fileName, {lazyEntries: true}, function(err: Error, zipfile: any) {
+      yauzl.open(LOCAL_FILES_PATHS.input + this.fileName , {lazyEntries: true}, function(err: Error, zipfile: any) {
         if (err) throw err;
         zipfile.readEntry();
         zipfile.on("entry", function(entry: any) {
@@ -45,10 +45,10 @@ export class Unzipper {
             zipfile.openReadStream(entry, function(err: Error, readStream: any) {
               if (err) throw err;
               readStream.on("end", function() {
-                zipfile.readEntry();
+                zipfile.readEntry(); 
               }); 
               readStream.pipe(fs.createWriteStream(LOCAL_FILES_PATHS.output));
-              return LOCAL_FILES_PATHS.output + this.fileName + this.outputFileType
+              //this.outputFileName = this.fileName + ".xml"
             });
           }
         });

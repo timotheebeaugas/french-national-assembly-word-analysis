@@ -4,14 +4,14 @@ import { LOCAL_FILES_PATHS } from "../../../utils/constants.js";
 export class Unzipper {
     constructor(fileName) {
         this.fileName = fileName;
-        this.outputFileType = ".xml";
+        this.outputFileName = null;
     }
     error(message) {
         throw new Error(message);
     }
     unzipOneFile() {
         try {
-            yauzl.open("../../." + LOCAL_FILES_PATHS.input + this.fileName, { lazyEntries: true }, function (err, zipfile) {
+            yauzl.open(LOCAL_FILES_PATHS.input + this.fileName, { lazyEntries: true }, function (err, zipfile) {
                 if (err)
                     throw err;
                 zipfile.readEntry();
@@ -27,7 +27,6 @@ export class Unzipper {
                                 zipfile.readEntry();
                             });
                             readStream.pipe(fs.createWriteStream(LOCAL_FILES_PATHS.output));
-                            return LOCAL_FILES_PATHS.output + this.fileName + this.outputFileType;
                         });
                     }
                 });
