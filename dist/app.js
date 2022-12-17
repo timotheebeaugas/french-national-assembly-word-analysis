@@ -1,8 +1,6 @@
 import * as dotenv from 'dotenv';
 dotenv.config({ path: './config/.env' });
-import { ParserXML } from "./src/services/Parser/ParserXML.js";
-const test = new ParserXML("unzippedPublicDebateReports");
-test.readFile();
-test.parse();
-test.saveData();
-console.log(test.parsedData);
+import { Unzipper } from "./src/services/Unzipper/Unzip.js";
+const test = new Unzipper("publicDebateReports.zip");
+console.log(test);
+console.log(test.unzipOneFile());
