@@ -1,103 +1,59 @@
-<<<<<<< HEAD
-import yauzl from "yauzl";
-import fs from "fs";
-import { LOCAL_TMP_PATHS } from "../../constants.js";
-
-/** Class for open and unzip a file  */
-export class Unzipper {
-=======
-import yauzl from "yauzl"
-import fs from "fs"
-import { LOCAL_TMP_PATHS } from "../../../utils/constants.js"
+import * as fs from "fs";
+import * as yauzl from "yauzl";
+import { LOCAL_FILES_PATHS } from "../../../utils/constants.js"
 
 /** Class for open and unzip a file  */
 export class Unzipper {
 
->>>>>>> f5ab689... unzip
-  private readonly outputFileType: string;
+  public readonly outputFileType: string;
 
   /**
    * Create a unzipper.
-   * @const outputFileType - ".xml"
+   * @param {string} fileName - The filename value.
+   * @const {string} outputFileType - ".xml"
    */
 
-  constructor() {
-    this.outputFileType = ".xml";
+  constructor(readonly fileName: string) {
+    this.outputFileType = ".xml"
   }
 
-  /**
+    /**
    * Throw an exception.
-   * @param message - The error message value.
+   * @param {string} message - The error message value.
    * Print error message.
-<<<<<<< HEAD
-   * @return
-=======
-   * @return 
->>>>>>> f5ab689... unzip
+   * @return {never} 
    */
 
   error(message: string): never {
-    throw new Error(message);
-  }
+      throw new Error(message);
+    }
 
   /**
-   * Open and unzip a file method with package
-   * @param fileName - The filename value.
-   * @return when the work is done or @function error if an error occur
+   * Open and unzip a file method with yauzl package
+   * @return {string} when the work is done or @function error if an error occur
    */
-<<<<<<< HEAD
-  //return LOCAL_TMP_PATHS.output + fileName + this.outputFileType
-  unzipOneFile(fileName: string): void {
-    try {
-      yauzl.open(
-        LOCAL_TMP_PATHS.input + fileName,
-        { lazyEntries: true },
-        function (err: Error, zipfile: any) {
-          if (err) throw err;
-          zipfile.readEntry();
-          zipfile.on("entry", function (entry: any) {
-            if (/\/$/.test(entry.fileName)) {
-              zipfile.readEntry();
-            } else {
-              zipfile.openReadStream(entry, function (err: Error, readStream: any) {
-                if (err) throw err;
-                readStream.on("end", function () {
-                  zipfile.readEntry();
-                });
-                readStream.pipe(
-                  fs.createWriteStream(
-                    LOCAL_TMP_PATHS.output + fileName + ".xml"
-                  )
-                );
-              });
-            } 
-          });
-        }
-      );
-    } catch (err) {
-=======
-//return LOCAL_TMP_PATHS.output + fileName + this.outputFileType
-  unzipOneFile(fileName: string): void{
+
+  unzipOneFile(): string | void{
     try{
-      yauzl.open(LOCAL_TMP_PATHS.input + fileName, {lazyEntries: true}, function(err, zipfile) {
+      yauzl.open("../../." + LOCAL_FILES_PATHS.input + this.fileName, {lazyEntries: true}, function(err: Error, zipfile: any) {
         if (err) throw err;
         zipfile.readEntry();
-        zipfile.on("entry", function(entry) {
+        zipfile.on("entry", function(entry: any) {
           if (/\/$/.test(entry.fileName)) {
             zipfile.readEntry();
           } else {
-            zipfile.openReadStream(entry, function(err, readStream) {
+            zipfile.openReadStream(entry, function(err: Error, readStream: any) {
               if (err) throw err;
               readStream.on("end", function() {
                 zipfile.readEntry();
-              });
-              readStream.pipe(fs.createWriteStream(LOCAL_TMP_PATHS.output + fileName + '.xml'));
+              }); 
+              readStream.pipe(fs.createWriteStream(LOCAL_FILES_PATHS.output));
+              return LOCAL_FILES_PATHS.output + this.fileName + this.outputFileType
             });
           }
         });
       });
     }catch(err){
->>>>>>> f5ab689... unzip
       this.error(err);
     }
   }
