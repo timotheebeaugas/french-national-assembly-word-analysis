@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # French national assembly words analysis #
 
 This project weekly fetch debats reports of the French National Assembly: `https://www.assemblee-nationale.fr/`.   
@@ -21,13 +20,6 @@ Datas are stored and analysed before publications.
     ├── package-lock.json   # Packages
     ├── package.json        # Packages and metadatas
     └── tsconfig.json       # Configuration for Typescript
-=======
-# bakcend #
-
-# frontend #
-
-# deployement #
->>>>>>> db48bbb... dev parserAbstract and parserXML w/ TypeScript
 
 ## Technologies used ##
 
@@ -75,8 +67,11 @@ npm dev
 =======
 use npm `v16.17.0`
 
+<<<<<<< HEAD
 comments
 cron
 point entrée url
 stockage données
 >>>>>>> 21269f2... remastering config and constants
+=======
+>>>>>>> cc6ae9a... readme edit
