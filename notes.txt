@@ -5,6 +5,3 @@ stockage données dans une base de données mysql (essayer de voir si ça convie
 réapprendre la structure du projet
 quelle données renvoyer quand les méthodes on été un succès (exemple parser)
 faire de la branche Parser la branch Master (database, unzipper, config sont des branches enfants de parser)
-pourquoi le script unzip fonctione dans TS et pas dans ./dist ?
-
-note 20/12/22 : remotesql est actuellement indisponible
