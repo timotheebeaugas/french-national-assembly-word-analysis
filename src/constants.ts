@@ -7,5 +7,6 @@ export const LOCAL_TMP_PATHS: Object = {
 
 export const FETCH_URL_INTERVAL: string = "0 0 * * *";
 
-export const REMOTE_DATA_SOURCE_URL: string = "https://assemblee-nationale.fr/"
+export const REMOTE_DATA_SOURCE_URL: string = "https://www.assemblee-nationale.fr/dyn/opendata/CRSANR5L16S2023O1N130.xml"
+
 
