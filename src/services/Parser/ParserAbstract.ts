@@ -13,7 +13,7 @@ export abstract class ParserAbstract {
 =======
 import * as fs from "fs";
 import { ParsedData, MetaData, Content } from "./Types";
-import {LOCAL_FILES_PATHS} from "../../../utils/constants.js"
+import {LOCAL_FILES_PATHS} from "../../constants.js"
 
 /** Parent class for parsing raw data  */
 

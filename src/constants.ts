@@ -1,6 +1,6 @@
 import { Object } from "../utils/Types"
 
-export const LOCAL_TMP_PATHS: Object = {
+export const LOCAL_FILES_PATHS: Object = {
   input: "./tmp/",
   output: "./tmp/",
 };
