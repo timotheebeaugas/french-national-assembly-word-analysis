@@ -1,4 +1,4 @@
-import { Object } from "./Types"
+import { Object } from "../utils/Types"
 
 export const LOCAL_FILES_PATHS: Object = {
   input: "./tmp/",
