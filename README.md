@@ -6,17 +6,15 @@ Datas are stored and analysed before publications.
 ## Project description ##
 
     .
-    ├── components          # Methods
+    ├── components          # Endpoints
     ├── config              # Environment variables
-    ├── dist                # Compiled files
-    ├── models              # Database models
     ├── src
         ├── controllers     #
-        ├── models          #
+        ├── models          # Database models
         └── services        # Reusables methods
     ├── test                # Unit testing
     ├── tmp                 # Location for temporary files
-    ├── utils               # Constants
+    ├── utils               # Reusable Types
     ├── README.md           # Instructions
     ├── app.ts              # Main file
     ├── package-lock.json   # Packages
