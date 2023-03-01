@@ -1,6 +1,6 @@
 import fs from "fs";
 import { ParsedData, MetaData, Content } from "./Types";
-import { LOCAL_FILES_PATHS } from "../../constants.js"
+import { LOCAL_TMP_PATHS } from "../../constants.js"
 
 /** Parent class for parsing raw data  */
 
@@ -45,7 +45,7 @@ export abstract class ParserAbstract {
     
     try {
       const data = fs.readFileSync(
-        `${LOCAL_FILES_PATHS.input} + ${this.fileName} + ${this.fileType}`,
+        `${LOCAL_TMP_PATHS.input} + ${this.fileName} + ${this.fileType}`,
         { encoding: "utf8", flag: "r" }
       );
       this.rawdata = data;

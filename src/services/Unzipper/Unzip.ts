@@ -1,6 +1,6 @@
 import yauzl from "yauzl";
 import fs from "fs";
-import { LOCAL_TMP_PATHS } from "../../../utils/constants.js";
+import { LOCAL_TMP_PATHS } from "../../constants.js";
 
 /** Class for open and unzip a file  */
 export class Unzipper {
