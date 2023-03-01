@@ -7,8 +7,8 @@ export class ParserXML extends ParserAbstract {
 
   /**
    * Create a parser.
-   * @param {string} fileName - The filename value.
-   * @const {string} fileType - .xml format
+   * @param fileName - The filename value.
+   * @const fileType - .xml format
    */
 
   constructor(fileName: string) {
@@ -18,7 +18,7 @@ export class ParserXML extends ParserAbstract {
 
   /**
    * Parse data with external package named fast-xml-parser.
-   * @return {void} 
+   * @return 
    */
 
   parse(): void {

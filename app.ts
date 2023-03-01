@@ -2,7 +2,7 @@
  * Import configuration files. 
 */
 
-import * as dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+import dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 dotenv.config({path: './config/.env'})
 
 /* import axios from "axios";
@@ -60,8 +60,8 @@ test.unzipOneFile("publicDebateReports.zip")
     data.pipe(fs.createWriteStream(LOCALFILE.input));  
   }); */
 
-/* import { LOCAL_FILES_PATHS } from "./utils/env"
-console.log(LOCAL_FILES_PATHS) */
+/* import { LOCAL_TMP_PATHS } from "./utils/env"
+console.log(LOCAL_TMP_PATHS) */
 
 /* import { ParserXML } from "./src/services/Parser/ParserXML.js";
 
@@ -73,6 +73,6 @@ console.log(test.parsedData)
  */
 
 import { Unzipper } from "./src/services/Unzipper/Unzip.js";
-const test = new Unzipper("publicDebateReports.zip")
-console.log(test.unzipOneFile())
-console.log(test)
+const test = new Unzipper()
+
+test.unzipOneFile("publicDebateReports.zip")
