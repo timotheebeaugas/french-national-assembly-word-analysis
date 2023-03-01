@@ -1,4 +1,4 @@
-import * as fs from "fs";
+import fs from "fs";
 import { ParsedData, MetaData, Content } from "./Types";
 import { LOCAL_FILES_PATHS } from "../../constants.js"
 
@@ -14,9 +14,9 @@ export abstract class ParserAbstract {
 
   /**
    * Create a parser.
-   * @param {string} fileName - The filename value.
-   * @const {string} rawdata - null
-   * @const {Partial<MetaData>} parsedMetaData - null
+   * @param fileName - The filename value.
+   * @const rawdata - null
+   * @const parsedMetaData - null
    */
 
   constructor(readonly fileName: string) {
@@ -26,9 +26,9 @@ export abstract class ParserAbstract {
 
   /**
    * Throw an exception.
-   * @param {string} message - The error message value.
+   * @param message - The error message value.
    * Print error message.
-   * @return {never} 
+   * @return
    */
 
   error(message: string): never {
@@ -38,7 +38,7 @@ export abstract class ParserAbstract {
   /**
    * Open the file and stringify data.
    * Store value as string in protected const
-   * @return {void} 
+   * @return
    */
  
   readFile(): void {
@@ -56,7 +56,7 @@ export abstract class ParserAbstract {
 
   /** 
    * Store parsed data in public const
-   * @return {void} 
+   * @return
    */
 
   saveData(): void {
@@ -75,7 +75,7 @@ export abstract class ParserAbstract {
 
   /** 
    * @abstract for for inheritance
-   * @return {void} 
+   * @return
    */
 
   abstract parse(): void;

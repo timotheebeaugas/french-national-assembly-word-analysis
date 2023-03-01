@@ -1,27 +1,26 @@
-import * as fs from "fs";
-import * as yauzl from "yauzl";
-import { LOCAL_FILES_PATHS } from "../../../utils/constants.js"
+import yauzl from "yauzl"
+import fs from "fs"
+import { LOCAL_TMP_PATHS } from "../../../utils/constants.js"
 
 /** Class for open and unzip a file  */
 export class Unzipper {
 
-  public readonly outputFileName: string;
+  private readonly outputFileType: string;
 
   /**
    * Create a unzipper.
-   * @param {string} fileName - The filename value.
-   * @const {string} outputFileName - ".xml"
+   * @const outputFileType - ".xml"
    */
 
-  constructor(readonly fileName: string) {
-    this.outputFileName = null;
+  constructor() {
+    this.outputFileType = ".xml";
   }
 
     /**
    * Throw an exception.
-   * @param {string} message - The error message value.
+   * @param message - The error message value.
    * Print error message.
-   * @return {never} 
+   * @return 
    */
 
   error(message: string): never {
@@ -29,26 +28,26 @@ export class Unzipper {
     }
 
   /**
-   * Open and unzip a file method with yauzl package
-   * @return {string} when the work is done or @function error if an error occur
+   * Open and unzip a file method with package
+   * @param fileName - The filename value.
+   * @return when the work is done or @function error if an error occur
    */
-
-  unzipOneFile(): void{
+//return LOCAL_TMP_PATHS.output + fileName + this.outputFileType
+  unzipOneFile(fileName: string): void{
     try{
-      yauzl.open(LOCAL_FILES_PATHS.input + this.fileName , {lazyEntries: true}, function(err: Error, zipfile: any) {
+      yauzl.open(LOCAL_TMP_PATHS.input + fileName, {lazyEntries: true}, function(err, zipfile) {
         if (err) throw err;
         zipfile.readEntry();
-        zipfile.on("entry", function(entry: any) {
+        zipfile.on("entry", function(entry) {
           if (/\/$/.test(entry.fileName)) {
             zipfile.readEntry();
           } else {
-            zipfile.openReadStream(entry, function(err: Error, readStream: any) {
+            zipfile.openReadStream(entry, function(err, readStream) {
               if (err) throw err;
               readStream.on("end", function() {
-                zipfile.readEntry(); 
-              }); 
-              readStream.pipe(fs.createWriteStream(LOCAL_FILES_PATHS.output));
-              //this.outputFileName = this.fileName + ".xml"
+                zipfile.readEntry();
+              });
+              readStream.pipe(fs.createWriteStream(LOCAL_TMP_PATHS.output + fileName + '.xml'));
             });
           }
         });
