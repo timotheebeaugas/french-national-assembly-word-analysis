@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # French national assembly words analysis #
+=======
+# backend #
+>>>>>>> f5ab689... unzip
 
 This project weekly fetch debats reports of the French National Assembly: `https://www.assemblee-nationale.fr/`.   
 Datas are stored and analysed before publications.

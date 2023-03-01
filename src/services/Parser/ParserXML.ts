@@ -19,6 +19,7 @@ export class ParserXML extends ParserAbstract {
   /**
    * Create a parser.
 <<<<<<< HEAD
+<<<<<<< HEAD
    * @param fileName - The filename value.
    * @const fileType - .xml format
    */
@@ -46,6 +47,10 @@ export class ParserXML extends ParserAbstract {
 =======
    * @param {string} fileName - The filename value.
    * @const {string} fileType - .xml format
+=======
+   * @param fileName - The filename value.
+   * @const fileType - .xml format
+>>>>>>> f5ab689... unzip
    */
 >>>>>>> 21269f2... remastering config and constants
 
@@ -56,7 +61,7 @@ export class ParserXML extends ParserAbstract {
 
   /**
    * Parse data with external package named fast-xml-parser.
-   * @return {void} 
+   * @return 
    */
 
   parse(): void {

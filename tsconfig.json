@@ -10,9 +10,13 @@
       "outDir": "dist",
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "include": ["components/*", "models/*", "src/**/*", "tests/**/*", "utils/*", "config/*", "tmp/*", "app.ts"],
 =======
     "include": ["components/*", "models/*", "src/**/*", "tests/**/*", "utils/*", "app.ts"],
 >>>>>>> 21269f2... remastering config and constants
+=======
+    "include": ["components/*", "models/*", "src/**/*", "tests/**/*", "utils/*", "config/*", "tmp/*", "app.ts"],
+>>>>>>> f5ab689... unzip
   }
 
