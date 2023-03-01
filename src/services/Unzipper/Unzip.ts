@@ -37,14 +37,14 @@ export class Unzipper {
       yauzl.open(
         LOCAL_TMP_PATHS.input + fileName,
         { lazyEntries: true },
-        function (err, zipfile) {
+        function (err: Error, zipfile: any) {
           if (err) throw err;
           zipfile.readEntry();
-          zipfile.on("entry", function (entry) {
+          zipfile.on("entry", function (entry: any) {
             if (/\/$/.test(entry.fileName)) {
               zipfile.readEntry();
             } else {
-              zipfile.openReadStream(entry, function (err, readStream) {
+              zipfile.openReadStream(entry, function (err: Error, readStream: any) {
                 if (err) throw err;
                 readStream.on("end", function () {
                   zipfile.readEntry();
@@ -55,7 +55,7 @@ export class Unzipper {
                   )
                 );
               });
-            }
+            } 
           });
         }
       );
