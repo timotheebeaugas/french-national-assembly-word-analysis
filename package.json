@@ -28,17 +28,14 @@
   },
   "homepage": "https://github.com/timotheebeaugas/french-national-assembly-word-analysis#readme",
   "dependencies": {
-    "@types/extract-zip": "2.0.1",
-    "axios": "0.27.2",
-    "cron": "2.1.0",
-    "dotenv": "16.0.1",
-    "fast-xml-parser": "4.0.10",
+    "@types/node": "^18.7.4",
+    "axios": "^0.27.2",
+    "cron": "^2.1.0",
+    "dotenv": "^16.0.1",
+    "fast-xml-parser": "^4.0.10",
     "module-name": "0.0.1-security",
-    "yauzl": "2.10.0"
-  },
-  "devDependencies": {
-    "@types/jszip": "^3.4.1",
-    "@types/node": "^18.14.2",
-    "@types/yauzl": "^2.10.0"
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.27.0",
+    "yauzl": "^2.10.0"
   }
 }
