@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /** First of all.
  * Import configuration files. 
 */
@@ -22,6 +23,15 @@ dotenv.config({path: './config/.env'})
 import { Unzipper } from "./src/services/Unzipper/Unzip.js";
 const test = new Unzipper()
 =======
+=======
+/* import axios from "axios";
+
+const LOCALFILE: localFile = {
+  input: "./tmp/publicDebateReports.zip",
+  output: "./tmp/unzippedPublicDebateReports.xml"
+}
+
+>>>>>>> 9f8b472... .
 const downloadZipFile = new Promise((resolve, reject) => {
   axios({url: URL.value, method: 'get', responseType: 'stream'})
   .then(function (response) {
@@ -31,6 +41,7 @@ const downloadZipFile = new Promise((resolve, reject) => {
     reject(error) 
   })
 });
+<<<<<<< HEAD
 >>>>>>> 21269f2... remastering config and constants
 
 <<<<<<< HEAD
@@ -61,3 +72,20 @@ const test = new Unzipper()
 
 test.unzipOneFile("publicDebateReports.zip")
 >>>>>>> f5ab689... unzip
+=======
+
+/* downloadZipFile
+  .then((data: any)=>{
+    data.pipe(fs.createWriteStream(LOCALFILE.input));  
+  }); */
+
+/* import { LOCAL_FILES_PATHS } from "./utils/env"
+console.log(LOCAL_FILES_PATHS) */
+
+import { ParserXML } from "./src/services/Parser/ParserXML.js";
+
+const test = new ParserXML("unzippedPublicDebateReports");
+test.readFile()
+test.parse()
+test.saveData()
+>>>>>>> 9f8b472... .

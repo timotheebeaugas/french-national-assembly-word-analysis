@@ -6,9 +6,9 @@
       "removeComments": true,
       "moduleResolution": "node",
       "preserveConstEnums": true,
-      "allowSyntheticDefaultImports": true,
       "outDir": "dist",
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     "include": ["components/*", "models/*", "src/**/*", "tests/**/*", "utils/*", "config/*", "tmp/*", "app.ts"],
@@ -18,5 +18,8 @@
 =======
     "include": ["components/*", "models/*", "src/**/*", "tests/**/*", "utils/*", "config/*", "tmp/*", "app.ts"],
 >>>>>>> f5ab689... unzip
+=======
+    "include": ["components/*", "models/*", "src/**/*", "tests/**/*", "utils/*", "config/*", "app.ts"],
+>>>>>>> 9f8b472... .
   }
 
