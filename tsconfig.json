@@ -6,8 +6,9 @@
       "removeComments": true,
       "moduleResolution": "node",
       "preserveConstEnums": true,
+      "allowSyntheticDefaultImports": true,
       "outDir": "dist",
     },
-    "include": ["components/*", "models/*", "src/**/*", "tests/**/*", "app.ts"]
+    "include": ["components/*", "models/*", "src/**/*", "tests/**/*", "utils/*", "config/*", "tmp/*", "app.ts"],
   }
 

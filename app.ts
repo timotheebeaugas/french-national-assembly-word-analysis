@@ -1,28 +1,11 @@
-/* import axios from "axios";
+/** First of all.
+ * Import configuration files. 
+*/
 
-const LOCALFILE: localFile = {
-  input: "./tmp/publicDebateReports.zip",
-  output: "./tmp/unzippedPublicDebateReports.xml"
-}
+import dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+dotenv.config({path: './config/.env'})
 
-const downloadZipFile = new Promise((resolve, reject) => {
-  axios({url: URL.value, method: 'get', responseType: 'stream'})
-  .then(function (response) {
-    resolve(response.data)
-  })
-  .catch(function (error) {
-    reject(error)
-  })
-});
+import { Unzipper } from "./src/services/Unzipper/Unzip.js";
+const test = new Unzipper()
 
-/* downloadZipFile
-  .then((data: any)=>{
-    data.pipe(fs.createWriteStream(LOCALFILE.input));  
-  }); */
-
-import { ParserAbstract } from "./src/services/Parser/ParserAbstract.js";
-import { ParserXML } from "./src/services/Parser/ParserXML.js";
-
-const test = new ParserXML("unzippedPublicDebateReports");
-test.parse()
-console.log(test._parsedData);
+test.unzipOneFile("publicDebateReports.zip")
