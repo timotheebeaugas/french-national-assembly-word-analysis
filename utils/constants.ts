@@ -1,14 +1,10 @@
-/* interface Url {
-  value: string;
-}
-
-interface localFile {
-  input: string;
-  output: string;
-}
-
-const URL: Url = {
-  value: process.env.SOURCE_FILE,
+type Object = {
+  [key: string]: string | undefined;
 };
- */
 
+export const SOURCE_FILE_URL: string | undefined = process.env.SOURCE_FILE_URL;
+
+export const LOCALFILES_PATHS: Object = {
+  input: process.env.INPUT,
+  output: process.env.OUTPUT,
+};

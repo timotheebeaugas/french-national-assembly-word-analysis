@@ -1,17 +1,48 @@
 import * as fs from "fs";
 
-export class ParserAbstract {
-  public _rowdata: string;
-  public _parsedData: string;
+import { ParsedData, MetaData, Content } from "./Types";
 
-  constructor(public fileName: string) {
-    this._rowdata = null;
+export abstract class ParserAbstract {
+  protected rawdata: string;
+  protected fileType: string;
+  public parsedData: ParsedData;
+  public parsedContentData: Partial<Content>;
+  public parsedMetaData: Partial<MetaData>;
+
+  constructor(readonly fileName: string) {
+    this.rawdata = null;
+    this.parsedMetaData = null;
   }
 
-  readFileContent(fileType: string){
-    const data = fs.readFileSync('./tmp/' + this.fileName + fileType, {encoding:'utf8', flag:'r'});
-    this._rowdata = data
+  error(message: string): never {
+    throw new Error(message);
   }
 
+  readFile(): void {
+    try {
+      const data = fs.readFileSync(
+        process.env.LOCAL_INPUT + this.fileName + this.fileType,
+        { encoding: "utf8", flag: "r" }
+      );
+      this.rawdata = data;
+    } catch {
+      this.error("cannot read this file");
+    }
+  }
+
+  saveData() {
+    const data = this.parsedData;
+    if (data) {
+      this.parsedMetaData = data.compteRendu.metadonnees;
+      this.parsedContentData = data.compteRendu.contenu;
+      try {
+      } catch {
+        this.error("cannot find parsed data");
+      }
+    } else {
+      this.error("no past data to process");
+    }
+  }
+
+  abstract parse(): void;
 }
-  

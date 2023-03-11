@@ -1,11 +1,8 @@
 import { ParserAbstract } from "./ParserAbstract.js";
-import { XMLParser, XMLBuilder} from "fast-xml-parser";
+import { XMLParser, XMLBuilder } from "fast-xml-parser";
+import { ParsedData, MetaData } from "./Types";
 
-interface Data<Type> {
-  date: Type;
-  title: Type;
-  quotes: Type;
-}
+/*
 
 export class ParserXML extends ParserAbstract {
   _length = 0;
@@ -28,5 +25,21 @@ export class ParserXML extends ParserAbstract {
     const jObj = parser.parse(this._rowdata)
     this._parsedData = jObj
   }
+} */
+
+export class ParserXML extends ParserAbstract {
+  constructor(fileName: string) {
+    super(fileName);
+    this.fileType = ".xml";
+  }
+
+  parse() {
+    try {
+      const parser = new XMLParser();
+      const JSONObject = parser.parse(this.rawdata);
+      this.parsedData = JSONObject;
+    } catch {
+      this.error("cannot parse data");
+    }
+  }
 }
- 

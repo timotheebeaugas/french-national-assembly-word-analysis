@@ -20,9 +20,10 @@ const downloadZipFile = new Promise((resolve, reject) => {
     data.pipe(fs.createWriteStream(LOCALFILE.input));  
   }); */
 
-import { ParserAbstract } from "./src/services/Parser/ParserAbstract.js";
 import { ParserXML } from "./src/services/Parser/ParserXML.js";
 
 const test = new ParserXML("unzippedPublicDebateReports");
+test.readFile()
 test.parse()
-console.log(test._parsedData);
+test.saveData()
+console.log(test.parsedData) 

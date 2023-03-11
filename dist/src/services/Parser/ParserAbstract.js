@@ -2,10 +2,34 @@ import * as fs from "fs";
 export class ParserAbstract {
     constructor(fileName) {
         this.fileName = fileName;
-        this._rowdata = null;
+        this.rawdata = null;
+        this.parsedMetaData = null;
     }
-    readFileContent(fileType) {
-        const data = fs.readFileSync('./tmp/' + this.fileName + fileType, { encoding: 'utf8', flag: 'r' });
-        this._rowdata = data;
+    error(message) {
+        throw new Error(message);
+    }
+    readFile() {
+        try {
+            const data = fs.readFileSync(process.env.LOCAL_INPUT + this.fileName + this.fileType, { encoding: "utf8", flag: "r" });
+            this.rawdata = data;
+        }
+        catch (_a) {
+            this.error("cannot read this file");
+        }
+    }
+    saveData() {
+        const data = this.parsedData;
+        if (data) {
+            this.parsedMetaData = data.compteRendu.metadonnees;
+            this.parsedContentData = data.compteRendu.contenu;
+            try {
+            }
+            catch (_a) {
+                this.error("cannot find parsed data");
+            }
+        }
+        else {
+            this.error("no past data to process");
+        }
     }
 }
