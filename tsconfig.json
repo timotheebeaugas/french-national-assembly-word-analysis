@@ -6,6 +6,8 @@
       "removeComments": true,
       "moduleResolution": "node",
       "preserveConstEnums": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
       "outDir": "dist",
     },
     "include": ["components/*", "models/*", "src/**/*", "tests/**/*", "utils/*", "config/*", "app.ts"],

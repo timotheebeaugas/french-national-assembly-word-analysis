@@ -9,4 +9,3 @@ export const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USERN
     dialect: "mysql"
   });
 
-  
