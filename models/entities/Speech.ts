@@ -1,4 +1,4 @@
-import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from "typeorm";
+import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, JoinColumn } from "typeorm";
 import { Actor } from "./Actor.js";
 import { AgendaItem } from "./AgendaItem.js";
 
@@ -15,16 +15,10 @@ export class Speech {
   @Column()
   report: string;
 
-  @Column()
-  @ManyToOne(() => AgendaItem, (agendaItem) => agendaItem.speeches, {
-    cascade: true,
-  })
+  @ManyToOne(() => AgendaItem, (agendaItem) => agendaItem.speeches)
   agendaItem: number;
 
-  @Column()
-  @ManyToOne(() => Actor, (actor) => actor.speeches, {
-    cascade: true,
-  })
+  @ManyToOne(() => Actor, (actor) => actor.speeches)
   actor: number;
 
   @Column("text")

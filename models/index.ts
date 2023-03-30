@@ -4,6 +4,9 @@ import { Report } from "./entities/Report.js"
 import { Speech } from "./entities/Speech.js"
 import { AgendaItem } from "./entities/AgendaItem.js"
 import { Actor } from "./entities/Actor.js"
+import { Mandate } from './entities/Mandate.js';
+import { PoliticalBody } from './entities/PoliticalBody.js';
+import { Constituency } from './entities/Constituency.js';
 
 const AppDataSource = new DataSource({
     type: "postgres",
@@ -13,7 +16,7 @@ const AppDataSource = new DataSource({
     password: "abcd",
     database: "postgres",
     schema: 'public',
-    entities: [AgendaItem, Actor, Speech, Report],
+    entities: [ Mandate, AgendaItem, Actor, Speech, Report, PoliticalBody, Constituency],
     synchronize: true,
     logging: false,
 })

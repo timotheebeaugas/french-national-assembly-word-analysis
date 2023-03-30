@@ -3,14 +3,13 @@ import {
   Column,
   PrimaryGeneratedColumn,
   OneToMany,
-  JoinColumn,
+  JoinColumn
 } from "typeorm";
 
-import { Speech } from "./Speech.js";
 import { Mandate } from "./Mandate.js";
 
 @Entity()
-export class Actor {
+export class PoliticalBody {
   @PrimaryGeneratedColumn()
   id: number;
 
@@ -19,29 +18,38 @@ export class Actor {
   })
   externalId: string;
 
-  @Column()
-  birthDate: Date;
+  @Column({
+    length: 255,
+  })
+  type: string;
 
   @Column({
     length: 255,
   })
-  gender: string;
+  name: string;
 
   @Column({
     length: 255,
   })
-  job: string;
+  parent: string;
 
   @Column({
     length: 255,
   })
-  professionalCategory: string;
+  position: string;
 
-  @OneToMany(() => Speech, (speech) => speech.actor)
-  @JoinColumn()
-  speeches: Speech[];
+  @Column({
+    length: 255,
+  })
+  color: string;
 
-  @OneToMany(() => Mandate, (mandate) => mandate.actor)
+  @Column({
+    length: 255,
+  })
+  wing: string;
+
+  @OneToMany(() => Mandate, (mandate) => mandate.politicalBody)
   @JoinColumn()
   mandates: Mandate[];
+  
 }

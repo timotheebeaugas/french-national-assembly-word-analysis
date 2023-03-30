@@ -20,10 +20,7 @@ export class AgendaItem {
   })
   externalId: string;
 
-  @Column()
-  @ManyToOne(() => Report, (report) => report.agendaItems, {
-    cascade: true,
-  })
+  @ManyToOne(() => Report, (report) => report.agendaItems)
   report: number;
 
   @Column({

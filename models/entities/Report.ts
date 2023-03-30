@@ -35,5 +35,6 @@ export class Report {
   presidency: string;
 
   @OneToMany(() => AgendaItem, (agendaItem) => agendaItem.report)
+  @JoinColumn()
   agendaItems: AgendaItem[];
 }
