@@ -7,7 +7,8 @@
     "start": "nodemon ./dist/app.js",
     "test": "npm test",
     "build": "tsc",
-    "dev": "tsc -w"
+    "dev": "tsc -w",
+    "migration": "node ./dist/models/index.js"
   },
   "type": "module",
   "repository": {
@@ -28,14 +29,20 @@
   },
   "homepage": "https://github.com/timotheebeaugas/french-national-assembly-word-analysis#readme",
   "dependencies": {
-    "@types/node": "^18.7.4",
+    "@types/node": "^18.15.7",
     "axios": "^0.27.2",
     "cron": "^2.1.0",
     "dotenv": "^16.0.1",
     "fast-xml-parser": "^4.0.10",
     "module-name": "0.0.1-security",
     "mysql2": "^2.3.3",
+    "pg": "^8.10.0",
+    "reflect-metadata": "^0.1.13",
     "sequelize": "^6.27.0",
+    "typeorm": "^0.3.12",
     "yauzl": "^2.10.0"
+  },
+  "devDependencies": {
+    "@types/yauzl": "^2.10.0"
   }
 }

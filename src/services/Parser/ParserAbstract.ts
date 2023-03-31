@@ -1,4 +1,4 @@
-import fs from "fs";
+import * as fs from "fs";
 import { ParsedData, MetaData, Content } from "./Types";
 import { LOCAL_TMP_PATHS } from "../../constants.js"
 
