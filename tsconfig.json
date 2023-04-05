@@ -10,6 +10,6 @@
       "experimentalDecorators": true,
       "outDir": "dist",
     },
-    "include": ["components/*", "models/*", "src/**/*", "tests/**/*", "utils/*", "config/*", "app.ts"],
+    "include": ["components/*", "models/*", "src/**/*", "tests/**/*", "utils/*", "config/*", "app.ts", "models"],
   }
 
