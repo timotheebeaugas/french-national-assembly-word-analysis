@@ -9,7 +9,7 @@ Datas are stored and analysed before publications.
     ├── components          # Endpoints
     ├── config              # Environment variables
     ├── src
-        ├── controllers     #
+        ├── controllers     # Handles incoming HTTP requests
         ├── models          # Database models
         └── services        # Reusables methods
     ├── test                # Unit testing
