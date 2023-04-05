@@ -8,7 +8,7 @@
     "test": "npm test",
     "build": "tsc",
     "dev": "tsc -w",
-    "migration": "node ./dist/models/index.js"
+    "migration": "node ./dist/src/models/index.js"
   },
   "type": "module",
   "repository": {
