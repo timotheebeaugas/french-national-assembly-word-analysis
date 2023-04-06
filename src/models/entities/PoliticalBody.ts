@@ -19,12 +19,12 @@ export class PoliticalBody {
   externalId: string;
 
   @Column({
-    length: 255,
+    length: 255, 
   })
   type: string;
 
   @Column({
-    length: 255,
+    length: 255, 
   })
   name: string;
 
