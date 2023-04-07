@@ -1,10 +1,7 @@
 import axios from "axios";
 import * as fs from "fs";
 import * as path from "path";
-import {
-  LOCAL_FILES_PATHS,
-  REMOTE_DATA_SOURCE_URL,
-} from "../../constants.js";
+import { LOCAL_FILES_PATHS } from "../../constants.js";
 
 export class Fetch {
   public fileName: string;
@@ -12,11 +9,12 @@ export class Fetch {
 
   /**
    * Create a fetcher.
-   * @param {string} fileName - Store base name of remote file.
+   * @param {string} remoteSourceUrl - source file URL to fetch.
+   * @const {string} fileName - Store base name of remote file.
    * @const {any} rawData - row data downloaded from remote website
    */
 
-  constructor() {
+  constructor(public remoteSourceUrl: string) {
     this.fileName = null;
     this.rawData = null;
   }
@@ -26,20 +24,23 @@ export class Fetch {
    * @return {void}
    */
 
-  async download() {
-    const response: any = await axios({
-      url: REMOTE_DATA_SOURCE_URL,
-      method: "get",
-      responseType: "stream",
-    });
-
-    if (response.status == "200") {
-      this.fileName = path.basename(response.request.path);
-      await response.data.pipe(
-        fs.createWriteStream(`${LOCAL_FILES_PATHS.input}${this.fileName}`)
-      );
-    } else {
-      throw new Error("Connection failed");
+  async download(): Promise<void> {
+    try {
+      const response: any =  await axios({
+        method: 'get',
+        url: this.remoteSourceUrl,
+        responseType: 'stream'
+      });
+      if (response.status == "200") {
+        this.fileName = path.basename(response.request.path);
+        await response.data.pipe(
+          fs.createWriteStream(`${LOCAL_FILES_PATHS.input}${this.fileName}`)
+        );
+      } else {
+        throw new Error("Connection failed");
+      }
+    } catch (error) {
+      console.error(error);
     }
   }
 }
