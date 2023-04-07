@@ -1,4 +1,4 @@
-import axios from "axios";
+import fetch from "node-fetch";
 import * as fs from "fs";
 import * as path from "path";
 import { LOCAL_FILES_PATHS } from "../../constants.js";
@@ -26,14 +26,11 @@ export class Fetch {
 
   async download(): Promise<void> {
     try {
-      const response: any =  await axios({
-        method: 'get',
-        url: this.remoteSourceUrl,
-        responseType: 'stream'
-      });
+      const response: any = await fetch(this.remoteSourceUrl);
       if (response.status == "200") {
-        this.fileName = path.basename(response.request.path);
-        await response.data.pipe(
+        console.log(response, response.url );
+        this.fileName = path.basename(response.url);
+        await response.body.pipe(
           fs.createWriteStream(`${LOCAL_FILES_PATHS.input}${this.fileName}`)
         );
       } else {
