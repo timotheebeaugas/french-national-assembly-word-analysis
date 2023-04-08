@@ -11,7 +11,7 @@ export class ParserXML extends ParserAbstract {
    * @const fileType - .xml format
    */
 
-  constructor(fileName: string) {
+  constructor(public fileName: string) {
     super(fileName);
     this.fileType = ".xml";
   }
@@ -22,6 +22,7 @@ export class ParserXML extends ParserAbstract {
    */
 
   parse(): void {
+    this.readFile();
     try {
       const parser = new XMLParser();
       const JSONObject = parser.parse(this.rawdata);

@@ -19,7 +19,7 @@ export abstract class ParserAbstract {
    * @const parsedMetaData - null
    */
 
-  constructor(readonly fileName: string) {
+  constructor(public fileName: string) {
     this.rawdata = null;
     this.parsedMetaData = null;
   }
@@ -42,10 +42,9 @@ export abstract class ParserAbstract {
    */
  
   readFile(): void {
-    
     try {
       const data = fs.readFileSync(
-        `${LOCAL_FILES_PATHS.input} + ${this.fileName} + ${this.fileType}`,
+        `${LOCAL_FILES_PATHS.input}${this.fileName}${this.fileType}`,
         { encoding: "utf8", flag: "r" }
       );
       this.rawdata = data;
