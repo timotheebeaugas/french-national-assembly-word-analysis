@@ -18,15 +18,15 @@ export class ParserXML extends ParserAbstract {
 
   /**
    * Parse data with external package named fast-xml-parser.
-   * @return 
+   * @return {Object} return parsed data in one object
    */
 
-  parse(): void {
+  parse(): Object {
     this.readFile();
-    try {
+    try { 
       const parser = new XMLParser();
       const JSONObject = parser.parse(this.rawdata);
-      this.parsedData = JSONObject;
+      return JSONObject;
     } catch {
       this.error("cannot parse data");
     }
