@@ -8,9 +8,9 @@ import {
   Relation
 } from "typeorm";
 
-import { Actor } from "./Actor.js";
-import { PoliticalBody } from './PoliticalBody.js';
-import { Constituency } from "./Constituency.js";
+import { Actor } from "./Actor.entity.js";
+import { PoliticalBody } from './PoliticalBody.entity.js';
+import { Constituency } from "./Constituency.entity.js";
 
 @Entity()
 export class Mandate {

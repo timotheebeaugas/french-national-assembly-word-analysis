@@ -7,7 +7,7 @@ import {
   Relation
 } from "typeorm";
 
-import { Mandate } from "./Mandate.js";
+import { Mandate } from "./Mandate.entity.js";
 
 @Entity()
 export class Constituency {

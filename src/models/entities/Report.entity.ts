@@ -6,7 +6,7 @@ import {
   JoinColumn,
 } from "typeorm";
 
-import { AgendaItem } from "./AgendaItem.js";
+import { AgendaItem } from "./AgendaItem.entity.js";
 
 @Entity()
 export class Report {

@@ -6,8 +6,8 @@ import {
   JoinColumn,
 } from "typeorm";
 
-import { Speech } from "./Speech.js";
-import { Mandate } from "./Mandate.js";
+import { Speech } from "./Speech.entity.js";
+import { Mandate } from "./Mandate.entity.js";
 
 @Entity()
 export class Actor {

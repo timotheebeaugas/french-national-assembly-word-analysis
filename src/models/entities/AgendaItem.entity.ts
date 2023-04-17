@@ -7,8 +7,8 @@ import {
     JoinColumn,
   } from "typeorm";
   
-  import { Speech } from "./Speech.js";
-  import { Report } from "./Report.js";
+  import { Speech } from "./Speech.entity.js";
+  import { Report } from "./Report.entity.js";
 
 @Entity()
 export class AgendaItem {

@@ -1,6 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, JoinColumn } from "typeorm";
-import { Actor } from "./Actor.js";
-import { AgendaItem } from "./AgendaItem.js";
+import { Actor } from "./Actor.entity.js";
+import { AgendaItem } from "./AgendaItem.entity.js";
 
 @Entity()
 export class Speech {

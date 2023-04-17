@@ -20,10 +20,12 @@ try {
     const parsedReport = report.parse();
 
     // SAVING DATA IN LOCAL DB
-    console.log(parsedReport);
+
+    const saveReport = new ReadReport;
+    saveReport.Read(parsedReport);
 
   } else {
-    // DOWNLOAD THE REPORT BY REMOTE URL
+    // IF NOT DOWNLOAD THE REPORT BY REMOTE URL
     const report = new Fetch(CURRENT_FILE_ADRESS);
     report.download();
   }
