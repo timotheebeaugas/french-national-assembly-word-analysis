@@ -16,12 +16,16 @@ export class ReadReport {
    */
 
   async Read(data: Object): Promise<Object> {
-    console.log(Report);
     try{
       await AppDataSource.initialize()
-/*       const reportsRepository = AppDataSource.getRepository(Report);
+      const reportsRepository = AppDataSource.getRepository(Report);
       const findReports = await reportsRepository.find();
-      console.log("All photos from the db: ", findReports); */
+      if(findReports.length == 0){
+        const report = new Report();
+        
+      }else{
+        console.log("dejà un report");
+      }
     }catch(error){
       console.log(error)
     }

@@ -21,8 +21,8 @@ export const AppDataSource = new DataSource({
   password: process.env.DB_PASSWORD,
   database: process.env.DB_DATABASE,
   schema: process.env.DB_SCHEMA,
-  entities: [ Mandate, AgendaItem, Actor, Speech, Report, PoliticalBody, Constituency], //[`../../models/entities/*.entity.{js,ts}`] don't works
+  entities: [ Mandate, AgendaItem, Actor, Speech, Report, PoliticalBody, Constituency], // [`../../models/entities/*.entity.{js,ts}`] don't works
   synchronize: true,
-  logging: true,
+  logging: false,
 });
  
