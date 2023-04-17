@@ -15,21 +15,22 @@ export class ReadReport {
    * @param data - parsed raw datas
    */
 
-  async Read(data: Object): Promise<Object> {
+  async Read(data: any): Promise<Object> {
+    console.log(data.compteRendu.uid);
     try{
       await AppDataSource.initialize()
       const reportsRepository = AppDataSource.getRepository(Report);
-      const findReports = await reportsRepository.find();
-      console.log(findReports);
+      const findReports = await reportsRepository.find();// WHERE
       if(findReports.length == 0){
         const report = new Report();
         report.sourceURL = `https://www.assemblee-nationale.fr/dyn/opendata/${data.compteRendu.uid}.xml`
         report.externalId = data.compteRendu.uid;
         report.legislature = data.compteRendu.metadonnees.legislature;
         report.date = data.compteRendu.metadonnees.dateSeanceJour;
-        report.daySessionNumber =data.compteRendu.metadonnees.numSeanceJour;
-        report.presidency =data.compteRendu.metadonnees.sommaire.presidentSeance;
-        console.log(report);
+        report.daySessionNumber = data.compteRendu.metadonnees.numSeanceJour;
+        report.presidency = data.compteRendu.metadonnees.sommaire.presidentSeance;
+        await AppDataSource.manager.save(report)
+        console.log(report.id);
       }else{
         console.log("dejà un report");
       }

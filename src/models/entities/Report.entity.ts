@@ -19,10 +19,10 @@ export class Report {
   sourceURL: string;
 
   @Column()
-  externalId: number;
+  externalId: string;
 
   @Column()
-  date: Date;
+  date: string;
 
   @Column({
     length: 255,
