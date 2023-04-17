@@ -20,9 +20,16 @@ export class ReadReport {
       await AppDataSource.initialize()
       const reportsRepository = AppDataSource.getRepository(Report);
       const findReports = await reportsRepository.find();
+      console.log(findReports);
       if(findReports.length == 0){
         const report = new Report();
-        
+        report.sourceURL = `https://www.assemblee-nationale.fr/dyn/opendata/${data.compteRendu.uid}.xml`
+        report.externalId = data.compteRendu.uid;
+        report.legislature = data.compteRendu.metadonnees.legislature;
+        report.date = data.compteRendu.metadonnees.dateSeanceJour;
+        report.daySessionNumber =data.compteRendu.metadonnees.numSeanceJour;
+        report.presidency =data.compteRendu.metadonnees.sommaire.presidentSeance;
+        console.log(report);
       }else{
         console.log("dejà un report");
       }

@@ -27,6 +27,11 @@ export class Report {
   @Column({
     length: 255,
   })
+  legislature: string;
+
+  @Column({
+    length: 255,
+  })
   daySessionNumber: string;
 
   @Column({
