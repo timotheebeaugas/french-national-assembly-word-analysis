@@ -17,7 +17,12 @@ export class Actor {
   @Column({
     length: 255,
   })
-  externalId: string;
+  externalId: number;
+
+  @Column({
+    length: 255,
+  })
+  name: string;
 
   @Column()
   birthDate: Date;

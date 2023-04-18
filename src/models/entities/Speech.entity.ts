@@ -13,7 +13,7 @@ export class Speech {
   externalId: string;
 
   @Column()
-  report: string;
+  report: number;
 
   @ManyToOne(() => AgendaItem, (agendaItem) => agendaItem.speeches)
   agendaItem: number;
