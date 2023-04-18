@@ -20,9 +20,10 @@ try {
     const parsedReport = report.parse();
 
     // SAVING DATA IN LOCAL DB
-
-    const saveReport = new ReadReport;
-    saveReport.Read(parsedReport);
+    (async () => {
+      const saveReport = new ReadReport(parsedReport);
+      console.log(await saveReport.Read());
+    })();
 
   } else {
     // IF NOT DOWNLOAD THE REPORT BY REMOTE URL
@@ -30,6 +31,6 @@ try {
     report.download();
   }
 } catch (err) {
-    // PRINT ERR(S)
+  // PRINT ERR(S)
   console.log(err);
 }
