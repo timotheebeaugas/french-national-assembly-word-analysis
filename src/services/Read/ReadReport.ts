@@ -94,7 +94,6 @@ export class ReadReport {
       } else if (typeof value[property] === "string"){
         console.log(property);
       }
-      
       else {
         if (property === "paragraphe") console.log(property);
       }
