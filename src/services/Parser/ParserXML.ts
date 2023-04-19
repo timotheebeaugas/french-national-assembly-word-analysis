@@ -4,7 +4,6 @@ import { XMLParser, XMLBuilder } from "fast-xml-parser";
 /** Child class for parsing raw data  */
 
 export class ParserXML extends ParserAbstract {
-
   /**
    * Create a parser.
    * @param fileName - The filename value.
@@ -23,8 +22,11 @@ export class ParserXML extends ParserAbstract {
 
   parse(): Object {
     this.readFile();
-    try { 
-      const parser = new XMLParser();
+    try {
+      const options = {
+        ignoreAttributes: false,
+      };
+      const parser = new XMLParser(options);
       const JSONObject = parser.parse(this.rawdata);
       return JSONObject;
     } catch {

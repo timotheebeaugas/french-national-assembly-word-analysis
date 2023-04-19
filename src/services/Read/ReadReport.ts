@@ -6,11 +6,10 @@ import { Speech } from "../../models/entities/Speech.entity.js";
 
 /** Once dataset parse this class can read the raw datas and register them in the database if they aren't yet */
 export class ReadReport {
-
   /**
    * @const data - save report data for easier access inside methods
-   * @const reportId - local variable to save current report id 
-   * @const agendaItemId - local variable to save current agendaItem id 
+   * @const reportId - local variable to save current report id
+   * @const agendaItemId - local variable to save current agendaItem id
    */
   protected reportId: null | number = null;
   protected agendaItemId: null | number = null;
@@ -21,14 +20,15 @@ export class ReadReport {
    */
   constructor(readonly data: any) {
     this.data = data.compteRendu;
+    AppDataSource.initialize();
   }
 
-  createActor() {// select paragraph
+  async createActor(paragraph: any) {
     const actor = new Actor();
-    actor.externalId = null,
-    actor.name = null;
-    actor.externalId = this.data.contenu.id;
-    actor.externalId = this.data.contenu.id;
+    (actor.externalId = paragraph.orateurs.orateur.id),
+      (actor.name = paragraph.orateurs.orateur.nom);
+    await AppDataSource.manager.save(actor);
+    return actor.id;
   }
 
   async createReport(): Promise<number> {
@@ -47,20 +47,58 @@ export class ReadReport {
     const item = new AgendaItem();
     item.externalId = this.data.uid;
     item.report = this.reportId;
-    item.title = this.data.metadonnees.sommaire.sommaire1[0].titreStruct.intitule;
+    item.title =
+      this.data.metadonnees.sommaire.sommaire1[0].titreStruct.intitule;
     await AppDataSource.manager.save(item);
     return item.id;
-  } 
+  }
 
-  async createSpeeches(actorId: number) {
+  async createSpeeches(actorId: number, paragraph: any) {
     const speech = new Speech();
-    speech.externalId = this.data.uid;
+    speech.externalId = paragraph.content.paragraphe["@_id_syceron"];
     speech.report = this.reportId;
     speech.agendaItem = this.agendaItemId;
     speech.actor = actorId;
-    speech.content = "";
+    speech.content = paragraph.texte;
     await AppDataSource.manager.save(speech);
     return speech.id;
+  }
+
+  async readParagraph(paragraph: any) {
+    await AppDataSource.initialize();
+
+    const actorRepository = AppDataSource.getRepository(Actor);
+    const findActors = await actorRepository.findOneBy({
+      externalId: paragraph.orateurs.orateur.id,
+    });
+    if (findActors == null) {
+      await this.createActor(paragraph);
+    }
+
+    const speechRepository = AppDataSource.getRepository(Speech);
+    const findSpeeches = await speechRepository.findOneBy({
+      externalId: paragraph.content.paragraphe["@_id_syceron"],
+    });
+
+    if (findSpeeches == null) {
+      await this.createSpeeches(findActors.id, paragraph);
+    }
+  }
+
+  readValues(value: any): void {
+    for (const property in value) {
+      if (typeof value[property] === "object") {
+        for (const prop in value[property]) {
+          this.readValues(value[property][prop]);
+        }
+      } else if (typeof value[property] === "string"){
+        console.log(property);
+      }
+      
+      else {
+        if (property === "paragraphe") console.log(property);
+      }
+    }
   }
 
   async Read(): Promise<Object> {
@@ -77,15 +115,17 @@ export class ReadReport {
         externalId: this.data.uid,
       });
 
-      if (findReports == null) { 
-        console.log(findReports)
+      if (findReports == null) {
+        console.log(findReports);
         this.reportId = await this.createReport();
-      } else { 
+      } else {
         this.reportId = findReports.id;
       }
-      if (findAgendas.length == 0) {
+      if (findAgendas.length == null) {
         this.agendaItemId = await this.createAgendaItems();
       }
+
+      this.readValues(this.data.contenu);
 
       return 0;
     } catch (error) {

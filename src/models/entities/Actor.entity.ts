@@ -14,9 +14,7 @@ export class Actor {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column({
-    length: 255,
-  })
+  @Column()
   externalId: number;
 
   @Column({
