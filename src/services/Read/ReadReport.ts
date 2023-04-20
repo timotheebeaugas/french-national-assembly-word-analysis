@@ -87,15 +87,10 @@ export class ReadReport {
 
   readValues(value: any): void {
     for (const property in value) {
-      if (typeof value[property] === "object") {
-        for (const prop in value[property]) {
-          this.readValues(value[property][prop]);
-        }
-      } else if (typeof value[property] === "string"){
-        console.log(property);
-      }
-      else {
-        if (property === "paragraphe") console.log(property);
+      if (property === "paragraphe") {
+        console.log(value[property]);
+      } else if (typeof value[property] === "object") {
+        this.readValues(value[property]);
       }
     }
   }
