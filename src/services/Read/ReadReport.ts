@@ -16,6 +16,7 @@ export class ReadReport {
 
   /**
    * Create a parser.
+   * @constructor
    * @param data - parsed raw datas.
    */
   constructor(readonly data: any) {
@@ -23,7 +24,12 @@ export class ReadReport {
     AppDataSource.initialize();
   }
 
-  async createActor(paragraph: any) {
+  /**
+   * Create a new actor in database.
+   * @param {any} paragraph - The 'paragraph' object that content actor name and id
+   * @return {Promise<number>} actor's id.
+   */
+  async createActor(paragraph: any): Promise<number> {
     const actor = new Actor();
     (actor.externalId = paragraph.orateurs.orateur.id),
       (actor.name = paragraph.orateurs.orateur.nom);
@@ -31,6 +37,10 @@ export class ReadReport {
     return actor.id;
   }
 
+  /**
+   * Create a new report in database.
+   * @return {Promise<number>} report's id.
+   */
   async createReport(): Promise<number> {
     const report = new Report();
     report.sourceURL = `https://www.assemblee-nationale.fr/dyn/opendata/${this.data.uid}.xml`;
@@ -43,6 +53,10 @@ export class ReadReport {
     return report.id;
   }
 
+  /**
+   * Create a new agenda item in database.
+   * @return {Promise<number>} item's id.
+   */
   async createAgendaItems(): Promise<number> {
     const item = new AgendaItem();
     item.externalId = this.data.uid;
@@ -53,18 +67,28 @@ export class ReadReport {
     return item.id;
   }
 
-  async createSpeeches(actorId: number, paragraph: any) {
+  /**
+   * Create a new actor in database.
+   * @param {any} paragraph - The 'paragraph' object that content text and actor's data
+   * @return {Promise<number>} speech's id.
+   */
+  async createSpeeches(paragraph: any): Promise<number> {
     const speech = new Speech();
     speech.externalId = paragraph.content.paragraphe["@_id_syceron"];
     speech.report = this.reportId;
     speech.agendaItem = this.agendaItemId;
-    speech.actor = actorId;
+    speech.actor = paragraph.orateurs.orateur.id;
     speech.content = paragraph.texte;
     await AppDataSource.manager.save(speech);
     return speech.id;
   }
 
-  async readParagraph(paragraph: any) {
+  /**
+   * Read one paragraph and check if is it necessary to create a new actor and a new speech in database.
+   * @param {any} paragraph - One 'paragraph' object that content text and actor data
+   * @return {Promise<void>} return nothing.
+   */
+  async readParagraph(paragraph: any): Promise<void> {
     await AppDataSource.initialize();
 
     const actorRepository = AppDataSource.getRepository(Actor);
@@ -81,20 +105,29 @@ export class ReadReport {
     });
 
     if (findSpeeches == null) {
-      await this.createSpeeches(findActors.id, paragraph);
+      await this.createSpeeches(paragraph);
     }
   }
 
+  /**
+   * Find all 'paragraph' objects and triggered the method 'read Values' on each one.
+   * @return {Promise<void>} return nothing.
+   */
   readValues(value: any): void {
     for (const property in value) {
       if (property === "paragraphe") {
-        console.log(value[property]);
+        //console.log(value[property]);
       } else if (typeof value[property] === "object") {
+        console.log("i");
         this.readValues(value[property]);
       }
     }
   }
 
+  /**
+   * Main method for trigger the other methods.
+   * @return {Promise<Object>} returns new entries.
+   */
   async Read(): Promise<Object> {
     try {
       await AppDataSource.initialize();
