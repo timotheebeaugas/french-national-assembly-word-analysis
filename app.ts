@@ -22,7 +22,7 @@ try {
     // SAVING DATA IN LOCAL DB
     (async () => {
       const saveReport = new ReadReport(parsedReport);
-      console.log(await saveReport.Read());
+      await saveReport.Read();
     })();
 
   } else {
