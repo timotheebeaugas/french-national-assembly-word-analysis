@@ -21,7 +21,6 @@ export class ReadReport {
    */
   constructor(readonly data: any) {
     this.data = data.compteRendu;
-    AppDataSource.initialize();
   }
 
   /**
@@ -29,8 +28,6 @@ export class ReadReport {
    * @return {Promise<void>} report's id.
    */
   async readMetadata(): Promise<void> {
-    await AppDataSource.initialize(); // A OPTIMISER POUR EVITER LES REPETITION
-
     const reportRepository = AppDataSource.getRepository(Report);
     const findReports = await reportRepository.findOneBy({
       externalId: this.data.uid,
@@ -49,7 +46,6 @@ export class ReadReport {
    * @return {Promise<number>} report's id.
    */
   async createReport(): Promise<number> {
-    await AppDataSource.initialize(); // A OPTIMISER POUR EVITER LES REPETITION
     const report = new Report();
     report.sourceURL = `https://www.assemblee-nationale.fr/dyn/opendata/${this.data.uid}.xml`;
     report.externalId = this.data.uid;
@@ -66,19 +62,28 @@ export class ReadReport {
    * @return {Promise<number>} item's id.
    */
   async readSummary(): Promise<void> {
-    await AppDataSource.initialize(); // A OPTIMISER POUR EVITER LES REPETITION
     let summary = this.data.metadonnees.sommaire;
     let i: number = 1;
-    do{
-      console.log(summary[`sommaire${i}`])
-      i++;
-    }while(summary[`sommaire${i}`])
-    const agendaRepository = AppDataSource.getRepository(AgendaItem);
-    const findAgendas = await agendaRepository.findBy({
-      externalId: this.data.uid,
-    });
-    if (findAgendas.length == null) {
-      this.agendaItemId = await this.createAgendaItems(); // store object
+    while (summary[`sommaire${i}`]) {
+      let currentObj = summary[`sommaire${i}`];
+      try {
+        if (currentObj.hasOwnProperty("titreStruct")) {
+          this.createAgendaItems(currentObj.titreStruct);
+        } else {
+          Object.keys(currentObj).forEach((element) => {
+            this.createAgendaItems(currentObj[element].titreStruct);
+          });
+        }
+      } catch (error) {
+        throw new Error(`Error in summary on position ${i}`);
+      }
+
+      /*
+      if(summary[`sommaire${i}`].para){ 
+        
+        console.log("para") //if para
+      }*/
+      i++; // new item
     }
   }
 
@@ -86,15 +91,27 @@ export class ReadReport {
    * Create a new agenda item in database.
    * @return {Promise<number>} item's id.
    */
-  async createAgendaItems(): Promise<number> {
-    await AppDataSource.initialize(); // A OPTIMISER POUR EVITER LES REPETITION
-    const item = new AgendaItem();
-    item.externalId = this.data.uid;
-    item.report = this.reportId;
-    item.title =
-      this.data.metadonnees.sommaire.sommaire1[0].titreStruct.intitule;
-    await AppDataSource.manager.save(item);
-    return item.id;
+  async createAgendaItems(title: any): Promise<AgendaItem> {
+    let fixedTitle: string = "";
+    if (typeof title.intitule === "object") {
+      Object.keys(title.intitule).forEach((element) => {
+        fixedTitle = fixedTitle.concat(' ', title.intitule[element]);
+      });
+    }    
+    const agendaRepository = AppDataSource.getRepository(AgendaItem);
+    const findAgendas = await agendaRepository.findOneBy({
+      externalId: title["@_id_syceron"],
+    });
+    if (findAgendas == null) {
+      const item = new AgendaItem();
+      item.externalId = title["@_id_syceron"];
+      item.report = this.reportId; 
+      item.title = fixedTitle.trim() || title.intitule;
+      await AppDataSource.manager.save(item);
+      return item;
+    } else {
+      return findAgendas;
+    }
   }
 
   /**
@@ -103,7 +120,6 @@ export class ReadReport {
    * @return {Promise<number>} actor's id.
    */
   async createActor(paragraph: any): Promise<number> {
-    await AppDataSource.initialize(); // A OPTIMISER POUR EVITER LES REPETITION
     const actor = new Actor();
     (actor.externalId = paragraph.orateurs.orateur.id),
       (actor.name = paragraph.orateurs.orateur.nom);
@@ -117,7 +133,6 @@ export class ReadReport {
    * @return {Promise<number>} speech's id.
    */
   async createSpeeches(paragraph: any): Promise<number> {
-    await AppDataSource.initialize(); // A OPTIMISER POUR EVITER LES REPETITION
     const speech = new Speech();
     speech.externalId = paragraph.content.paragraphe["@_id_syceron"];
     speech.report = this.reportId;
@@ -153,7 +168,7 @@ export class ReadReport {
    * Browse content inside each Point.
    * @return {void} return nothing.
    */
-  readPoint(): void{}
+  readPoint(): void {}
 
   /**
    * Read one paragraph and check if is it necessary to create a new actor and a new speech in database.
@@ -161,8 +176,6 @@ export class ReadReport {
    * @return {Promise<void>} return nothing.
    */
   async readParagraph(paragraph: any): Promise<void> {
-    await AppDataSource.initialize(); // A OPTIMISER POUR EVITER LES REPETITION
-
     const actorRepository = AppDataSource.getRepository(Actor);
     const findActors = await actorRepository.findOneBy({
       externalId: paragraph.orateurs.orateur.id,
@@ -187,9 +200,11 @@ export class ReadReport {
    */
   async Read(): Promise<void> {
     try {
-      this.readMetadata();
+      await AppDataSource.initialize();
 
-      this.readSummary();
+      await this.readMetadata();
+
+      await this.readSummary();
 
       return;
     } catch (error) {
