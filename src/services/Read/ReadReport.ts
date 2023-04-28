@@ -80,7 +80,7 @@ export class ReadReport {
       i++;
     }
   }
- 
+
   /**
    * Call two methods: createAgendaItems() and searchParagraphs()
    * If there is a summary items nested inside another, this method call herself on each one
@@ -91,14 +91,17 @@ export class ReadReport {
   async summaryWrapper(currentObj: any): Promise<void> {
     Object.keys(currentObj).forEach((element) => {
       if (element.match("sommaire")) {
-        this.summaryWrapper(currentObj[element]),
-          delete currentObj[element];
+        this.summaryWrapper(currentObj[element]), delete currentObj[element];
       }
     });
     let agendaItemId = await this.createAgendaItems(currentObj.titreStruct);
     if (currentObj.hasOwnProperty("para")) {
-      Object.values(currentObj.para).forEach((element: string) => {
-        this.searchParagraphs(element, agendaItemId);
+      Object.values(currentObj.para).forEach(async (element: object) => {
+        this.searchParagraphs(
+          this.data.contenu,
+          element["@_id_syceron" as keyof object],
+          agendaItemId
+        )
       });
     }
   }
@@ -132,15 +135,29 @@ export class ReadReport {
 
   /**
    * Iterate paragraphs array from summary and found each paragraph in report's content by '@_id_syceron'
-   * @param {string} paragraph - The 'paragraph' string refer to the wanted paragraph in the report
+   * @param {string} paragraphId - The 'paragraphId' string refer to the wanted paragraph in the report
    * @param {number} agendaItemId - The 'agendaItemId' number refer to the current Agenda Item id in our database
    * @return {void} return nothing.
    */
 
-  searchParagraphs(paragraph: string, agendaItemId: number): void {
-    //search
-    //console.log(paragraph,agendaItemId)
+  searchParagraphs(contentObject: object, paragraphId: string, agendaItemId: number): void{
+    try {
+      for (const key in contentObject) {
+        let obj: any | never = contentObject[key as keyof object]["@_id_syceron"]
+        if (obj && obj != undefined) {
+          if (obj.match(paragraphId)) {
+            this.readParagraph(contentObject[key as keyof object]);         
+          }
+        } 
+        if (typeof contentObject[key as keyof object] === "object") {
+          this.searchParagraphs(contentObject[key as keyof object], paragraphId, agendaItemId);
+        }
+      }
+    } catch (error) {
+      throw new Error(`Paragraph ${paragraphId} not found in content`); 
+    }
   }
+
 
   /**
    * Create a new actor in database.
@@ -187,24 +204,13 @@ export class ReadReport {
   }
 
   /**
-   * Browse content inside Inter Extraction.
-   * @return {void} return nothing.
-   */
-  readInterExtraction(): void {}
-
-  /**
-   * Browse content inside each Point.
-   * @return {void} return nothing.
-   */
-  readPoint(): void {}
-
-  /**
    * Read one paragraph and check if is it necessary to create a new actor and a new speech in database.
    * @param {any} paragraph - One 'paragraph' object that content text and actor data
    * @return {Promise<void>} return nothing.
    */
   async readParagraph(paragraph: any): Promise<void> {
-    const actorRepository = AppDataSource.getRepository(Actor);
+    console.log(paragraph)
+/*     const actorRepository = AppDataSource.getRepository(Actor);
     const findActors = await actorRepository.findOneBy({
       externalId: paragraph.orateurs.orateur.id,
     });
@@ -219,7 +225,7 @@ export class ReadReport {
 
     if (findSpeeches == null) {
       await this.createSpeeches(paragraph);
-    }
+    } */
   }
 
   /**
