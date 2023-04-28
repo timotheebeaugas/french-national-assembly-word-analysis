@@ -34,7 +34,6 @@ export class ReadReport {
     });
 
     if (findReports == null) {
-      console.log(findReports);
       this.reportId = await this.createReport();
     } else {
       this.reportId = findReports.id;
@@ -59,31 +58,48 @@ export class ReadReport {
 
   /**
    * Read summaray and check if alerady exist.
-   * @return {Promise<number>} item's id.
+   * @return {Promise<void>} Return nothing. Throw an error if one summary object has no 'titreStruct'.
    */
   async readSummary(): Promise<void> {
     let summary = this.data.metadonnees.sommaire;
+
     let i: number = 1;
     while (summary[`sommaire${i}`]) {
       let currentObj = summary[`sommaire${i}`];
       try {
         if (currentObj.hasOwnProperty("titreStruct")) {
-          this.createAgendaItems(currentObj.titreStruct);
-        } else {
+          this.summaryWrapper(currentObj);
+        } else if (typeof currentObj === "object") {
           Object.keys(currentObj).forEach((element) => {
-            this.createAgendaItems(currentObj[element].titreStruct);
+            this.summaryWrapper(currentObj[element]);
           });
         }
       } catch (error) {
         throw new Error(`Error in summary on position ${i}`);
       }
+      i++;
+    }
+  }
+ 
+  /**
+   * Call two methods: createAgendaItems() and searchParagraphs()
+   * If there is a summary items nested inside another, this method call herself on each one
+   * @param {any} currentObj - The object to be processed
+   * @return {void} return nothing.
+   */
 
-      /*
-      if(summary[`sommaire${i}`].para){ 
-        
-        console.log("para") //if para
-      }*/
-      i++; // new item
+  async summaryWrapper(currentObj: any): Promise<void> {
+    Object.keys(currentObj).forEach((element) => {
+      if (element.match("sommaire")) {
+        this.summaryWrapper(currentObj[element]),
+          delete currentObj[element];
+      }
+    });
+    let agendaItemId = await this.createAgendaItems(currentObj.titreStruct);
+    if (currentObj.hasOwnProperty("para")) {
+      Object.values(currentObj.para).forEach((element: string) => {
+        this.searchParagraphs(element, agendaItemId);
+      });
     }
   }
 
@@ -91,13 +107,13 @@ export class ReadReport {
    * Create a new agenda item in database.
    * @return {Promise<number>} item's id.
    */
-  async createAgendaItems(title: any): Promise<AgendaItem> {
+  async createAgendaItems(title: any): Promise<number> {
     let fixedTitle: string = "";
     if (typeof title.intitule === "object") {
       Object.keys(title.intitule).forEach((element) => {
-        fixedTitle = fixedTitle.concat(' ', title.intitule[element]);
+        fixedTitle = fixedTitle.concat(" ", title.intitule[element]);
       });
-    }    
+    }
     const agendaRepository = AppDataSource.getRepository(AgendaItem);
     const findAgendas = await agendaRepository.findOneBy({
       externalId: title["@_id_syceron"],
@@ -105,13 +121,25 @@ export class ReadReport {
     if (findAgendas == null) {
       const item = new AgendaItem();
       item.externalId = title["@_id_syceron"];
-      item.report = this.reportId; 
+      item.report = this.reportId;
       item.title = fixedTitle.trim() || title.intitule;
       await AppDataSource.manager.save(item);
-      return item;
+      return item.id;
     } else {
-      return findAgendas;
+      return findAgendas.id;
     }
+  }
+
+  /**
+   * Iterate paragraphs array from summary and found each paragraph in report's content by '@_id_syceron'
+   * @param {string} paragraph - The 'paragraph' string refer to the wanted paragraph in the report
+   * @param {number} agendaItemId - The 'agendaItemId' number refer to the current Agenda Item id in our database
+   * @return {void} return nothing.
+   */
+
+  searchParagraphs(paragraph: string, agendaItemId: number): void {
+    //search
+    //console.log(paragraph,agendaItemId)
   }
 
   /**
