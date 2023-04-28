@@ -135,6 +135,7 @@ export class ReadReport {
 
   /**
    * Iterate paragraphs array from summary and found each paragraph in report's content by '@_id_syceron'
+   * @param {object} contentObject - Object that needs to be checked and/or destructured
    * @param {string} paragraphId - The 'paragraphId' string refer to the wanted paragraph in the report
    * @param {number} agendaItemId - The 'agendaItemId' number refer to the current Agenda Item id in our database
    * @return {void} return nothing.
