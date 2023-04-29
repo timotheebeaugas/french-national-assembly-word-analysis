@@ -22,21 +22,24 @@ export class Actor {
   })
   name: string;
 
-  @Column()
+  @Column({nullable: true})
   birthDate: Date;
 
   @Column({
     length: 255,
+    nullable: true
   })
   gender: string;
 
   @Column({
     length: 255,
+    nullable: true
   })
   job: string;
 
   @Column({
     length: 255,
+    nullable: true
   })
   professionalCategory: string;
 
