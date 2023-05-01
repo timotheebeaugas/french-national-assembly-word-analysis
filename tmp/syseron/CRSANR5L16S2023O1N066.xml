@@ -1,0 +1,1469 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<compteRendu xmlns="http://schemas.assemblee-nationale.fr/referentiel">
+  <uid>CRSANR5L16S2023O1N066</uid>
+  <seanceRef>RUANR5L16S2023IDS26541</seanceRef>
+  <sessionRef>SCR5A2023O1</sessionRef>
+  <metadonnees>
+    <dateSeance>20221123150000000</dateSeance>
+    <dateSeanceJour>mercredi 23 novembre 2022</dateSeanceJour>
+    <numSeanceJour>Unique</numSeanceJour>
+    <numSeance>66</numSeance>
+    <typeAssemblee>AN</typeAssemblee>
+    <legislature>16</legislature>
+    <session>Session ordinaire 2022-2023</session>
+    <nomFichierJo>20220066</nomFichierJo>
+    <validite>valide</validite>
+    <etat>complet</etat>
+    <diffusion>public</diffusion>
+    <version>avant_JO</version>
+    <environnement>PROD</environnement>
+    <heureGeneration>2022-12-01T18:20:57.000+01:00</heureGeneration>
+    <sommaire>
+      <presidentSeance id_syceron="2925135">Présidence de M. Sébastien Chenu</presidentSeance>
+      <sommaire1 valeur_pts_odj="1">
+        <titreStruct id_syceron="2925139">
+          <intitule>Projet de loi de finances rectificative pour 2022</intitule>
+          <sousIntitule>0</sousIntitule>
+        </titreStruct>
+        <para id_syceron="2925140"/>
+        <sommaire2>
+          <titreStruct id_syceron="2925142">
+            <intitule>Présentation</intitule>
+          </titreStruct>
+          <para id_syceron="2925144">M. Jean-René Cazeneuve, rapporteur de la commission mixte paritaire</para>
+          <para id_syceron="2925159">M. Éric Coquerel, vice-président de la commission mixte paritaire</para>
+          <para id_syceron="2925169">M. Gabriel Attal, ministre délégué chargé des comptes publics</para>
+        </sommaire2>
+        <sommaire2>
+          <titreStruct id_syceron="2925274">
+            <intitule>Discussion générale</intitule>
+          </titreStruct>
+          <para id_syceron="2925276">Mme Véronique Louwagie</para>
+          <para id_syceron="2925191">M. Mohamed Laqhila</para>
+          <para id_syceron="2925208">M. Mickaël Bouloux</para>
+          <para id_syceron="2925229">Mme Lise Magnier</para>
+          <para id_syceron="2925292">Mme Christine Arrighi</para>
+          <para id_syceron="2925303">M. Jean-Marc Tellier</para>
+          <para id_syceron="2925315">M. Charles de Courson</para>
+          <para id_syceron="2925332">M. Mathieu Lefèvre</para>
+          <para id_syceron="2925340">M. Alexandre Sabatou</para>
+          <para id_syceron="2925356">M. David Guiraud</para>
+        </sommaire2>
+        <sommaire2>
+          <titreStruct id_syceron="2925375">
+            <intitule>Texte de la commission mixte paritaire</intitule>
+          </titreStruct>
+          <para>Amendements n<sup>os</sup> <lienAdt id_syceron="2925377"> 1</lienAdt>, <lienAdt id_syceron="2925387"> 2</lienAdt></para>
+        </sommaire2>
+        <sommaire2>
+          <titreStruct id_syceron="2925395">
+            <intitule>Vote sur l’ensemble</intitule>
+          </titreStruct>
+        </sommaire2>
+      </sommaire1>
+      <sommaire1 valeur_pts_odj="2">
+        <titreStruct id_syceron="2925401">
+          <intitule>Ordre du jour de la prochaine séance</intitule>
+        </titreStruct>
+      </sommaire1>
+    </sommaire>
+  </metadonnees>
+  <contenu>
+    <quantiemes>
+      <journee>Séance du mercredi 23 novembre 2022</journee>
+      <session>Session ordinaire 2022-2023</session>
+    </quantiemes>
+    <ouvertureSeance nivpoint="1" valeur_ptsodj="0" ordinal_prise="1" id_preparation="2142174" ordre_absolu_seance="1" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="0" id_nomination_op="0" code_grammaire="OUV_SEAN_1_1" code_style="Présidence" code_parole="" sommaire="1" id_syceron="2925135" valeur="">
+      <orateurs/>
+      <texte>Présidence de M. Sébastien Chenu<br/>vice-président</texte>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2142175" ordre_absolu_seance="2" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="OUV_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925136" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="636.42">La séance est ouverte.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2142176" ordre_absolu_seance="3" code_grammaire="OUV_SEAN_2_2" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="2925137" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>(La séance est ouverte à quinze heures.)</italique>
+        </texte>
+      </paragraphe>
+    </ouvertureSeance>
+    <point nivpoint="1" valeur_ptsodj="1" ordinal_prise="1" id_preparation="2142178" ordre_absolu_seance="5" code_grammaire="TITRE_TEXTE_DISCUSSION" code_style="Titre" code_parole="" sommaire="1" id_syceron="2925139" valeur=" (n[[o]] 507)">
+      <orateurs/>
+      <texte>Projet de loi de finances rectificative pour 2022</texte>
+    </point>
+    <point nivpoint="2" valeur_ptsodj="1" ordinal_prise="1" id_preparation="2142179" ordre_absolu_seance="6" code_grammaire="SOUS_TITRE_TEXTE_DISCUSSION" code_style="Sous-tit_info" code_parole="" sommaire="1" id_syceron="2925140" valeur="">
+      <orateurs/>
+      <texte>
+        <italique>Commission mixte paritaire</italique>
+      </texte>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2142180" ordre_absolu_seance="7" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="ODJ_APPEL_DISCUSSION" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925141" valeur=" (n[[os]] 497, 507)" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="640.41">L’ordre du jour appelle la discussion, sur le rapport de la commission mixte paritaire, du projet de loi de finances rectificative pour 2022 (n<exposant>os</exposant> 497, 507).</texte>
+      </paragraphe>
+    </point>
+    <point nivpoint="2" valeur_ptsodj="1" ordinal_prise="1" id_preparation="2142181" ordre_absolu_seance="8" code_grammaire="PRESENTATION_1_0" code_style="Sous-tit_p_cap" code_parole="" sommaire="1" id_syceron="2925142" valeur="">
+      <orateurs/>
+      <texte>Présentation</texte>
+      <interExtraction nom_orateur="M. Jean-René Cazeneuve, quali  rapporteur de la commission mixte paritaire" id_acteur="PA719472" id_nomination_oe="-1" id_nomination_op="-7965330" id_mandat="PM796533">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2142182" ordre_absolu_seance="9" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="2925143" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="648.73">La parole est à M. Jean-René Cazeneuve, rapporteur de la commission mixte paritaire.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2142183" ordre_absolu_seance="10" id_acteur="PA719472" id_mandat="PM796533" id_nomination_oe="-1" id_nomination_op="-7965330" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="2925144" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Jean-René Cazeneuve</nom>
+              <id>719472</id>
+              <qualite>rapporteur de la commission mixte paritaire</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="682.18">Je me réjouis de vous présenter les conclusions de la commission mixte paritaire (CMP) sur le deuxième projet de loi de finances rectificative (PLFR) pour 2022. Plus qu’un simple PLFR de fin de gestion, ce texte vient poursuivre et amplifier différents dispositifs en faveur du pouvoir d’achat des Français : chèque énergie exceptionnel, prolongement jusqu’au 15 novembre de la remise à la pompe,…</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2142184" ordre_absolu_seance="11" id_acteur="PA718850" id_mandat="PM796203" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925145" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Pierre Cordier</nom>
+              <id>718850</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="705.07">Jusqu’au 15 novembre… 2023 ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2142185" ordre_absolu_seance="12" id_acteur="PA719472" id_mandat="PM796533" id_nomination_oe="-1" id_nomination_op="-7965330" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925146" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Jean-René Cazeneuve</nom>
+              <id>719472</id>
+              <qualite>rapporteur</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="706.75">…soutien aux agriculteurs victimes de calamités agricoles, soutien aux centres régionaux des œuvres universitaires et scolaires (Crous) et aux universités pour payer les factures d’électricité.<br/>Je ne reviendrai pas en détail sur le contenu du texte initial, que vous connaissez déjà tous très bien, mais m’attarderai sur les avancées issues de l’examen du texte en première lecture dans notre assemblée. En effet, le travail de coconstruction et le dépassement des clivages partisans, tant en commission qu’en séance publique, ont abouti à de belles évolutions du PLFR.<br/>Ainsi, à l’initiative de nombreux groupes de l’Assemblée – Démocrate, Socialistes et apparentés, Liberté, indépendants, outre-mer et territoires, Les Républicains ou encore Renaissance – nous avons adopté plusieurs mesures, comme l’affectation de 20 % du produit de l’Ifer – imposition forfaitaire sur les entreprises de réseau – sur les centrales photovoltaïques aux communes d’implantation, afin de les encourager à s’engager plus encore dans la transition énergétique, et le doublement des crédits en soutien à l’Ukraine. Nous avons également décidé d’accorder des aides exceptionnelles à la presse, qui fait face à une hausse des prix du papier, à nos concitoyens se chauffant aux pellets de bois ou encore aux banques alimentaires. Afin d’encourager la rénovation thermique des logements, nous avons adopté une hausse du budget de MaPrimeRénov’. Nous avons en outre adopté un amendement visant à améliorer la lisibilité de l’avis d’impôt des contribuables. À l’initiative du président Coquerel, nous avons également débloqué 8 millions d’euros pour revaloriser les rémunérations des personnels des centres municipaux de santé.<br/>Au-delà des ajouts issus de la première lecture à l’Assemblée nationale, je tiens à souligner les dispositions adoptées par le Sénat, venues enrichir le texte sur plusieurs sujets que nous n’avions pas toujours identifiés, et qui ont fait l’objet d’un consensus lors de la CMP : 20 millions d’euros permettront de financer des projets d’insonorisation destinés aux riverains des aéroports, 100 millions d’améliorer l’état de nos ponts et routes. Par ailleurs, 50 millions d’euros de crédits supplémentaires seront affectés aux agences de l’eau, dont le rôle se révèle chaque jour plus essentiel.<br/>La CMP a ainsi permis d’obtenir des avancées concrètes par rapport au texte adopté à l’Assemblée nationale, sans pour autant dénaturer ni les objectifs visés, ni l’équilibre budgétaire, auquel nous sommes attachés. Nous pouvons nous en féliciter.<br/>Si je devais signaler un point de vigilance, je soulignerais que les compromis trouvés lors de l’examen des textes budgétaires engendrent, le plus souvent, de nouvelles dépenses…</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2142190" ordre_absolu_seance="18" id_acteur="PA717379" id_mandat="PM797265" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925151" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Sylvain Maillard</nom>
+              <id>717379</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="848.38">C’est vrai.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2142191" ordre_absolu_seance="19" id_acteur="PA719472" id_mandat="PM796533" id_nomination_oe="-1" id_nomination_op="-7965330" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925152" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Jean-René Cazeneuve</nom>
+              <id>719472</id>
+              <qualite>rapporteur</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="878.84">…– ce PLFR ne déroge pas à la règle. Sur ce sujet, il nous faut savoir garder le sens des responsabilités qui nous anime.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2142192" ordre_absolu_seance="20" id_acteur="PA267336" id_mandat="PM796152" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925153" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Joël Giraud</nom>
+              <id>267336</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="887.09">Très bien !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2142193" ordre_absolu_seance="21" id_acteur="PA719472" id_mandat="PM796533" id_nomination_oe="-1" id_nomination_op="-7965330" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925154" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Jean-René Cazeneuve</nom>
+              <id>719472</id>
+              <qualite>rapporteur</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="887.56">Certes, la crise, l’inflation et les incertitudes perdurent, autant de bonnes raisons de vouloir intervenir toujours davantage en faveur du pouvoir d’achat des Français : si nous avons raison de le faire, gardons à l’esprit que la bonne gestion de nos finances publiques doit continuer à être le cap qui guide nos actions. Nous ne pouvons nous permettre de sacrifier les générations futures en laissant croître notre déficit – rappelons que la charge de la dette s’élève à 50 milliards d’euros, soit plus que le budget de nos armées !<br/>Néanmoins, nous pouvons être fiers de limiter le déficit public à 5 % du PIB cette année, confirmant ainsi l’objectif fixé en loi de finances initiale pour 2022 malgré un contexte économique incertain – la preuve, s’il en fallait, de la résilience de notre économie et de l’efficacité de nos politiques économiques et sociales.<br/>Chers collègues, après un accord en CMP sur le premier projet de loi de finances rectificative, c’est la deuxième fois cette année que l’Assemblée et le Sénat trouvent un compromis, permettant une adoption du texte aussi rapide que possible. Loin d’être gagnés d’avance, ces accords prouvent que les deux assemblées, en sachant surmonter leurs différences, sont à la hauteur des enjeux et de leurs responsabilités : je crois que c’est ce que les Français attendent.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2142195" ordre_absolu_seance="24" id_acteur="PA267336" id_mandat="PM796152" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925156" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Joël Giraud</nom>
+              <id>267336</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="935.27">Il a raison.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2142196" ordre_absolu_seance="25" id_acteur="PA719472" id_mandat="PM796533" id_nomination_oe="-1" id_nomination_op="-7965330" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925157" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Jean-René Cazeneuve</nom>
+              <id>719472</id>
+              <qualite>rapporteur</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="963.00">Je remercie mon homologue au Sénat, Jean-François Husson, pour la qualité et la sincérité de nos échanges, tous les responsables des groupes politiques de l’Assemblée, ainsi que les administrateurs de la division B d’avoir accompli un tel travail dans des délais particulièrement serrés, et je vous remercie par avance, chers collègues, d’adopter le texte issu des travaux de la CMP. <italique>(Applaudissements sur les bancs du groupe RE.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Éric Coquerel, quali  vice-président de la commission mixte paritaire" id_acteur="PA721202" id_nomination_oe="-1" id_nomination_op="PM806144" id_mandat="PM797826">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2142197" ordre_absolu_seance="26" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="2925158" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="992.43">La parole est à M. Éric Coquerel, vice-président de la commission mixte paritaire.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2142198" ordre_absolu_seance="27" id_acteur="PA721202" id_mandat="PM797826" id_nomination_oe="-1" id_nomination_op="PM806144" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="2925159" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Éric Coquerel</nom>
+              <id>721202</id>
+              <qualite>vice-président de la commission mixte paritaire</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="1009.08">Avant de commencer, j’aimerais me joindre, au nom de la commission des finances et de tous les collègues présents, à l’hommage rendu par notre assemblée à l’inspecteur des finances publiques tué ce lundi dans le cadre de ses fonctions. <italique>(Mmes et MM. les députés se lèvent et applaudissent longuement.)</italique><br/>Mes pensées vont d’abord à ses proches et ses collègues, en particulier à celle qui a été séquestrée avec lui et a subi cette scène de violence.<br/>C’est l’occasion de rappeler que l’impôt est indispensable à un État et à ses mécanismes de solidarité, et que nous devons toujours faire en sorte d’assurer le consentement à l’impôt et de protéger au mieux les agents chargés de son recouvrement.<br/>S’agissant du dernier projet de loi de finances rectificative de l’année, j’aimerais tout d’abord souligner que, contrairement à ce que les multiples recours au 49.3 par le Gouvernement peuvent laisser penser, notre assemblée se révèle manifestement tout à fait capable d’aller au bout de l’examen d’un texte budgétaire. Certes, le PLFR n’a pas l’importance politique du projet de loi de finances (PLF) ou du projet de loi de financement de la sécurité sociale (PLFSS), mais il n’en reste pas moins un texte budgétaire, qui a pu être modifié par les groupes d’opposition et amélioré grâce à leurs diverses contributions. Les groupes ont ensuite choisi pour certains de voter pour l’adoption du texte, d’autres contre, d’autres encore de s’abstenir. Je constate l’importance que la qualité du débat et sa prise en compte ont revêtue dans ces décisions. Voilà une manière de faire bien plus conforme et constructive – vous en conviendrez – pour notre démocratie, le débat parlementaire et l’intérêt général.<br/>Malheureusement, le contraste avec la méthode employée sur les autres textes budgétaires n’en est que plus choquant : quatre 49.3 en première lecture, un cinquième intervenu à peine quelques heures après le début des débats sur le PLFSS, un sixième probablement à venir lors de la nouvelle lecture du PLF – vu la logique autoritaire du Gouvernement, je l’imagine quasiment inévitable, puisque le Sénat a intelligemment décidé de revenir sur la suppression de la cotisation sur la valeur ajoutée des entreprises (CVAE). Jour après jour, vous continuez d’appliquer des méthodes antidémocratiques, vous interdisant en outre au passage de voir vos propositions améliorées par les oppositions : c’est d’autant plus dommageable que vos projets de lois comportent de sacrées marges de progrès – et encore, mes propos sont modérés !<br/>Si le PLFR revêt une importance – et donc une capacité de nuisance – moindre, nous regrettons avant tout qu’il n’ait pas été l’occasion de mieux répondre aux besoins essentiels des Français. Alors qu’il faudrait créer en urgence un choc de la demande, c’est-à-dire améliorer les revenus pérennes des salariés grâce à une redistribution de la plus-value, le Gouvernement continue, de projet de loi de finances en projet de loi de finances rectificative, de s’y refuser. Au contraire, en adoptant une nouvelle réforme du chômage en pleine crise, il prend même une décision inique, source d’une double peine pour des travailleurs déjà privés d’emploi, et que l’on prive en outre de revenus pourtant tirés du travail. Ces choix idéologiques majeurs vont de pair avec l’évitement de certains sujets centraux du moment, dont la gravité et l’urgence auraient dû entraîner la prise en compte dans les différents PLFR tout au long de l’année. Je pense par exemple à la dramatique question du logement, mais aussi à celle des transports – j’ai une pensée particulière pour les Franciliens qui, non contents de devoir composer avec un système de transports publics infernal et totalement saturé, sont, face à cette situation, laissés sans autre issue ni perspective qu’une augmentation des prix. Aucun des collègues qui utilisent les transports en commun ne me contredira.<br/>Pour en venir au texte, il faut lui reconnaître quelques qualités. En effet, certaines des mesures qu’il contient vont dans le bon sens, comme les aides à destination des universités et des armées pour faire face à l’augmentation des prix de l’énergie, ou encore les fonds débloqués pour pallier les conséquences des crises agricoles. D’autres mesures, qui me laissent perplexes sur le plan de la méthode, restent mieux que rien en l’absence de mesures plus adaptées et satisfaisantes à long terme : je pense au chèque énergie ou à la microristourne sur le carburant, auxquels j’aurais préféré un blocage des prix et une véritable taxation des profiteurs de crise.<br/>Enfin, je note que les travaux de l’Assemblée et du Sénat ont permis d’améliorer notablement le texte, que ce soit grâce à l’adoption, en première lecture, d’amendements de la NUPES relatifs à l’augmentation du budget consacré à l’aide alimentaire, à la possibilité pour les communes de revaloriser les revenus de leur personnel soignant et à l’aide aux ménages se chauffant au bois, ou aux apports significatifs du Sénat en matière d’insonorisation aux abords des aéroports, de lutte contre les fuites d’eau ou encore d’amélioration de l’état des ponts et du réseau routier local.<br/>Comme je l’évoquais en introduction, alors qu’on voudrait nous faire penser que le Parlement et ses débats constituent un détail démocratique ou une perte de temps, je souligne l’intérêt du travail collectivement accompli sur ce texte, et formule donc le souhait que ces travaux servent de contre-exemple et mettent le Gouvernement face à la réalité : ce n’est pas l’Assemblée qui fait de l’obstruction, mais l’exécutif qui est excessivement autoritaire. <italique>(Applaudissements sur les bancs des groupes LFI-NUPES, SOC et GDR-NUPES.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Gabriel Attal, quali  ministre délégué chargé des comptes publics" id_acteur="PA722190" id_nomination_oe="PM791668" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2142207" ordre_absolu_seance="36" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="2925168" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1336.03">La parole est à M. le ministre délégué chargé des comptes publics.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2142208" ordre_absolu_seance="37" id_acteur="PA722190" id_mandat="-1" id_nomination_oe="PM791668" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="2925169" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Gabriel Attal</nom>
+              <id>722190</id>
+              <qualite>ministre délégué chargé des comptes publics</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="1365.74">L’accord trouvé hier sur le PLFR en commission mixte paritaire est une bonne nouvelle pour les Français. Je salue le travail mené ces derniers jours, sous l’impulsion du rapporteur général Jean-René Cazeneuve, afin de trouver un accord avec les sénateurs et, ainsi, permettre au Gouvernement de disposer au plus vite de moyens supplémentaires pour permettre à nos compatriotes de tenir le choc face à la hausse des prix.<br/>En effet, dans un contexte particulièrement difficile, le projet de loi de finances rectificative prévoit bien un soutien supplémentaire pour les Français. Comme vous le savez, depuis plus d’un an, notre pays et le monde entier font face à une inflation comme nous n’en avions plus connu depuis des décennies. À la faveur de la reprise de l’économie mondiale, puis de la guerre en Ukraine, la vie chère met notre société à rude épreuve. Dans ce contexte, nous faisons un choix clair : lutter contre la vie chère pour protéger les Français.<br/>C’est un combat que nous continuerons à mener l’année prochaine – l’examen du projet de loi de finances pour 2023 se poursuit d’ailleurs en ce moment même au Sénat –, car l’inflation devrait demeurer à un niveau élevé : 4,2 %, selon nos projections. Mais nous devrons le mener de façon différente : les mesures de soutien devront être davantage ciblées sur les Français qui travaillent – je pense notamment au dispositif qui se substituera à la ristourne carburant.<br/>Ce projet de loi de finances rectificative n’est pas seulement un texte de fin de gestion ; il s’inscrit dans la continuité de la politique menée depuis plus d’un an. Cette continuité, je la revendique car il s’agit de répondre à l’urgence : nos compatriotes ne comprendraient pas que nous les laissions démunis face aux prix qui augmentent. Je la revendique aussi parce que cette politique a produit des résultats : la France est toujours le pays de la zone euro où l’inflation demeure la plus contenue et la moins élevée.<br/>C’est vrai, les nuages s’amoncellent au-dessus de l’économie mondiale : l’inflation, les difficultés liées aux approvisionnements énergétiques – plus marquées encore chez certains de nos voisins, notamment les Allemands –, la crise immobilière en Chine, l’Inflation Reduction Act of 2022<italique> </italique>adopté aux États-Unis, qui fait peser une menace sur l’industrie et l’économie européennes et les incertitudes politiques concernant la trajectoire des finances publiques italiennes, qui pourraient faire courir un risque à la zone euro. Mais ce que je peux vous dire, c’est que notre économie continue de résister admirablement en cette fin d’année 2022 ! <italique>(Applaudissements sur les bancs du groupe RE.)</italique></texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142318" ordre_absolu_seance="42" id_acteur="PA717379" id_mandat="PM797265" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925237" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Sylvain Maillard</nom>
+              <id>717379</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1471.74">Eh oui !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142319" ordre_absolu_seance="43" id_acteur="PA722190" id_mandat="-1" id_nomination_oe="PM791668" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925238" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Gabriel Attal</nom>
+              <id>722190</id>
+              <qualite>ministre délégué</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="1510.38">Il ne s’agit pas d’adresser un satisfecit au Gouvernement ou à la majorité.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142320" ordre_absolu_seance="44" id_acteur="PA718850" id_mandat="PM796203" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925239" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Pierre Cordier</nom>
+              <id>718850</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1520.33">Quelle majorité ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142321" ordre_absolu_seance="45" id_acteur="PA722190" id_mandat="-1" id_nomination_oe="PM791668" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925240" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Gabriel Attal</nom>
+              <id>722190</id>
+              <qualite>ministre délégué</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="1520.45">Si nous en sommes là, c’est avant tout grâce aux millions de Français qui se lèvent le matin pour aller travailler, aux millions d’entrepreneurs qui créent de l’emploi dans notre pays, qui embauchent et investissent, bref : aux Français qui continuent à regarder vers l’avant et permettent à notre pays d’avancer.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142322" ordre_absolu_seance="46" id_acteur="PA794802" id_mandat="PM797127" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925241" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Charles Sitzenstuhl</nom>
+              <id>794802</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1537.08">Ne soyez pas si modeste : c’est aussi grâce aux mesures que vous avez prises !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142323" ordre_absolu_seance="47" id_acteur="PA722190" id_mandat="-1" id_nomination_oe="PM791668" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925242" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Gabriel Attal</nom>
+              <id>722190</id>
+              <qualite>ministre délégué</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="1537.26">S’agissant de 2023, la prévision qui vient d’être annoncée par le Fonds monétaire international (FMI) est encourageante. Combien de fois ai-je entendu, dans les débats sur le PLF ou sur le PLFR, des orateurs remettre en cause notre prévision de croissance pour 2023 ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142324" ordre_absolu_seance="48" id_acteur="PA794802" id_mandat="PM797127" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925243" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Charles Sitzenstuhl</nom>
+              <id>794802</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1555.34">C’est juste !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142325" ordre_absolu_seance="49" id_acteur="PA722190" id_mandat="-1" id_nomination_oe="PM791668" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925244" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Gabriel Attal</nom>
+              <id>722190</id>
+              <qualite>ministre délégué</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="1555.63">Pour ceux-là, la France ne peut pas avoir un taux de croissance positif l’an prochain : nous serions condamnés à la récession. Pourtant, le FMI a indiqué que notre prévision pour 2023 était crédible. Il estime en effet, à la différence de ce qu’il prévoit pour plusieurs de nos voisins, que le taux de croissance de notre pays devrait être positif et, de surcroît, nettement supérieur à celui de la zone euro.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142326" ordre_absolu_seance="50" id_acteur="PA720386" id_mandat="PM796908" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925245" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Fabien Di Filippo</nom>
+              <id>720386</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1576.49">Que dit-il des déficits ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142327" ordre_absolu_seance="51" id_acteur="PA722190" id_mandat="-1" id_nomination_oe="PM791668" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925246" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Gabriel Attal</nom>
+              <id>722190</id>
+              <qualite>ministre délégué</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="1576.52">Là encore, nous le devons aux succès de notre économie, et de toutes celles et de tous ceux, entrepreneurs et salariés, qui la font vivre. <italique>(Applaudissements sur les bancs du groupe RE.)</italique><br/>Dans ce contexte, le PLFR pour 2022 traduit d’abord la volonté de soutenir et de protéger – et je me réjouis qu’un compromis ait été trouvé, hier, autour de ces objectifs, qui, me semble-t-il, dépassent largement les clivages partisans.<br/> Ainsi, cette assemblée a voté, le 8 novembre dernier, une rallonge de 2,5 milliards d’euros. Cette rallonge permettra notamment d’aider 12 millions de ménages – qu’ils se chauffent au gaz, à l’électricité, au bois ou au fioul – à payer leurs factures. Nous mettons en effet 1,8 milliard sur la table pour financer un chèque énergie exceptionnel. Concrètement, les ménages bénéficiaires recevront un versement de 100 euros ou de 200 euros d’ici à la fin de l’année.<br/>J’en profite pour rappeler que la première loi de finances rectificative a prévu un budget de 230 millions pour aider ceux qui se chauffent au fioul. Cette aide commence à être décaissée et se traduit par l’attribution d’un chèque de 200 euros pour les ménages déjà bénéficiaires du chèque énergie…</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142330" ordre_absolu_seance="54" id_acteur="PA720386" id_mandat="PM796908" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925249" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Fabien Di Filippo</nom>
+              <id>720386</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1646.38">Toujours les mêmes !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142331" ordre_absolu_seance="55" id_acteur="PA722190" id_mandat="-1" id_nomination_oe="PM791668" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925250" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Gabriel Attal</nom>
+              <id>722190</id>
+              <qualite>ministre délégué</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="1648.88">…et de 100 euros pour les ménages des troisième à cinquième déciles. Nous incombe, mesdames, messieurs les députés, ainsi qu’aux collectivités territoriales et aux centres communaux d’action sociale, la responsabilité de faire connaître ce dispositif auprès de nos concitoyens. L’enjeu est de taille, car, pour bénéficier de l’aide, il faut en avoir fait la demande.<br/>Toutefois, ces dispositions comportent un angle mort : elles ne concernent pas les ménages qui se chauffent au bois. Il fallait donc remédier à cette situation. C’est la raison pour laquelle vous avez voté pour une aide exceptionnelle en faveur de ces ménages, en adoptant un amendement du groupe socialiste. Je remercie notamment Christine Pires Beaune, Philippe Brun et Mme Rouaux, qui ont défendu cette mesure pendant de nombreux mois.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142333" ordre_absolu_seance="57" id_acteur="PA718850" id_mandat="PM796203" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925252" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Pierre Cordier</nom>
+              <id>718850</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1685.39">Le fioul, c’était nous. Vous auriez pu nous remercier aussi !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142334" ordre_absolu_seance="58" id_acteur="PA722190" id_mandat="-1" id_nomination_oe="PM791668" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925253" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Gabriel Attal</nom>
+              <id>722190</id>
+              <qualite>ministre délégué</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="1705.61">J’y viens, monsieur le député.<br/>La semaine dernière, j’ai organisé une réunion avec des représentants des différents groupes qui ont concouru à l’adoption du PLFR en première lecture pour que nous déterminions ensemble le calibrage de cette aide ; les arbitrages sont imminents. Au-delà des 230 millions que nous avons débloqués pour alléger la facture d’une partie de nos compatriotes, nous voulons lutter contre l’opacité du marché du bois de chauffage et les comportements spéculatifs qui nuisent à des ménages qui sont déjà parfois en grande difficulté. Nous y travaillerons avec la direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF), et avec les parlementaires qui le souhaitent, notamment Mme Pires Beaune.<br/>S’agissant toujours du chauffage, nous avons adopté, à l’initiative de Véronique Louwagie et du groupe Les Républicains, des dispositions importantes qui permettront aux propriétaires bailleurs n’entrant pas dans les critères de MaPrimeRénov’ de bénéficier d’un soutien public pour rénover l’isolation du logement qu’ils louent.<br/>Il s’agit principalement de deux mesures. La première d’entre elles permet d’imputer le déficit foncier sur le revenu global ; cette mesure est très importante pour les propriétaires bailleurs de la classe moyenne qui, jusqu’à présent, ne bénéficiaient pas d’un soutien public pour rénover l’isolation de leur logement. La seconde a pour objet la prolongation d’un certain nombre de gestes relevant de MaPrimeRénov’ sans condition de ressources. Nous ne sommes pas, je le sais, au bout du chemin ; nous devrons continuer d’avancer, comme vous en avez manifesté la volonté, en adoptant de nouveaux barèmes qui favorisent les multigestes ou les rénovations globales pour accompagner davantage les classes moyennes. En tout état de cause, je remercie Véronique Louwagie et le groupe Les Républicains d’avoir proposé ces mesures très importantes pour le quotidien des Français.<br/>Ce texte tend à financer un autre choix, que nous avons fait depuis le 1<exposant>er</exposant> avril, celui de soutenir les automobilistes. Il s’agit, en réalité, d’une régularisation puisque l’enveloppe vise à couvrir la prolongation de deux semaines, décidée par la Première ministre à la suite des grèves, de la ristourne de 30 centimes par litre de carburant.<br/>Par ailleurs, vous avez adopté des mesures favorables à la continuité territoriale, à l’égalité entre les territoires. Je veux, à cet égard, saluer le groupe LIOT – notamment Charles de Courson, ici présent –, qui a déposé un amendement visant à augmenter de 33 millions la dotation de continuité territoriale en Corse. Cette mesure importante était attendue par les Corses.<br/>Ce PLFR est donc un texte dont les mesures contribueront à améliorer le quotidien de nos compatriotes. Mais c’est aussi un texte de soutien aux opérateurs de l’État – je pense notamment aux universités, aux établissements de recherche et aux Crous – qui les aidera à faire face à la hausse des prix de l’énergie.<br/>Nous avons ainsi prévu un fonds de 275 millions, immédiatement débloqués, au bénéfice des opérateurs du ministère de l’enseignement supérieur et de la recherche. Dans la même logique, nous ouvrons 200 millions d’euros de crédits pour couvrir les frais de carburant exceptionnels du ministère des armées. Vous me permettrez, à ce propos, d’avoir une pensée pour nos militaires actuellement en opération extérieure. N’oublions jamais que les décisions que nous prenons ont aussi pour but de les soutenir dans leur action absolument essentielle à la stabilité du monde.<br/>Parce que les prix des produits alimentaires connaissent une inflation particulièrement forte, nous avons également retenu les 40 millions supplémentaires pour l’aide alimentaire que vous aviez adoptés à l’initiative du groupe Socialistes et apparentés. Ces crédits permettront d’aider de très nombreux Français cet hiver.<br/>Au total, ce sont donc 2,5 milliards qui sont mis sur la table pour aider les Français et certains opérateurs de l’État à faire face au choc énergétique. Mais il ne s’agit pas seulement de parer à l’urgence ; il s’agit aussi de procéder à un certain nombre d’ajustements de fin de gestion, avec le souci permanent de tenir les comptes publics.<br/>Ainsi, les ouvertures de crédits auxquelles nous procédons pour assurer de nouvelles dépenses – de l’ordre de 5 milliards – sont compensées par des annulations de crédits d’un montant identique. Autrement dit, le projet de loi tel qu’il sera, je l’espère, définitivement adopté par le Parlement, est un texte d’équilibre budgétaire, hors dépenses exceptionnelles liées à la crise de l’énergie.<br/>La principale ouverture de crédits, à hauteur de 2 milliards, permet, en finançant France Compétences, de poursuivre le développement de la formation professionnelle et de l’apprentissage, et d’aider chaque Français à construire son avenir professionnel. <br/>Autre ouverture significative : 1,1 milliard pour la mission <italique>Défense</italique>, afin de financer le soutien militaire que nous apportons à l’Ukraine. Je veux souligner, à cet égard, les 100 millions supplémentaires que vous avez décidé d’allouer à ce soutien militaire en adoptant un amendement du Gouvernement, soutenu par Charles de Courson, au nom du groupe LIOT, et par Benjamin Haddad, au nom du groupe Renaissance.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142345" ordre_absolu_seance="69" id_acteur="PA717379" id_mandat="PM797265" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925264" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Sylvain Maillard</nom>
+              <id>717379</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1949.55">Excellent !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142346" ordre_absolu_seance="70" id_acteur="PA722190" id_mandat="-1" id_nomination_oe="PM791668" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925265" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Gabriel Attal</nom>
+              <id>722190</id>
+              <qualite>ministre délégué</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="1992.67">Permettez-moi enfin de revenir sur les modifications introduites par le Sénat et retenues dans le cadre des travaux de la CMP qui s’est réunie hier.<br/>Nous avons intégré un amendement du groupe de l’Union centriste, qui tend à abroger la réforme de la répartition du produit de la taxe d’aménagement entre les communes et leurs groupements. Je rappelle que l’article 109 de la loi de finances pour 2022 avait rendu obligatoire le reversement de tout ou partie de la taxe d’aménagement entre communes et EPCI – établissements publics de coopération intercommunale – en fonction des charges d’équipement public assumées par chacune des collectivités.<br/>Nous avons également intégré des crédits supplémentaires destinés, d’une part, à la lutte contre les nuisances aéroportuaires – puisque nous avons retenu un amendement du sénateur Vincent Capo-Canellas visant à allouer 20 millions au financement des projets d’insonorisation au profit des riverains des aéroports –, d’autre part, aux maisons France Services, grâce à une hausse de 12,5 millions des crédits du programme <italique>Impulsion et coordination de la politique d’aménagement du territoire</italique> – je salue le succès de ces maisons, qui se développent partout sur le territoire national.<br/>Nous avons par ailleurs choisi d’accorder des moyens supplémentaires au financement de nos infrastructures, en allouant 50 millions à la rénovation des ponts et 50 millions à l’entretien des routes. S’y ajoute une enveloppe de 50 millions pour les agences de l’eau. <br/>Pour consacrer ces crédits supplémentaires, des amendements de levée de gage sont prévus ; l’article d’équilibre sera ajusté en conséquence.<br/>Tout cela, nous le finançons sans céder un pouce de terrain au laisser-aller budgétaire. En effet, 2022 n’est pas seulement l’année du combat contre la vie chère ; c’est aussi l’année du combat pour des comptes bien tenus, avec un déficit stabilisé à 5 % du PIB. Cette maîtrise des comptes est possible grâce à une économie qui résiste, à l’engagement et au travail de chacun.<br/>Par ce projet de loi de finances rectificative, nous aidons les Français à se chauffer et à se déplacer ; nous aidons nos étudiants et nos chercheurs à travailler dans de bonnes conditions ; nous soutenons les banques alimentaires ; nous finançons la bataille en faveur du plein emploi et nous assumons notre choix de nous tenir aux côtés du peuple ukrainien. Ces objectifs, une immense majorité des Français les soutient parce qu’ils n’ont tout simplement pas les moyens d’attendre.<br/>Je veux, en conclusion, aborder un point de méthode, à l’instar du président Coquerel et du rapporteur général Cazeneuve. La discussion de ce PLFR montre qu’il est possible d’adopter – je l’espère – un texte budgétaire sans recourir au 49.3. Cela tient à la méthode qui a été employée. Avant même sa présentation en Conseil des ministres et son examen par le Parlement, j’ai en effet souhaité avoir des échanges avec les différents groupes de l’opposition, pour leur présenter les dispositions du texte, mesurer leurs attentes et connaître les ajouts qu’ils pourraient proposer. De fait, je l’ai souligné, le texte a été amendé par plusieurs groupes de cette assemblée.<br/>Cette démarche s’inscrit en quelque sorte dans la continuité des discussions engagées dans le cadre des dialogues de Bercy. Mais, je le dis, si nous avons pu aller jusqu’au terme de l’examen du PLFR sans qu’un recours au 49.3 apparaisse comme inéluctable, c’est aussi parce qu’une partie des groupes de l’opposition ont indiqué qu’ils n’avaient pas fait le choix, avant même le début de la discussion, de voter contre. Là est la véritable différence avec l’examen du PLF pour 2023 : ces groupes ont adopté une position constructive et ont assumé le fait qu’ils étudieraient les éventuels ajustements ou ajouts avant d’arrêter leur vote sur le texte.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142353" ordre_absolu_seance="77" id_acteur="PA719472" id_mandat="PM796533" id_nomination_oe="-1" id_nomination_op="-7965330" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925272" valeur="719472 795386">
+          <orateurs>
+            <orateur>
+              <nom>M. Jean-René Cazeneuve</nom>
+              <id>719472</id>
+              <qualite>rapporteur</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="2094.89">Très bien !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142354" ordre_absolu_seance="78" id_acteur="PA722190" id_mandat="-1" id_nomination_oe="PM791668" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925273" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Gabriel Attal</nom>
+              <id>722190</id>
+              <qualite>ministre délégué</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="2217.50">Pour pouvoir utiliser une telle méthode et avancer dans des conditions classiques, c’est-à-dire sans 49.3, il faut être deux. Pour ce qui est du Gouvernement, vous me trouverez toujours du côté de ceux qui privilégieront une méthode propice à la discussion, au travail main dans la main et au compromis, au service de nos concitoyens, qui en ont bien besoin. <italique>(Applaudissements sur les bancs des groupes RE et Dem.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+    </point>
+    <point nivpoint="2" valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142355" ordre_absolu_seance="79" code_grammaire="DISC_GENERALE_1" code_style="Sous-tit_p_cap" code_parole="" sommaire="1" id_syceron="2925274" valeur="" bibard="">
+      <orateurs/>
+      <texte>Discussion générale</texte>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142356" ordre_absolu_seance="80" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925275" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2249.39">Dans la discussion générale, la parole est à Mme Véronique Louwagie.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142357" ordre_absolu_seance="81" id_acteur="PA608016" id_mandat="PM797100" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="2925276" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Véronique Louwagie</nom>
+            <id>608016</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2278.81">Le texte que nous allons voter,…</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142358" ordre_absolu_seance="82" id_acteur="PA717379" id_mandat="PM797265" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925277" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Sylvain Maillard</nom>
+            <id>717379</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2282.02">Très bien ! <italique>(Sourires.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2142359" ordre_absolu_seance="83" id_acteur="PA608016" id_mandat="PM797100" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925278" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Véronique Louwagie</nom>
+            <id>608016</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2282.35">…à la suite de l’accord trouvé en commission mixte paritaire, a pour particularité d’être un projet de loi de finances rectificative de fin de gestion qui comprend également des mesures nouvelles. Nous ne pouvons, du reste, que saluer ces dernières, qu’il s’agisse du chèque énergie exceptionnel, du soutien apporté à nos agriculteurs, de la prolongation de la ristourne carburant, du soutien apporté aux universités et aux Crous, de la rallonge dont bénéficieront nos forces armées dans le contexte de la guerre en Ukraine ou de celle qui a été attribuée à France Compétences.<br/>Par ailleurs, la CMP a permis de rendre le budget plus sincère, en conservant seulement 2 milliards au niveau du compte d’affectation spéciale <italique>Participations financières de l’État</italique> et d’inscrire de nouveaux crédits budgétaires, notamment pour la rénovation des réseaux d’eau et d’infrastructures telles que les ponts et routes, ainsi que pour les maisons France Services.<br/>Parmi les points positifs, outre les mesures nouvelles que j’ai préalablement citées, je veux saluer la suppression, pour l’année 2023, du critère de revenus pour bénéficier de MaPrimeRénov’.<br/>L’adoption de l’amendement du groupe Les Républicains rendra les classes moyennes éligibles aux aides du Gouvernement lorsqu’elles engagent des dépenses en vue d’une rénovation globale de leur logement.<br/>Par ailleurs, les 29 millions d’euros de crédits supplémentaires pour améliorer MaPrimeRénov’ permettront de mener une politique plus ambitieuse en faveur de la rénovation thermique des logements.<br/>Le doublement du déficit foncier imputable sur le revenu global pour les bailleurs qui engagent des travaux de rénovation énergétique de leur logement devrait contribuer à réduire le nombre de passoires énergétiques. Je salue l’initiative de Thibault Bazin qui proposait ce dispositif depuis plusieurs années.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142213" ordre_absolu_seance="89" id_acteur="PA608416" id_mandat="PM797133" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925174" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Patrick Hetzel</nom>
+            <id>608416</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2363.08">Très bien !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142214" ordre_absolu_seance="90" id_acteur="PA608016" id_mandat="PM797100" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925175" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Véronique Louwagie</nom>
+            <id>608016</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2373.41">Enfin, je me réjouis que nous ayons obtenu une aide exceptionnelle de 230 millions d’euros pour soutenir les Français qui se chauffent au bois et qui subissent une hausse insupportable du prix des pellets. Tout cela démontre que les députés Les Républicains ont su peser pour obtenir des avancées utiles aux Français.<br/>Cela étant, le dispositif MaPrimeRénov’, dont nous avons beaucoup parlé, est encore très loin des objectifs fixés. Plusieurs points doivent être impérativement revus – vous l’avez souligné, monsieur le ministre délégué, et je vous demande de relayer ces attentes auprès du ministre délégué chargé de la ville et du logement.<br/>Il est nécessaire, en premier lieu, de revoir les plafonds de ressources et les barèmes en matière de rénovation thermique des logements. Il faut également simplifier le dispositif pour diminuer le taux de non-recours à MaPrimeRénov’. J’en veux pour preuve le rapport accablant de la Défenseure des droits à l’égard de ce dispositif. Les nombreuses plaintes reflètent les difficultés rencontrées par les particuliers et nous prouvent que le Gouvernement doit faire beaucoup mieux pour réduire le nombre de passoires thermiques dans notre pays.<br/>Pour le reste, notre principale critique sur ce PLFR et sur le PLF pour 2023 porte sur le renoncement du Gouvernement à s’attaquer au rétablissement rapide de nos comptes publics, alors que notre niveau de déficit, dont il est prévu qu’il s’élève à 5 % du PIB jusqu’en 2025, reste très inquiétant. J’aborderai ce point d’abord sous l’angle international puis à travers un exemple local.<br/>D’abord, le FMI, dans son rapport annuel consacré à la France et publié le 21 novembre 2022, vous exhorte à un rééquilibrage budgétaire qui doit passer par la réduction de nos dépenses courantes grâce à des réformes structurelles. Comme l’indique le FMI, le Gouvernement français doit agir davantage sur les dépenses que sur les recettes, car le taux de prélèvements obligatoires en France est déjà bien trop élevé. Or le Gouvernement n’a engagé aucune réforme en la matière.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142219" ordre_absolu_seance="95" id_acteur="PA719318" id_mandat="PM796470" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925180" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Emmanuelle Anthoine</nom>
+            <id>719318</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2416.70">Eh non !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142220" ordre_absolu_seance="96" id_acteur="PA608016" id_mandat="PM797100" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925181" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Véronique Louwagie</nom>
+            <id>608016</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2484.25">Le FMI recommande en effet des réformes structurelles et pérennes plutôt que de simples mesures d’austérité, et évoque une réforme globale des retraites, l’achèvement de la réforme de l’assurance chômage, la rationalisation des dépenses fiscales, la réduction des effectifs de la fonction publique,…</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142221" ordre_absolu_seance="97" id_acteur="PA608416" id_mandat="PM797133" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925182" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Patrick Hetzel</nom>
+            <id>608416</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2499.58">Très bien !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142222" ordre_absolu_seance="98" id_acteur="PA608016" id_mandat="PM797100" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925183" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Véronique Louwagie</nom>
+            <id>608016</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2499.68">…la suppression des doublons dans l’administration et la simplification des régimes de minima sociaux – je ne fais que citer le FMI.<br/>Tout cela nous montre à quel point le plan de sobriété bureaucratique proposé par Les Républicains est indispensable. Ce plan prévoyait de réduire de 20 milliards d’euros les dépenses d’ici à 2025 et de 10 milliards ensuite jusqu’en 2027. Hélas, vous avez botté en touche, en indiquant : « Passez, il n’y a rien à voir. »</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142224" ordre_absolu_seance="100" id_acteur="PA608416" id_mandat="PM797133" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925185" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Patrick Hetzel</nom>
+            <id>608416</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2507.70">Tout à fait !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142225" ordre_absolu_seance="101" id_acteur="PA608016" id_mandat="PM797100" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925186" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Véronique Louwagie</nom>
+            <id>608016</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2526.04">Au lieu d’initier la débureaucratisation de notre pays, ce PLFR valide un relèvement du plafond d’emplois de 907 agents dans l’État et de 174 dans ses opérateurs.<br/>Cela me conduit à la perspective locale. J’étais lundi à une manifestation de remise de médailles à des agents du centre hospitalier de L’Aigle – une ville que vous connaissez, monsieur le ministre délégué, car vous y êtes venu il y a quelques années. Ces agents considèrent que le recrutement de quatre-vingt-un agents dans les agences régionales de santé (ARS) n’avait aucune pertinence car ce sont les hôpitaux qui ont besoin de recruter pour garantir la santé de nos concitoyens.<br/>Là encore, le Gouvernement ne perçoit correctement ni les enjeux, ni les besoins, ni les priorités. Alors que nous devons engager une diminution des effectifs dans les administrations centrales et répondre aux attentes dans les fonctions opérationnelles des services publics, le Gouvernement fait tout l’inverse, comme nous pouvons le mesurer dans le PLFR.<br/>Compte tenu de l’ensemble de ces points, les députés Les Républicains s’abstiendront sur ce deuxième PLFR pour 2022. <italique>(Applaudissements sur les bancs du groupe LR.)</italique></texte>
+      </paragraphe>
+      <interExtraction nom_orateur="M. Mohamed Laqhila" id_acteur="PA718978" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796320">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142229" ordre_absolu_seance="105" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="2925190" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2587.27">La parole est à M. Mohamed Laqhila.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142230" ordre_absolu_seance="106" id_acteur="PA718978" id_mandat="PM796320" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="2925191" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Mohamed Laqhila</nom>
+              <id>718978</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2613.61">Permettez-moi d’abord, au nom du groupe Démocrate et en mon nom personnel, de m’associer à l’hommage rendu au chef de brigade de vérification du fisc, assassiné dans le Pas-de-Calais lundi 21 novembre alors qu’il effectuait simplement sa mission de service public.<br/>Je suis ravi de prendre la parole sur les conclusions de la commission mixte paritaire relatives à ce second projet de loi de finances rectificative pour 2022.<br/>Je souhaite faire de ce texte l’étendard et le symbole du travail de coconstruction au Parlement. J’en profite pour remercier les deux rapporteurs généraux, Jean-René Cazeneuve pour notre assemblée et Jean-François Husson pour le Sénat, pour la qualité de leur travail et leur volonté d’atteindre un compromis, lequel a permis cet accord entre les deux chambres. <italique>(Applaudissements sur quelques bancs des groupes Dem et RE.)</italique><br/>À l’Assemblée nationale, le Gouvernement, la majorité et l’opposition ont su avancer ensemble sur différents sujets, dont le plus emblématique est l’enveloppe de 230 millions d’euros prévue pour le versement d’un chèque énergie exceptionnel aux ménages se chauffant au bois et aux pellets. Cette idée défendue par différents groupes de cette assemblée a été inscrite dans le projet de loi à travers l’adoption d’un amendement déposé par le groupe Socialistes et apparentés, cette gauche raisonnable. <italique>(Murmures sur les bancs du groupe SOC.)</italique></texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142234" ordre_absolu_seance="110" id_acteur="PA608416" id_mandat="PM797133" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925195" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Patrick Hetzel</nom>
+              <id>608416</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2691.10">C’est un oxymore !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142235" ordre_absolu_seance="111" id_acteur="PA718978" id_mandat="PM796320" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925196" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Mohamed Laqhila</nom>
+              <id>718978</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2696.08">Dès les prochaines semaines, de nombreux ménages recevront cette aide de l’État, à l’instar de ceux qui se chauffent au gaz, à l’électricité ou au fioul. Dès le mois de décembre, 40 % des ménages pourront bénéficier d’au moins 100 euros d’aide de l’État pour faire face à leurs factures énergétiques.<br/>Vous connaissez mon appétence pour les sujets fiscaux en général et pour la fiscalité du logement en particulier. Bien évidemment, ce PFLR de fin de gestion n’est pas le véhicule législatif approprié, toutefois le groupe Démocrate reste persuadé de la nécessité de réaliser une réforme systémique sur ce sujet.<br/>En outre, je tiens à saluer l’adoption par notre assemblée du doublement du plafond des déficits fonciers pour les travaux de rénovation énergétique proposé par notre excellente collègue Véronique Louwagie, qui appartient à la droite raisonnable. <italique>(Sourires.)</italique></texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142238" ordre_absolu_seance="114" id_acteur="PA608416" id_mandat="PM797133" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925199" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Patrick Hetzel</nom>
+              <id>608416</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2732.41">C’est un pléonasme !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142239" ordre_absolu_seance="115" id_acteur="PA718978" id_mandat="PM796320" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925200" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Mohamed Laqhila</nom>
+              <id>718978</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2755.37">En maintenant MaPrimeRenov’ pour l’ensemble des ménages tout en la recentrant sur les rénovations globales, ce budget rectificatif donnera un nouvel élan à la rénovation énergétique des bâtiments, condition nécessaire à l’atteinte de nos objectifs en matière environnementale.<br/>De même, lors de la navette, treize articles ont été adoptés conformes par le Sénat.<br/>Les sénateurs ont su avantageusement compléter les travaux que nous avions entamés à l’Assemblée. Ils ont ainsi apporté des précisions à l’article 1<exposant>er</exposant> A sur les agents généraux d’assurance ou encore à l’article 9 D sur l’exonération de taxe foncière des bâtiments exclusivement affectés à l’activité agricole par les sociétés constituées entre exploitants agricoles.<br/>En outre, reconnaissons que les sénateurs ont eux-mêmes proposé d’autres avancées. Le rapporteur général Jean-François Husson a défendu l’octroi de 20 millions d’euros aux collectivités locales pour compenser les pertes de recettes de la taxe sur les nuisances sonores aéroportuaires ou pour moderniser les infrastructures routières.<br/>Je tiens également à saluer la bonne tenue des débats en CMP. Nous avons trouvé un accord sur la taxe d’aménagement (TA) et sur l’Ifer – nous avons abouti à une position commune avec les sénateurs pour affecter 20 % des recettes de cette imposition aux communes d’implantation. Nous saluons cet esprit de compromis.<br/>Les députés du groupe Démocrate seront heureux de voter ce PLFR, qui comprend d’autres avancées importantes, que je n’ai pas développées ici, pour protéger les Françaises et les Français contre l’explosion des prix du carburant, pour protéger nos agriculteurs, ou pour l’Ukraine. Toutes ces mesures protectrices de nos concitoyens conduisent le groupe Démocrate à approuver ce texte. Gageons que, du fait du travail de coconstruction et de manière symbolique, la quasi-unanimité de cette assemblée votera également ce projet de loi. <italique>(Applaudissements sur les bancs des groupes Dem et RE.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Mickaël Bouloux" id_acteur="PA794094" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796710">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142245" ordre_absolu_seance="121" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="2925206" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2890.59">La parole est à M. Mickaël Bouloux.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142246" ordre_absolu_seance="122" id_acteur="PA720146" id_mandat="PM796803" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925207" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Denis Masséglia</nom>
+              <id>720146</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2908.54">…qui sera raisonnable !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142247" ordre_absolu_seance="123" id_acteur="PA794094" id_mandat="PM796710" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="2925208" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Mickaël Bouloux</nom>
+              <id>794094</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2910.97">La représentation nationale est à nouveau appelée à se prononcer sur le second projet de loi de finances rectificative pour 2022, à l’issue de la commission mixte paritaire conclusive qui s’est tenue hier.<br/>Ce PLFR 2 est le seul texte budgétaire de la présente session ordinaire à ne pas avoir été soufflé par le coup de tabac du 49.3.<br/>C’est en passionné de windsurf, de vagues et de vent que je vais tenter un parallèle. <italique>(Sourires.)</italique> En cas de gros temps, les windsurfeurs s’adaptent aux vagues, même lorsqu’elles sont fortes, en choisissant le meilleur angle et en s’accordant avec le vent, la houle et les ressacs. Force est de constater que ce gouvernement préfère rester sur le rivage, timoré et campé sur ses positions.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142250" ordre_absolu_seance="126" id_acteur="PA643175" id_mandat="PM796794" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925211" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Stella Dupont</nom>
+              <id>643175</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2952.46">Vous brassez de l’air, mon cher collègue ! <italique>(Rires sur de nombreux bancs.)</italique></texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142251" ordre_absolu_seance="127" id_acteur="PA794094" id_mandat="PM796710" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925212" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Mickaël Bouloux</nom>
+              <id>794094</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2956.86">Alors que la Première ministre nous avait assuré être rompue à l’art du compromis, elle compromet trop souvent cet art et rompt toute discussion.<br/>Le seul rescapé est ce PLFR 2, sans doute parce qu’il s’agit d’un texte budgétaire de fin de gestion, sans forte ambition, cantonné à des mesures de rééquilibrage des finances publiques.<br/>Mais prenons acte du fait qu’un compromis a été trouvé sur ce texte qui, dès son origine, contenait plusieurs éléments utiles : des moyens supplémentaires pour les universités et les unités de recherche, les Crous, le monde agricole ou les armées, et la création de deux chèques énergie exceptionnels, dont l’un – rappelons-le, c’était en juillet – provient des oppositions.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142254" ordre_absolu_seance="130" id_acteur="PA720146" id_mandat="PM796803" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925215" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Denis Masséglia</nom>
+              <id>720146</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2987.80">Vous oubliez 200 millions pour l’Ukraine !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142255" ordre_absolu_seance="131" id_acteur="PA794094" id_mandat="PM796710" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925216" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Mickaël Bouloux</nom>
+              <id>794094</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3002.76">De surcroît, plusieurs mesures que nous avons proposées, à gauche de cet hémicycle, ont été retenues. Ainsi, le groupe Socialistes et apparentés est satisfait de la création de la mission sur le reste à charge dans les Ehpad, qui devra être conduite par notre collègue Christine Pires Beaune, pour que l’hébergement des personnes dépendantes en établissement spécialisé ne représente pas un coût prohibitif. Nous serons particulièrement attentifs à l’aboutissement de cette mission.<br/>De même, notre groupe a obtenu qu’un chèque énergie exceptionnel soit accordé aux ménages se chauffant aux pellets et aux bûches, à l’instar de l’aide accordée pour le chauffage au fioul. Nous attendons aussi avec impatience les résultats des enquêtes contre les pratiques spéculatives qui sont peut-être à l’origine de l’explosion des prix du bois.<br/>Enfin, nous avons collectivement obtenu 40 millions d’euros de crédits supplémentaires au profit des associations d’aide alimentaire comme les Restos du cœur ou les banques alimentaires. Nous espérons que ces mesures permettront aux Français les plus précaires de garder la tête hors de l’eau.<br/>Malgré cela, j’appelle à nouveau votre attention sur nos craintes au sujet de l’hiver social qui arrive. Je redoute en effet que votre mobilisation contre la précarité ne soit pas assez forte. Nous avons entendu le ministre des solidarités, de l’autonomie et des personnes handicapées annoncer le déblocage de 10 millions d’euros d’aide alimentaire aux étudiants. Pouvez-vous nous confirmer que ces 10 millions viennent bien s’ajouter aux 40 millions déjà prévus ?<br/>Tout cela est mieux que rien, mais on ne peut s’en satisfaire. En effet, des chèques ne peuvent pas remplacer des augmentations de rémunération. Il faudra donc aborder de nouveau dans cet hémicycle la question des rémunérations, en particulier celle du Smic.<br/>En outre, je ne peux m’empêcher de faire le parallèle avec le texte réformant l’assurance chômage et de comparer le montant des chèques de ce PLFR avec les économies faites sur le dos des demandeurs d’emploi. Donner d’une main et retirer de l’autre : les Françaises et les Français vont finir par s’en apercevoir.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142261" ordre_absolu_seance="137" id_acteur="PA608016" id_mandat="PM797100" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925222" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Véronique Louwagie</nom>
+              <id>608016</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3062.46">Ça n’est pas tout à fait la même chose !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142262" ordre_absolu_seance="138" id_acteur="PA794094" id_mandat="PM796710" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925223" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Mickaël Bouloux</nom>
+              <id>794094</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3124.06">Par ailleurs, s’il est parfois animé, voire agité ou tendu, notre hémicycle est le cœur battant de notre démocratie. Le débat avec l’opposition ne doit pas être empêché par une série de 49.3 planifiés des semaines à l’avance pendant que l’Élysée se moque des travaux de l’Assemblée.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142263" ordre_absolu_seance="139" id_acteur="PA794802" id_mandat="PM797127" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925224" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Charles Sitzenstuhl</nom>
+              <id>794802</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3140.93">Parlez-en à certains de vos camarades, qui étaient des spécialistes du 49.3 !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142264" ordre_absolu_seance="140" id_acteur="PA794094" id_mandat="PM796710" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925225" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Mickaël Bouloux</nom>
+              <id>794094</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3141.56">Les accords auxquels nous avons pu aboutir sur ce texte doivent être un enseignement pour le Gouvernement : quand on cherche activement des compromis, on peut en trouver. J’espère que vous vous en souviendrez pour la suite et que vous avez compris la recette pour les prochains textes : arrêtez de diminuer les recettes de l’État et de faire des lois qui font cadeau de milliards d’euros aux entreprises sans contreparties, qui oublient l’urgence climatique ou qui préparent le saccage des retraites : là, nous pourrons discuter !<br/>Dans ces conditions, compte tenu des avancées de ce texte et de notre volonté d’appeler le Gouvernement à privilégier la sérénité pour les débats à venir, le groupe Socialistes et apparentés ne s’opposera pas à ce PLFR et s’abstiendra. <italique>(Applaudissements sur les bancs du groupe SOC.)</italique></texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142266" ordre_absolu_seance="142" id_acteur="PA794802" id_mandat="PM797127" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925227" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Charles Sitzenstuhl</nom>
+              <id>794802</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3177.33">Pas mal.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Lise Magnier" id_acteur="PA720230" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796833">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142267" ordre_absolu_seance="143" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="2925228" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3192.95">La parole est à Mme Lise Magnier.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2142268" ordre_absolu_seance="144" id_acteur="PA720230" id_mandat="PM796833" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="2925229" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Lise Magnier</nom>
+              <id>720230</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3211.19">Les députés du groupe Horizons et apparentés, dont je porte la voix aujourd’hui, se félicitent de l’accord trouvé en commission mixte paritaire sur le second projet de loi de finances rectificative de l’année. C’est une nouvelle preuve que le Parlement peut se montrer à la hauteur des enjeux pour protéger nos concitoyens et instaurer des politiques publiques nécessaires. Je veux saluer l’attitude constructive de nos collègues sénateurs sur ce texte comme sur d’autres.<br/>Il en ressort un projet de loi enrichi tant par les députés que par les sénateurs.<br/>La mouture présentée par le Gouvernement était déjà sérieuse et complète : financement du chèque énergie exceptionnel pour 12 millions de foyers, prolongation de la ristourne de 30 centimes sur le litre de carburant jusqu’à la mi-novembre et de 10 centimes jusqu’à la fin de l’année, soutien à nos armées dans un contexte géopolitique marqué par la guerre en Ukraine, soutien également aux universités qui doivent faire face à la hausse des prix de l’énergie et aux agriculteurs qui ont subi cette année plusieurs épisodes climatiques destructeurs. Ainsi, loin d’être seulement un collectif de fin d’année classique, ce PLFR contient aussi des mesures de soutien indispensables dans le contexte économique actuel.<br/>L’examen à l’Assemblée nationale puis au Sénat a néanmoins permis de compléter ce texte par des mesures significatives.<br/>Conformément à la demande de tous les groupes politiques ou presque, le Gouvernement a donné un avis favorable à la sanctuarisation d’une enveloppe de 230 millions d’euros à destination des ménages se chauffant aux pellets de bois et à la bûche. Cette aide spécifique, symétrique à la mesure votée cet été pour les ménages se chauffant au fioul, était attendue et nous espérons qu’elle se matérialisera le plus rapidement possible. Dans le même temps, nous souhaitons vivement que la DGCCRF continue les contrôles et s’assure que d’éventuelles pratiques de spéculation soient sanctionnées et prennent immédiatement fin.<br/>L’Assemblée nationale, par voie d’amendement, a également décidé d’allouer 40 millions d’euros supplémentaires aux associations habilitées à l’aide alimentaire et 33 millions d’euros supplémentaires au financement des délégations de service public (DSP) maritime et aérienne en Corse.<br/>Enfin, je me félicite de la reprise de notre amendement sur l’Ifer photovoltaïque, qui assurera une meilleure répartition entre les différentes collectivités concernées.<br/>Parmi les mesures proposées par le Sénat, je souhaite saluer le renforcement des moyens des agences de l’eau et l’allocation de crédits supplémentaires à l’entretien des routes et des ponts.<br/>Ce texte est le dernier d’un exercice budgétaire 2022 exceptionnel. Le contexte international et la forte inflation touchant notamment les carburants et l’énergie nous auront conduits à adapter tout au long de l’année nos dispositifs afin de protéger au mieux les Français, les entreprises et les collectivités.<br/>Le déploiement de ces aides n’est pas sans incidence sur les comptes publics. Aussi nécessaires soient-elles, les mesures de soutien ont un coût élevé et ne pourront être maintenues indéfiniment, au risque de fragiliser la soutenabilité de l’endettement public. Heureusement, la trajectoire prévue sera malgré tout respectée, ce dont nous nous félicitons.<br/>Bien évidemment, le groupe Horizons et apparentés votera ce texte. <italique>(Applaudissements sur les bancs des groupes HOR, RE et Dem.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Christine Arrighi" id_acteur="PA793780" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796527">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2142279" ordre_absolu_seance="155" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="2925291" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3423.83">La parole est à Mme Christine Arrighi.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2142280" ordre_absolu_seance="156" id_acteur="PA793780" id_mandat="PM796527" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="2925292" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Christine Arrighi</nom>
+              <id>793780</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3444.98">Ce texte de compromis proposé par la commission mixte paritaire dispose l’ouverture de crédits au budget général à hauteur de 13 milliards d’euros en autorisations d’engagement (AE), soit le montant retenu par le Sénat, et de 12,8 milliards d’euros en crédits de paiement (CP), soit un montant un peu inférieur à celui qu’avait retenu le Sénat.<br/>Nous soutenons plusieurs de ses mesures : l’accompagnement financier des universités, des opérateurs de recherche et des Crous face aux surcoûts énergétiques, le chèque énergie exceptionnel ou encore l’aide exceptionnelle aux ménages se chauffant aux pellets ou à la bûche.<br/>Cependant, nous regrettons que la CMP ait supprimé la mesure introduite par le Sénat qui prévoyait l’affectation intégrale aux collectivités territoriales de la hausse des recettes du produit des amendes forfaitaires délictuelles afin de financer les opérations destinées à améliorer les transports en commun et la circulation.<br/>En effet, l’amélioration des transports en commun et de la circulation doit être une priorité si nous voulons déployer avec succès le dispositif des zones à faibles émissions mobilité (ZFE-m). Les personnes les plus affectées par ce zonage appartiennent aux catégories sociales qui n’ont pas les moyens d’acquérir un véhicule moins polluant. Elles se voient infliger une double peine, subissant à la fois la pollution et la restriction de leur circulation. Il importe donc d’accélérer le déploiement de mobilités alternatives, notamment les transports en commun, afin que ces ZFE-m se distinguent non seulement par leurs faibles émissions mais aussi par leur forte accessibilité.<br/>Nous notons avec satisfaction le caractère facultatif du versement par les communes d’une fraction du produit de la TA à l’intercommunalité dont elles sont membres. Par contraste, la loi de finances initiale pour 2022 rendait ce versement obligatoire sans tenir compte du lien entre la perception de cette taxe et les investissements réalisés par l’intercommunalité au sein de la commune. L’intercommunalité doit se construire sur l’adhésion et non sur la contrainte.<br/>La version définitive du texte de la CMP prévoit également des avancées en faveur des collectivités d’outre-mer : le Sénat a ajouté Saint-Martin, Saint-Barthélemy et Saint-Pierre-et-Miquelon à la liste des bénéficiaires de la dotation de 120 millions d’euros destinée à compenser la revalorisation du montant forfaitaire du revenu de solidarité active et du revenu de solidarité outre-mer.<br/>Les annulations de crédits à hauteur de 6 milliards d’euros en AE et en CP sont la preuve que les moyens existent. Il suffit d’une volonté politique pour les réorienter vers le financement des transports en commun et de la rénovation thermique des bâtiments. Les écologistes continueront inlassablement à proposer ces mesures, car elles sont en phase avec les objectifs nationaux et européens de réduction des émissions de gaz à effets de serre et de neutralité carbone.<br/>Nous notons par ailleurs une évolution favorable, bien qu’insuffisante, de la sincérité budgétaire, du fait de l’annulation de la moitié – 2 milliards d’euros sur 4 milliards – des crédits inscrits au compte d’affectation spéciale <italique>Participations financières de l’État</italique> en vue du rachat annoncé du capital d’EDF.<br/>Le groupe Écologiste-NUPES se prononce en faveur d’une abstention vigilante, dans l’attente de l’orientation de ces crédits supplémentaires vers le financement de mesures écologiques telles que l’amélioration du transport ferroviaire et la rénovation thermique des bâtiments. Nous ne manquerons pas de suivre leur affectation dans le temps.<br/>Je tenais enfin à m’associer à l’immense émotion de mes anciens collègues à la suite du drame qui s’est produit lundi. <italique>(Applaudissements sur divers bancs.)</italique> Mes pensées vont à la famille de la victime ainsi qu’à sa collègue survivante, qui a subi un profond traumatisme. De ces deux personnes qui faisaient simplement leur métier, l’une est morte et l’autre sera traumatisée à vie. La direction générale des finances publiques (DGFIP) dans son ensemble – j’en faisais encore partie il y a peu – partage la même peine face à ce drame. <italique>(Applaudissements sur plusieurs bancs des groupes Écolo-NUPES, RE, LFI-NUPES, Dem, SOC et GDR-NUPES.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Jean-Marc Tellier" id_acteur="PA794650" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM797040">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2142290" ordre_absolu_seance="166" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="2925302" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3681.21">La parole est à M. Jean-Marc Tellier.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2142291" ordre_absolu_seance="167" id_acteur="PA794650" id_mandat="PM797040" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="2925303" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Jean-Marc Tellier</nom>
+              <id>794650</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3734.50">Le projet de loi de finances rectificative de fin de gestion est l’avant-dernière étape de l’année budgétaire. Nous sommes amenés à nous prononcer sur un texte proposé par la CMP qui reste, sans grande surprise, assez proche de sa version initiale et qui conserve en tout cas la même philosophie.<br/>Comme nous l’avons souligné en première lecture, ce budget rectificatif contient certaines dispositions louables. Outre les 200 millions d’euros pour l’université ou la distribution d’un chèque fioul, élaboré lors du premier PLFR, d’autres dispositifs ont été ajoutés par les parlementaires des deux chambres.<br/>Je me félicite notamment de l’adoption de deux amendements de nos collègues de la NUPES, dont l’un porte sur les pellets de bois – mode de chauffage très courant en France – et l’autre vise à permettre aux communes de verser les primes Ségur dans leurs centres municipaux de santé (CMS). Je salue encore l’octroi de 40 millions d’euros supplémentaires aux banques alimentaires.<br/>Je regrette néanmoins le rejet de notre amendement visant à revenir sur les critères du filet de sécurité. Ce dispositif, voté en juillet et dont les contours précis ont été fixés par décret en octobre, se révèle finalement beaucoup trop restrictif pour soutenir réellement les communes. En effet, l’éligibilité au filet de sécurité est soumise à une diminution de 25 % de la capacité d’autofinancement brute entre 2021 et 2022, alors que la baisse moyenne ne sera que de 9 %, comme le Gouvernement l’a reconnu hier lors de la séance des questions au Gouvernement. Je regrette que nous n’ayons pas pris le temps, lors de l’examen du PLFR, d’aborder en profondeur cette question essentielle pour les collectivités territoriales de proximité.<br/>Ce tableau des points positifs et négatifs de la discussion ne saurait pour autant gommer la philosophie économique globale de ce texte et, plus généralement, celle des lois budgétaires examinées en 2022, aux antipodes de celle que défendent les parlementaires du groupe Gauche démocrate et républicaine-NUPES. En effet, ce PLFR survient dans une période économique particulièrement difficile, marquée par une inflation proche de 6 % et largement supérieure à 10 % pour l’énergie et les produits alimentaires.<br/>Dans un tel contexte, la politique économique qui s’impose consiste à agir de manière volontaire sur les salaires. Pourtant, vous ne proposez aucune mesure en ce sens. À court terme, vous refusez toute hausse du Smic ou revalorisation du point d’indice à hauteur de l’inflation. À long terme, vous poursuivez vos réformes iniques comme celle de l’assurance chômage, qui, en accentuant la précarisation des travailleurs, détériorera encore davantage leur position dans le rapport de force qui les oppose au patronat, ce déséquilibre assurant un partage de la valeur produite toujours plus inégalitaire et une stagnation des salaires.<br/>En guise de bonne œuvre et pour faire passer la pilule, vous multipliez chèques, primes et baisses d’impôt en tout genre. En témoignent la suppression, dans la première loi de finances rectificative pour 2022, de la contribution à l’audiovisuel public (CAP) ou l’instauration, dans ce texte, d’un chèque énergie exceptionnel qui vous épargne la remise en cause, pourtant indispensable, de la libéralisation du marché de l’énergie.<br/>Dans ces conditions et dans la droite ligne de leur position sur le projet de loi portant mesures d’urgence pour la protection du pouvoir d’achat et le premier projet loi de finances rectificative pour 2022, les députés du groupe de la Gauche démocrate et républicaine-NUPES s’opposeront à ce texte.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Charles de Courson" id_acteur="PA942" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796836">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2142302" ordre_absolu_seance="175" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="2925314" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3935.45">La parole est à M. Charles de Courson.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2142303" ordre_absolu_seance="176" id_acteur="PA942" id_mandat="PM796836" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="2925315" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Charles de Courson</nom>
+              <id>942</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4004.69">Je serai direct : le groupe Libertés, indépendants, outre-mer et territoires votera très majoritairement en faveur du texte issu de la CMP,…</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2142304" ordre_absolu_seance="177" id_acteur="PA795386" id_mandat="PM797454" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925316" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Mathieu Lefèvre</nom>
+              <id>795386</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4013.98">Très bien !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2142305" ordre_absolu_seance="178" id_acteur="PA942" id_mandat="PM796836" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925317" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Charles de Courson</nom>
+              <id>942</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4014.34">…parce que nous avons été partiellement entendus sur plusieurs points. Le Gouvernement est devenu raisonnable, comme dirait M. Laqhila.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2142306" ordre_absolu_seance="179" id_acteur="PA720728" id_mandat="PM797157" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925318" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Jean-Paul Mattei</nom>
+              <id>720728</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4022.94">Il l’a toujours été !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2142307" ordre_absolu_seance="180" id_acteur="PA942" id_mandat="PM796836" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925319" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Charles de Courson</nom>
+              <id>942</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4025.35">Il a enfin compris qu’il n’est plus majoritaire et qu’un dialogue constructif avec les oppositions – raisonnables, dirait M. Laqhila –, largement majoritaires, est désormais indispensable si nous voulons éviter le blocage de l’institution.<br/>Nous saluons notamment l’extension du chèque énergie, la dotation de 2 milliards d’euros pour l’apprentissage, la création du chèque fioul et du chèque bois – demandée par plusieurs collègues, en particulier par M. Naegelen – dotés de 230 millions d’euros chacun, le soutien aux banques alimentaires à hauteur de 40 millions d’euros ou encore la revalorisation à hauteur de 8 millions d’euros de la rémunération des personnels des CMS.<br/>Notre groupe se félicite par ailleurs des avancées qu’il a obtenues ou contribué à obtenir. Je pense notamment au soutien à l’Ukraine, à hauteur de 100 millions d’euros supplémentaires, à l’augmentation de 33 millions d’euros de la dotation de continuité territoriale pour la Corse et à la nouvelle répartition de l’Ifer photovoltaïque au profit des communes à partir de 2023. Je pense aussi à la compensation aux départements de la revalorisation du RSA, intervenue au 1<exposant>er</exposant> juillet 2022, adoptée à l’initiative de notre groupe dans le cadre de l’examen du premier projet de loi de finances rectificative.<br/>Toutefois, ne vous réjouissez pas trop vite, monsieur le ministre délégué, notre vote ne constitue aucunement un blanc-seing à votre gestion des finances publiques.<br/>Vous procédez dans ce PLFR à des annulations résultant essentiellement de constatations. L’annulation de 2 milliards d’euros au titre de l’amoindrissement des appels en garantie de l’État est un trompe-l’œil, car la sinistralité des entreprises repart à la hausse : les crédits annulés aujourd’hui seront rouverts demain. Il en va de même de l’annulation de 2 milliards d’euros des dotations en capital obtenue par le Sénat.<br/>Monsieur le ministre délégué, l’action de l’État doit se recentrer sur les services publics essentiels et sur le soutien aux ménages les plus défavorisés, les plus durement touchés par l’inflation. L’éducation nationale, la défense, la justice et l’écologie constituent à cet égard autant de priorités. En revanche, vous ne pourrez échapper à des économies budgétaires si vous voulez éviter une précarisation de l’action publique et veiller au respect de nos engagements, notamment européens. Je tiens à vous le dire : vous ne ferez pas ces économies en réintégrant en catimini de nouveaux pactes de Cahors à la version soumise au 49.3 du projet de loi de finances initiale pour 2023.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142403" ordre_absolu_seance="186" id_acteur="PA718850" id_mandat="PM796203" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925326" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Pierre Cordier</nom>
+              <id>718850</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4064.52">Très bien ! Il a raison !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142404" ordre_absolu_seance="187" id_acteur="PA942" id_mandat="PM796836" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925327" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Charles de Courson</nom>
+              <id>942</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4168.27">Il est indispensable que les aides soient plus ciblées. Nous vous l’avons dit un nombre considérable de fois : en 2021, les ménages les plus aisés n’avaient pas besoin de la ristourne à la pompe. La crise sanitaire a conduit à mobiliser les ressources de l’État, ce qui était une très bonne chose ; la crise actuelle nous pousse à des dépenses exceptionnelles, j’en conviens. Reste qu’au moment où la dette publique dépasse 111 % du PIB, la consolidation des finances de l’État ne doit plus attendre. Nous vous le disions hier ; c’est aujourd’hui le FMI qui vous avertit.<br/>Le Haut Conseil des finances publiques (HCFP) estime à 4,2 % la part structurelle du déficit, et non à 3,7 % comme cela nous a été communiqué. Par ailleurs, monsieur le ministre délégué, vous vous félicitiez ce matin sur France Inter que ce même déficit ait été réduit depuis 2020, mais 2020 ne constitue pas une référence : c’était le temps du covid-19 et du « quoi qu’il en coûte » ! De 178 milliards à l’époque, le déficit sera en effet passé fin 2022 à 173 milliards : dois-je vous rappeler que la loi de finances initiale pour 2022 prévoyait qu’il s’élèverait alors à 153 milliards ? En outre, à ce rythme, c’est-à-dire à raison d’une diminution de 5 milliards tous les deux ans, il faudra soixante-dix ans pour parvenir à l’équilibre total. Vous et moi serons depuis longtemps à six pieds sous terre !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142406" ordre_absolu_seance="189" id_acteur="PA718850" id_mandat="PM796203" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925329" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Pierre Cordier</nom>
+              <id>718850</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4248.10">Eh oui ! Très bien !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142407" ordre_absolu_seance="190" id_acteur="PA942" id_mandat="PM796836" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925330" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Charles de Courson</nom>
+              <id>942</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4250.60">En dépit de ces graves réserves, je le répète, notre groupe votera majoritairement en faveur du texte. <italique>(Applaudissements sur les bancs du groupe LIOT.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Mathieu Lefèvre" id_acteur="PA795386" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM797454">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142408" ordre_absolu_seance="191" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="2925331" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4263.83">La parole est à M. Mathieu Lefèvre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142409" ordre_absolu_seance="192" id_acteur="PA795386" id_mandat="PM797454" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="2925332" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Mathieu Lefèvre</nom>
+              <id>795386</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4280.89">Avant toute chose, je souhaite, au nom du groupe Renaissance, exprimer toute notre émotion à la suite de l’ignoble assassinat, à Bullecourt, dans le Pas-de-Calais, d’un agent de la DGFIP. <italique>(Applaudissements sur plusieurs bancs du groupe RE, ainsi que sur quelques bancs du groupe Dem. – Mme Véronique Louwagie applaudit également.)</italique> Je pense à sa famille, mais également à sa collègue, elle aussi victime de cet acte barbare. La fonction publique tout entière est en deuil, et je profite de votre présence, monsieur le ministre délégué, pour témoigner une nouvelle fois notre entier soutien aux agents placés sous votre autorité, qui chaque jour, dans des conditions parfois difficiles, font un travail extraordinaire au service de nos concitoyens.<br/>Mes chers collègues, le succès de la CMP est une source de satisfaction à plusieurs titres. Il démontre, s’il en était besoin, qu’un travail de coconstruction parlementaire peut aboutir à un texte équilibré et utile aux Français ; j’en veux pour preuves les compromis trouvés au sein de notre assemblée puis avec les sénateurs. Un compromis suppose des agents : vous l’avez toutes et tous été, chers collègues. Vous me permettrez de féliciter en premier lieu notre rapporteur général, sans lequel cet accord au service des Français n’aurait pas été possible, et de saluer l’esprit de consensus du ministre délégué chargé des comptes publics, dont l’ouverture a permis d’accéder à des demandes parlementaires majeures.<br/>Je pense ici à l’amendement déjà évoqué de notre collègue Benjamin Haddad visant à doubler les crédits du fonds de soutien aux Ukrainiens, à celui du groupe Renaissance qui a permis de sécuriser le financement des chambres de commerce. Je pense à la proposition du groupe Socialistes d’aider nos concitoyens, en plus du chèque énergie exceptionnel figurant au sein de ce projet de loi, à faire face à l’envolée des prix des pellets et des bûches, et d’appuyer les banques alimentaires. Je pense à l’amendement du groupe Les Républicains en vue de renforcer les moyens alloués à la rénovation énergétique des logements, ainsi qu’à celui du président Coquerel grâce auquel les personnels des centres municipaux de santé bénéficieront de la prime dite Ségur. Sans cet état d’esprit constructif, cette volonté d’un côté de tendre la main, de l’autre de saisir la main tendue, ces avancées pourtant indispensables n’auraient pu voir le jour. Au fond, ce texte met en évidence ce que nous savions d’ores et déjà : proposer vaut mieux que s’opposer.<br/>S’agissant du Sénat, les travaux coordonnés par le rapporteur général Jean-François Husson ont permis de relever des défis de premier ordre : insonorisation des habitations à proximité des aéroports, notamment de celui d’Orly, mais aussi rénovation des infrastructures routières. Là encore, un esprit de responsabilité, de sérieux, a présidé à la réussite du texte, et je suis convaincu que nous pourrons à l’avenir élaborer des compromis en sens inverse, c’est-à-dire, comme l’a évoqué Mme Louwagie, en vue de la nécessaire réduction des dépenses publiques. Naturellement, M. de Courson nous l’a rappelé, tous nos collègues ne donnent pas pour autant quitus au Gouvernement de sa gestion budgétaire de l’année 2022. Il n’en reste pas moins que nous pouvons nous réjouir de trouver intacte sa détermination à réduire le fardeau de l’inflation et à protéger les Français des conséquences directes ou indirectes de la guerre en Ukraine <italique>(M. le rapporteur général applaudit)</italique>, et que cet effort inédit soit compatible avec une trajectoire budgétaire maîtrisée, précisément parce que tablant entre autres sur la résilience de notre économie.<br/>En effet, si le Gouvernement est en mesure d’ouvrir, pour un montant substantiel, les crédits correspondant aux besoins de financement identifiés en fin de gestion, c’est grâce aux bonnes nouvelles en matière de recettes, ce qui témoigne à la fois d’une grande résistance du tissu économique aux bouleversements survenus dans l’année et du bien-fondé d’un nouveau dogme que je n’hésite pas à répéter haut et fort : plus on baisse les impôts, plus les recettes publiques augmentent. Je suis d’ailleurs intimement convaincu que cette résilience n’est pas le fruit du hasard, que la capacité de notre économie à affronter les chocs a été renforcée depuis 2017 par les baisses d’impôt dont ont bénéficié ménages et entreprises, ainsi que par des réformes à long terme, concernant notamment la formation et le marché du travail.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142413" ordre_absolu_seance="197" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925362" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4344.40">Veuillez conclure.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142413" ordre_absolu_seance="198" id_acteur="PA795386" id_mandat="PM797454" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925361" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Mathieu Lefèvre</nom>
+              <id>795386</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4526.80">La toute récente réforme de l’assurance chômage en constitue le meilleur exemple. De même, les comparaisons à l’échelle européenne démontrent éloquemment la pertinence des choix faits depuis un an afin de protéger de l’inflation les ménages et les entreprises. Au fond, cette fin de gestion et ce texte nous enseignent que dans un univers économique et politique aussi mouvant que le nôtre, réformer n’est plus une option, mais au contraire une condition essentielle en vue d’affronter les défis de l’époque.<br/>Pour l’ensemble de ces raisons, le groupe Renaissance votera bien évidemment en faveur du texte issu des travaux de la CMP. <italique>(Applaudissements sur plusieurs bancs du groupe RE, ainsi que sur quelques bancs du groupe Dem. – M. le rapporteur général applaudit également.)</italique></texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142415" ordre_absolu_seance="200" id_acteur="PA720146" id_mandat="PM796803" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925338" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Denis Masséglia</nom>
+              <id>720146</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4558.98">Excellent !</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Alexandre Sabatou" id_acteur="PA794570" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796998">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142416" ordre_absolu_seance="201" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="2925339" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4565.94">Chers collègues, nous allons essayer d’écouter dans le calme les deux orateurs restants.<br/>La parole est à M. Alexandre Sabatou.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142417" ordre_absolu_seance="202" id_acteur="PA794570" id_mandat="PM796998" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="2925340" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Alexandre Sabatou</nom>
+              <id>794570</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4594.56">Il ne s’agit là que d’un PLFR, mais celui-ci n’en constitue pas moins une déception et la CMP un triste reflet des ambitions perdues du Gouvernement, les sénateurs du groupe Les Républicains, tout comme les députés du même bord, s’étant révélés solubles dans la Macronie. Il fallait d’ailleurs une bonne paire de lunettes pour distinguer un sénateur LR d’un député Renaissance.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142418" ordre_absolu_seance="203" id_acteur="PA719558" id_mandat="PM796554" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925341" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Erwan Balanant</nom>
+              <id>719558</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4615.77">Les sénateurs apprécieront !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142419" ordre_absolu_seance="204" id_acteur="PA794570" id_mandat="PM796998" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925342" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Alexandre Sabatou</nom>
+              <id>794570</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4616.23">La crise énergétique couplée à une inflation galopante méritait plus, méritait mieux que les petites victoires remportées en CMP et qui ne tiennent pas compte des défis actuels. Le Gouvernement aurait dû leur consacrer toutes ses ressources subsistantes. Depuis le 15 novembre, les Français, dont le pouvoir d’achat a déjà souffert des mois durant, paient 20 centimes de plus par litre de carburant, le rabais de 30 centimes ayant pris fin. Nos collègues du groupe Les Républicains souhaitaient l’été dernier que le prix du litre à la pompe ne puisse dépasser 1,50 euro ; ils étaient déterminés, fiers d’avoir conçu une autre solution que celles suggérées par le groupe Rassemblement national ! Encore une fois, ils se sont couchés comme un seul homme devant le Gouvernement <italique>(Protestations sur quelques bancs du groupe LR)</italique>,…</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142420" ordre_absolu_seance="205" id_acteur="PA608016" id_mandat="PM797100" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925343" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Véronique Louwagie</nom>
+              <id>608016</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4660.61">Laissez-nous, enfin !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142421" ordre_absolu_seance="206" id_acteur="PA794570" id_mandat="PM796998" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925344" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Alexandre Sabatou</nom>
+              <id>794570</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4660.79">…enterrant définitivement leur proposition dans le PLFR, ou plutôt s’en servant ainsi que d’un clou pour fermer leur propre cercueil. Ils nous avaient juré qu’ils se battraient pour le pouvoir d’achat des Français ; comme nous nous y attendions, ils s’abstiennent, soutenant de fait le Gouvernement. Nous, membres du groupe Rassemblement national, qui voulons remédier aux vraies difficultés de nos compatriotes, nous vous avions alertés depuis longtemps au sujet de la dérive inflationniste.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142422" ordre_absolu_seance="207" id_acteur="PA719558" id_mandat="PM796554" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925345" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Erwan Balanant</nom>
+              <id>719558</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4687.70">Ça, vous parlez beaucoup !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142423" ordre_absolu_seance="208" id_acteur="PA608016" id_mandat="PM797100" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925346" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Véronique Louwagie</nom>
+              <id>608016</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4687.99">Enchaînez donc !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142424" ordre_absolu_seance="209" id_acteur="PA794570" id_mandat="PM796998" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925347" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Alexandre Sabatou</nom>
+              <id>794570</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4687.99">Je ne vous rappellerai pas les mesures phares du programme présidentiel de Marine Le Pen, car je ne doute pas que vous les connaissiez par cœur, notamment la baisse des taux de TVA sur l’énergie et sur 100 produits de première nécessité. Nous, députés du Rassemblement national nouvellement élus, avons proposé des solutions et soutenu les amendements de bon sens, d’où qu’ils viennent ; par sectarisme politique, ni la majorité ni l’extrême gauche ne nous ont soutenus, au détriment du pouvoir d’achat des Français, grands perdants de ce PLFR comme du PLF pour 2023. <italique>(Exclamations sur quelques bancs des groupes RE et LR.)</italique></texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142425" ordre_absolu_seance="210" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925348" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4722.46">Laissez l’orateur achever son propos, chers collègues !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142426" ordre_absolu_seance="211" id_acteur="PA794570" id_mandat="PM796998" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925349" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Alexandre Sabatou</nom>
+              <id>794570</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4724.50">Certaines de nos PME sont mises en danger par la hausse dramatique du coût de l’énergie. Un article paru récemment dans <italique>Le Point</italique> expose ainsi les difficultés d’une entreprise comptant cinquante salariés, dont le dirigeant détaille sa facture d’énergie : le prix du mégawattheure est passé de 63 à 3 000 euros, le tarif du gaz de 20 à 1 000 euros. À la faveur du renouvellement de son contrat, le fournisseur, TotalEnergies, dont vous avez refusé de taxer les superprofits, lui annonce la multiplication de ses prix par cinquante ! C’est la chronique d’une mort annoncée des PME, à laquelle nous assisterons impuissants, devant un gouvernement toujours satisfait de lui-même et de ses actions.<br/>Quant aux particuliers, vous les condamnez à ne pouvoir se chauffer cet hiver. Il y a un an, en octobre 2021, le prix moyen mensuel de vente au détail du fioul domestique s’élevait à 1 euro par litre ; il est passé à 1,68 euro, soit, pour remplir une cuve de 1 000 litres, 700 euros de plus. Vous offrez en tout et pour tout un chèque de 100 euros ! Les Français qui se chauffent au fioul souffriront donc du froid par la faute d’un gouvernement qui n’a pas voulu prendre les bonnes mesures, qui n’a pas mobilisé tous les moyens de l’État pour faire face à la crise énergétique.<br/>En outre, comme l’on pouvait s’y attendre, la hausse incontrôlée des prix de l’énergie a entraîné celle des prix des produits alimentaires. Selon Michel-Édouard Leclerc, ceux-ci connaissent actuellement une inflation à deux chiffres : plus de 28 % pour la viande et les volailles surgelées, plus de 20 % pour les pâtes, de 19 % pour l’huile, de 17 % pour le beurre, la margarine et la crème fraîche. Les consommateurs français font face à un « tsunami » – le mot est de M. Leclerc – voué à devenir encore plus dévastateur après Noël. Si nous insistons autant à ce propos, c’est que le phénomène est grave, d’autant plus dramatique qu’il touche un poste de dépense obligatoire, essentiel pour tous. Nos concitoyens en seront-ils réduits à ne faire qu’un repas par jour, à se priver de fruits et de légumes frais, à ne pouvoir mettre sur la table un plat de viande ou de poisson que de manière tout à fait exceptionnelle, le tout aux dépens de leur santé et surtout de celle des enfants, en pleine croissance ? Nous sommes revenus deux cents ans en arrière,…</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142429" ordre_absolu_seance="214" id_acteur="PA722398" id_mandat="PM797217" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925352" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Rémy Rebeyrotte</nom>
+              <id>722398</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4731.42">Mais que font les amis de Poutine ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142430" ordre_absolu_seance="215" id_acteur="PA794570" id_mandat="PM796998" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925353" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Alexandre Sabatou</nom>
+              <id>794570</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4860.09">…à l’époque de l’industrialisation, lorsque la viande était un luxe. Il faut absolument briser la spirale infernale que nous voyons se former, et ce n’est pas, hélas, ce PLFR qui le fera. C’est pourquoi le groupe Rassemblement national votera contre le texte. <italique>(Applaudissements sur les bancs du groupe RN. – Exclamations sur quelques bancs des groupes RE et LR.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. David Guiraud" id_acteur="PA794478" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796950">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142431" ordre_absolu_seance="216" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="2925354" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4884.17">La parole est à M. David Guiraud.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142432" ordre_absolu_seance="217" id_acteur="PA719558" id_mandat="PM796554" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925355" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Erwan Balanant</nom>
+              <id>719558</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4912.19">Les deux derniers orateurs auraient pu mutualiser leurs textes !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142433" ordre_absolu_seance="218" id_acteur="PA794478" id_mandat="PM796950" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="2925356" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. David Guiraud</nom>
+              <id>794478</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4917.47">Ce PLFR nous a fourni l’occasion d’arracher plusieurs centaines de millions d’euros <italique>(« Ah ! » sur les bancs du groupe RE)</italique> : de l’argent pour les ménages qui se chauffent aux pellets, pour les associations qui aident les plus pauvres à se nourrir là où l’État a démissionné, pour étendre aux personnels municipaux le bénéfice du Ségur de la santé. De surcroît, le Sénat a quelque peu amélioré le texte : nous nous abstiendrons donc lors du vote. <italique>(Mêmes mouvements.) </italique>Cependant, je n’ai pas employé à la légère le verbe « arracher » : il ne s’agissait pas de coconstruction ! Si les amendements auxquels j’ai fait allusion ont été adoptés, c’est parce que l’Assemblée nationale, aussitôt qu’elle cesse d’être tyrannisée par l’application du 49.3, fait son travail jusqu’au bout. Elle vous impose des crédits supplémentaires <italique>(Applaudissements sur les bancs du groupe LFI-NUPES, ainsi que sur quelques bancs du groupe SOC)</italique>, car vous êtes minoritaires en son sein !<br/>Monsieur le ministre délégué, vous avez déclaré que notre pays résistait admirablement à la crise : c’est une erreur monumentale, et vous ne l’ignorez pas ! Les Français sont en train de mordre la poussière ; ce n’est pas là une impression, un sentiment, mais une réalité. Au troisième trimestre 2022, le salaire mensuel rapporté à l’augmentation des prix a diminué de 2 % !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142436" ordre_absolu_seance="220" id_acteur="PA795746" id_mandat="PM797661" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925359" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Antoine Léaument</nom>
+              <id>795746</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4924.48">Exactement ! Il a raison !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2142437" ordre_absolu_seance="221" id_acteur="PA794478" id_mandat="PM796950" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925360" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. David Guiraud</nom>
+              <id>794478</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4994.79">Le fléau de la vie chère balaie des millions de nos concitoyens : les prix pratiqués dans les grandes surfaces ont augmenté de 13 %, les prix des produits alimentaires de 10 %, le nombre de demandes de crédit bancaire refusées explose. La vie chère, c’est l’humiliation des Français réduits à se priver des petits plaisirs de la vie, à ne plus pouvoir nourrir correctement leurs enfants, à ce qu’on leur vole du temps de travail destiné à payer l’inflation !<br/>C’est la raison pour laquelle la Nouvelle Union populaire, écologique et sociale ne cessera jamais de défendre, avec sa campagne contre la vie chère, les seules mesures capables de remédier durablement à l’appauvrissement généralisé : l’augmentation des salaires, des minima sociaux, des payes des fonctionnaires et du Smic, et la taxation des superprofits. <italique>(Applaudissements sur les bancs des groupes LFI-NUPES et SOC et sur plusieurs bancs du groupe GDR-NUPES.)</italique></texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142363" ordre_absolu_seance="223" id_acteur="PA720386" id_mandat="PM796908" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925366" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Fabien Di Filippo</nom>
+              <id>720386</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5043.58">Qui paye ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142364" ordre_absolu_seance="224" id_acteur="PA794478" id_mandat="PM796950" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925367" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. David Guiraud</nom>
+              <id>794478</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5048.73">Vous êtes responsables de l’effondrement en cours et à venir. Parce que vous vous trompez : l’effondrement est devant nous et la crise est durable. Quand la précarité étudiante explose, cassant le moral, les ambitions et les études de notre jeunesse, tuant ses rêves, vous êtes responsables : vous refusez en effet notre proposition de taxer les plus hauts patrimoines pour financer une allocation d’autonomie qui libérerait les jeunes de cet enfer qu’est la pauvreté ! <italique>(Applaudissements sur quelques bancs du groupe LFI-NUPES.) </italique>Vous protégez les riches héritiers ! Vous qui affirmez systématiquement défendre la méritocratie, vous défendez l’héritocratie !<italique> (Mêmes mouvements.)</italique><br/>Vous êtes responsables de la colère qui s’exprime devant les stations-services : vous avez poussé la provocation jusqu’à annuler la ristourne de 20 centimes à la pompe le 16 novembre, c’est-à-dire le jour anniversaire du mouvement des gilets jaunes, dont certains participants ont perdu un œil parce qu’ils luttaient, avec raison, contre la vie chère. <italique>(Applaudissements sur plusieurs bancs du groupe LFI-NUPES.)</italique> Et le 31 décembre, vous allez définitivement couper les aides sur le carburant. Vous nous annoncez une aide qui ne concerne plus que les « gros rouleurs », – sous-entendu : ceux dont le travail exige de conduire une voiture. Mais, collègues, dans les campagnes, tout le monde est un gros rouleur ! Dans les quartiers et les villes où vous avez fermé des écoles et des maternités <italique>(Exclamations sur les bancs du groupe RE)</italique>, désertés par les médecins et où les grandes surfaces ont poussé au détriment des services de proximité, tout le monde est un gros rouleur ! <italique>(Les exclamations se poursuivent. – Applaudissements sur plusieurs bancs du groupe LFI-NUPES.)</italique><br/>Non, les Français ne vont pas bien – sauf ceux qui ont le privilège d’être protégés par le président des riches ! À l’heure où vous expliquez que, pour payer le prix de la crise, les Français vont devoir se tuer au travail à cause d’une réforme des retraites ignoble, et que les chômeurs vont devoir recevoir toujours moins, les dividendes ont atteint un sommet : 44 milliards d’euros de dividendes ont été distribués aux actionnaires rien qu’au deuxième trimestre ! C’est une honte ! <italique>(Tumulte sur les bancs du groupe RE.)</italique> Vous faites payer un impôt caché aux classes populaires, qui s’appelle l’inflation,…</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142367" ordre_absolu_seance="227" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925370" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5116.01">Chers collègues, je vous remercie de laisser l’orateur terminer son intervention dans le calme.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142368" ordre_absolu_seance="228" id_acteur="PA794478" id_mandat="PM796950" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="2925371" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. David Guiraud</nom>
+              <id>794478</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5174.63">…et vous distribuez secrètement des recettes aux plus riches, qui s’appellent exonérations fiscales ! C’est une politique de classes agressive, qui détruit les solidarités comme elle détruit nos petites et moyennes entreprises. Puisque c’est une politique de classes, nous assumons aujourd’hui et assumerons demain notre soutien aux salariés qui se mettront en grève pour défendre leur dignité et leurs conditions de travail ! <italique>(Applaudissements sur les bancs du groupe LFI-NUPES et sur quelques bancs des groupes Écolo-NUPES et GDR-NUPES. – Exclamations sur les bancs du groupe RE.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142369" ordre_absolu_seance="229" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925372" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5208.41">Nous venons d’entendre le dernier orateur.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142370" ordre_absolu_seance="230" id_acteur="PA0" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925373" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Un député</nom>
+            <id>0</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5215.67">Le plus mauvais !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142371" ordre_absolu_seance="231" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925374" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5216.19">Sur l’ensemble du projet de loi, je suis saisi par le groupe Renaissance et par le groupe de la Gauche démocrate et républicaine-NUPES d’une demande de scrutin public.<br/>Le scrutin est annoncé dans l’enceinte de l’Assemblée nationale. <italique>(Brouhaha.)</italique></texte>
+      </paragraphe>
+    </point>
+    <point nivpoint="2" valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142372" ordre_absolu_seance="232" code_grammaire="DISC_ARTICLES_1_1" code_style="Sous-tit_p_cap" code_parole="" sommaire="1" id_syceron="2925375" valeur=" (n[[o]] 507)" bibard=" (n[[o]] 507)" art="" adt="" ssadt="">
+      <orateurs/>
+      <texte>Texte de la commission mixte paritaire</texte>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142373" ordre_absolu_seance="233" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="DISC_ARTICLES_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925376" valeur="" bibard=" (n[[o]] 507)" art="" adt="" ssadt="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5235.99">J’appelle maintenant le texte de la commission mixte paritaire. Conformément à l’article 113, alinéa 3, du règlement, je vais d’abord appeler l’Assemblée à statuer sur les deux amendements dont je suis saisi – je vous invite à le faire, chers collègues, dans un silence de cathédrale.<br/>La parole est à M. le ministre délégué, pour soutenir l’amendement n<exposant>o</exposant> 1.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142375" ordre_absolu_seance="235" id_acteur="PA722190" id_mandat="-1" id_nomination_oe="PM791668" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925378" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Gabriel Attal</nom>
+            <id>722190</id>
+            <qualite>ministre délégué</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="5262.61">Il est relatif à l’article d’équilibre : il prend acte du compromis trouvé en commission mixte paritaire et tient compte des crédits supplémentaires qui ont été ouverts.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142376" ordre_absolu_seance="236" id_acteur="PA721976" id_mandat="PM797622" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925379" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Bruno Millienne</nom>
+            <id>721976</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5274.67">Très bien !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142377" ordre_absolu_seance="237" id_acteur="PA717379" id_mandat="PM797265" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925380" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Sylvain Maillard</nom>
+            <id>717379</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5275.23">Courageux.</texte>
+      </paragraphe>
+      <interExtraction nom_orateur="M. Jean-René Cazeneuve, quali  rapporteur" id_acteur="PA719472" id_nomination_oe="-1" id_nomination_op="-7965330" id_mandat="PM796533">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142378" ordre_absolu_seance="238" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="AVIS_COM_1_10" sommaire="0" id_syceron="2925381" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5275.24">Quel est l’avis de la commission ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142379" ordre_absolu_seance="239" id_acteur="PA719472" id_mandat="PM796533" id_nomination_oe="-1" id_nomination_op="-7965330" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="AVIS_COM_1_20" sommaire="0" id_syceron="2925382" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Jean-René Cazeneuve</nom>
+              <id>719472</id>
+              <qualite>rapporteur</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="5280.06">Il est favorable, monsieur le président.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142381" ordre_absolu_seance="240" id_acteur="PA608416" id_mandat="PM797133" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925384" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Patrick Hetzel</nom>
+              <id>608416</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5283.36">C’est un peu court, comme explication !</texte>
+        </paragraphe>
+      </interExtraction>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142382" ordre_absolu_seance="241" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PRESIDE_DISCOURS_1_10" sommaire="0" id_syceron="2925385" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5286.91">Je note que M. le président de la commission des finances ne souhaite pas s’exprimer. Certains d’entre vous souhaitent-ils le faire, chers collègues ? <italique>(« Non ! » sur divers bancs.)</italique> Je vous rappelle en effet que nous devons respecter un délai minimal de cinq minutes entre l’annonce du scrutin public et le vote. <italique>(Protestations sur plusieurs bancs du groupe RE.)</italique></texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142383" ordre_absolu_seance="242" code_grammaire="ADOP_ADT" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="2925386" valeur=" 1" decision="ADOPTION amendement (main levée) adt">
+        <orateurs/>
+        <texte>
+          <italique>(L’amendement n<exposant>o</exposant> 1, modifiant l’article 3, est adopté.)</italique>
+        </texte>
+      </paragraphe>
+      <point nivpoint="4" structure="Oui" valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142384" ordre_absolu_seance="243" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" orateur="" code_grammaire="DISC_ARTICLES_3_1" code_parole="" sommaire="1" id_syceron="2925387" valeur=" 2" bibard=" (n[[o]] 507)" art="" adt=" 2" ssadt="">
+        <interExtraction nom_orateur="M. Gabriel Attal, quali  ministre délégué" id_acteur="PA722190" id_nomination_oe="PM791668" id_nomination_op="-1" id_mandat="-1">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142384" ordre_absolu_seance="243" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="DISC_ARTICLES_3_1" code_style="NORMAL" code_parole="" sommaire="1" id_syceron="2925387" valeur=" 2" bibard=" (n[[o]] 507)" art="" adt=" 2" ssadt="" roledebat="president">
+            <orateurs>
+              <orateur>
+                <nom>M. le président</nom>
+                <id>720468</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5317.70">La parole est à M. le ministre délégué, pour soutenir l’amendement n<exposant>o</exposant> 2.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142385" ordre_absolu_seance="244" id_acteur="PA722190" id_mandat="-1" id_nomination_oe="PM791668" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925388" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Gabriel Attal</nom>
+                <id>722190</id>
+                <qualite>ministre délégué</qualite>
+              </orateur>
+            </orateurs>
+            <texte stime="5328.44">Il vise à rétablir les crédits de la mission <italique>Écologie, développement et mobilité durables</italique> qui avaient été supprimés pour rendre recevables les amendements retenus par la commission mixte paritaire.<italique> </italique>Cela me donne l’occasion de souligner les ajouts apportés par le Sénat et confirmés en CMP : nous allouons, pour un total de 170 millions d’euros, des financements complémentaires aux ponts, aux routes, à la lutte contre les nuisances sonores aéroportuaires et à la rénovation des réseaux d’eau. <italique>(Applaudissements sur plusieurs bancs du groupe RE et sur quelques bancs du groupe Dem.)</italique></texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Jean-René Cazeneuve, quali  rapporteur" id_acteur="PA719472" id_nomination_oe="-1" id_nomination_op="-7965330" id_mandat="PM796533">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142386" ordre_absolu_seance="245" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="AVIS_COM_1_10" sommaire="0" id_syceron="2925389" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. le président</nom>
+                <id>720468</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5330.34">Quel est l’avis de la commission ?</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142387" ordre_absolu_seance="246" id_acteur="PA719472" id_mandat="PM796533" id_nomination_oe="-1" id_nomination_op="-7965330" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="AVIS_COM_1_20" sommaire="0" id_syceron="2925390" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Jean-René Cazeneuve</nom>
+                <id>719472</id>
+                <qualite>rapporteur</qualite>
+              </orateur>
+            </orateurs>
+            <texte stime="5367.44">Au moment de donner un avis très favorable à cet amendement qui traduit les engagements pris en CMP, je voudrais saluer les députés qui ont contribué à bâtir ce compromis et l’ensemble des groupes qui y ont participé. <italique>(« Bravo ! » et applaudissements sur quelques bancs des groupes RE et Dem.)</italique></texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142388" ordre_absolu_seance="247" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925391" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. le président</nom>
+                <id>720468</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5389.50">Y a-t-il d’autres demandes d’intervention ? <italique>(« Non ! » sur divers bancs.)</italique></texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142389" ordre_absolu_seance="248" id_acteur="PA608416" id_mandat="PM797133" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925392" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Patrick Hetzel</nom>
+                <id>608416</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5400.79">On peut voter, monsieur le président !</texte>
+          </paragraphe>
+        </interExtraction>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142390" ordre_absolu_seance="249" code_grammaire="ADOP_ADT" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="2925393" valeur=" 2" decision="ADOPTION amendement (main levée) adt">
+          <orateurs/>
+          <texte>
+            <italique>(L’amendement n<exposant>o</exposant> 2, modifiant l’article 4, est adopté.)</italique>
+          </texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142391" ordre_absolu_seance="250" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="DISC_ARTICLES_1_30" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925394" valeur="" bibard=" (n[[o]] 507)" art="" adt=" 2" ssadt="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5410.91">Nous avons achevé l’examen des amendements.</texte>
+        </paragraphe>
+      </point>
+    </point>
+    <point nivpoint="2" valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142392" ordre_absolu_seance="251" code_grammaire="VOTE_ENS_CMP_S_1_10" code_style="Sous-tit_p_cap" code_parole="" sommaire="1" id_syceron="2925395" valeur=" (n[[o]] 507)">
+      <orateurs/>
+      <texte>Vote sur l’ensemble</texte>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142393" ordre_absolu_seance="252" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="VOTE_ENS_CMP_S_2_20" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925396" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5416.62">Je mets aux voix l’ensemble du projet de loi, compte tenu du texte de la commission mixte paritaire, modifié par les amendements adoptés par l’Assemblée.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142394" ordre_absolu_seance="253" code_grammaire="VOTE_ENS_CMP_S_2_30" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="2925397" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>(Il est procédé au scrutin.)</italique>
+        </texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142395" ordre_absolu_seance="254" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="VOTE_ENS_CMP_S_2_40" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925398" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5453.85">Voici le résultat du scrutin :<br/>        Nombre de votants                        361<br/>        Nombre de suffrages exprimés                247<br/>        Majorité absolue                        124<br/>                Pour l’adoption                187<br/>                Contre                60</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2142396" ordre_absolu_seance="255" code_grammaire="VOTE_ENS_CMP_S_2_50" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="2925399" valeur="" decision="">
+        <orateurs/>
+        <texte>
+          <italique>(L’ensemble du projet de loi est adopté.)<br/> (Applaudissements sur les bancs des groupes RE, Dem et HOR.)</italique>
+        </texte>
+      </paragraphe>
+    </point>
+    <finSeance>
+      <point nivpoint="1" valeur_ptsodj="2" ordinal_prise="6" id_preparation="2142398" ordre_absolu_seance="257" code_grammaire="FIN_SEAN_1_2" code_style="Titre" code_parole="" sommaire="1" id_syceron="2925401" valeur="">
+        <orateurs/>
+        <texte>Ordre du jour de la prochaine séance</texte>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2142399" ordre_absolu_seance="258" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="FIN_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="2925402" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5458.56">Prochaine séance, demain, à neuf heures :<br/>Discussion de la proposition de résolution créant une commission d’enquête relative aux révélations des Uber Files et au rôle du Président de la République dans l’implantation d’Uber en France ;<br/> Discussion de la proposition de loi visant à augmenter le salaire minimum interprofessionnel de croissance à 1 600 euros net ;<br/> Discussion de la proposition de loi constitutionnelle protégeant et garantissant le droit fondamental à l’interruption volontaire de grossesse et à la contraception ;<br/>Discussion de la proposition de loi visant à abolir la corrida : un petit pas pour l’animal, un grand pas pour l’humanité ;<br/> Discussion de la proposition de loi visant à réintégrer le personnel des établissements de santé et de secours non vacciné grâce à un protocole sanitaire renforcé ; <br/> Discussion de la proposition de loi visant à instaurer une allocation d’autonomie pour les jeunes en formation ;<br/> Discussion de la proposition de loi créant un corps de fonctionnaires pour les accompagnants d’élèves en situation de handicap ;<br/> Discussion de la proposition de loi constitutionnelle visant à modifier les conditions de déclenchement du référendum d’initiative partagé ; <br/> Discussion de la proposition de résolution visant à assurer l’égalité effective entre tous les citoyens par une grande loi de développement pour les outre-mer ; <br/> Discussion de la proposition de loi visant à accélérer la rénovation thermique des logements en garantissant un reste à charge zéro pour les ménages les plus modestes réalisant des travaux et en interdisant réellement les logements les plus énergivores ;<br/> Discussion de la proposition de loi visant à mettre fin à la concentration dans les médias et l’industrie culturelle ;<br/> Discussion de la proposition de loi garantissant l’accès à l’eau potable par la gratuité des mètres cubes vitaux.<br/>La séance est levée.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2142400" ordre_absolu_seance="259" code_grammaire="FIN_SEAN_2_4" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="2925403" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>(La séance est levée à seize heures vingt.)</italique>
+          </texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="6" id_preparation="2142401" ordre_absolu_seance="260" code_grammaire="FIN_SEAN_2_5" code_style="Signature droite" code_parole="" sommaire="0" id_syceron="2925404" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>Le directeur des comptes rendus</italique>
+            <br/>
+            <italique>Serge Ezdra</italique>
+          </texte>
+        </paragraphe>
+      </point>
+    </finSeance>
+  </contenu>
+</compteRendu>

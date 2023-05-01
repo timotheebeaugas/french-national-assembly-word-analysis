@@ -1,0 +1,1121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<compteRendu xmlns="http://schemas.assemblee-nationale.fr/referentiel">
+  <uid>CRSANR5L16S2023O1N157</uid>
+  <seanceRef>RUANR5L16S2023IDS26838</seanceRef>
+  <sessionRef>SCR5A2023O1</sessionRef>
+  <metadonnees>
+    <dateSeance>20230227214500000</dateSeance>
+    <dateSeanceJour>lundi 27 février 2023</dateSeanceJour>
+    <numSeanceJour>2</numSeanceJour>
+    <numSeance>157</numSeance>
+    <typeAssemblee>AN</typeAssemblee>
+    <legislature>16</legislature>
+    <session>Session ordinaire 2022-2023</session>
+    <nomFichierJo>20230157</nomFichierJo>
+    <validite>valide</validite>
+    <etat>complet</etat>
+    <diffusion>public</diffusion>
+    <version>avant_JO</version>
+    <environnement>PROD</environnement>
+    <heureGeneration>2023-03-07T15:04:01.000+01:00</heureGeneration>
+    <sommaire>
+      <presidentSeance id_syceron="3029123">Présidence de M. Sébastien Chenu</presidentSeance>
+      <sommaire1 valeur_pts_odj="1">
+        <titreStruct id_syceron="3029127">
+          <intitule>Hyperconcentration des dépenses du ministère de la culture en Île-de-France : une fatalité ?</intitule>
+          <sousIntitule>0</sousIntitule>
+        </titreStruct>
+        <para id_syceron="3029130">M. Paul Molac (LIOT)</para>
+        <para id_syceron="3029146">Mme Violette Spillebout (RE)</para>
+        <para id_syceron="3029177">M. Philippe Lottiaux (RN)</para>
+        <para id_syceron="3029183">Mme Sarah Legrain (LFI-NUPES)</para>
+        <para id_syceron="3029190">Mme Emmanuelle Anthoine (LR)</para>
+        <para id_syceron="3029394">Mme Mathilde Desjonquères (Dem)</para>
+        <para id_syceron="3029401">Mme Valérie Rabault (SOC)</para>
+        <para id_syceron="3029423">M. Jérémie Patrier-Leitus (HOR)</para>
+        <para id_syceron="3029440">Mme Sophie Taillé-Polian (Écolo-NUPES)</para>
+        <para id_syceron="3029451">Mme Soumya Bourouaha (GDR-NUPES)</para>
+        <para id_syceron="3029152">Mme Rima Abdul-Malak, ministre de la culture</para>
+        <para id_syceron="3029198">M. Paul-André Colombani (LIOT)</para>
+        <para id_syceron="3029202">Mme Rima Abdul-Malak, ministre</para>
+        <para id_syceron="3029204">Mme Céline Calvez (RE)</para>
+        <para id_syceron="3029209">Mme Rima Abdul-Malak, ministre</para>
+        <para id_syceron="3029212">M. Christophe Marion (RE)</para>
+        <para id_syceron="3029217">Mme Rima Abdul-Malak, ministre</para>
+        <para id_syceron="3029222">Mme Graziella Melchior (RE)</para>
+        <para id_syceron="3029255">Mme Rima Abdul-Malak, ministre</para>
+        <para id_syceron="3029259">Mme Lisette Pollet (RN)</para>
+        <para id_syceron="3029263">Mme Rima Abdul-Malak, ministre</para>
+        <para id_syceron="3029265">Mme Sophie Blanc (RN)</para>
+        <para id_syceron="3029268">Mme Rima Abdul-Malak, ministre</para>
+        <para id_syceron="3029271">M. Sébastien Rome (LFI-NUPES)</para>
+        <para id_syceron="3029276">Mme Rima Abdul-Malak, ministre</para>
+        <para id_syceron="3029328">M. Pascal Lecamp (Dem)</para>
+        <para id_syceron="3029333">Mme Rima Abdul-Malak, ministre</para>
+        <para id_syceron="3029336">Mme Valérie Rabault (SOC)</para>
+        <para id_syceron="3029340">Mme Rima Abdul-Malak, ministre</para>
+        <para id_syceron="3029345">M. Jérémie Patrier-Leitus (HOR)</para>
+        <para id_syceron="3029347">Mme Rima Abdul-Malak, ministre</para>
+        <para id_syceron="3029349">M. Sébastien Peytavie (Écolo-NUPES)</para>
+        <para id_syceron="3029355">Mme Rima Abdul-Malak, ministre</para>
+        <para id_syceron="3029361">M. Pierre Dharréville (GDR-NUPES)</para>
+        <para id_syceron="3029367">Mme Rima Abdul-Malak, ministre</para>
+        <para id_syceron="3029374">Mme Emmanuelle Ménard</para>
+        <para id_syceron="3029379">Mme Rima Abdul-Malak, ministre</para>
+      </sommaire1>
+      <sommaire1 valeur_pts_odj="2">
+        <titreStruct id_syceron="3029385">
+          <intitule>Ordre du jour de la prochaine séance</intitule>
+        </titreStruct>
+      </sommaire1>
+    </sommaire>
+  </metadonnees>
+  <contenu>
+    <quantiemes>
+      <journee>Deuxième séance du lundi 27 février 2023</journee>
+      <session>Session ordinaire 2022-2023</session>
+    </quantiemes>
+    <ouvertureSeance nivpoint="1" valeur_ptsodj="0" ordinal_prise="1" id_preparation="2211224" ordre_absolu_seance="1" id_acteur="PA720908" id_mandat="PM797556" id_nomination_oe="0" id_nomination_op="0" code_grammaire="OUV_SEAN_1_1" code_style="Présidence" code_parole="" sommaire="1" id_syceron="3029123" valeur="">
+      <orateurs/>
+      <texte>Présidence de M. Sébastien Chenu<br/> vice-président</texte>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2211225" ordre_absolu_seance="2" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="OUV_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3029124" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="924.62">La séance est ouverte.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2211226" ordre_absolu_seance="3" code_grammaire="OUV_SEAN_2_2" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="3029125" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>(La séance est ouverte à vingt et une heures quarante-cinq.)</italique>
+        </texte>
+      </paragraphe>
+    </ouvertureSeance>
+    <point nivpoint="1" valeur_ptsodj="1" ordinal_prise="1" id_preparation="2211228" ordre_absolu_seance="5" code_grammaire="TITRE_TEXTE_DISCUSSION" code_style="Titre" code_parole="" sommaire="1" id_syceron="3029127" valeur="">
+      <orateurs/>
+      <texte>Hyperconcentration des dépenses du ministère de la culture en Île-de-France : une fatalité ?</texte>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2211229" ordre_absolu_seance="6" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="ODJ_APPEL_DISCUSSION" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3029128" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="958.86">L’ordre du jour appelle le débat sur le thème : « Hyperconcentration des dépenses du ministère de la culture en Île-de-France : une fatalité ? »<br/>La conférence des présidents a décidé d’organiser ce débat en deux parties. Dans un premier temps, nous entendrons les orateurs des groupes, puis le Gouvernement ; nous procéderons ensuite à une séance de questions-réponses.<br/>La parole est à M. Paul Molac.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2211231" ordre_absolu_seance="8" id_acteur="PA607619" id_mandat="PM796890" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029130" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Paul Molac (LIOT)</nom>
+            <id>607619</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="978.08">Permettez-moi tout d’abord de remercier les députés du groupe Libertés, indépendants, outre-mer et territoires d’avoir choisi d’inscrire à l’ordre du jour de cette semaine de contrôle un débat sur l’hyperconcentration des dépenses du ministère de la culture en Île-de-France. C’est un thème qui nous est cher : en effet, si la centralisation induit de nombreuses disparités socio-économiques, en matière d’éducation, d’accès aux transports et aux soins, ou encore de services publics, ce mal bien français concerne également l’accès à la culture pour l’ensemble des concitoyens et la valorisation de notre patrimoine.<br/>Même si cela n’a pas toujours été le cas, on a aujourd’hui coutume de dire que la France est un pays riche de sa diversité. Notre patrimoine matériel et immatériel est immense et varié. Ce formidable héritage, que nous avons su conserver et valoriser – dans un certain nombre de cas, du moins –, nous le devons à notre histoire, mais aussi à des cultures vivantes et diversifiées, entretenues par les habitants. Cela vaut pour nos monuments, pour les œuvres artistiques, mais aussi – c’est un point qui me tient particulièrement à cœur – pour nos langues et cultures, que l’État a parfois tenté d’annihiler par le passé.<br/>La seule bonne volonté des habitants ou des collectivités territoriales ne peut cependant suffire : si l’on ne saurait refuser l’apport de mécènes ou de philanthropes, le concours de la puissance publique est indispensable pour éviter que ces richesses ne disparaissent. D’ailleurs, la valorisation de la culture ne saurait reposer exclusivement sur l’investissement des bénévoles, dont je salue l’action. Ils sont fort nombreux dans toute la France, qui œuvrent avec pugnacité à l’organisation de différents festivals à travers diverses associations. Notre patrimoine paraît parfois en péril : le cri d’alarme de Stéphane Bern comme les alertes des élus locaux en sont un signe. Si l’intégration des œuvres culturelles au secteur marchand peut permettre la valorisation économique nécessaire à leur propre entretien et leur restauration, la culture reste un secteur fragile par essence, dont la conservation et l’amélioration nécessitent à la fois de l’attention et des investissements – c’est précisément le rôle de la puissance publique.<br/>Or la centralisation de notre pays renforce la concentration des richesses et des investissements à Paris et dans sa région. La culture en est un exemple assez caricatural. Prenons les monuments nationaux : le Louvre, le musée d’Orsay, les opéras et grands théâtres sont très majoritairement concentrés dans une toute petite superficie du territoire national.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2211236" ordre_absolu_seance="12" id_acteur="PA736201" id_mandat="PM797523" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3029135" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Sophie Taillé-Polian</nom>
+            <id>736201</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1027.68">C’est vrai !</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2211237" ordre_absolu_seance="13" id_acteur="PA607619" id_mandat="PM796890" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="3029136" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Paul Molac</nom>
+            <id>607619</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1145.20">S’il est bien entendu nécessaire que ces structures exceptionnelles puissent accueillir un public le plus large possible, comment expliquer à un jeune qui vit à 600 kilomètres de Paris et n’a accès à aucune d’elles en raison de leur éloignement que les jeunes vivant en région parisienne peuvent les visiter gratuitement s’ils ont moins de 26 ans ? Les réalités géographiques rendent les choses un peu compliquées pour certains.<br/>Comment expliquer, aussi, que les grandes chaînes publiques de télévision et de radio soient toutes concentrées dans la capitale, les antennes de France 3 ou France Bleu dans nos territoires ne disposant, en comparaison, que de peu de moyens ? Il suffit d’ailleurs de regarder le journal de vingt heures pour s’en convaincre : en fond figure une vue de Paris – comme si la capitale représentait à elle seule le journal national ! Parfois, j’ai du mal à m’y retrouver : je me demande s’il s’agit vraiment d’un journal national, ou plutôt du journal de France 3 Île-de-France. Le traitement de l’information qui y est fait me contrarie également – même si cela dépasse un peu le cadre de notre débat ce soir : bien souvent, j’ai l’impression qu’il s’agit surtout de relayer la vision des Parisiens sur le reste de la France, sur l’Europe et sur le monde.<br/>Venons-en aux chiffres, car ceux-là sont implacables, sinon sidérants : selon ceux du ministère de la culture, actuellement disponibles en open data, l’État dépense en moyenne 195 euros par habitant en Île-de-France en matière culturelle, contre seulement 20 euros en Bretagne administrative, soit presque dix fois moins ! En moyenne, l’État ne dépense que 24 euros par Français ne résidant pas en Île-de-France – et même à peine 10 euros pour les Mahorais. Comme quoi, au pays de l’égalité, certains sont plus égaux que d’autres.<br/>Je serai donc très attentif aux explications de la ministre s’agissant de cette différence. Lors de la précédente législature, le Gouvernement m’avait expliqué, en réponse à une de mes questions écrites, que l’implantation majoritairement parisienne des établissements publics nationaux avait pour effet de surreprésenter le montant des dépenses culturelles du ministère de la culture et de la communication dans la région Île-de-France. Une réponse qui m’avait particulièrement surpris : cette implantation ne serait-elle donc qu’une fatalité, pour reprendre le titre de notre débat ?<br/>À mes yeux, elle découle avant tout de décisions politiques : rien ne peut justifier l’hyperconcentration des dépenses dans la région capitale, d’autant que c’est bien le budget de l’État, et non celui de la région Île-de-France, ni même celui de la Ville de Paris, qui est majoritairement utilisé pour faire fonctionner ces structures, dont la qualité n’est d’ailleurs remise en cause par personne. Aujourd’hui, 67 % des crédits du ministère de la culture affectés au seul patrimoine sont ainsi investis en Île-de-France : c’est considérable et, il faut bien le dire, un peu injuste.<br/>Une plus juste péréquation dans l’affectation des crédits est nécessaire : à ce propos, je suis favorable à un réel transfert des compétences et des moyens afférents vers les régions, ce qui permettrait d’assurer davantage d’équité. Laissez-moi évoquer un chiffre qui parlera à tous : le Louvre-Lens, inauguré en grande pompe en 2012, a été financé à hauteur de seulement 1 % par l’État, le reste ayant été pris en charge par les collectivités locales et l’Union européenne. Le musée du même nom à Paris, lui, est pourtant financé à 100 % par l’État. Peut-on réellement parler de justice ? Qu’est-ce qui justifie cette différence de traitement ? Autre exemple : l’opéra de Bordeaux n’est financé par l’État qu’à hauteur de 21 %, soit bien moins que les deux opéras de Paris. Tout laisse à croire qu’aujourd’hui, dans notre pays, si l’on souhaite accéder à la culture et à la création culturelle, il faut habiter à Paris. Si mon assertion ne saurait être parfaitement exacte, puisqu’elle tendrait à minimiser l’ampleur de la création culturelle dans nos territoires et la richesse de notre patrimoine matériel et immatériel, elle traduit tout de même une forme d’injustice territoriale en matière d’actions et d’investissements dans le secteur culturel en France.<br/>Autre thème qui me tient à cœur : la protection patrimoniale des langues régionales. Depuis son adoption à l’Assemblée nationale en avril 2021 et sa promulgation le 21 mai 2021, la loi relative à la protection patrimoniale des langues régionales et à leur promotion, dont j’ai eu l’honneur d’être le rapporteur, a conféré aux langues régionales et langues de France le statut de trésors nationaux. L’article L. 1 du code du patrimoine dispose d’ailleurs désormais que « l’État et les collectivités territoriales concourent à l’enseignement, à la diffusion et à la promotion de ces langues. » Mais, près de deux ans plus tard et malgré la modification du code du patrimoine, je ne constate aucune avancée substantielle en la matière, alors même que l’Unesco a indiqué qu’une grave menace d’extinction planait sur une très large majorité de nos langues. La mission de protection et de valorisation de l’État concerne toutes les langues de France, et ne saurait se limiter uniquement à la langue française.<br/>Je ne peux terminer mon propos sans évoquer la situation des événements estivaux – notamment les festivals –, qui seront lourdement affectés par la tenue des Jeux olympiques à l’été 2024, lesquels se dérouleront – cela ne vous aura pas échappé – à Paris. Je note d’ailleurs en passant que c’est la troisième fois que la France accueille les Jeux olympiques d’été, et que c’est aussi la troisième fois qu’ils se déroulent à Paris… En raison de la mobilisation des forces de sécurité autour de cet événement, des spectacles qui ont pourtant lieu chaque été ont été contraints de se réorganiser, de modifier leur calendrier ou leur durée. Or, si des accords ont déjà pu être trouvés avec les grands festivals, l’inquiétude demeure pour les plus petites structures. Vous comprendrez donc aisément le malaise qui monte dans nos territoires : tous les événements culturels régionaux sont tenus de s’adapter à un événement sportif mondial qui se tient, une fois de plus, à Paris.<br/>En définitive, une politique de rééquilibrage entre l’Île-de-France et les autres régions est désormais nécessaire, et des actes forts sont attendus pour résorber cette profonde injustice territoriale. Si des raisons historiques peuvent expliquer ces inégalités, nous ne pouvons comprendre que ces dernières puissent perdurer : il ne tient donc qu’à vous, madame la ministre, d’inverser la tendance pour que tous les citoyens de ce pays puissent se sentir réellement égaux. <italique>(Applaudissements sur les bancs du groupe LIOT.)</italique></texte>
+      </paragraphe>
+      <interExtraction nom_orateur="Mme Violette Spillebout (RE)" id_acteur="PA794486" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796953">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2211246" ordre_absolu_seance="22" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029145" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1545.37">La parole est à Mme Violette Spillebout.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2211247" ordre_absolu_seance="23" id_acteur="PA794486" id_mandat="PM796953" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029146" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Violette Spillebout (RE)</nom>
+              <id>794486</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1556.10">Lors du débat sur les crédits dédiés à la culture pour 2023, en augmentation de 7 %, nous avons souligné ensemble le renforcement de projets de proximité importants un peu partout dans nos territoires. Je pense notamment à la création de 1 000 Micro-Folies, dont la moitié au sein de quartiers prioritaires de la politique de la ville (QPV), mais également à la reconduction du plan Fanfare, qui a déjà permis de soutenir 514 projets, dont la moitié en zone rurale. Dans mon département du Nord, les artistes amateurs de la fanfare d’Avesnes-sur-Helpe ont ainsi été soutenus financièrement dans l’achat d’instruments de musique, mais aussi dans leurs déplacements et les activités d’éveil musical qu’ils assurent.<br/>Ces exemples de réussite ne doivent cependant pas masquer une réalité historique : l’Île-de-France concentre 36 % des établissements culturels français, 54 % de ceux de plus de cinquante salariés et, selon l’Insee, quatre emplois culturels sur dix. En 2022, près de 60 % des crédits du ministère de la culture étaient dépensés en Île-de-France, l’ensemble des autres régions ne disposant que de 40 % du budget. En moyenne, la dépense culturelle par habitant entre la province et Paris varie selon un facteur allant de un à trois : même s’il doit aussi se lire au regard de la concentration des flux touristiques et de la fréquentation culturelle, cet écart reste bien trop important.<br/>Plus récemment, dans une note de décembre 2021, la Cour des comptes revenait sur la situation actuelle du paysage culturel français et plaidait en faveur du réexamen des objectifs de la politique culturelle de l’État. Elle pointait le poids grandissant du financement des grandes institutions nationales, concentrées en Île-de-France, parallèlement au délaissement du patrimoine communal et rural, pourtant plus fragile. Face à l’extension de la sphère marchande, aux transformations provoquées par la révolution numérique et aux mutations des modes de consommation culturelle, ce rapport sévère nous impose de concevoir une politique nationale tenant davantage compte des enjeux de l’époque et assurant une meilleure répartition des moyens sur le territoire.<br/>Les crises successives que nous vivons en matière sanitaire, énergétique, économique, ou encore de fréquentation culturelle, couplées à la raréfaction des ressources publiques dédiées à la culture, doivent nous conduire à nous interroger en profondeur. L’inégalité territoriale – la fracture, presque – s’intensifie. Elle nous inquiète et nous préoccupe, car notre pays a plus que jamais besoin d’une culture partagée. Dès lors, la question de la décentralisation culturelle, qui reste entière, doit devenir une véritable priorité démocratique, écologique et citoyenne : pensons la dépense culturelle avec la préoccupation permanente de sa durabilité et de son accessibilité pour tous.<br/>Cela peut passer par de nombreux leviers : limiter drastiquement la construction de nouveaux équipements voulus par des élus locaux qui se font concurrence, et leur privilégier la rénovation ou l’évolution des lieux existants – patrimoine, établissements scolaires, centres sociaux, et lieux associatifs –, notamment en territoire rural ; exiger des grands établissements parisiens l’itinérance de leurs expositions et spectacles, en intégrant cette dimension dès la conception des projets culturels afin de permettre ensuite leur diffusion en province ; s’appuyer sur le tissu culturel existant dans les territoires en faisant confiance aux acteurs locaux et en exploitant leurs compétences et savoir-faire ; mettre l’accent sur les résidences d’artistes en dehors de Paris, adaptées au temps long et à la réalité des territoires ruraux et des quartiers prioritaires, ainsi que sur les actions permettant d’aller à la rencontre de la population, que ce soit dans les Ehpad, les collèges et lycées, les lieux d’hébergement, les médiathèques ou les gares ; renforcer la mobilité culturelle en intégrant les dépenses de transport dans le pass culture individuel et collectif, afin de réduire le sentiment d’isolement de la population des territoires ruraux et des quartiers prioritaires, qui s’empêche souvent d’adhérer à une offre culturelle, considérant que ce n’est pas pour elle.<br/>Ce sont là autant de pistes que les députés Renaissance auront à cœur d’explorer, de concert avec le ministère de la culture, en vue d’un déploiement territorial des moyens de celui-ci et d’une gestion durable de ses financements. Je sais, madame la ministre, que vous partagez ce souci de renforcer les moyens alloués hors de l’Île-de-France : face aux surcoûts énergétiques, vous venez d’ailleurs d’octroyer, à travers tout le pays, un soutien financier exceptionnel aux structures culturelles labellisées dont les difficultés sont les plus grandes. Je me réjouis qu’au sein de ma circonscription, le Théâtre du Nord et l’opéra de Lille, ainsi que Le Grand Mix à Tourcoing, en aient bénéficié – de même qu’Amiens, Calais ou Valenciennes dans le reste des Hauts-de-France ; en Alsace, La Filature à Mulhouse, le fonds régional d’art contemporain (Frac) de Sélestat, le TJP Centre dramatique national de Strasbourg Grand Est ; en Occitanie, l’association Opéra Orchestre national Montpellier ou encore Le Parvis à Tarbes. Poursuivons cette mutation en allant plus loin, en soutenant les structures modestes, les associations culturelles des petites villes et des campagnes, qui, même non conventionnées par les directions régionales des affaires culturelles (Drac), font vivre le lien social et les valeurs de notre pays ! <italique>(Applaudissements sur les bancs des groupes RE et HOR.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Philippe Lottiaux (RN)" id_acteur="PA795974" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM797784">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2211362" ordre_absolu_seance="29" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029176" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1763.15">La parole est à M. Philippe Lottiaux.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2211363" ordre_absolu_seance="30" id_acteur="PA795974" id_mandat="PM797784" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029177" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Philippe Lottiaux (RN)</nom>
+              <id>795974</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1867.25">L’hyperconcentration en Île-de-France des dépenses du ministère de la culture est indéniable. En 2018, selon ses chiffres mêmes, sa dépense annuelle s’élevait à 139 euros par Francilien contre en moyenne 15 euros par habitant du reste du territoire. Suivant la direction générale des patrimoines et de l’architecture, sur les onze projets de grands travaux patrimoniaux programmés pour la période 2020-2027 et représentant en tout 1 670 millions d’euros, seuls deux, totalisant 242 millions, se situent hors de l’Île-de-France. Je pourrais poursuivre en ce sens : les exemples abondent.<br/>Cependant, il ne s’agit pas tant d’une fatalité que d’une réalité intangible : aucune décentralisation ne parviendra à transplanter le Louvre, le musée d’Orsay, le Grand Palais, Versailles ou, s’agissant de spectacle vivant, la Comédie-Française ou l’Opéra de Paris. La plupart des grandes institutions culturelles, celles qui consomment logiquement le plus de crédits, sont franciliennes et le resteront ; il s’agit d’ailleurs là d’un atout touristique et d’une source de rayonnement majeurs. De même, l’Île-de-France est et demeurera la première région culturelle française, avec plus du tiers des établissements et, selon la dernière étude en date, certes un peu ancienne, de l’Insee, près de 300 000 des 700 000 emplois du secteur – audiovisuel, cinéma et multimédias inclus.<br/>La question serait donc plutôt de savoir si les politiques de décentralisation ou de déconcentration que depuis le premier d’entre eux, André Malraux, tous les ministres de la culture érigent en priorité – du moins à en croire leurs discours –, ont porté leurs fruits. À cette étape de mon intervention, soit dit en passant, je pourrais, en fonction des exemples choisis, vous démontrer une chose aussi bien que son contraire, ce qui révèle la nécessité en la matière d’une réelle objectivité : tenons-en compte si nous voulons faire progresser le débat ! On peut mentionner les grandes scènes nationales réparties sur le territoire ; une myriade de festivals – Avignon, Aix-en-Provence, Angoulême, Orange ou encore La Rochelle –, même si certains objecteront qu’ils font surtout le bonheur des touristes franciliens ; des musées locaux attractifs ; les 620 millions alloués essentiellement à nos provinces, dans le cadre du plan de relance, en 2021-2022 ; l’explosion du numérique, qui modifie le rapport à la culture de nombreux Français et, dans la quasi-totalité du territoire, donne accès à des œuvres de l’esprit disséminées de par le monde ; le fait que les deux tiers des dépenses culturelles publiques sont le fait des collectivités territoriales. Par conséquent, il serait abusif d’évoquer, en paraphrasant le titre d’un ouvrage célèbre, Paris et le désert culturel français.<br/>Ce constat n’exclut toutefois ni les ratés ni les déséquilibres majeurs à résorber : l’on pourrait ainsi attendre de la politique culturelle qu’elle s’attache à éradiquer quatre facteurs d’inégalités territoriales criantes.<br/>Premièrement, ce que le ministère appelait en 2018 les zones blanches du service public de la culture, dotées de moins d’un équipement culturel public pour 10 000 habitants. Quatre-vingt-six de ces zones avaient été recensées ; sans doute y en a-t-il davantage, en particulier dans les régions rurales, insulaires et ultramarines. Ainsi, en faisant la somme des effectifs des établissements culturels corses, martiniquais, guyanais, guadeloupéens et réunionnais, on obtient un total inférieur à celui de n’importe quelle région de l’Hexagone ! De surcroît, les métropoles de province font parfois figure d’oasis au milieu des déserts ruraux. Si l’on n’entend plus guère parler du plan Culture près de chez vous, lancé en 2018, une véritable politique d’irrigation culturelle n’en est pas moins nécessaire.<br/>Deuxièmement, l’insuffisante circulation des œuvres : aucun écran ne remplacera le contact direct, quasi charnel, avec un tableau ou une sculpture. Les musées locaux sont parfois des écrins en manque de joyaux ; les coûts de transport et d’assurance, souvent dirimants, doivent donner lieu à une réflexion.<br/>Troisièmement, de récents rapports ont rappelé l’état inquiétant de notre patrimoine religieux et plus largement du petit patrimoine vernaculaire, appartenant pour l’essentiel aux communes. Des initiatives comme la création du Fonds incitatif et partenarial (FIP) ne sont pas à la hauteur des besoins, notamment de ceux des petites communes, qui ne peuvent pourvoir à l’entretien et à la rénovation de leur patrimoine. Il y a là une urgence absolue : nous ne pouvons laisser détruire nos clochers !<br/>Quatrièmement, enfin, ce qui constitue peut-être la base du tout : l’éducation artistique et culturelle (EAC), enjeu partagé avec le ministère de l’éducation nationale ; la sensibilisation à la beauté et l’accompagnement de son apprentissage, car il ne s’agit pas seulement de donner à voir, mais aussi de donner à comprendre. Là encore, hélas, les mesures prises sont bien en deçà des besoins, tout particulièrement dans des pans entiers de la France dite périphérique. Or, dans un monde en perte de repères, les œuvres de l’esprit proposent, surtout aux jeunes, autant de réponses à la quête de sens, un sens auquel la culture confère les trois acceptions que lui donne l’académicien François Cheng : la sensation, procurée par la contemplation, la signification, par la compréhension de soi à travers l’œuvre, et la direction, prise par celui qui peut appuyer sa vie sur des valeurs de civilisation. Plutôt que de scruter CNews ou de lutter contre le Rassemblement national, vos services, madame la ministre, ne devraient-ils pas, comme les Français l’attendent, travailler à ces quatre points essentiels ? <italique>(« Bravo ! » et applaudissements sur les bancs du groupe RN.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Sarah Legrain (LFI-NUPES)" id_acteur="PA791824" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM797808">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2211368" ordre_absolu_seance="38" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029182" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2176.12">La parole est à Mme Sarah Legrain.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2211369" ordre_absolu_seance="39" id_acteur="PA791824" id_mandat="PM797808" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029183" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Sarah Legrain (LFI-NUPES)</nom>
+              <id>791824</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2190.24">Jack Lang, ancien ministre de la culture, déclarait en 2019 que l’État finance à lui seul 80 % de la vie culturelle parisienne. De fait, dans le secteur de la culture, mieux vaut être implanté dans la capitale que partout ailleurs en France. Prenons un exemple classique, l’opéra : sur les 220 millions reçus par celui de Paris, 43 % proviennent de l’État, pas un centime de la ville ; sur les 26 millions alloués à l’Opéra national de Bordeaux – sans surprise, son budget est moindre –, 65 % le sont par la ville, 19 % par le ministère. Tournons-nous à présent vers les musées : rien d’étonnant à ce que celui du Louvre, le plus grand du monde, visité chaque année par plus de 7 millions de personnes, bénéficie de l’un des budgets les plus importants dans le cadre du financement national des établissements publics culturels. En revanche, comment expliquer que l’État ne verse au Louvre-Lens, cette antenne censée concourir à la démocratisation culturelle, que 300 000 euros par an, soit 2 % de ses recettes de fonctionnement – quatre fois moins que ce que lui verse la communauté d’agglomération de Lens-Liévin, trente-trois fois moins que la région des Hauts-de-France ?<br/>Ne nous méprenons pas sur le sens de la question qui nous est posée : il ne s’agit pas de déshabiller Pierre pour habiller Paul et de croire remédier ainsi à l’inégale répartition des financements. Jamais la mise en concurrence ne résoudra les problèmes posés par une forme d’austérité budgétaire. Fragilisées par la crise sanitaire, les structures publiques sont loin de crouler sous les subventions : comme l’a montré un récent numéro de l’émission « Complément d’enquête », la culture, ce bien commun, dépend de plus en plus du bon vouloir des milliardaires et grandes entreprises qui, sous le couvert de généreux mécénats, mènent des affaires lucratives : déductions d’impôts à gogo, mais aussi avantages en nature tels qu’un droit de regard sur les programmations ou la jouissance d’espaces publics lors de soirées privées. Nous sommes ainsi sommés de remercier ce bon M. Bernard Arnault d’avoir créé la fondation d’entreprise Louis Vuitton ou acheté dernièrement, au prix de 43 millions d’euros, pour le musée d’Orsay, un tableau de Gustave Caillebotte. Au lieu d’entonner « Merci patron », il y aurait lieu de remercier le contribuable, qui a financé l’essentiel de cet achat, LVMH bénéficiant d’une réduction d’impôt égale à 90 % de la somme dépensée !<br/>Le problème ne réside donc pas dans l’existence de ces financements en Île-de-France, mais dans leur insuffisance globale en vue d’un égal accès des Français à la culture. Or celui-ci ne peut être assuré tant que les enjeux culturels restent à la charge des collectivités territoriales, lesquelles, prises entre l’explosion des prix de l’énergie et la baisse continue des dotations, peinent de plus en plus à boucler leur budget.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2211372" ordre_absolu_seance="42" id_acteur="PA794138" id_mandat="PM796734" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3029186" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Ségolène Amiot</nom>
+              <id>794138</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2352.27">Elle a raison !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2211373" ordre_absolu_seance="43" id_acteur="PA791824" id_mandat="PM797808" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="3029187" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Sarah Legrain</nom>
+              <id>791824</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2417.86">Il conviendrait – attention, je vais tenir des propos osés – de nous doter d’une vraie politique culturelle, où l’État retrouve toute sa place ; car dans la culture comme ailleurs, quand on tranche dans les dépenses publiques, l’égalité et la démocratie sont les premières victimes. Nous, députés du groupe LFI-NUPES, souhaitons une nouvelle étape en matière de démocratisation culturelle : la reprise de grands travaux pour un service public de la culture, pour l’abrogation des inégalités territoriales concernant les structures de diffusion et de mémoire, au bénéfice des quartiers populaires, zones rurales et territoires ultramarins. Il n’y aurait rien de révolutionnaire à cela, puisque les entités compétentes existent déjà : je parle bien entendu des Drac, que vous asphyxiez progressivement, et qui jouent pourtant un rôle essentiel en matière d’articulation entre politiques culturelles nationale et locales. En leur redonnant des moyens dignes de ce nom, nous pourrions organiser les travaux nécessaires à la rénovation du patrimoine, ainsi qu’à la construction de nouvelles structures. Fin octobre, madame la ministre, lors de l’examen du projet de loi de finances (PLF) pour 2023, je vous demandais où se trouvait la culture dans ce budget, et je vous proposais de consacrer aux dépenses publiques culturelles 1 % du PIB : cette préconisation reste d’actualité, car elle permettrait de remédier aux inégalités territoriales ! <italique>(Applaudissements sur les bancs du groupe LFI-NUPES.)</italique></texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2211374" ordre_absolu_seance="44" id_acteur="PA795746" id_mandat="PM797661" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3029188" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Antoine Léaument</nom>
+              <id>795746</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2497.63">Bien vu !</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Emmanuelle Anthoine (LR)" id_acteur="PA719318" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796470">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2211375" ordre_absolu_seance="45" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029189" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2498.30">La parole est à Mme Emmanuelle Anthoine.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2211376" ordre_absolu_seance="46" id_acteur="PA719318" id_mandat="PM796470" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029190" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Emmanuelle Anthoine (LR)</nom>
+              <id>719318</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2511.54">Le thème de ce débat est particulièrement bienvenu : à l’automne dernier, en effet, j’avais choisi de m’intéresser au problème, dans le cadre de l’examen du projet de loi de finances pour 2023, en vue de mon rapport pour avis portant sur les crédits de la mission <italique>Culture</italique>. J’avais signalé à cette occasion le fait que la répartition des crédits continue de s’opérer au profit des monuments franciliens : en 2021, la région a ainsi bénéficié de 67 % des crédits exécutés dans le cadre du programme 175, <italique>Patrimoines</italique>. C’est dans le domaine patrimonial, du reste, que la concentration en région parisienne des crédits du ministère de la culture est la plus importante : 90 % des fonds consacrés au patrimoine des musées de France et 85 % de ceux prévus en faveur des acquisitions et de l’enrichissement des collections publiques y sont condensés – on a affaire à une hyperconcentration, pour reprendre l’intitulé du débat. Treize opérateurs franciliens de l’État doivent recevoir en 2023 36 % des crédits de paiement de ce programme, alors même qu’ils disposent de ressources importantes : en 2019, quand le taux de ressources propres des institutions patrimoniales et architecturales était en moyenne de 43,3 %, il atteignait 58 % pour le musée du Louvre – ce qui n’empêchera pas celui-ci de percevoir en 2023 plus de 96 millions de crédits de paiement, soit 8,74 % du programme 175.<br/>Afin de répondre aux critiques concernant cette concentration des moyens, le ministère de la culture, à l’occasion du plan de relance, affichait pour objectif d’irriguer les territoires : en réalité, seuls 34 % des crédits culturels découlant du plan ont été destinés à ces derniers. Dès lors, madame la ministre, ne pourrions-nous envisager un redéploiement partiel des crédits dévolus aux grands opérateurs parisiens, qui sont en mesure d’accroître encore leurs ressources propres ? Les montants dont ils bénéficient sont tels que le simple fait d’en rogner les marges permettrait de financer plusieurs sites dans les territoires. Ainsi du musée des Civilisations de l’Europe et de la Méditerranée (Mucem), dernier-né des opérateurs de l’État intervenant dans le périmètre de l’architecture et des musées de France : sa création a suivi celles de la Cité de l’architecture et du patrimoine, du musée du quai Branly et du palais de la Porte-Dorée, tous implantés à Paris.<br/>Dans mon rapport, je suggérais de privilégier à l’avenir la création d’opérateurs culturels hors de la région francilienne. Ne pensez-vous pas, madame la ministre, que le principe de l’implantation dans les territoires des futurs grands musées nationaux devrait devenir la règle ? Si l’on s’intéresse aux grands projets, on constate que 72 % des crédits sont destinés à la région Île-de-France. Cette tendance devrait se poursuivre avec la perspective de l’entrée en travaux en 2024 du centre Pompidou, dans le cadre de son schéma directeur. La politique patrimoniale de l’État dans les territoires ne peut pas se réduire au projet de Cité internationale de la langue française de Villers-Cotterêts. D’autres grands projets doivent irriguer les différentes régions ; leur impact nourrira, notamment, l’économie locale.<br/>Vous pourriez arguer, madame la ministre, que le patrimoine monumental appartenant à l’État est davantage implanté en Île-de-France. Outre qu’une telle affirmation doit être fortement relativisée, elle ne serait de toute façon pas valide. À périmètre constant, l’enveloppe allouée aux collectivités territoriales et aux propriétaires privés pour les travaux d’entretien des monuments historiques n’appartenant pas à l’État n’a pas évolué depuis 2018, en dépit de l’inflation importante ; c’est donc, à prix constants, une baisse de moyens que l’on observe. Pire, les dépenses du ministère en faveur de la restauration de ces mêmes monuments ont baissé de 9 % en onze ans ! Cette enveloppe concerne pourtant essentiellement le patrimoine vernaculaire qui fait la richesse de nos territoires. La situation est même plus grave puisque, d’année en année, 30 % des crédits qui nous intéressent ne sont pas consommés. Dans mon rapport, j’avais d’ailleurs appelé à une attention particulière pour mettre fin à cette sous-consommation qui pénalise les territoires.<br/>Nous le voyons bien : des leviers existent pour rééquilibrer le budget en faveur des territoires et mettre fin à l’hyperconcentration des crédits en Île-de-France. Madame la ministre, cela nécessite une politique résolue de votre part. Si le fonds incitatif et partenarial représente une avancée, il demeure largement insuffisant pour répondre à l’enjeu. <italique>(Applaudissements sur les bancs du groupe LR.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Mathilde Desjonquères (Dem)" id_acteur="PA794194" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM802639">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2211310" ordre_absolu_seance="51" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029393" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2532.14">La parole est à Mme Mathilde Desjonquères.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2211311" ordre_absolu_seance="52" id_acteur="PA794194" id_mandat="PM802639" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029394" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Mathilde Desjonquères (Dem)</nom>
+              <id>794194</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2848.46">La culture représente aujourd’hui 105,5 milliards d’euros, soit 3,2 % de la richesse nationale, et 670 000 emplois. Ce secteur est de fait une véritable économie dans laquelle il est nécessaire d’investir. Je me réjouis donc de la hausse de 271 millions d’euros du budget du ministère de la culture pour 2023. La culture est un vaste ensemble regroupant différents domaines comme l’édition, le cinéma et les arts du spectacle vivant. Le patrimoine est également un pan essentiel du secteur, qu’il convient de protéger et de valoriser. L’approche territoriale revêt ici une importance particulière. Les territoires sont en effet, plus que jamais, un enjeu de politique publique, les équilibres territoriaux ayant été redessinés à la faveur de l’acte III de la décentralisation au cours de la dernière décennie. Le glissement de focale du territoire national aux territoires est le signe d’une volonté de saisir les dynamiques spatiales afin de mieux articuler les enjeux locaux aux politiques publiques nationales. Je me réjouis ainsi de l’ouverture de musées nationaux en régions, avec le Louvre-Lens et le centre Pompidou-Metz, des projets cofinancés par l’État et les collectivités. Il faut continuer d’encourager, à l’avenir, cette logique consistant à faire sortir la culture de Paris et à favoriser une politique du « aller vers ».<br/>La répartition par zone d’emploi confirme que les professions culturelles se concentrent d’abord dans les grandes métropoles régionales, territoires centraux pour les activités culturelles. Les 211 000 professionnels de la culture que compte Paris représentent 6 % de l’ensemble de ses actifs. À Lyon, Montpellier et Strasbourg, cette proportion s’établit à 3 %, et les zones d’emploi des autres grandes métropoles régionales comme Bordeaux, Lille, Marseille, Nantes, Nice, Rennes ou Toulouse comptent toutes plus de 2 % de professionnels de la culture. S’agissant de la répartition territoriale des établissements culturels employeurs, rapportée à celle de la population, on constate une prépondérance de l’Île-de-France : la région compte vingt-cinq entreprises de ce secteur pour 10 000 habitants ; c’est onze points de plus que Provence-Alpes-Côte d’Azur et la Corse, les deux régions les mieux dotées après elle selon ce critère. En comparaison, les Hauts-de-France ne sont dotés que de sept établissements pour 10 000 habitants. En raison de cette concentration des équipements nationaux et des grands opérateurs culturels dans la région capitale, la dépense culturelle du ministère dédié, rapportée au nombre d’habitants, est particulièrement élevée en Île-de-France, à 202 euros par habitant, soit dix fois plus que dans les autres régions.<br/>En parallèle, nous observons que la dépense par habitant des collectivités est de nature à compenser, en partie, le plus faible niveau de dépense du ministère de la culture. C’est le cas pour la région Pays de la Loire par rapport aux régions Centre-Val de Loire et Nouvelle-Aquitaine, qui bénéficient d’un niveau de dépense du ministère plus élevé. Le constat de compensation observé en Pays de la Loire peut s’appliquer également à la région Normandie. À l’inverse, l’Île-de-France et la région Provence-Alpes-Côte d’Azur cumulent des niveaux élevés de dépenses des collectivités territoriales et du ministère de la culture.<br/>Cependant, ces inégalités territoriales sont en quelque sorte compensées par des particularités régionales. En effet, le poids des entreprises employeuses dans le domaine de l’architecture, par exemple, est relativement plus important en Corse et en Bretagne, où elles représentent respectivement 18 % et 17 % de l’ensemble des établissements culturels, contre 12 % en moyenne nationale. Les entreprises d’arts visuels ont un poids légèrement plus élevé en Provence Alpes-Côte d’Azur – à 11 %, contre 9 % en moyenne nationale. Quant aux entreprises du livre et de la presse, elles ont une importance relativement plus élevée en Guadeloupe et en Corse. En Bourgogne-Franche-Comté, dans le Centre-Val de Loire et en Occitanie, les entreprises marchandes et non marchandes du spectacle vivant représentent plus du tiers de l’ensemble des entreprises culturelles employeuses.<br/>Si Paris rassemble donc effectivement une part importante des dépenses, cette concentration budgétaire ne doit pas se penser comme une fatalité mais comme un moteur face à la concurrence des grandes capitales européennes et mondiales ; elle fait jouer à l’Île-de-France le rôle de locomotive pour l’ensemble de notre territoire. Cet emboîtement est somme toute logique face à la structuration d’une économie culturelle vivante, alors que les territoires savent faire vivre la culture dans toutes ces ramifications. L’exemple de la politique proactive de mon département du Loir-et-Cher en faveur de la lecture publique, avec un réseau de 129 bibliothèques, en est une parfaite illustration.<br/>Se pose ici également la question de la mise en concurrence des territoires induite par ce déséquilibre budgétaire. La vie culturelle de nos territoires relève d’une richesse unique, vivante et équivalente – quoique hétérogène – en matière de création, d’animation et de valorisation. Suffit-elle véritablement à pallier les inégalités territoriales financières ? Le croisement entre économie culturelle et tourisme constituera l’une des réponses essentielles à cette question ; il permettra ne pas laisser penser que les investissements plus importants du ministère en Île-de-France sont une simple fatalité.<italique> (Applaudissements sur quelques bancs du groupe RE.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Valérie Rabault (SOC)" id_acteur="PA609590" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM797742">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2211317" ordre_absolu_seance="58" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029400" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3114.71">La parole est à Mme Valérie Rabault.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2211318" ordre_absolu_seance="59" id_acteur="PA609590" id_mandat="PM797742" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029401" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Valérie Rabault (SOC)</nom>
+              <id>609590</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3134.95">Le groupe LIOT invite le Gouvernement, et nous invite, à réfléchir à la question de l’hyperconcentration en Île-de-France des dépenses du ministère de la culture – tout en se demandant s’il s’agit d’une fatalité. Pour ma part, je ne le crois pas et je pense que cette question est très pertinente. Elle rejoint en effet le souhait d’André Malraux qui, dès 1959, au moment de créer le ministère de la culture, avait voulu que les Drac nouvellement installées fassent vivre la culture dans tous les territoires de notre pays. Lors de l’examen de la loi de finances pour 1968, il avait encore souligné : « Il faut poursuivre le développement des services régionaux, notamment dans le domaine de l’architecture, mais ne pas éparpiller les crédits. Cette implantation régionale est indispensable, elle est amorcée, elle se poursuivra et permettra d’accentuer la déconcentration. » André Malraux avançait en fait sur deux jambes : déconcentrer, mais aussi ne pas éparpiller les crédits. On sait en effet qu’en matière de création, des choix doivent être assumés.<br/>Jack Lang, un autre de vos illustres prédécesseurs, madame la ministre, évoquait l’hyperconcentration à cette tribune le 17 novembre 1981, lors d’un discours sur la culture : « [La] culture n’est pas la propriété d’une ville, fût-elle la capitale. Le phénomène est connu : des siècles de centralisation ont trop souvent dépossédé les provinces de leurs richesses et de leur dignité. Aujourd’hui encore, telle une pompe aspirante, la capitale draine vers elle artistes, intellectuels et créateurs. On rêve d’un dialogue à mille voix, et retentit seulement un soliloque. Le pays a tout à gagner à la résurrection des mémoires enfouies et au réveil des imaginations bridées. Finie la culture octroyée d’en haut, même d’une tribune, comme ici ce soir, telles ces miettes de profit que Mme Boucicaut, la dame du Bon Marché, distribuait jadis au bon peuple. Chaque homme de culture doit aujourd’hui savoir que, quel que soit l’endroit où il est né, quel que soit l’endroit où il vit, il a un plein droit à poursuivre son œuvre sur place. » Je crois, madame la ministre, que tout est dit. Deux de vos illustres prédécesseurs qui ne partageaient pas les mêmes opinions politiques – l’un de droite, l’autre de gauche – se sont pleinement rejoints sur la question de décentralisation de la culture.<br/>Vous savez que j’aime les chiffres et, puisque le groupe LIOT nous y invite, j’ai consulté ceux qui sont présentés de manière très claire dans l’Atlas Culture publié par votre ministère. Ils montrent que, sur les 3,8 milliards d’euros de crédits de votre ministère, 2,3 milliards sont destinés à l’Île-de-France. Cela représente tout de même une moyenne de 195 euros par habitant dans cette région, quand chaque habitant d’Occitanie reçoit quant à lui 24 euros du ministère de la culture – et je ne parle pas de la Corse, où la moyenne tombe à 13 euros par habitant, ni des territoires d’outre-mer pour lesquels toutes les données ne sont pas renseignées. Je crois, madame la ministre, que personne sur ces bancs ne peut se satisfaire de cette situation. En effet, l’hyperconcentration est en contradiction avec les objectifs de la culture, avec son essence et avec ce que vous-même et l’ensemble de vos prédécesseurs avez défendu.<br/>La Cour des comptes a publié en mai 2022 un rapport très intéressant sur le soutien du ministère de la culture au spectacle vivant, dans lequel elle relève deux écueils. Elle indique que « l’administration centrale ne dispose pas des outils de collecte et d’exploitation des données permettant d’éclairer utilement l’action publique », mais aussi que « [le] rôle crucial des Drac dans l’animation de la politique du spectacle vivant au niveau régional devrait également être mieux valorisé par l’échelon central du ministère ». Il me semble que tout est dit : il faut que les Drac aient un véritable pouvoir de décision et il convient, pour ce faire, que l’allocation des crédits soit plus égalitaire. Personne ne niera qu’il y a de nombreuses scènes nationales en Île-de-France, en particulier à Paris. Mais l’écart est important, de 195 à 24 euros par habitant, et je ne crois pas qu’un habitant d’Occitanie vaille huit fois moins qu’un Francilien – en tout cas, je ne l’espère pas !<br/>Je voudrais enfin, madame la ministre, évoquer un dernier exemple. Vous vous appuyez, à raison, sur la labellisation et sur les scènes conventionnées pour disposer de critères objectifs ; on sait en effet que tout ne se vaut pas et que la création n’est pas la même chose que l’animation. Le département du Tarn-et-Garonne, où je suis élue, est le seul parmi les treize départements de la région Occitanie à ne pas avoir de scène conventionnée d’intérêt national (Scin) reconnue par votre ministère. Résultat : nous sommes le département d’Occitanie – une région déjà moins dotée que d’autres – qui reçoit le moins de l’État ! Vous me répondrez, madame la ministre, qu’il ne tient qu’à nous de monter une Scin. C’est ce que nous sommes en train de faire avec Tarn et Garonne arts &amp; culture – anciennement l’association départementale pour le développement des arts (Adda). Mais encore une fois, on demande beaucoup aux acteurs locaux et un petit coup de pouce de votre ministère serait le bienvenu. <italique>(Applaudissements sur les bancs des groupes LFI-NUPES, Écolo-NUPES et GDR-NUPES.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Jérémie Patrier-Leitus (HOR)" id_acteur="PA793398" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796302">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2211323" ordre_absolu_seance="64" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029422" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3450.12">La parole est à M. Jérémie Patrier-Leitus.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2211324" ordre_absolu_seance="65" id_acteur="PA793398" id_mandat="PM796302" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029423" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Jérémie Patrier-Leitus (HOR)</nom>
+              <id>793398</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3459.80">« À Paris, les théâtres impériaux, chargés de l’âme de la jeunesse […] ! Le théâtre, pour Stendhal […], ce n’était pas Grenoble, c’était Paris. […] Et que dire de la musique, de la peinture ! Napoléon avait créé le plus grand musée du monde, il l’avait créé au Louvre. » C’est ainsi que Malraux décrivait le fossé culturel entre Paris et le reste de la France lors de l’inauguration de la maison de la culture de Grenoble, le 4 février 1968.<br/>Ce fossé est notre héritage historique. Les politiques culturelles ont permis pendant plus d’un demi-siècle de développer les institutions nationales à travers le territoire et de renforcer ce que d’aucuns appellent la « décentralisation culturelle », mais l’hyperconcentration en région parisienne reste une réalité. Alors que nombre de nos concitoyens craignent d’être abandonnés des politiques publiques, je me réjouis que votre ministère, madame la ministre, ait fait de l’égalité territoriale une priorité.<br/>Car cette hyperconcentration se vérifie dans les pratiques des Français. En 2018, 39 % des personnes vivant en zone rurale déclaraient être allées à au moins un spectacle vivant au cours des douze mois précédents, contre 69 % des habitants de Paris. Preuve supplémentaire, plus de cinquante ans après son lancement, le plan Malraux-Landowski, dont l’objet était de doter chaque région d’un orchestre permanent et d’un conservatoire national, n’est toujours pas complété, malgré un réseau culturel d’une richesse inégalée. Dans le même temps, et pour paraphraser un autre de vos illustres prédécesseurs, nous pouvons dire que si la Mairie de Paris fermait du jour au lendemain le Théâtre du Châtelet, le musée Carnavalet, le Petit Palais et tous les établissements dont elle a la charge, les Parisiens garderaient toujours la meilleure offre culturelle de France, voire du monde.<br/>L’État en finance en effet l’essentiel et, chaque année, la concentration de ses dépenses se perpétue. Les chiffres sont connus, ils ont été cités par les autres orateurs. Les fleurons culturels qui assurent le rayonnement international de la France sont presque tous parisiens. Cette dépense contrainte, même si elle est tout à fait légitime, pèse lourd dans le budget de la culture. Le Louvre, avec 7,8 millions de visiteurs, et le musée d’Orsay, avec 3,2 millions de visiteurs en 2022, contribuent à faire de Paris la première destination touristique mondiale. Ils apportent aussi à notre pays un prestige et un rayonnement culturel incontestables.<br/>Mais il n’y a pas de fatalité et votre ministère, comme le montrent de nombreuses initiatives, entend développer la culture dans les territoires. Je pense aux trente-huit centres dramatiques nationaux (CDN), aux soixante-seize scènes nationales, aux dix-neuf centres chorégraphiques nationaux et aux dix-sept scènes conventionnées d’intérêt national. Je pense aussi à l’importance qu’ont prise les Drac, services déconcentrés du ministère.<br/>Parmi les initiatives récentes, je me réjouis du déploiement des Micro-Folies, si précieuses dans les territoires qui comptent peu d’équipements culturels, et de l’ambition du pass culture. Je salue le renforcement, cette année, du FIP, qui apporte une première aide non négligeable à la sauvegarde du petit patrimoine local.<br/>Mais cela représente bien peu à côté des dizaines, parfois des centaines de millions d’euros consacrés à la restauration d’un seul établissement public.<br/>Comment le ministère peut-il réorienter ses dépenses en faveur des territoires ?<br/>Tout d’abord, il peut choisir d’implanter systématiquement les futurs grands musées et autres établissements nationaux hors de la région parisienne. De leur côté, les grandes institutions parisiennes pourraient systématiser et amplifier leur politique de partenariat et de diffusion dans les régions, à l’instar de ce que fait le centre Pompidou avec le MuMo – le musée mobile. Après les Micro-Folies, pourquoi ne pas développer le concept des camions culturels itinérants, qui permettraient à chaque département de disposer d’un musée mobile et de déployer une offre culturelle dans les<italique> </italique>territoires les plus éloignés des circuits culturels habituels ?<br/>Le ministère de la culture pourrait aussi se recentrer sur son rôle de stratège, en déléguant certaines compétences et en transférant des moyens aux collectivités, comme il le fait avec la Corse depuis 2002. <italique>A contrario</italique>, il pourrait reprendre les missions qu’il est le mieux à même d’exercer, en redevenant propriétaire des soixante-cinq cathédrales, qui appartiennent aujourd’hui, du fait de l’histoire, aux communes. Il prendrait ainsi en charge une plus grande part des dépenses patrimoniales dans les territoires et soulagerait les communes rurales, incapables d’assurer la maîtrise d’ouvrage et le financement. Par ailleurs, dans le cadre de sa politique de soutien aux associations, le ministère devrait envisager d’inclure plus systématiquement dans ses conventions pluriannuelles d’objectifs l’intervention dans les territoires et l’itinérance culturelle en milieu rural.<br/>Il me semble que ces pistes méritent d’être étudiées, madame la ministre. Je dirai, pour conclure, que le soutien au patrimoine local et aux acteurs culturels locaux est bien plus qu’une simple question d’égalité arithmétique. Il y va du dynamisme culturel des communes, de la préservation du patrimoine des régions, et même du respect de la promesse d’égalité républicaine. Nous le devons aux habitants des territoires ruraux, à ceux des petites et moyennes communes, de cette France que l’on dit périphérique.<br/>Vous me permettrez, pour terminer mon propos, d’emprunter à nouveau la plume de Malraux. En présentant les crédits du ministère des affaires culturelles pour 1969, il déclarait : « L’essentiel des maisons de la culture, c’est la décentralisation, la fin du privilège parisien et le développement en province de foyers de diffusion, mais aussi de création artistique, c’est la conquête progressive d’un public qui ne serait allé ni au théâtre ni au concert ni au musée, parce qu’il n’en avait pas la possibilité matérielle ou parce qu’il pensait que cela ne le concernait pas. »</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Sophie Taillé-Polian (Écolo-NUPES)" id_acteur="PA736201" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM797523">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2211340" ordre_absolu_seance="77" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029439" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3784.37">La parole est à Mme Sophie Taillé-Polian.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2211341" ordre_absolu_seance="78" id_acteur="PA736201" id_mandat="PM797523" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029440" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Sophie Taillé-Polian (Écolo-NUPES)</nom>
+              <id>736201</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3798.91">Je souhaite remercier le groupe LIOT d’avoir proposé ce débat. Au groupe Écologiste-NUPES, nous partageons l’idéal d’une politique culturelle populaire décentralisée qui irriguerait tous les territoires et tous les publics. Cependant, en tant qu’élue de banlieue parisienne, je ne peux souscrire totalement à l’intitulé du débat. Car Paris n’est pas Saint-Denis et Versailles n’est pas Villejuif, la ville où je réside et où je suis élue. On parle trop souvent des départements franciliens, ou de la banlieue parisienne, comme des périphéries de Paris. Ce regard centralisateur invisibilise les villes de banlieue, tout particulièrement les quartiers populaires, aussi bien que les régions.<br/>Envisager l’Île-de-France comme un bloc homogène me semble une erreur. Dès lors, il me paraît surprenant d’aborder la question de la fracture culturelle française sans poser la question du développement de la culture dans les quartiers populaires, dans les campagnes, dans les villages. Car les freins qui empêchent les jeunes de fréquenter les grandes institutions culturelles existent, même quand ces dernières sont à portée de RER ou de métro. Le pass culture, trop tourné vers la consommation, ne permet pas de lever ces freins. Ne faudrait-il pas ventiler les moyens, non seulement par territoire, mais aussi par catégorie socioprofessionnelle des groupes touchés ? Les relégués de la République, qu’ils vivent dans les zones rurales ou en ville, ont beaucoup de points communs.<br/>Il n’y a pas que la concentration géographique qui fasse obstacle à la démocratisation culturelle. Une politique culturelle populaire, c’est une politique qui ne va pas que dans un sens. Oui au rayonnement des Cultures – avec une majuscule ! Il faut agir pour que les grandes œuvres, les classiques mais aussi les travaux les plus novateurs, les plus pointus, d’inspirations les plus diverses, ne soient pas réservés à une élite, qu’ils soient accessibles au plus grand nombre, qu’ils puissent aussi être fabriqués par le plus grand nombre, par des citoyens de tous les territoires mais aussi de toutes les origines sociales.<br/>Tout ce qui anime la vie quotidienne culturelle des Françaises et des Français doit être précieusement consolidé au niveau local. Car la culture est partout, elle est ce que créent les gens : les manifestations, les fêtes de village, le patrimoine, les festivals et concerts, les librairies, les théâtres de quartier, les tiers-lieux associatifs, les commémorations, internet et les émissions de télévision ou de radio locales. Pour qu’à la relégation sociale et économique ne s’ajoute pas la relégation culturelle, la création doit naître dans les territoires. L’État doit être davantage aux côtés de ceux-ci car le rôle des politiques culturelles est aussi de valoriser ces initiatives qui partent des gens, qui font vivre des cultures au pluriel.<br/>En Île-de-France, du point de vue des politiques culturelles, la logique de construction de la métropole du Grand Paris est plutôt celle d’un rayonnement de Paris vers sa périphérie plutôt que d’une irrigation mutuelle.<br/>Il faut que l’État se donne les moyens de ce foisonnement culturel dans tous les territoires. La fragilisation des collectivités territoriales n’aide pas les politiques culturelles, dont on sait qu’elles sont très majoritairement financées par ces collectivités. Les crédits consacrés à la culture sont les premiers à être coupés, je le regrette tout particulièrement, et c’est à l’État qu’il conviendrait d’intervenir. La culture dans les territoires, ce sont aussi les médias locaux qui la font vivre, en valorisant la vie culturelle locale. Les médias publics – France 3, France Bleu – doivent être soutenus, non optimisés à marche forcée, au mépris des conditions de travail et des compétences présentes en leur sein. Le financement de l’audiovisuel public doit être conforté, mais nous en parlerons encore et encore, madame la ministre.<br/>La déclinaison locale du Conseil national des territoires pour la culture (CTC), créé par Roselyne Bachelot – on peut aussi citer une femme ministre de la culture, on ne va pas se limiter à énumérer les grands hommes ! –, représente un outil intéressant pour favoriser le dialogue et la coordination des initiatives culturelles entre l’État et les territoires. Si le niveau régional auquel il demeure fixé peut l’empêcher de dialoguer finement avec les territoires, donnons-lui, à tout le moins, plus de moyens pour inventer, sur le terrain, les politiques culturelles de demain, au plus près des gens.<br/>En tant qu’écologistes, nous affirmons que les politiques culturelles doivent être partout, au bénéfice du plus grand nombre. C’est la meilleure porte de sortie qu’on puisse trouver à cette société de consommation qui gave les uns de l’artificiel et prive les autres, la majorité, de l’essentiel. Pour cela, défendons l’ambition d’une République écologiste et culturelle ! <italique>(Applaudissements sur les bancs des groupes Écolo-NUPES, LFI-NUPES et GDR-NUPES.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Soumya Bourouaha (GDR-NUPES)" id_acteur="PA720838" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM797865">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2211351" ordre_absolu_seance="86" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029450" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4028.10">La parole est à Mme Soumya Bourouaha.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2211352" ordre_absolu_seance="87" id_acteur="PA720838" id_mandat="PM797865" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029451" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Soumya Bourouaha (GDR-NUPES)</nom>
+              <id>720838</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4151.75">Je veux d’abord remercier le groupe LIOT d’avoir provoqué un débat autour de la culture dans cet hémicycle. Les discussions de ce type sont beaucoup trop rares et se résument souvent à l’examen des crédits de la mission, dans le cadre du projet de loi de finances. C’est la question des crédits et des dépenses que vous avez, chers collègues, souhaité mettre en avant.<br/>De fait, les dépenses sont plus importantes en région parisienne, même s’il faut reconnaître que, depuis plusieurs années, des efforts ont été consentis. Que la plupart des opérateurs de l’État soient présents en région parisienne explique ce fait, mais en partie seulement. La concentration des crédits de la culture est autant la conséquence d’un développement territorial peu équilibré que celle de politiques publiques qui tendent à renforcer la concentration des moyens.<br/>Les députés du groupe LIOT ont choisi de retenir comme périmètre la région Île-de-France, qui capte l’essentiel des crédits du ministère de la culture au détriment des autres collectivités. Je comprends cette logique car elle renvoie à une réalité administrative et budgétaire, celle des Drac, mais je me permets de souligner que l’Île-de-France recouvre des réalités très hétérogènes : une hyperconcentration des richesses comme une hyperconcentration de pauvreté, des déserts médicaux, des déserts de services publics et des zones blanches culturelles. Il est possible de dénoncer une hyperconcentration au sein même de l’Île-de-France : la part de Paris dans les crédits du programme 131, <italique>Création</italique>, alloués à la région était de 50 % en 2016. J’invite donc à une analyse plus fine, au sein même de la région. La question des crédits consacrés à la culture ne peut se résumer à l’opposition entre la région Île-de-France et le reste du pays.<br/>J’en viens au terme de fatalité. En politique, celle-ci n’existe pas si tant est qu’on se donne les moyens d’atteindre un objectif préalablement fixé. La question n’est donc pas de savoir s’il s’agit d’une fatalité, mais à partir de combien, en valeur absolue et en pourcentage, nous considérons qu’il n’y a plus d’hyperconcentration, à partir de combien et selon quels indicateurs nous considérons que les crédits consacrés par l’État à la culture sont suffisamment bien répartis entre les régions.<br/>La question centrale de ce débat est de savoir comment réduire l’écart entre les crédits destinés à l’Île-de-France et ceux destinés aux autres régions, tout en ayant à l’esprit la réalité très hétérogène du territoire francilien.<br/>La première option consisterait à redéployer les crédits alloués à l’Île-de-France vers les autres régions de France. Vous comprendrez qu’en tant qu’élue de Seine-Saint-Denis, je considère que ce n’est absolument pas souhaitable. Adjointe à la culture à la mairie de La Courneuve pendant plus de dix ans, je n’ai jamais eu le sentiment de crouler sous les fonds du ministère, bien au contraire. La fin de la concentration des crédits ne peut se traduire par une baisse des crédits en Île-de-France.<br/>L’autre option consisterait à augmenter plus rapidement les crédits dédiés à la culture dans les autres régions de France. Ainsi, la part relative de l’Île-de-France diminuerait sans que les crédits de la région, eux-mêmes, soient appelés à baisser. Cela ne peut se traduire que par un investissement massif dans la culture, une hausse de la dépense publique, notamment au travers des Drac. Je ne peux que souscrire à cette perspective car nous ne défendons rien d’autre lors de l’examen du PLF, chaque année.<br/>Chers collègues, je partage les grands axes de votre constat. Le patrimoine local est souvent abandonné, les collectivités territoriales ou propriétaires privés laissés sans solution. La question est financière mais elle se pose aussi en termes d’ingénierie et d’expertise. Les Drac doivent avoir plus de moyens pour accompagner les collectivités et les particuliers dans l’entretien et la valorisation du patrimoine local. Il en est de même avec l’éducation artistique et culturelle, qui est le levier principal pour amener de la culture partout.<br/>Cette éducation passe aussi par l’école. J’en profite pour souligner que l’Île-de-France est dans le même bateau que les autres régions pour ce qui est des fermetures de classes et de la baisse des dotations horaires. Aussi, nous appuyons la volonté du groupe LIOT d’investir massivement dans la culture pour mettre fin aux zones blanches culturelles, qu’elles soient en Île-de-France ou ailleurs sur le territoire. <italique>(Applaudissements sur les bancs des groupes GDR-NUPES, LFI-NUPES, SOC et Écolo-NUPES.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Rima Abdul-Malak, quali  ministre de la culture" id_acteur="PA791650" id_nomination_oe="PM791708" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2211472" ordre_absolu_seance="96" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029151" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4463.14">La parole est à Mme la ministre de la culture.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2211473" ordre_absolu_seance="97" id_acteur="PA791650" id_mandat="-1" id_nomination_oe="PM791708" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029152" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Rima Abdul-Malak</nom>
+              <id>791650</id>
+              <qualite>ministre de la culture</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="4491.20">Je me réjouis que nous puissions dans cet hémicycle parler de culture et je remercie vivement le groupe LIOT d’avoir choisi de mettre à l’ordre du jour ce débat passionnant. Je ne partage toutefois pas totalement le constat qui a été dressé, j’y reviendrai.<br/>Vous avez tous déjà fait des citations de mes illustres prédécesseurs, je me dispenserai donc de vous lire celles que j’avais prévues. Vous avez souligné aussi la richesse de notre tissu culturel, avec nos multiples festivals, nos scènes nationales, nos trente-huit CDN, nos centres d’art, nos bibliothèques, nos cinémas. Je ne reviendrai pas sur les détails.<br/>Des données statistiques ont été évoquées. Les chiffres bruts, madame la présidente Rabault, recouvrent des réalités beaucoup plus complexes qu’il n’y paraît. Certes, en 2022, 58,7 % des crédits du ministère sont affichés comme ayant été dépensés en Île-de-France, contre 41,3 % dans les autres régions, mais ce taux ne reflète pas les actions menées réellement. Les sommes allouées aux établissements ayant leur siège à Paris leur permettent de mener des projets dans tout le territoire. Par ailleurs, cette répartition ne résulte pas d’un choix de ce gouvernement, elle s’inscrit dans une histoire longue : la Comédie-Française existe depuis 1680, le Louvre depuis 1793, l’Opéra Garnier depuis 1869 et les galeries du château de Versailles sont ouvertes au public depuis 1837. Il incombe à tout ministre de la culture, quel que soit son bord politique, la responsabilité d’entretenir ce patrimoine à la fois matériel et immatériel pour le transmettre aux générations futures. Voudriez-vous que nous arrêtions les nécessaires travaux de rénovation de ces lieux, que nous nous abstenions de restaurer le centre Pompidou, le Grand Palais ou le château de Versailles, que nous laissions ces bâtiments se délabrer au fil des ans ?<br/>Comme Jérémie Patrier-Leitus l’a souligné, ces lieux alimentent le tourisme, part importante de notre PIB et vecteur de notre force culturelle à travers le monde. Les touristes viennent à Paris aussi pour les monuments et les salles de spectacles, ce qui rejaillit sur notre économie. En 2019, l’Île-de-France a ainsi concentré un tiers des nuitées d’hôtel passées en France. Ne simplifions pas le débat.<br/>Notons aussi que ces institutions culturelles sont fréquentées par un public venu de toute la France. En 2022, la proportion de visiteurs français non franciliens était de 41 % pour le musée d’Orsay, 44 % pour le Louvre et 52 % pour le château de Versailles. Toute la France se rend dans ces grands établissements qui font partie de l’histoire de notre pays et de notre âme culturelle.<br/>Plus important encore, les missions de ces établissements culturels basés à Paris ont un caractère pleinement territorial. Depuis 2017, nous n’avons cessé de renforcer cette dimension dans leurs cahiers des charges, dans leurs missions, dans leurs projets. Il faut savoir, par exemple, que 89 % des 293 millions d’euros dont dispose l’Institut national de recherches archéologiques préventives (Inrap) pour son budget servent à financer des actions de diagnostic archéologique déployées hors de l’Île-de-France alors même que l’Institut a son siège à Paris et que l’affichage des crédits peut laisser supposer qu’ils ne sont destinés qu’à la capitale.<br/>Prenons encore l’exemple du pass culture dont 2,5 millions de jeunes bénéficient partout en France. Il y a eu autant de jeunes ayant utilisé leur pass dans les QPV que partout ailleurs en France. Une grande majorité des 20 000 acteurs culturels participant à ce dispositif se situent bien évidemment hors de Paris et 79 % des dépenses faites par les jeunes dans ce cadre sont localisées hors de l’Île-de-France.<br/>Depuis 2017, le budget consacré à l’EAC hors pass culture a doublé et vous vous doutez bien que nos priorités ne sont pas réservées à l’Île-de-France. Nous visons un déploiement dans les zones rurales et dans les quartiers défavorisés. Je remercie Philippe Lottiaux et Soumya Bourouaha d’avoir évoqué cette politique qui me tient particulièrement à cœur.<br/>Mme Anthoine a cité les opérateurs parisiens du patrimoine mais il faut bien voir que ceux-ci gèrent des monuments partout en France. Le Centre des monuments nationaux (CMN) a la responsabilité de 100 monuments répartis sur l’ensemble du territoire, de la villa Cavrois, dans le département du Nord, au cloître de la cathédrale de Fréjus dans le Var en passant par l’abbaye de Cluny, en Saône-et-Loire. La Réunion des musées nationaux (RMN), dont le siège est également à Paris, anime un réseau de musées dans toute la France, du musée national de la voiture à Compiègne au musée national Marc Chagall à Nice. Elle produit des expositions présentées partout dans notre pays : celle consacrée aux arts de l’Islam, élaborée avec le Louvre, a ainsi circulé dans dix-huit villes et le projet Muse, développé en collaboration avec le Grand Palais, a permis le déploiement d’expositions immersives à Saint-Dizier et Maubeuge et bientôt dans d’autres villes.<br/>Quant à l’établissement public de La Villette, si son budget est bien localisé à Paris, il coordonne depuis 2017 le magnifique projet des Micro-Folies partout en France : 370 sont déjà implantées et le cahier des charges prévoit d’en ouvrir beaucoup d’autres. Ces plateformes permettent de décentraliser nos collections, même s’il est bon aussi que les œuvres elles-mêmes circulent. Je citerai celle installée au musée de Nevers, gratuit pour les étudiants comme beaucoup d’autres musées de nos régions, celle du Carladès, première à avoir été mise en place dans le Cantal, celles de Corse, de Guadeloupe, de Mayotte, de La Réunion qui en compte deux.<br/>Venons-en à la Bibliothèque nationale de France (BNF), qui a la mission magnifique, depuis que le dépôt légal a été instauré par François I<exposant>er</exposant> en 1537, de préserver les documents de toute nature édités ou diffusés dans toute la France, presse comprise. Le portail Gallica, où sont présentés les documents qu’elle conserve sous forme numérisée, permet à quiconque sur notre territoire et même dans le monde d’accéder à ses trésors. Je mentionnerai aussi l’ouverture à Amiens de l’un de ses nouveaux pôles pour un investissement de plus de 100 millions d’euros.<br/>De nombreuses pièces montées à la Comédie-Française partent en tournée. Chaque saison, 100 à 150 représentations sont ainsi données en région. L’itinérance est une part importante de son cahier des charges comme de celui de toutes les scènes subventionnées par le ministère de la culture – je rejoins Violette Spillebout sur ce point. L’Opéra national de Paris vient de lancer le projet L’Opéra en Guyane, projet auquel je tiens beaucoup, orienté vers la détection de nouveaux talents afin de les préparer à intégrer l’école de danse et l’Académie et vers le développement d’ateliers sur l’ensemble des territoires ultramarins. Je pourrais continuer ainsi pendant longtemps. Vous voyez bien que les actions menées par les grands établissements publics du ministère ne s’arrêtent pas aux frontières de l’Île-de-France mais se diffusent sur l’ensemble de nos territoires pour l’ensemble des publics.<br/>Bien sûr, nous devons aller encore plus loin, conformément aux engagements pris par le Président de la République et par le Gouvernement depuis 2017. L’exemple le plus emblématique est la Cité internationale de la langue française à Villers-Cotterêts. Pour en prendre véritablement la mesure, il faut rappeler que les projets lancés par les précédents présidents de la République étaient tous situés à Paris : Georges Pompidou avec son centre éponyme, Valéry Giscard d’Estaing avec la transformation de la gare d’Orsay en musée, François Mitterrand avec le Grand Louvre, le parc de La Villette, l’Opéra Bastille, le site Tolbiac de la BNF, Jacques Chirac avec la création du musée du quai Branly et du Musée national de l’histoire de l’immigration. Emmanuel Macron fait la différence : l’État a investi près de 200 millions dans la restauration du château, abandonné depuis des décennies, de Villers-Cotterêts, commune rurale de 10 000 habitants du département de l’Aisne dans les Hauts-de France. La Cité s’appuie sur une ambition forte : présenter la langue française dans un dialogue avec les langues régionales et les langues qui l’influencent dans le monde. Il s’agit d’un projet d’ouverture et d’attractivité pleinement ancré dans un territoire.<br/>Quant aux Drac, je ne peux pas laisser dire qu’elles sont asphyxiées. Leur budget n’a jamais été aussi élevé : nous avons dépassé pour la première fois en 2023 le milliard. Et je suis heureuse que certains d’entre vous aient souligné le travail extraordinaire que mènent leurs équipes.<br/>En matière de patrimoine, 92 % des crédits du plan de relance ont été dépensés hors Île-de-France – je viens de faire la synthèse de toutes les dépenses après sa clôture à la fin de l’année 2022. Dans le budget 2023, j’ai décidé de donner la priorité en matière d’investissement aux projets situés hors de Paris : chantier de l’abbaye de Clairvaux, rénovation d’écoles d’art ou d’architecture – école d’art de Limoges, école d’architecture de Lille notamment –, et du château de Gaillon dans l’Eure, pour ne citer que quelques exemples.<br/>Toutefois, nous n’allons pas renoncer aux responsabilités qui sont les nôtres s’agissant de l’entretien de monuments parisiens. C’est ainsi que nous allons aussi rénover le musée d’Orsay et le Théâtre de Chaillot dans un objectif d’amélioration de leurs performances énergétiques pour qu’à terme les coûts de fonctionnement soient réduits, ce qui permettra à mes successeurs d’avoir moins à en parler.<br/>Pour les années qui viennent, j’aimerais insister sur quelques dispositifs importants. Nous allons poursuivre le plan Cathédrales : 80 millions issus du plan de relance ont permis de sécuriser et de restaurer quatre-vingt-neuf édifices du culte appartenant à l’État répartis sur tout le territoire, de la cathédrale de Sens à celles de Rodez et d’Albi, en passant par celles de Chartres et Clermont-Ferrand. Le FIP, que vous avez été quelques-uns à citer et auquel je tiens beaucoup, a bénéficié de 2022 à 2023 d’une augmentation de 20 % de ses dotations : 600 opérations ont déjà été financées depuis 2018, dont les travaux de l’église Saint-Martin de Villers-sur-Mer, en Normandie, et de l’hôtel de ville de Châtillon-en-Diois dans la région Auvergne-Rhône-Alpes.<br/>Dans le cadre du plan France 2030, nous avons insisté sur l’importance de nouveaux pôles territoriaux. Je citerai deux appels à projets : l’un pour la grande fabrique de l’image qui va favoriser le développement des infrastructures de tournage, des studios d’animation et de postproduction d’effets visuels dans différentes régions de France, pour un budget total de 350 millions d’euros ; l’autre pour les pôles territoriaux d’industries culturelles et créatives, avec une priorité donnée aux métiers d’art dans la perspective de créer des pôles en région et de redynamiser les savoir-faire, pour un budget de 46 millions.<br/>Je mentionnerai aussi la commande artistique Mondes nouveaux. Il s’agit d’ouvrir un acte II pour ce programme, doté de 30 millions d’euros, qui a permis d’ancrer la création dans l’ensemble des territoires, avec une priorité donnée aux monuments du CMN et aux zones préservées par le Conservatoire du littoral, y compris en outre-mer. Très peu des 264 projets retenus, même en dehors du CMN et du Conservatoire, étaient implantés en Île-de-France.<br/>Je remercie Violette Spillebout d’avoir mentionné le plan Fanfare qui a permis d’aider 500 projets, dont 48 % en zone rurale.<br/>Ceux qui ont pu venir aux vœux au ministère ou qui ont lu mes interviews connaissent peut-être déjà le projet que j’ai autour de la relève. Je tiens à revivifier le tissu des professionnels de la culture qui dirigent et animent nos institutions. Il s’agit de repérer 101 jeunes, un par département, destinés à incarner le visage culturel de la France de demain. J’espère qu’ils apporteront avec eux la force de chacun de ces territoires et que, demain, nous pourrons les nommer à la tête des grandes institutions qui viennent d’être mentionnées et dont ils prendront les rênes petit à petit, afin que les directeurs des scènes nationales ne soient pas uniquement des personnes formées à Paris ou des Parisiens envoyés un peu partout en France.<br/>Vous le constatez, la culture n’a pas de frontières ; elle se partage sur l’ensemble du territoire. J’aurais pu mentionner également les aides à la presse : je remercie Mme Sophie Taillé-Polian de les avoir évoquées. Nous faisons beaucoup en faveur de la presse quotidienne régionale, des radios locales, sans oublier le rôle de l’audiovisuel public avec France 3 ou France bleu. C’est cette proximité que nous soutenons lorsque nous défendons leurs budgets, tout comme d’ailleurs celui du Centre national du cinéma et de l’image animée (CNC). J’aurais en effet pu parler aussi du cinéma et des tournages : chaque euro investi dans un film génère, d’après les études du CNC, 7,60 euros de retombées économiques directes ou indirectes dans les territoires. Certes, le budget du CNC apparaît parmi les crédits alloués à Paris, mais il faut imaginer que tous les cinémas irrigués par les aides aux exploitants sont répartis dans l’ensemble du territoire ; de même, tous les tournages favorisent l’activité économique et l’attractivité des territoires. Ainsi, vous avez pu voir lors de la cérémonie des Césars le sacre du film de Dominik Moll, <italique>La Nuit du 12</italique>, qui a été tourné à Saint-Jean-de-Maurienne en Savoie et à Grenoble. Voilà un exemple, parmi d’autres, de tournages qui font aussi du bien aux territoires.<br/>Ne soyons donc pas caricaturaux. Oui, la France est riche de sa diversité, cher Paul Molac. Ma mission sera toujours de faire le maximum pour rapprocher les Français de la culture, là où ils sont, et favoriser l’égalité d’accès à la culture. Je veux tout faire pour les impliquer, leur donner la parole et toute leur place afin de redynamiser notre vie culturelle. Il n’y a aucune fatalité : notre responsabilité est de toujours renouveler cette ambition d’égalité. <italique>(Applaudissements sur les bancs des groupes RE et HOR.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2211382" ordre_absolu_seance="120" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PRESIDE_DISCOURS_1_10" sommaire="0" id_syceron="3029196" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5493.04">Merci, madame la ministre. Nous en venons aux questions. Je rappelle que la durée des questions, ainsi que celle des réponses, est limitée à deux minutes, sans droit de réplique.<br/>La parole est à M. Paul-André Colombani, pour la première question.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2211384" ordre_absolu_seance="122" id_acteur="PA719286" id_mandat="PM796353" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029198" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Paul-André Colombani (LIOT)</nom>
+            <id>719286</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="5512.38">Comme vous le savez, la Corse est un cas à part puisqu’elle bénéficie depuis 2002 de la décentralisation culturelle. La collectivité de Corse conduit la politique culturelle à travers les compétences qui lui ont été transférées, l’État continuant à exercer les compétences régaliennes dans les domaines patrimoniaux. Le financement est également partagé : hors bloc communal, il est de 71 euros par habitant pour la collectivité de Corse et de 13 euros par habitant pour le ministère de la culture, soit au total 84 euros. C’est moins de la moitié des 195 euros par habitant dépensés par le ministère de la culture en Île-de-France.<br/>Les chances de survie d’une culture ne sont pas simplement proportionnelles à l’argent investi pour la défendre. Mais il est indéniable que le soutien et la valorisation de productions artistiques inscrites dans la culture corse sont des atouts majeurs. Il est donc temps, vingt ans après la création de ce statut hybride, d’en faire le bilan et d’envisager les moyens à mobiliser pour valoriser le patrimoine culturel de la Corse et faire vivre sa langue, plus que jamais menacée.<br/>Pour mener une politique culturelle ambitieuse, portée notamment par la candidature de la ville de Bastia au label Capitale européenne de la culture en 2028, il est nécessaire d’envisager les deux aspects suivants : premièrement, l’opportunité de parachever le transfert des compétences culturelles vers la collectivité de Corse, en lui attribuant les dernières missions qui relèvent encore de la Drac. Y êtes-vous favorable, madame la ministre ? Deuxièmement, s’engager conjointement en faveur de la préservation de la langue corse. Dans le contrat de plan État-région (CPER) 2015-2020, l’État et la collectivité cofinançaient le volet « langue corse » à hauteur de 8 millions d’euros chacun. La collectivité de Corse a fait le choix d’augmenter de 50 % les crédits alloués à ce volet dans le CPER 2021-2027. Êtes-vous prête à faire un effort similaire ?</texte>
+      </paragraphe>
+      <interExtraction nom_orateur="Mme Rima Abdul-Malak, quali  ministre" id_acteur="PA791650" id_nomination_oe="PM791708" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2211387" ordre_absolu_seance="125" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029201" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5595.72">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2211388" ordre_absolu_seance="126" id_acteur="PA791650" id_mandat="-1" id_nomination_oe="PM791708" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029202" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Rima Abdul-Malak</nom>
+              <id>791650</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="5631.00">Ce n’est pas à vous que j’apprendrai qu’en vertu de la loi de 2002, la Corse bénéficie, cas particulier, d’une pleine compétence en matière de politique culturelle. L’État a toutefois fait le choix d’accompagner des investissements culturels patrimoniaux en Corse : ainsi, 130 millions d’euros permettent à ce jour de financer quatre-vingt-dix projets, que je ne détaillerai pas ici. Les discussions du CPER 2021-2027 sont effectivement en cours, dans le cadre duquel nous serons prêts à faire un effort particulier envers la Corse : il nous faut au préalable déterminer les projets, les calibrages et les financements, mais sachez que l’État sera au rendez-vous.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Céline Calvez (RE)" id_acteur="PA721750" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM797715">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2211389" ordre_absolu_seance="127" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029203" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5679.44">La parole est à Mme Céline Calvez.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2211390" ordre_absolu_seance="128" id_acteur="PA721750" id_mandat="PM797715" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029204" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Céline Calvez (RE)</nom>
+              <id>721750</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5684.09">Si la concentration des moyens du ministère de la culture en Île-de-France est une réalité sans doute partielle, elle n’est pas une fatalité, car nous avons clairement des leviers pour la combattre. Si près de 60 % des crédits du ministère de la culture ont été dépensés en Île-de-France en 2022, c’est majoritairement parce que cette région concentre historiquement, et encore actuellement, des infrastructures culturelles majeures. Ainsi, la région francilienne dispose de près des deux tiers des soixante-six musées nationaux. En miroir, plusieurs d’entre vous l’ont souligné, reconnaissons que l’Île-de-France est une source d’attractivité culturelle internationale majeure, et que les ressources de ce tourisme bénéficient aussi indirectement à l’ensemble des régions de France.<br/>Depuis 2017, nous avons eu à cœur de procéder à une meilleure répartition des moyens, afin d’aller vers ceux qui sont dits éloignés de la culture, grâce à des dispositifs innovants tels que le pass culture, dont 79 % des dépenses sont effectuées hors Île-de-France, démontrant une répartition proportionnée à la population et une véritable source de rééquilibrage vis-à-vis des jeunes Français, ou encore les Micro-Folies, ces 300 musées numériques modulables déployés dans l’ensemble du territoire.<br/>Plus globalement, oui, le numérique constitue un puissant vecteur culturel partout dans le territoire. À ce titre, Mme Macron appelait hier à la création d’une plateforme numérique culturelle gratuite pour tous. Bonne nouvelle, nous disposons en France déjà de multiples plateformes gratuites : celle de la BNF, celles des musées ainsi que des acteurs de l’audiovisuel public. Ces ressources, créées ou redécouvertes lors des confinements, souffrent encore peut-être d’un manque de visibilité et de fréquentation. Envisagez-vous d’éventuelles mesures afin de permettre une meilleure adoption de ces ressources numériques par les Français ?<br/>Par ailleurs, à cinq cent vingt et un jours des Jeux olympiques et paralympiques de Paris 2024, je ne résiste pas à vous demander comment s’annoncent, dans le territoire, les événements artistiques et culturels de l’Olympiade culturelle, formidable occasion de répartir sur tout le trajet de la flamme olympique, en Île-de-France et hors Île-de-France, des rendez-vous culturels exceptionnels ?</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Rima Abdul-Malak, quali  ministre" id_acteur="PA791650" id_nomination_oe="PM791708" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2211394" ordre_absolu_seance="132" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029208" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5761.91">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2211395" ordre_absolu_seance="133" id_acteur="PA791650" id_mandat="-1" id_nomination_oe="PM791708" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029209" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Rima Abdul-Malak</nom>
+              <id>791650</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="5816.73">Je vous remercie d’évoquer le numérique et ses nombreuses potentialités, même si nous souhaitons aussi lutter contre l’addiction aux écrans. Nous pouvons en effet encourager le numérique lorsque celui-ci sert à montrer des expériences culturelles ou à inciter à vivre la culture en vrai, dans les lieux physiques où elle se trouve. À ce titre, non seulement les Micro-Folies se développent en nombre sur le territoire, mais elles renouvellent aussi leur contenu. Nous avons conclu par exemple un partenariat avec l’Opéra de Paris afin de diffuser des opéras captés – ce qui est nouveau puisque jusqu’à présent les Micro-Folies ne diffusaient pas de spectacles vivants. Elles développent également la médiation ou encore des projets participatifs, avec les jeunes bénéficiaires du pass culture par exemple. Les Micro-Folies sont ainsi en train de se transformer et de s’enrichir, ce qui est formidable. Cela permettra aussi à des jeunes d’avoir accès, partout dans le territoire, à une plateforme comme celle mentionnée par Mme Macron, en plus de celles préexistantes.<br/>Par ailleurs, je vous remercie d’avoir évoqué l’Olympiade culturelle. Elle donnera une magnifique occasion d’allier sport et culture partout en France. Un budget de 3 millions d’euros en 2023 et de 4 millions en 2024 est prévu, à côté des dispositifs du Fonds d’innovation territoriale et autres crédits alloués à l’Été culturel ou aux vacances apprenantes, afin d’accompagner des projets à destination des jeunes notamment, mais pas uniquement, permettant de croiser le sport et la culture.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Christophe Marion (RE)" id_acteur="PA794206" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796779">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2211397" ordre_absolu_seance="135" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029211" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5909.60">La parole est à M. Christophe Marion.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2211398" ordre_absolu_seance="136" id_acteur="PA794206" id_mandat="PM796779" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029212" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Christophe Marion (RE)</nom>
+              <id>794206</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="5916.22">La concentration des dépenses du ministère de la culture en Île-de-France est un sujet dont nous avons parfaitement conscience. Le ministère de la culture, lui-même, a évalué ces inégalités entre territoires dans un rapport rendu par son inspection générale en avril 2014. Depuis ce constat, il fait d’une politique de rééquilibrage budgétaire sa priorité et les Drac l’appuient quotidiennement dans cette mission. Des financements ont ainsi été spécifiquement affectés aux territoires, grâce au Fonds d’innovation territoriale ou au Fonds incitatif pour le patrimoine par exemple. Des projets innovants à destination des territoires ont aussi été soutenus, tels que les Micro-Folies dont nous avons déjà parlé.<br/>Enfin, les labels et réseaux territoriaux ont été densifiés pour soutenir et valoriser la diversité culturelle et patrimoniale de notre territoire. Je pense, en particulier, au dernier label créé l’an dernier, celui des centres nationaux de la marionnette (CNMA) : six structures bénéficient de ce label depuis septembre, dont cinq sont situées hors d’Île-de-France. Dans ma circonscription, L’Hectare-Territoires vendômois est labellisé et a vu son travail reconnu ; c’est un éclairage plus que bienvenu sur cet art de la scène et sur un département comme le Loir-et-Cher, qui ne disposait d’aucune labellisation en dehors de sa préfecture.<br/>Ces labels du spectacle vivant résultent, de surcroît, d’une démarche des collectivités territoriales elles-mêmes. Cette procédure a l’avantage d’associer les élus locaux et de leur laisser la possibilité de mettre en valeur les structures et projets culturels de leurs territoires. Mais comment garantir que ces demandes seront réparties de manière égale dans notre pays ?<br/>Notre collègue Alexandre Holroyd, rapporteur spécial de la mission <italique>Culture</italique>, alertait en octobre dernier sur la nécessité de mettre en place une planification de l’action culturelle pour une maîtrise des dépenses et, j’ajouterais, pour garantir une répartition géographique de ces labels. Madame la ministre, avez-vous commencé ce travail de planification et pouvez-vous nous en préciser les contours ? Une coconstruction de celle-ci avec les collectivités territoriales est-elle envisagée ?</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Rima Abdul-Malak, quali  ministre" id_acteur="PA791650" id_nomination_oe="PM791708" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2211402" ordre_absolu_seance="140" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029216" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6028.19">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2211403" ordre_absolu_seance="141" id_acteur="PA791650" id_mandat="-1" id_nomination_oe="PM791708" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029217" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Rima Abdul-Malak</nom>
+              <id>791650</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6037.08">Effectivement, la politique des labels mérite une revue précise à l’aune des enjeux d’une meilleure diffusion au plus près des habitants, sachant qu’en matière d’implantation sur le territoire, ces labels créent un maillage déjà relativement complet. Malgré tout, même si dans leurs cahiers des charges, la nécessité d’itinérance et de travail hors les murs est clairement indiquée, nous sommes en train d’évaluer ceux qui remplissent le mieux cette mission et sur quel plan leur action fonctionne ou non. J’ai d’ailleurs demandé à l’Inspection générale des affaires culturelles de rédiger un rapport spécifique sur la politique des labels dans les zones rurales, afin de mieux évaluer leur action dans les territoires et de déterminer s’il reste d’éventuelles zones blanches.<br/>Néanmoins, au fil de mes déplacements, j’ai pu constater l’énorme travail réalisé par l’ensemble des équipes des scènes nationales, des centres dramatiques nationaux, des Frac, des centres d’art, des orchestres labellisés ou encore des opéras. Le terme « itinérance » se retrouve dans quasiment tous leurs programmes : le CDN de Montluçon propose par exemple un programme très ambitieux partout dans les zones rurales ; la Scène nationale de Châteauvallon également, avec le programme Châteauvallon en itinérance ; c’est le cas aussi du CDN Drôme-Ardèche de Valence, appelé La Comédie itinérante, qui constitue un réel outil de décentralisation dans les villages aux alentours.<br/>Il convient désormais d’évaluer plus précisément leurs actions et de définir s’il est nécessaire de faire évoluer les cahiers des charges afin d’équilibrer les enjeux de création et de production par rapport à ceux de diffusion, c’est-à-dire mieux produire pour mieux diffuser. Peut-être faut-il décélérer ou, en tout cas, désintensifier le rythme de création de spectacles pour, s’agissant notamment du spectacle vivant, mieux les jouer ? Peut-être faut-il faire circuler davantage les œuvres des collections issues des Frac ou des musées ? Nous réalisons actuellement une cartographie précise, qui associera évidemment les collectivités, puisqu’un label ne peut exister que parce qu’il existe un croisement de financements entre l’État et les collectivités. Ces discussions seront menées à un niveau local, dans le cadre des conseils des territoires pour la culture qui ont déjà été cités, avec les Drac.<br/>J’ajoute que, parfois, de nouvelles demandes de labels sont prises en compte : à l’inverse, il peut y avoir des demandes visant à délabelliser des programmes qui ne correspondent plus à un label donné. Nous travaillons au cas par cas et je vous tiendrai bien sûr informé en la matière.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Graziella Melchior (RE)" id_acteur="PA719338" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796545">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2211407" ordre_absolu_seance="145" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029221" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6184.82">La parole est à Mme Graziella Melchior.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2211408" ordre_absolu_seance="146" id_acteur="PA719338" id_mandat="PM796545" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029222" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Graziella Melchior (RE)</nom>
+              <id>719338</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6197.27">Le débat souhaité aujourd’hui par le groupe LIOT s’intitule « Hyperconcentration des dépenses du ministère de la culture en Île-de-France : une fatalité ? » À cette question un brin simpliste, je voudrais répondre aussi simplement, non !<br/>Bien sûr, nous constatons depuis bien longtemps que nos concitoyens ressentent une véritable fracture culturelle entre les métropoles et les petites communes. C’est pourquoi notre majorité a placé l’accès à la culture pour tous et dans tous les territoires au cœur des dispositifs qu’elle défend depuis 2017 : le pass culture, dont bénéficient 2 millions de jeunes et qui permet aux jeunes bretons par exemple – la Bretagne a été parmi les premières régions d’expérimentation et fait partie des plus dynamiques aujourd’hui – d’assister aux festivals qui sont chers au cœur des habitants de la région, tels que le festival des Vieilles Charrues ou la Fête du bruit dans Landerneau, ou encore de s’acheter des livres et ainsi faire vivre les librairies indépendantes de nos communes. Autres mesures phares : le Loto du patrimoine qui a permis de sauver 745 sites qui étaient menacés dans les territoires ; ou encore l’éducation artistique et culturelle qui permet à 75 % des enfants de s’impliquer dans des projets culturels, grâce au doublement de ses crédits voté lors de la précédente législature. Je voudrais enfin évoquer l’instauration du quart d’heure de lecture à l’école, initiative qui se déploie à grande échelle, particulièrement dans l’académie de Bretagne.<br/>Je suis convaincue que nous devons adopter une logique d’accompagnement des projets culturels issus des territoires, appuyés par les Drac, plutôt qu’une politique décidée depuis Paris et appliquée à l’identique dans toute la France. À cette fin, vous avez récemment créé le Fonds d’innovation territoriale qui permet d’expérimenter de nouvelles initiatives culturelles, notamment en milieu rural, en lien avec les élus locaux. Pourriez-vous nous dire ce qui est réalisé en ce sens, et de quelle manière les collectivités locales peuvent se saisir de ce fonds ?</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Rima Abdul-Malak, quali  ministre" id_acteur="PA791650" id_nomination_oe="PM791708" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211412" ordre_absolu_seance="149" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029254" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6301.11">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211413" ordre_absolu_seance="150" id_acteur="PA791650" id_mandat="-1" id_nomination_oe="PM791708" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029255" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Rima Abdul-Malak</nom>
+              <id>791650</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6314.00">Je vous remercie d’avoir mentionné le Fonds d’innovation territoriale, qui soutient des projets qui n’entrent dans aucune case des dispositifs habituels du ministère de la culture. Ce fonds ouvre des espaces d’expérimentation et offre de la souplesse pour inventer de nouvelles manières de travailler en lien avec les collectivités. En 2022, 65 % des projets qu’il soutenait étaient situés en zone rurale, le reste touchant essentiellement les quartiers prioritaires de la politique de la ville – nous avons en effet donné la priorité à ces deux catégories de territoires. L’objectif est non pas d’attribuer des subventions supplémentaires à des structures existantes et déjà soutenues par ailleurs, mais d’expérimenter de nouvelles modalités de travail. En Bretagne – en particulier dans le Finistère –, ces projets sont développés par des acteurs très inventifs et engagés.<br/>La Bretagne affiche d’ailleurs les meilleurs indicateurs en matière d’éducation artistique et culturelle, de déploiement du pass culture et d’implication des acteurs culturels à tous les échelons. Il s’agit d’une région modèle. Ce n’est pas sans raison que nous avons décidé d’implanter à Guingamp le premier Institut national supérieur de l’éducation artistique et culturelle (Inseac), destiné à devenir le vaisseau amiral de la formation dans ce domaine. Il est installé dans une ancienne prison – beau symbole. Nous vous enverrons des exemples de projets soutenus par le Fonds d’innovation territoriale dans le Finistère – j’en ai repéré quelques-uns, mais je ne voudrais pas être trop longue. Quoi qu’il en soit, vive la Bretagne !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211414" ordre_absolu_seance="152" id_acteur="PA793398" id_mandat="PM796302" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3029256" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Jérémie Patrier-Leitus</nom>
+              <id>793398</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6413.90">Et vive la Normandie !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211415" ordre_absolu_seance="153" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3029257" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6416.05">Ainsi que la Drôme !<br/>La parole est à Mme Lisette Pollet.</texte>
+        </paragraphe>
+      </interExtraction>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211417" ordre_absolu_seance="155" id_acteur="PA793656" id_mandat="PM796464" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029259" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Lisette Pollet (RN)</nom>
+            <id>793656</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="6418.20">Du fait de son histoire et du nombre d’habitants qu’elle abrite, la région Île-de-France concentre une grande part des lieux de spectacle vivant, des monuments, des musées et des crédits d’action culturelle. Les budgets culturels des autres régions s’en trouvent amoindris : selon la Drac, le soutien du ministère de la culture représentait 22 euros par habitant en 2019 dans ma région, l’Auvergne-Rhône-Alpes, contre 168 euros par habitant en Île-de-France.<br/>Les régions et les grandes villes pallient le manque de crédits alloués par l’État à la culture, mais qu’en est-il des villes moyennes, qui subissent une perte d’activité ? Vous tentez de les sauver depuis 2018 avec le plan Action cœur de ville, et vous avez décidé d’implanter des Micro-Folies. Ces musées numériques de proximité ont certes l’avantage d’offrir un accès à l’art à tous les publics, mais ils laissent aussi penser que les œuvres originales et majeures sont destinées au public parisien – tandis que dans le reste du territoire, le public devra se contenter de leur reproduction numérique.<br/>Les musées des villes moyennes françaises possèdent pourtant des collections remarquables, dont les œuvres sont propices à communiquer le goût de l’art et de la culture. Puisque les expositions temporaires contribuent largement à l’attractivité des musées – voire qu’elles en sont le moteur –, ne faudrait-il pas aider financièrement les musées des villes moyennes à monter régulièrement des expositions, plutôt que de financer des Micro-Folies ? <italique>(Applaudissements sur quelques bancs du groupe RN.)</italique></texte>
+      </paragraphe>
+      <interExtraction nom_orateur="Mme Rima Abdul-Malak, quali  ministre" id_acteur="PA791650" id_nomination_oe="PM791708" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211420" ordre_absolu_seance="158" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029262" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6513.76">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211421" ordre_absolu_seance="159" id_acteur="PA791650" id_mandat="-1" id_nomination_oe="PM791708" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029263" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Rima Abdul-Malak</nom>
+              <id>791650</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6528.59">Nous avons autant besoin de musées qui présentent des œuvres originales – en facilitant la circulation des tableaux et la coproduction d’expositions –, que des potentialités offertes par le numérique, grâce auquel nous découvrons les œuvres différemment – nous pouvons par exemple pénétrer dans <italique>La Joconde</italique>, tableau qui ne peut pas être déplacé. Mme Legrain a évoqué l’acquisition par le musée d’Orsay de <italique>La Partie de bateau </italique>de Gustave Caillebotte : j’ai tenu à ce que ce tableau circule dans plusieurs musées de France. Il fera sa première étape au musée des Beaux-Arts de Lyon. Tous les habitants de la région Rhône-Alpes pourront donc découvrir ce chef-d’œuvre.<br/>À l’occasion de sa fermeture prochaine pour travaux, le centre Pompidou multipliera les collaborations avec des musées en région pour monter des expositions et faire voyager ses collections. Ce type de projet est désormais profondément inscrit dans l’ADN des musées, qu’il s’agisse du musée Guimet avec les collections d’art asiatique, du Louvre avec la RMN, ou du Mucem avec le musée Nicéphore-Niépce de Chalon-sur-Saône. Les musées collaborent aisément pour associer leurs forces et faire circuler leurs expositions – certaines sont d’ailleurs produites en région avant d’être présentées à Paris. De nombreux projets se croisent, et nous pouvons nous en réjouir. Nous sommes là pour les encourager.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Sophie Blanc (RN)" id_acteur="PA794886" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM797178">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211422" ordre_absolu_seance="161" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029264" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6544.60">La parole est à Mme Sophie Blanc.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211423" ordre_absolu_seance="162" id_acteur="PA794886" id_mandat="PM797178" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029265" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Sophie Blanc (RN)</nom>
+              <id>794886</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6638.89">Les élus locaux ont le sentiment que le monde culturel est à plusieurs vitesses. Les conditions d’accès à la culture contribuent, entre autres facteurs, à l’égalité des chances entre tous les citoyens – je le constate quotidiennement dans mon département des Pyrénées-Orientales, le plus pauvre de France. Je sais pertinemment que Perpignan n’accueillera jamais d’exposition d’envergure internationale : je le regrette, mais je suis également lucide à l’égard d’un système où le volontarisme en matière culturelle consiste souvent, pour l’élu de province, à prendre un billet de train pour se rapprocher de Paris et y voir une exposition à ne pas manquer. Dans un autre domaine, le conservatoire de ma ville a des difficultés à recruter des professeurs de musique. Comment la culture peut-elle aller vers les gens ? Comment peut-elle être un moteur d’ascension sociale et comment la rendre accessible aux plus modestes ? Nous devons nous emparer de ces questions.<br/>Madame la ministre, quelle est votre vision de la politique culturelle dans tous les territoires, sachant que le développement culturel est un facteur de cohésion et d’attractivité locale ? Quelle politique souhaitez-vous développer et quelles mesures entendez-vous prendre pour remettre l’équité au cœur de la politique culturelle ? Les mots « décentralisation » et « déconcentration » doivent non pas rester des vœux pieux, mais exprimer des volontés réelles et efficaces. Je n’attends pas un plaidoyer chiffré sur les missions dont nous avons débattu lors de l’examen du projet de loi de finances : je cherche à savoir ce que vous pensez véritablement. Quelle est votre vision de la culture dans l’ensemble du territoire national, au-delà du boulevard périphérique ? Nous, les élus des territoires, rêvons non seulement d’une culture pour tous, mais aussi de la culture pour chacun. <italique>(Applaudissements sur quelques bancs du groupe RN.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Rima Abdul-Malak, quali  ministre" id_acteur="PA791650" id_nomination_oe="PM791708" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211425" ordre_absolu_seance="164" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029267" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6751.88">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211426" ordre_absolu_seance="165" id_acteur="PA791650" id_mandat="-1" id_nomination_oe="PM791708" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029268" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Rima Abdul-Malak</nom>
+              <id>791650</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6756.12">Il est dommage que vous ne participiez pas à la commission des affaires culturelles et de l’éducation : nous pourrions parler plus longuement et plus régulièrement de ces sujets. Cet engagement est toute ma vie. À mon arrivée en France, j’ai vécu à Caluire-et-Cuire, commune où Jean Moulin a été arrêté, près de Lyon : j’y ai découvert la culture grâce à un professeur de français qui nous emmenait au théâtre et nous faisait interpréter des pièces. Ce ne sont pas mes parents qui m’ont fait découvrir la richesse de l’offre culturelle française. C’est grâce à l’école que j’ai été touchée par la magie du spectacle et que j’ai compris tout ce que le théâtre pouvait apporter – cela a enrichi ma pratique de la langue française, mon attachement à ce pays et mon imaginaire.<br/>Depuis, dans toutes les fonctions que j’ai occupées, je n’ai cessé de me battre pour porter la culture au plus près de chacun. Dans mon bref propos liminaire, j’ai tenté de vous présenter mes engagements en faveur de l’éducation artistique, du patrimoine, des musées, de la création artistique et du numérique, au plus près des habitants où qu’ils soient, ainsi qu’en faveur de l’égalité territoriale. Je n’ai pas le temps d’en dire davantage, mais venez à la commission des affaires culturelles et de l’éducation !</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Sébastien Rome (LFI-NUPES)" id_acteur="PA793884" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796587">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211428" ordre_absolu_seance="167" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029270" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6836.84">La parole est à M. Sébastien Rome.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211429" ordre_absolu_seance="168" id_acteur="PA793884" id_mandat="PM796587" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029271" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Sébastien Rome (LFI-NUPES)</nom>
+              <id>793884</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6840.97">En 2018, l’engagement de l’État dans la culture représentait 139 euros par habitant et par an en Île-de-France, contre 15 euros hors de cette région. Par ailleurs, 42 % des professionnels de la culture sont franciliens. Ces simples chiffres montrent combien le débat sur les investissements dans la culture en dehors de l’Île-de-France dépasse la politique culturelle : ils sont la trace d’un passé ultracentralisé qui ne passe pas ; ils révèlent aussi que l’égalité républicaine est mise à mal.<br/>Quand il est difficile de se faire soigner en zone rurale, que les maternités ferment, que les choix de politique économique négligent l’emploi et le développement local, les inégalités d’investissement dans la culture accompagnent bien d’autres inégalités, que les collectivités peinent à compenser. Toutes ces données sont connues. À l’heure où le secteur culturel peine à se relever du covid, nous attendons du ministère de la culture qu’il s’engage à réduire les inégalités territoriales. Tous les ministres ont fait des annonces en ce sens, mais aucune politique réelle ne vient les concrétiser.<br/>Quand les contrats de plan État-région comporteront-ils des volets culturels obligatoires, en investissement et en fonctionnement, avec des crédits nouveaux ? Quelles sont les perspectives d’évolution des crédits des Drac dans les années futures ? S’il n’est pas question de réduire les moyens des grandes institutions parisiennes, surtout lorsqu’elles se déploient ailleurs dans le territoire, quand verrons-nous de réelles incitations financières supplémentaires, ouvrant à une décentralisation des artistes, des compagnies et des ensembles musicaux, notamment dans les territoires ruraux ? Quels soutiens seront accordés aux musées régionaux qui ont été mis en difficulté par la période du covid-19, comme celui de Lodève ? À quelques heures de la présélection des villes françaises candidates au statut de capitale européenne de la culture en 2028, l’importance des investissements en dehors de Paris se fait plus que jamais ressentir. Quels engagements prend votre ministère pour soutenir la ville qui sera retenue ?</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Rima Abdul-Malak, quali  ministre" id_acteur="PA791650" id_nomination_oe="PM791708" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211433" ordre_absolu_seance="171" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029275" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="6956.02">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211434" ordre_absolu_seance="172" id_acteur="PA791650" id_mandat="-1" id_nomination_oe="PM791708" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029276" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Rima Abdul-Malak</nom>
+              <id>791650</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="6961.44">J’espère pouvoir répondre à ces très nombreuses questions ! Le budget des Drac a crû de 6 % de 2022 à 2023, preuve que la déconcentration se poursuit. J’ai pleinement confiance dans l’immense travail que réalisent les Drac au quotidien.<br/>La désignation de la future capitale européenne de la culture dépend d’un jury indépendant qui compte deux membres français sur une douzaine. L’annonce de la présélection sera faite le 3 mars. Au vu des projets et de leur ambition, une discussion s’engagera entre la ville lauréate et le ministère de la culture – mais pas seulement, car les capitales européennes de la culture nécessitent un accompagnement de l’État dans d’autres domaines. Il est donc prématuré d’en parler.<br/>J’ai déjà expliqué combien la mission territoriale des établissements publics parisiens était importante – je ne reviendrai pas sur les exemples que j’ai évoqués. Plusieurs d’entre vous ont plaidé pour que les nouveaux projets soient implantés ailleurs qu’à Paris. Notez que c’est à Villers-Cotterêts qu’est créée la Cité internationale de la langue française, et à Guingamp qu’est implanté le nouvel Institut de l’éducation artistique et culturelle, tandis qu’un institut de la France et de l’Algérie pourrait voir le jour à Montpellier, et qu’Amiens accueillera le nouveau pôle de la BNF regroupant le Conservatoire national de la presse et le centre de conservation de ses collections – je pourrais citer d’autres exemples de même nature. Nous sommes pleinement mobilisés pour que tous les nouveaux projets se construisent en lien avec les collectivités, en dehors de Paris.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211437" ordre_absolu_seance="175" id_acteur="PA793884" id_mandat="PM796587" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3029279" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Sébastien Rome</nom>
+              <id>793884</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7006.45">Qu’en est-il des musées ?</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211438" ordre_absolu_seance="176" id_acteur="PA791650" id_mandat="-1" id_nomination_oe="PM791708" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="3029280" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Rima Abdul-Malak</nom>
+              <id>791650</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7084.34">Notre mission prioritaire est d’aider les musées nationaux dont l’État est le seul soutien. Si nous ne soutenons pas le Mucem à Marseille ou le musée Picasso à Paris, qui le fera ? La répartition des compétences entre l’État et les collectivités détermine la politique culturelle : un tiers relève de l’État, et deux tiers des collectivités. Tel est le fruit de l’histoire. De même dans le patrimoine, une loi répartit les responsabilités depuis 2004 : l’État est chargé des monuments protégés, classés ou inscrits au titre des monuments historiques, tandis que le reste relève des collectivités. Nous ne pouvons pas nous substituer constamment aux collectivités s’agissant de leurs musées et du patrimoine placé sous leur responsabilité. Au cas par cas, nous parvenons à aider certains établissements qui sortent de notre champ de compétences, par l’intermédiaire du Loto du patrimoine ou du Fonds incitatif et partenarial pour les petites communes. Pour les musées territoriaux, cela passe par des échanges d’expositions, voire par l’aide à des projets plus spécifiques. Néanmoins, nous n’avons pas vocation à nous substituer aux collectivités en niant une répartition des compétences héritée de l’histoire, qui fait sens pour notre politique.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211439" ordre_absolu_seance="177" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3029281" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7164.20">Il faut conclure, madame la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2211440" ordre_absolu_seance="178" id_acteur="PA791650" id_mandat="-1" id_nomination_oe="PM791708" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="3029282" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Rima Abdul-Malak</nom>
+              <id>791650</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7166.53">Il faut dire que M. le député a posé une vingtaine de questions ! <italique>(Sourires.)</italique></texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Pascal Lecamp (Dem)" id_acteur="PA795374" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM797448">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211441" ordre_absolu_seance="179" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029327" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7175.00">La parole est à M. Pascal Lecamp.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211442" ordre_absolu_seance="180" id_acteur="PA795374" id_mandat="PM797448" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029328" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Pascal Lecamp (Dem)</nom>
+              <id>795374</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7176.53">Pour ma part, je ne poserai qu’une question : je la garde pour la fin. Nous partageons largement le constat de l’hyperconcentration francilienne de la culture. Pour y remédier, je considère qu’il convient de renforcer deux tendances : la décentralisation de la culture et son mouvement vers la ruralité. En effet, le tiers des théâtres et les deux tiers des musées nationaux sont situés en Île-de-France. Les collectivités territoriales travaillent en ce sens : elles constituent le premier acteur culturel et représentent 72 % de la dépense culturelle publique. Toutefois, le ministère de la culture se doit d’être tête de proue grâce à son expertise, son réseau et ses ressources.<br/>Étant élu dans une circonscription rurale dont la plus grande ville ne compte que 6 000 habitants, je peux vous citer plusieurs exemples significatifs. À Chauvigny, le château d’Harcourt accueille depuis un an une Micro-Folie ; ce dispositif constitue un excellent exemple d’une réussite du ministère sur laquelle peuvent s’appuyer les collectivités pour rehausser leur offre culturelle, en particulier celles qui sont éligibles au programme Petites Villes de demain. À Montmorillon se trouve la Cité de l’écrit et des métiers du livre, qui devrait être davantage soutenue, par exemple au moyen d’un programme Cités culturelles qui promouvrait conjointement l’ensemble des cités du territoire français, à l’image de la Cité internationale de la bande dessinée et de l’image d’Angoulême. Enfin, la commune de Civray, dont j’ai été maire, organise le festival Au fil du son, qui, depuis plus de vingt ans, accueille chaque année plus de 30 000 personnes sur trois jours. Pour une commune de 3 000 habitants, c’est tout simplement énorme.<br/>À la suite du covid-19, plusieurs compagnies en résidence dans nos Petites Villes de demain ont vu leurs subventions nationales ou régionales diminuer, voire disparaître. Je pense par exemple à la compagnie de La Trace, qui tourne dans le Sud-Ouest depuis trente ans et dont la subvention régionale a été suspendue depuis deux ans sans explication : son avenir est en jeu.<br/>Ainsi, madame la ministre, quels sont vos projets pour répandre la culture dans tous les territoires – au-delà de ceux que vous nous avez déjà exposés – et pour assurer la visibilité ainsi que la viabilité des projets existants ? De nombreux acteurs de la culture en dépendent.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Rima Abdul-Malak, quali  ministre" id_acteur="PA791650" id_nomination_oe="PM791708" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211446" ordre_absolu_seance="184" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029332" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7267.46">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211447" ordre_absolu_seance="185" id_acteur="PA791650" id_mandat="-1" id_nomination_oe="PM791708" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029333" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Rima Abdul-Malak</nom>
+              <id>791650</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7301.67">Je crois avoir largement répondu à cette question, mais je vous remercie de m’avoir signalé quelques cas particuliers, sur lesquels je ne manquerai pas de me pencher. Si des subventions régionales ont diminué ou disparu, nous en rechercherons la raison.<br/>Je rappelle que mon ministère vient de débloquer des aides exceptionnelles destinées à 150 structures qui peinent à faire face à la hausse des coûts de l’énergie. Nous avons pris en charge 30 % de leurs surcoûts, en sus des aides transversales octroyées par Bercy et accessibles aux structures culturelles, qui couvrent en moyenne environ 20 % des surcoûts. Pour ces 150 structures en grande difficulté, l’État prend donc en charge environ la moitié des surcoûts liés à la hausse des prix de l’énergie. C’est une des réponses que nous apportons à court terme, face à l’urgence. J’ai détaillé les dispositifs qui produiront des effets à plus long terme, comme les mesures d’éducation artistique, le pass culture, le plan Fanfare, l’Été culturel, les Micro-Folies et l’ensemble des projets qui se déploient partout dans les territoires : ils répondent à l’ambition de rapprocher la culture des habitants sur toute l’étendue du territoire français.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Valérie Rabault (SOC)" id_acteur="PA609590" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM797742">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211449" ordre_absolu_seance="187" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029335" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7344.39">La parole est à Mme Valérie Rabault.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211450" ordre_absolu_seance="188" id_acteur="PA609590" id_mandat="PM797742" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029336" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Valérie Rabault (SOC)</nom>
+              <id>609590</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7352.08">Madame la ministre, j’ai attentivement écouté vos propos, qui emportent souvent mon adhésion. Toutefois, un point me chagrine : la décentralisation ne saurait se réduire à un mouvement de Paris vers les territoires, car ceux-ci sont également capables de création culturelle. Ainsi, dans mon département du Tarn-et-Garonne, l’abbaye de Beaulieu-en-Rouergue, elle-même magnifiquement rénovée par le Centre des monuments nationaux, possède la deuxième collection de toiles de l’École de Paris, derrière Beaubourg. Cette dynamique doit donc aller dans les deux sens : loin de se limiter au déploiement des institutions parisiennes ailleurs en France, la décentralisation doit passer par un partage créatif.<br/>Comme je le mentionnais, certains départements reçoivent moins de moyens de votre ministère, car ils ne disposent d’aucune scène conventionnée et d’aucun label. Je ne sais pas si vous serez d’accord avec mon approche, mais je crois pertinent d’accompagner les départements, comme le font les Drac, pour que chacun d’entre eux dispose au moins d’une Scin ou d’un label lui permettant de prétendre aux subventions du ministère de la culture. Sans cela, les difficultés seront toujours concentrées sur les mêmes départements, qui sont dépourvus de Scin ou dont la population perçoit des revenus plus faibles. Je souhaite donc que le soutien fourni par les Drac puisse être renforcé.<br/>Je citerai l’exemple de la Scin Art, enfance et jeunesse dont nous solliciterons de votre ministère la reconnaissance. Le département du Tarn-et-Garonne a créé l’Étonnant Été, un événement dans le cadre duquel cinquante et un spectacles gratuits sont programmés dans cinquante et une communes, chaque spectacle regroupant en moyenne 150 personnes. S’y produisent des artistes professionnels, sélectionnés sur catalogue par l’agence Tarn-et-Garonne Arts &amp; Culture. Je souhaiterais qu’on cesse de demander aux collectivités 50 000 ou 60 000 euros supplémentaires pour que cette opération puisse prétendre à la labellisation : il serait préférable que le ministère propose d’emblée un accompagnement.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Rima Abdul-Malak, quali  ministre" id_acteur="PA791650" id_nomination_oe="PM791708" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211453" ordre_absolu_seance="191" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029339" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7519.56">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211454" ordre_absolu_seance="192" id_acteur="PA791650" id_mandat="-1" id_nomination_oe="PM791708" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029340" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Rima Abdul-Malak</nom>
+              <id>791650</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7526.99">Puisque les intervenants ont tous mentionné les budgets des grands établissements parisiens, j’ai tenu à préciser que leurs missions se déploient également hors d’Île-de-France. Loin de moi l’idée de nier que la culture provienne de chacun des territoires : c’est d’ailleurs le sens du dispositif Mondes nouveaux, qui a permis de soutenir 264 projets présentés par des artistes venant des quatre coins du territoire, y compris d’outre-mer – ce dont je me réjouis, car nos précédents dispositifs de commandes ne les atteignaient pas efficacement. C’est également la logique du programme La Relève visant à vivifier le tissu professionnel des directeurs de labels.<br/>L’obtention d’un label est subordonnée à un cahier des charges ambitieux. Ces exigences peuvent être assouplies selon les cas. En revanche, fixer une règle – par exemple, un label par département – est difficile, car l’histoire nous a légué des cas particuliers, comme Orléans, qui dispose à la fois d’un centre dramatique, d’une scène nationale et d’un centre chorégraphique. Il est très rare de trouver ces trois structures dans la même ville !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211456" ordre_absolu_seance="194" id_acteur="PA609590" id_mandat="PM797742" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3029342" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Valérie Rabault</nom>
+              <id>609590</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7592.43">Parfois, il n’y a rien du tout.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211457" ordre_absolu_seance="195" id_acteur="PA791650" id_mandat="-1" id_nomination_oe="PM791708" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="3029343" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Rima Abdul-Malak</nom>
+              <id>791650</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7599.01">Le maillage doit donc tenir compte des cas particuliers. En tout cas, j’ai bien reçu votre message concernant le Tarn-et-Garonne ; nous nous pencherons attentivement sur son cas, d’autant plus que le label Art, enfance et jeunesse des scènes conventionnées est à mes yeux prioritaire sur tous les autres, car il vise à construire les publics de demain et à sensibiliser les nouvelles généralisations à la culture.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Jérémie Patrier-Leitus (HOR)" id_acteur="PA793398" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796302">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211458" ordre_absolu_seance="196" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029344" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7623.12">La parole est à M. Jérémie Patrier-Leitus.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211459" ordre_absolu_seance="197" id_acteur="PA793398" id_mandat="PM796302" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029345" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Jérémie Patrier-Leitus (HOR)</nom>
+              <id>793398</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7633.31">Puisque j’ai eu le privilège de travailler sur le chantier de la restauration de Notre-Dame de Paris, vous me permettrez de revenir sur les cathédrales françaises. Notre pays compte 154 cathédrales, parmi lesquelles 87 seulement appartiennent à l’État. Les 67 autres représentent une lourde charge pour les communes qui en sont propriétaires, en ce qui concerne tant la maîtrise d’ouvrage que le financement. Dans ma circonscription, la cathédrale Saint-Pierre de Lisieux appartient à la ville, qui peine à assurer la maîtrise d’ouvrage nécessaire à son entretien. Le financement, lui aussi, pose souvent problème, comme pour la cathédrale Notre-Dame de Laon. Ma question est simple : votre ministère envisagerait-il au cas par cas de reprendre la propriété de certaines cathédrales dont le caractère historique ou l’intérêt patrimonial le justifierait ?</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Rima Abdul-Malak, quali  ministre" id_acteur="PA791650" id_nomination_oe="PM791708" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211460" ordre_absolu_seance="198" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029346" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7693.61">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211461" ordre_absolu_seance="199" id_acteur="PA791650" id_mandat="-1" id_nomination_oe="PM791708" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029347" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Rima Abdul-Malak</nom>
+              <id>791650</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7697.38">Une approche au cas par cas est toujours possible. Je ne suis toutefois pas en mesure de répondre précisément quant à vos deux exemples, mais nous étudierons la question.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Sébastien Peytavie (Écolo-NUPES)" id_acteur="PA793708" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796488">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211462" ordre_absolu_seance="200" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029348" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7709.48">La parole est à M. Sébastien Peytavie.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211463" ordre_absolu_seance="201" id_acteur="PA793708" id_mandat="PM796488" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029349" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Sébastien Peytavie (Écolo-NUPES)</nom>
+              <id>793708</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7719.81">Je remercie le groupe Libertés, indépendants, outre-mer et territoires de nous permettre de débattre de ce bien essentiel qu’est la culture. Nous avons évoqué son hypercentralisation en région parisienne par comparaison avec d’autres grandes villes ou villes moyennes. Étant député de la quatrième circonscription de la Dordogne, qui dispose certes d’un riche patrimoine culturel attirant un tourisme important, mais dont la plus grande ville compte moins de 10 000 habitants, je considère comme essentielle la question du spectacle vivant. J’ai cru comprendre que cette forme d’art vous a été précieuse lors de votre propre parcours. En milieu rural, l’accès au spectacle vivant est difficile et les salles de cinéma – le cinéma n’est pas un spectacle vivant – constituent souvent le seul spectacle régulièrement accessible. Or le cinéma connaît actuellement une crise liée à la baisse de la fréquentation, qui met en péril de nombreuses salles. Que proposez-vous pour soutenir ces petites salles rurales de cinéma ?<br/>Par ailleurs, les difficultés d’accès au spectacle vivant en milieu rural sont encore aggravées par la crise de l’énergie, qui constitue un obstacle à la mobilité – d’ailleurs, la crise climatique et la nécessité de décarboner l’économie française l’entraveront encore davantage. Menez-vous une réflexion à ce sujet pour préparer l’avenir ?<br/>Enfin, je profite de votre présence pour vous poser une question qui sort du cadre de ce débat. De nombreux lieux culturels comportent des salles, ou <italique>a fortiori </italique>des scènes, inaccessibles aux personnes à mobilité réduite.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211466" ordre_absolu_seance="204" id_acteur="PA609590" id_mandat="PM797742" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3029352" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Valérie Rabault</nom>
+              <id>609590</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7826.80">C’est vrai !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211467" ordre_absolu_seance="205" id_acteur="PA793708" id_mandat="PM796488" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="3029353" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Sébastien Peytavie</nom>
+              <id>793708</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7827.84">Cela pose un grave problème. L’Assemblée nationale a dû effectuer des travaux pour me permettre d’y accéder, car je suis le premier député en fauteuil roulant. Il me semble important que les lieux culturels prennent des mesures similaires pour y remédier.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Rima Abdul-Malak, quali  ministre" id_acteur="PA791650" id_nomination_oe="PM791708" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211468" ordre_absolu_seance="206" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029354" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7872.86">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2211469" ordre_absolu_seance="207" id_acteur="PA791650" id_mandat="-1" id_nomination_oe="PM791708" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029355" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Rima Abdul-Malak</nom>
+              <id>791650</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="7878.22">Je vous remercie d’avoir mentionné l’accessibilité : ce chantier me tient à cœur. Le budget de mon ministère pour 2023 comprend plusieurs investissements en la matière. Certains sont relatifs à la numérisation, comme la création, en collaboration avec la Bibliothèque nationale de France, de la première plateforme du livre accessible aux personnes malvoyantes et non-voyantes : ce projet de longue haleine sera pleinement effectif dans trois ou quatre ans. En concertation avec le Comité d’organisation des Jeux olympiques et paralympiques (Cojop), nous lançons aussi des appels à projets dans le cadre de l’Olympiade culturelle, afin de relier danse, sport et inclusion, en proposant à des artistes et à des sportifs en situation de handicap de présenter leur projet. Par ce moyen, nous espérons les faire connaître davantage, les soutenir financièrement et inciter des salles de spectacle à les programmer. La France a du retard en la matière : nous devons poursuivre ce travail.<br/>En ce qui concerne la transition écologique, nous réalisons plusieurs investissements destinés à améliorer la performance énergétique des bâtiments. Ainsi, nous avons conclu que les projecteurs de cinéma sont particulièrement énergivores et gagneraient à être remplacés par des projecteurs laser. Nous sommes donc en train d’élaborer avec le CNC un plan sur plusieurs années pour aider les salles de cinéma à s’équiper de projecteurs laser, ce qui pourrait diviser par trois ou quatre leurs dépenses d’énergie. Quant à la question de la mobilité des spectateurs, elle est plus vaste et dépasse le champ culturel : en milieu rural, lorsqu’on se déplace pour aller au cinéma, on en profite également pour faire ses courses.<br/>En matière d’accès aux lieux culturels, nous menons une réflexion impliquant notamment les scènes nationales, que j’ai réunies à l’occasion des trente ans du label, et les acteurs du pass culture pour les jeunes. Il s’agit d’encourager les déplacements écoresponsables et de faciliter l’accès du plus grand nombre en proposant des tarifs réduits pour les personnes venant en transports en commun ou en covoiturage, ou encore des navettes expérimentales. Nous faisons actuellement l’essai de tels dispositifs. Il s’agit également de donner au pass culture une dimension collective, au collège ou au lycée : un nombre grandissant de sorties scolaires, rendues possibles par ce dispositif, sont encore facilitées par la prise en charge partielle du coût des transports.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Pierre Dharréville (GDR-NUPES)" id_acteur="PA718926" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796326">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="9" id_preparation="2211278" ordre_absolu_seance="210" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029360" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8044.15">La parole est à M. Pierre Dharréville.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="9" id_preparation="2211279" ordre_absolu_seance="211" id_acteur="PA718926" id_mandat="PM796326" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029361" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Pierre Dharréville (GDR-NUPES)</nom>
+              <id>718926</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8049.43">La concentration des moyens financiers, à Paris notamment, est un fait. L’affirmer ne met pas en cause la nécessité de disposer d’institutions nationales qui font effectivement un travail extrêmement précieux, que vous avez évoqué. Le problème réside plutôt dans le sous-financement de politiques publiques culturelles qui sont pourtant nécessaires sur l’ensemble du territoire national. Peut-être ce sous-financement se reflète-t-il dans la répartition des investissements privés dans le patrimoine. Je n’ai pas de chiffres pour établir leur degré de concentration, mais je me pose cette question. Peut-être les avez-vous, madame la ministre.<br/>L’enseignement supérieur artistique est également concentré. En effet, de nombreuses institutions nationales existent à Paris et en Île-de-France. Ailleurs, par exemple à Marseille, ces institutions d’enseignement supérieur sont financées par la ville.<br/>Bref, un rééquilibrage est nécessaire. Nous proposons non pas de diminuer les crédits mais au contraire d’augmenter le budget de la culture. Une grande part de l’activité culturelle et du service public de la culture repose actuellement sur les collectivités locales : or celles-ci font face à des équations financières de plus en plus insolubles, ce dont pâtit souvent la culture, qui est en danger de disparition et de marchandisation accrue. De quelle façon envisagez-vous l’évolution du financement des activités culturelles par les collectivités ? Quelle vision en avez-vous ?<br/>Enfin, je voudrais vous interroger sur la fonction de soutien des Drac, en particulier en ingénierie car, au-delà de l’argent, les collectivités territoriales et les particuliers ont besoin d’expertise : ils ont besoin d’avoir accès aux architectes, aux ingénieurs et aux techniciens spécialisés. Or leur nombre dans les Drac semble insuffisant eu égard à l’ampleur de la tâche. Est-ce un problème que le ministère aurait identifié et, le cas échéant, quelles mesures prévoyez-vous pour y remédier ?</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Rima Abdul-Malak, quali  ministre" id_acteur="PA791650" id_nomination_oe="PM791708" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="9" id_preparation="2211284" ordre_absolu_seance="215" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029366" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8166.87">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="9" id_preparation="2211285" ordre_absolu_seance="216" id_acteur="PA791650" id_mandat="-1" id_nomination_oe="PM791708" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029367" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Rima Abdul-Malak</nom>
+              <id>791650</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="8183.91">En fait, le budget de la culture a augmenté de 800 millions d’euros depuis 2017, donc on ne peut pas dire qu’il y ait un sous-financement.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="9" id_preparation="2211286" ordre_absolu_seance="217" id_acteur="PA718926" id_mandat="PM796326" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3029368" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Pierre Dharréville</nom>
+              <id>718926</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8192.37">Si !</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="9" id_preparation="2211287" ordre_absolu_seance="218" id_acteur="PA791650" id_mandat="-1" id_nomination_oe="PM791708" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="3029369" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Rima Abdul-Malak</nom>
+              <id>791650</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="8192.73">Les nouveaux projets dont je vous ai donné de nombreux exemples sont situés dans les territoires et non à Paris. Le doublement du budget de l’éducation artistique est également dirigé vers les territoires. Il demeure que les grandes institutions à Paris ont besoin de travaux et doivent faire face à des coûts fixes qui augmentent automatiquement. Nous avons la responsabilité de ne pas les abandonner mais de les accompagner. En réalité, tous les nouveaux projets et les ambitions de la politique culturelle, notamment pour l’éducation artistique qui bénéficie du pass culture et du doublement des crédits de l’EAC, se déploient dans les différentes régions. Le budget le prouve.<br/>En ce qui concerne les Drac et les architectes des bâtiments de France, le problème est plutôt de susciter des vocations que de créer des postes. Il n’y a aucune baisse d’effectif pour ces emplois. À l’occasion de mes visites dans les écoles d’architecture, par exemple, nous essayons de susciter des vocations chez les étudiants.<br/>Par ailleurs, en ce qui concerne les financements privés dans le patrimoine, le Loto du patrimoine est un bon exemple de partenariat public-privé. Il n’a pas réduit l’engagement de l’État pour le patrimoine, bien au contraire : le budget du patrimoine pour 2023 dépasse 1 milliard d’euros. Cependant, cela permet de recueillir des dons et le financement apporté par la vente des tickets du Loto s’ajoute à l’aide du ministère de la culture pour sauver des sites en péril qui ne sont souvent ni inscrits ni classés et qui ne font pas partie des monuments historiques que l’État peut aider en temps normal. Le Loto permet de créer une adhésion des citoyens autour d’un chantier, par exemple dans le cadre de l’opération Une école, un chantier, que nous avons développée. Ce programme est donc beaucoup plus large qu’un don unique pour un chantier. C’est un exemple parmi d’autres de mobilisation des citoyens qui versent des dons pour compléter le financement de l’État.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Emmanuelle Ménard" id_acteur="PA719608" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796593">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="9" id_preparation="2211291" ordre_absolu_seance="221" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029373" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8268.42">La parole est à Mme Emmanuelle Ménard.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="9" id_preparation="2211292" ordre_absolu_seance="222" id_acteur="PA719608" id_mandat="PM796593" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029374" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Emmanuelle Ménard</nom>
+              <id>719608</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8311.86">« Sans la culture, et la liberté relative qu’elle suppose, la société, même parfaite, n’est qu’une jungle. » Je partage cette réflexion d’Albert Camus, que nous tâchons d’incarner concrètement à Béziers. Comme nos traditions, la culture constitue notre identité et fait notre fierté. Nous devons donc les promouvoir pour les faire nôtres et les transmettre.<br/>Si l’État est chez nous un bon partenaire culturel, il n’en reste pas moins que des améliorations pourraient être apportées pour accroître son efficacité. Ainsi, il est nécessaire d’alléger les procédures administratives pour la restauration de notre patrimoine, notamment celles de la commission scientifique régionale de conservation et restauration, passage obligé pour les collectivités territoriales non seulement avant toute restauration, mais aussi pour espérer obtenir des aides de l’État. Avec seulement deux à trois commissions annuelles, des œuvres relevant du domaine public restent détériorées plusieurs mois, faute d’accord de l’État pour leur restauration. De nombreuses villes emploient pourtant du personnel à même de traiter directement avec des restaurateurs pour une intervention plus rapide.<br/>Par ailleurs, les critères d’attribution des subventions sont définis par le ministère de la culture sans qu’il ait toujours une connaissance précise des réalités locales. Si, dans les grands musées parisiens les collections se suffisent souvent à elles-mêmes, c’est loin d’être le cas dans tous les musées de province, d’où la nécessité d’une approche culturelle plus populaire, c’est-à-dire plus accessible.<br/>Dans le but de rendre la culture plus accessible, ne faudrait-il pas, d’une part, revoir le fonctionnement des commissions scientifiques régionales de conservation et restauration et, d’autre part, renforcer l’autonomie des villes en ouvrant les critères de subventionnement à une offre culturelle adaptée ?</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Rima Abdul-Malak, quali  ministre" id_acteur="PA791650" id_nomination_oe="PM791708" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="9" id_preparation="2211296" ordre_absolu_seance="226" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3029378" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8340.56">La parole est à Mme la ministre.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="9" id_preparation="2211297" ordre_absolu_seance="227" id_acteur="PA791650" id_mandat="-1" id_nomination_oe="PM791708" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3029379" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Rima Abdul-Malak</nom>
+              <id>791650</id>
+              <qualite>ministre</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="8423.61">Nous nous sommes efforcés, à la suite à la crise du covid-19, d’élaborer des dispositifs plus souples pour accompagner les collectivités et les acteurs culturels dans de nouvelles manières de s’adresser au public. Lancé en 2020, l’Été culturel, qui a ensuite été reconduit, a permis de déployer de nouveaux projets un peu partout, notamment en zone rurale et dans les quartiers prioritaires de la politique de la ville. Ces projets estivaux ont ensuite été étendus à d’autres vacances scolaires.<br/>Nous tâchons d’accroître la dimension artistique des colonies de vacances. Par exemple, le Théâtre national de Chaillot organise des colonies où les enfants apprennent à danser et découvrent d’autres expériences culturelles pendant une semaine. Le Fonds d’innovation territoriale que j’ai évoqué permet, avec quelques dizaines de milliers d’euros investis dans différents projets, d’expérimenter, de tester, et de faire émerger de nouveaux acteurs. Nous déployons donc de nouveaux dispositifs, beaucoup plus souples, pour être au plus près de l’innovation et de l’émergence des projets dans les territoires.<br/>Pour ce qui concerne les commissions scientifiques régionales de conservation et restauration, j’avoue ne pas avoir assez de données pour expliquer pourquoi cela prend plus de temps dans certains territoires, mais je regarderai cela plus précisément.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="9" id_preparation="2211300" ordre_absolu_seance="230" id_acteur="PA719608" id_mandat="PM796593" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3029382" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Emmanuelle Ménard</nom>
+              <id>719608</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8507.55">Merci.</texte>
+        </paragraphe>
+      </interExtraction>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="9" id_preparation="2211301" ordre_absolu_seance="231" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PRESIDE_DISCOURS_1_10" sommaire="0" id_syceron="3029383" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. le président</nom>
+            <id>720468</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="8510.27">Le débat est clos.</texte>
+      </paragraphe>
+    </point>
+    <finSeance>
+      <point nivpoint="1" valeur_ptsodj="2" ordinal_prise="9" id_preparation="2211303" ordre_absolu_seance="233" code_grammaire="FIN_SEAN_1_2" code_style="Titre" code_parole="" sommaire="1" id_syceron="3029385" valeur="">
+        <orateurs/>
+        <texte>Ordre du jour de la prochaine séance</texte>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="9" id_preparation="2211304" ordre_absolu_seance="234" id_acteur="PA720468" id_mandat="PM796983" id_nomination_oe="-1" id_nomination_op="PM801153" code_grammaire="FIN_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3029386" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>M. le président</nom>
+              <id>720468</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="8512.29">Prochaine séance, demain, à neuf heures :<br/>Questions orales sans débat.<br/>La séance est levée.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="9" id_preparation="2211305" ordre_absolu_seance="235" code_grammaire="FIN_SEAN_2_4" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="3029387" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>(La séance est levée à vingt-trois heures cinquante-cinq.)</italique>
+          </texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="9" id_preparation="2211306" ordre_absolu_seance="236" code_grammaire="FIN_SEAN_2_5" code_style="Signature droite" code_parole="" sommaire="0" id_syceron="3029388" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>Le directeur des comptes rendus</italique>
+            <br/>
+            <italique>Serge Ezdra</italique>
+          </texte>
+        </paragraphe>
+      </point>
+    </finSeance>
+  </contenu>
+</compteRendu>

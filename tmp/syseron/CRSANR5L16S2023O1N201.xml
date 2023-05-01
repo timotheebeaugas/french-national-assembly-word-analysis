@@ -1,0 +1,1172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<compteRendu xmlns="http://schemas.assemblee-nationale.fr/referentiel">
+  <uid>CRSANR5L16S2023O1N201</uid>
+  <seanceRef>RUANR5L16S2023IDS26963</seanceRef>
+  <sessionRef>SCR5A2023O1</sessionRef>
+  <metadonnees>
+    <dateSeance>20230403213000000</dateSeance>
+    <dateSeanceJour>lundi 03 avril 2023</dateSeanceJour>
+    <numSeanceJour>2</numSeanceJour>
+    <numSeance>201</numSeance>
+    <typeAssemblee>AN</typeAssemblee>
+    <legislature>16</legislature>
+    <session>Session ordinaire 2022-2023</session>
+    <nomFichierJo>20230201</nomFichierJo>
+    <validite>valide</validite>
+    <etat>complet</etat>
+    <diffusion>public</diffusion>
+    <version>avant_JO</version>
+    <environnement>PROD</environnement>
+    <heureGeneration>2023-04-11T11:01:15.000+02:00</heureGeneration>
+    <sommaire>
+      <presidentSeance id_syceron="3077623">Présidence de Mme Caroline Fiat</presidentSeance>
+      <sommaire1 valeur_pts_odj="1">
+        <titreStruct id_syceron="3077627">
+          <intitule>Pour une politique ambitieuse du grand âge</intitule>
+          <sousIntitule>0</sousIntitule>
+        </titreStruct>
+        <para id_syceron="3077632">Mme Myriam El Khomri, ancienne ministre du travail, auteure d’un rapport sur l’attractivité des métiers dans le secteur du grand âge</para>
+        <para id_syceron="3077637">Mme Dafna Mouchenik</para>
+        <para id_syceron="3077640">M. Thierry d’Aboville, secrétaire général du réseau ADMR</para>
+        <para id_syceron="3077645">Mme Jocelyne Cabanal, secrétaire nationale de la CFDT, chargée de la protection sociale, de l’action et de la fonction publiques</para>
+        <para id_syceron="3077833">M. Laurent Panifous (LIOT)</para>
+        <para id_syceron="3077840">Mme Myriam El Khomri </para>
+        <para id_syceron="3077845">Mme Martine Etienne (LFI-NUPES)</para>
+        <para id_syceron="3077851">Mme Dafna Mouchenik</para>
+        <para id_syceron="3077857">M. Paul Christophe (HOR)</para>
+        <para id_syceron="3077938">Mme Jocelyne Cabanal</para>
+        <para id_syceron="3077943">Mme Eva Sas (Écolo-NUPES)</para>
+        <para id_syceron="3077946">Mme Dafna Mouchenik</para>
+        <para id_syceron="3077950">M. Pierre Dharréville (GDR-NUPES)</para>
+        <para id_syceron="3077955">Mme Jocelyne Cabanal </para>
+        <para id_syceron="3077960">M. Thierry d’Aboville</para>
+        <para id_syceron="3077994">M. Jocelyn Dessigny (RN)</para>
+        <para id_syceron="3077997">Mme Myriam El Khomri</para>
+      </sommaire1>
+      <sommaire3>
+        <titreStruct id_syceron="3078005">
+          <intitule>
+            <italique>Suspension et reprise de la séance</italique>
+          </intitule>
+        </titreStruct>
+        <para id_syceron="3078010">M. Jean-Christophe Combe, ministre des solidarités, de l’autonomie et des personnes handicapées</para>
+        <para id_syceron="3077605">M. Olivier Serva (LIOT)</para>
+        <para id_syceron="3077610">M. Jean-Christophe Combe, ministre</para>
+        <para id_syceron="3077614">M. Christian Girard (RN)</para>
+        <para id_syceron="3077618">M. Jean-Christophe Combe, ministre</para>
+        <para id_syceron="3077786">M. Jean-Hugues Ratenon (LFI-NUPES)</para>
+        <para id_syceron="3077794">M. Jean-Christophe Combe, ministre</para>
+        <para id_syceron="3077799">Mme Josiane Corneloup (LR)</para>
+        <para id_syceron="3077807">M. Jean-Christophe Combe, ministre</para>
+        <para id_syceron="3077812">M. Paul Christophe (HOR)</para>
+        <para id_syceron="3077819">M. Jean-Christophe Combe, ministre</para>
+        <para id_syceron="3077824">Mme Eva Sas (Écolo-NUPES)</para>
+        <para id_syceron="3077964">M. Jean-Christophe Combe, ministre</para>
+        <para id_syceron="3077969">M. Pierre Dharréville (GDR-NUPES)</para>
+        <para id_syceron="3077974">M. Jean-Christophe Combe, ministre</para>
+        <para id_syceron="3077979">M. Bertrand Pancher (LIOT)</para>
+        <para id_syceron="3077982">M. Jean-Christophe Combe, ministre</para>
+        <para id_syceron="3077987">M. Laurent Panifous (LIOT)</para>
+        <para id_syceron="3078027">M. Jean-Christophe Combe, ministre</para>
+        <para id_syceron="3078030">M. Pascal Lecamp (Dem)</para>
+        <para id_syceron="3078037">M. Jean-Christophe Combe, ministre</para>
+        <para id_syceron="3078042">M. Benjamin Saint-Huile (LIOT)</para>
+        <para id_syceron="3078044">M. Jean-Christophe Combe, ministre</para>
+      </sommaire3>
+      <sommaire1 valeur_pts_odj="2">
+        <titreStruct id_syceron="3078047">
+          <intitule>Ordre du jour de la prochaine séance</intitule>
+        </titreStruct>
+      </sommaire1>
+    </sommaire>
+  </metadonnees>
+  <contenu>
+    <quantiemes>
+      <journee>Deuxième séance du lundi 03 avril 2023</journee>
+      <session>Session ordinaire 2022-2023</session>
+    </quantiemes>
+    <ouvertureSeance nivpoint="1" valeur_ptsodj="0" ordinal_prise="1" id_preparation="2244550" ordre_absolu_seance="1" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="0" id_nomination_op="0" code_grammaire="OUV_SEAN_1_1" code_style="Présidence" code_parole="" sommaire="1" id_syceron="3077623" valeur="">
+      <orateurs/>
+      <texte>Présidence de Mme Caroline Fiat<br/>vice-présidente</texte>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2244552" ordre_absolu_seance="3" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="OUV_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3077625" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>720286</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="936.24">La séance est ouverte.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="0" ordinal_prise="1" id_preparation="2244553" ordre_absolu_seance="4" code_grammaire="OUV_SEAN_2_2" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="3077626" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>(La séance est ouverte à vingt et une heures trente.)</italique>
+        </texte>
+      </paragraphe>
+    </ouvertureSeance>
+    <point nivpoint="1" valeur_ptsodj="1" ordinal_prise="1" id_preparation="2244554" ordre_absolu_seance="5" code_grammaire="TITRE_TEXTE_DISCUSSION" code_style="Titre" code_parole="" sommaire="1" id_syceron="3077627" valeur="">
+      <orateurs/>
+      <texte>Pour une politique ambitieuse du grand âge</texte>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2244555" ordre_absolu_seance="6" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="ODJ_APPEL_DISCUSSION" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3077628" valeur="" roledebat="president">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>720286</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="938.90">L’ordre du jour appelle le débat sur le thème : « Pour une politique ambitieuse du grand âge ».<br/>Ce débat a été demandé par le groupe Libertés, indépendants, outre-mer et territoires. À la demande de ce dernier, il se tient en salle Lamartine, afin que des personnalités extérieures puissent être interrogées. La conférence des présidents a décidé d’organiser ce débat en deux parties. Nous commencerons par une table ronde en présence de personnalités invitées, d’une durée d’une heure, puis nous procéderons, après avoir entendu une intervention liminaire du Gouvernement, à une nouvelle séquence de questions-réponses, d’une durée d’une heure également. La durée des questions et des réponses sera limitée à deux minutes, sans droit de réplique.<br/>Pour la première phase du débat, je souhaite la bienvenue à Mme Myriam El Khomri, ancienne ministre du travail, auteure d’un rapport sur l’attractivité des métiers dans le secteur du grand âge, en charge de l’atelier numéro 3 – relatif à la valorisation des métiers – du volet « bien vieillir » du Conseil national de la refondation (CNR), à M. Thierry d’Aboville, secrétaire général du réseau Aide à domicile en milieu rural (ADMR) et à Mme Jocelyne Cabanal, secrétaire nationale de la CFDT, chargée de la protection sociale, de l’action et de la fonction publiques. Trois sont accompagnés par une personne. Mesdames, monsieur, vous disposez de cinq minutes chacun pour une première intervention.<br/>La parole est à Mme Myriam El Khomri, ancienne ministre du travail, auteure d’un rapport sur l’attractivité des métiers dans le secteur du grand âge.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2244559" ordre_absolu_seance="10" id_acteur="PA-125309" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077632" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Myriam El Khomri,</nom>
+            <id>-125309</id>
+            <qualite>ancienne ministre du travail, auteure d’un rapport sur l’attractivité des métiers dans le secteur du grand âge</qualite>
+          </orateur>
+        </orateurs>
+        <texte stime="973.02">Je suis accompagnée par Mme Dafna Mouchenik, avec qui, depuis le mois de novembre, j’ai piloté les ateliers du CNR sur le bien vieillir consacrés à l’attractivité des métiers du grand âge. Dans ce cadre, il nous a semblé important de concentrer notre réflexion sur les intervenants à domicile, la formation et l’amélioration des conditions de travail et de qualité de vie au travail. Nous remettrons demain, à quatorze heures, notre feuille de route.<br/>Les débats ont été riches, nourris par les nombreux professionnels qui se sont mobilisés à cette occasion. Le constat, malheureusement partagé, est que ces métiers qui ont du sens, qui ne sont ni automatisables ni délocalisables, qui sont des métiers d’avenir, nécessaires en tout point du territoire, sont en difficulté.<br/>Il faut, c’est ce que nous prônerons demain, sortir d’une forme de taylorisation du travail et en finir avec une conception selon laquelle certains temps seraient improductifs. En matière de financement des services d’aide à domicile, nous proposerons d’abandonner la tarification à l’heure, qui ne prend pas en compte la réalité des temps passés auprès du public. Cette question du temps est aussi en jeu lorsqu’il s’agit de réduire le taux très élevé de sinistralité – il est de 10 %, quand la moyenne nationale est de 3 %. Nous formulerons des propositions pour que les salariés ne soient pas mis devant le choix, faire vite ou faire bien. Enfin, nous présenterons des préconisations en matière de formation.<br/>J’ajoute que le taux de travailleurs pauvres parmi les intervenants à domicile avoisine les 18 %, alors qu’il est de 6,9 % chez les salariés français. Malheureusement, il s’agit d’un secteur structurellement sous-financé. Si nous voulons rendre ce métier attractif, il faut conduire une réforme systémique, qui porte à la fois sur les conditions d’emploi, la rémunération, la formation et la qualité de vie au travail.</texte>
+      </paragraphe>
+      <interExtraction nom_orateur="Mme Dafna Mouchenik" id_acteur="PA-125309" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2244563" ordre_absolu_seance="14" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077636" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1160.27">La parole est à Mme Dafna Mouchenik.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2244564" ordre_absolu_seance="15" id_acteur="PA-125309" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077637" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Dafna Mouchenik</nom>
+              <id>-125309</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1206.30">Je suis directrice d’un service d’aide à domicile. Tous les jours, nous sommes confrontés à l’impossibilité d’accompagner et de soutenir à domicile toutes les personnes qui en font la demande, faute de professionnels en nombre suffisant. Lorsque nous le pouvons, nous disposons de deux heures ou de deux heures et demie par jour pour aider ces personnes qui ne peuvent ni se lever, ni se laver, ni manger seules. Bien souvent, les professionnels sont forcés de fractionner leur temps d’intervention et doivent refermer la porte alors que la personne a toujours besoin d’aide.<br/>Une mesure forte, qui aurait du sens et améliorerait la qualité de vie des personnes accompagnées et de celles qui les soutiennent, consisterait à tripler le nombre d’heures allouées en GIR – groupes iso-ressources – 1 et 2, soit environ six heures par jour au lieu de deux. Ce n’est tout de même pas délirant. Tous les professionnels que nous avons rencontrés – ils ont été très nombreux à s’être déplacés et à s’investir dans cette démarche – ont expliqué qu’ils souhaitaient avant tout disposer de plus de temps pour accompagner correctement les gens. En améliorant le taux d’encadrement dans les établissements et en augmentant de façon significative le temps passé auprès des personnes à domicile, nous pourrions progresser.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Thierry d'Aboville,  quali  secrétaire général du réseau ADMR" id_acteur="PA-125319" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2244566" ordre_absolu_seance="17" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077639" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1314.51">La parole est à M. Thierry d’Aboville, secrétaire général du réseau ADMR.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2244567" ordre_absolu_seance="18" id_acteur="PA-125319" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077640" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Thierry d’Aboville,</nom>
+              <id>-125319</id>
+              <qualite>secrétaire général du réseau ADMR</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="1333.38">Depuis sa création en 1945, le réseau ADMR a deux ambitions : créer de l’emploi de proximité et permettre aux personnes de rester chez elles. Son modèle est particulier puisqu’il rassemble 2 600 associations locales intervenant à domicile, réparties sur l’ensemble du territoire. Ces associations sont regroupées au sein de fédérations départementales. Il s’agit à la fois de fédérations politiques – elles contractent avec les conseils départementaux, les agences régionales de santé (ARS) et l’ensemble des institutions – et de fédérations de moyens, puisque beaucoup sont mutualisés. Toutes adhèrent à une union nationale, une fédération, là encore politique – elle travaille avec les ministères, les directions centrales et le Parlement – et de moyens – les associations partagent, par exemple, le même système d’information national.<br/>Nous intervenons de la naissance à la fin de vie : auprès des familles, avec les TISF – techniciens de l’intervention sociale et familiale –, dans le domaine de la petite enfance, avec 250 structures de type crèche ou micro-crèche, auprès des personnes handicapées et des seniors. Nous proposons un service d’aide mais aussi des soins, avec des services de soins infirmiers à domicile (Ssiad), des centres de santé, infirmiers ou polyvalents. Enfin, nous proposons des services d’entretien de la maison. Au sein de l’ADMR, on dénombre 94 000 salariés ; nos 80 000 bénévoles sont une spécificité de notre réseau.  <br/>La future proposition de loi (PPL) visant à bâtir la société du bien vieillir en France doit être ambitieuse. Nous sommes confrontés à de nombreuses difficultés en matière d’attractivité comme de financement. Les défis sont immenses et nous devons répondre aux attentes de la société. Pour cela, nous devons mener des réformes structurelles. Je pense notamment à la dotation horaire, qui doit évoluer vers une dotation globale, comme cela se fait déjà dans certains départements. Ainsi, des fédérations de l’ADMR sont autorisées à piloter des Ssiad et rendent évidemment compte des financements qu’elles reçoivent de l’ARS. Il faut sortir du fractionnement et faire confiance aux acteurs, quels qu’ils soient : ils peuvent gérer et rendre des comptes, notamment auprès du département.<br/>La qualité de vie au travail est un enjeu essentiel, qui recouvre notamment les questions de mobilité – nos salariés parcourent 300 millions de kilomètres par an – et, partant, de responsabilité sociale et environnementale des entreprises (RSE). Si nous voulons relever les défis qui sont devant nous, nous devons mener de nombreuses réformes.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Jocelyne Cabanal,  quali  secrétaire nationale de la CFDT, chargée de la protection sociale, de l'action et de la fonction publiques" id_acteur="PA-125319" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2244571" ordre_absolu_seance="22" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077644" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1612.10">La parole est à Mme Jocelyne Cabanal, secrétaire nationale de la CFDT, chargée de la protection sociale, de l’action et de la fonction publiques.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="1" id_preparation="2244572" ordre_absolu_seance="23" id_acteur="PA-125319" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077645" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Jocelyne Cabanal,</nom>
+              <id>-125319</id>
+              <qualite>secrétaire nationale de la CFDT, chargée de la protection sociale, de l’action et de la fonction publiques</qualite>
+            </orateur>
+            <orateur>
+              <nom/>
+              <id>-125319</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="1633.75">Je suis accompagnée de M. Xavier Becker, expert sur le sujet à la CFDT. Les personnes que nous représentons, qu’elles soient salariées du secteur ou simplement confrontées personnellement ou indirectement, à la perte d’autonomie, expriment des attentes fortes sur cette question qui traverse toute la société. Les réponses doivent être à la hauteur des besoins.<br/>Pour nous, il n’y a pas de prise en charge de qualité si la qualité de vie au travail n’est pas de mise. Or on observe aujourd’hui des dysfonctionnements, qui sont des dysfonctionnements structurels. Si on veut changer les choses et améliorer l’accompagnement des personnes, il faut envisager une reconnaissance pleine et entière des professionnels, de l’ensemble du cadre de leur emploi et de l’exercice de leur travail.<br/>Nous souhaitons que les réformes soient centrées sur la qualité de vie, la dignité, la citoyenneté et l’émancipation, par le maintien de l’autonomie. Cela passe par une meilleure reconnaissance des professionnels mais aussi par la lutte contre les inégalités sociales et territoriales. Aujourd’hui, l’espérance de vie en bonne santé n’est pas la même partout. Selon le territoire où l’on vit, la prise en charge sera de plus ou moins grande qualité. Il est très important, à nos yeux, de tendre vers l’égalité afin que chacun puisse vivre et vieillir dignement.<br/>Cela suppose de transformer profondément le système, en commençant par s’interroger sur sa gouvernance. La cinquième branche, la Caisse nationale de solidarité pour l’autonomie (CNSA) a vu le jour mais nous pouvons nous accorder à dire que les financements ne sont pas à la hauteur des besoins et que les marges de manœuvre et d’action ne sont pas non plus au rendez-vous.</texte>
+        </paragraphe>
+      </interExtraction>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2244693" ordre_absolu_seance="27" id_acteur="PA-125339" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="3077828" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme Jocelyne Cabanal</nom>
+            <id>-125339</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1778.12">La CFDT souhaiterait vivement voir une déclinaison de la CNSA fonctionnant comme une caisse nationale de sécurité sociale, avec une gouvernance qui s’appuierait sur des partenaires sociaux capables de peser réellement dans les décisions, mais elle aimerait aussi une déclinaison territoriale, afin que le service public territorial de l’autonomie, en cours de création, ne soit pas limité à une gouvernance restreinte par l’ARS et les départements. Enfin, nous souhaiterions qu’une logique de prévention soit déployée dans les territoires, notamment autour des CPTS – communautés professionnelles territoriales de santé.<br/>Toutes ces propositions supposent un financement qu’il nous paraît nécessaire d’envisager comme un financement public, national et mutualisé. Cela suppose de se donner les moyens de ces ambitions. Je souhaite évoquer une proposition spécifique parmi toutes celles que nous défendons : la taxation des transmissions dès le premier euro. Aujourd’hui, selon les moyens dont on dispose, la prise en charge du maintien de l’autonomie est plus ou moins facilitée. Agir sur les transmissions n’est pas facile, mais cela nous semble être une mesure de justice sociale. Ce financement ne pèsera ni sur le pouvoir d’achat des travailleurs ni sur la compétitivité des entreprises, ce qui est important dans la période actuelle.<br/>Quant à la proposition de loi en cours d’examen, il faut changer d’échelle, avoir de fortes ambitions et adopter une vision systémique du maintien à domicile et en établissement ; là aussi, beaucoup reste à faire.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2244696" ordre_absolu_seance="30" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PRESIDE_DISCOURS_1_10" sommaire="0" id_syceron="3077831" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>720286</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1920.83">Nous en venons aux questions. J’invite tous ceux qui souhaitent intervenir à s’inscrire auprès de la direction de la séance. Chaque question sera immédiatement suivie de sa réponse, afin que le débat soit aussi fluide que possible.<br/>La parole est à M. Laurent Panifous.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2244698" ordre_absolu_seance="32" id_acteur="PA793210" id_mandat="PM796212" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077833" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Panifous (LIOT)</nom>
+            <id>793210</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="1951.38">Ces dernières années, de nombreux rapports ont pointé les difficultés rencontrées par le secteur du grand âge, qu’il s’agisse de l’hébergement des personnes âgées en établissement spécialisé ou de leur maintien à domicile. Ces rapports ont souvent identifié, avec exactitude, les mêmes manques ; nous sommes tous à peu près d’accord sur ce qu’il faudrait faire pour parvenir à un accompagnement de qualité pour les usagers et à des conditions de travail dignes pour ceux qui les accompagnent, à domicile ou en établissement. Malheureusement, les années passent et les fameux plans, souvent évoqués, sont toujours repoussés. Il semblait y en avoir un ces dernières années, mais la crise sanitaire est passée par là.<br/>En commission, nous examinons la proposition de loi portant mesures pour bâtir la société du bien vieillir en France ; les premières heures de débat ont été très décevantes. Madame El Khomri, vous avez évoqué ce texte tout à l’heure ; nous sommes en train de l’examiner, alors que le compte rendu de votre travail au CNR n’est pas encore connu. J’avais pourtant cru comprendre – à tort, visiblement – que les conclusions de ce travail, mené auprès des citoyens, devaient alimenter la proposition de loi. Comme nous l’avons dit en commission, nous espérons qu’un nouveau plan grand âge sera bientôt présenté pour apporter les moyens nécessaires dont le besoin est souligné à juste titre par tous les rapports.<br/>Outre des moyens humains, il faut des moyens en matière de formation et de qualification des personnels intervenant à domicile. La grande question sous-jacente – la seule, peut-être, que l’on doive se poser – porte sur le financement de ces moyens. Nous savons que le budget s’établit à 10 milliards d’euros environ. Où irons-nous les chercher : dans les transactions, le capital, l’assurance privée ? Il s’agit clairement de choix politiques.<br/>J’espère que nous serons rapidement capables de mener à bien un plan grand âge sérieux et ambitieux, et que des choix politiques seront arrêtés pour en déterminer le financement.</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2244702" ordre_absolu_seance="36" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3077837" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>720286</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2104.71">À qui s’adressait votre question, monsieur Panifous ?</texte>
+      </paragraphe>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2244703" ordre_absolu_seance="37" id_acteur="PA793210" id_mandat="PM796212" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="3077838" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>M. Laurent Panifous</nom>
+            <id>793210</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="2110.20">Plutôt à Mme El Khomri.</texte>
+      </paragraphe>
+      <interExtraction nom_orateur="Mme Myriam El Khomri " id_acteur="PA-125309" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2244704" ordre_absolu_seance="38" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077839" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2110.76">La parole est à Mme Myriam El Khomri.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2244705" ordre_absolu_seance="39" id_acteur="PA-125309" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077840" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Myriam El Khomri</nom>
+              <id>-125309</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2125.78">Nous n’avons pas traité du financement parce que la question qui nous était posée portait sur la façon de rendre plus attractifs les métiers du grand âge. Lorsque le taux d’absentéisme s’établit entre 8 et 15 % dans les Ehpad et entre 10 et 20 % dans les Saad – service d’aide et d’accompagnement à domicile –, cela a un prix : un point d’absentéisme correspond à un ou deux points de masse salariale. Notre logique a consisté à partir du principe que renforcer l’attractivité de ces métiers était un investissement. Il n’y a pas d’étanchéité entre ce qui se passe au domicile et les urgences de l’hôpital ; il existe de nombreux coûts cachés.<br/>Le taux de travailleurs pauvres reste élevé chez les intervenants à domicile, bien que le Ségur de la santé ait été essentiel, notamment pour les aides-soignants en Ehpad. Néanmoins, contrairement à ce qui se passait en 2019, lorsque j’avais rédigé le rapport collectif sur l’attractivité des métiers du grand âge, nous connaissons actuellement une telle pénurie de main-d’œuvre que de nombreuses personnes sont embauchées sans être formées, en Ehpad comme en Saad. Nous avons besoin de financement pour la formation continue, parce qu’il n’y a pas de meilleur levier pour engager un collaborateur que de lui indiquer des perspectives d’évolution.<br/>Depuis octobre 2022, les aides-soignantes ne peuvent plus faire financer leur Pro A – promotion ou reconversion par l’alternance ; on leur dit d’attendre le mois de janvier. Des progrès ont été faits concernant l’alternance et la tarification des services d’aide à domicile, notamment le tarif plancher et la dotation complémentaire sur la qualité, de 3 euros de l’heure en moyenne. Mais les rémunérations des aides à domicile ne sont pas à la hauteur des enjeux. En 2019, beaucoup de contrats à temps partiel étaient subis ; aujourd’hui, ces aides disent elles-mêmes vouloir travailler moins pour gagner plus. Travailler à temps plein leur coûterait plus cher en frais de garde ; en outre, l’augmentation de leurs indemnités kilométriques n’est pas prise en charge.<br/>Dans notre rapport, nous préconisons de sortir du système de tarification à l’heure, qui repose sur une taylorisation du métier d’aide-soignante, alors même qu’il consiste à faire du lien, à faire faire et à préserver autant que possible l’autonomie des usagers. Nous les mettons dans une position de conflit de valeurs : elles aiment leur métier, qui a du sens, mais la manière dont elles l’exercent lui fait perdre ce sens. Le système, tel qu’il est construit, même avec les 3 euros qualité, n’est pas satisfaisant et ne permet pas de rendre ce métier attractif.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Martine Etienne (LFI-NUPES)" id_acteur="PA794458" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796941">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2244709" ordre_absolu_seance="43" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077844" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2265.90">La parole est à Mme Martine Etienne.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2244710" ordre_absolu_seance="44" id_acteur="PA794458" id_mandat="PM796941" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077845" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Martine Etienne (LFI-NUPES)</nom>
+              <id>794458</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2331.18">Ma question porte sur les politiques d’autonomie et du maintien à domicile des personnes âgées. Plus de 85 % des Français souhaitent vieillir à domicile, auprès de leurs proches et dans leur environnement habituel, mais le secteur de l’aide à domicile reste le grand laissé pour compte des politiques publiques. Les professionnels ont longtemps été oubliés du Ségur de la santé et les proches aidants ne sont pas suffisamment accompagnés.<br/>Le premier quinquennat d’Emmanuel Macron a été désastreux. Les conditions de vie des personnes âgées se sont dégradées. La loi dite grand âge a été abandonnée ; la cinquième branche de la sécurité sociale est vide et inadaptée aux besoins. La réforme des retraites ne fera qu’empirer la situation en précarisant les personnes âgées qui vivent déjà sous le seuil de pauvreté et en augmentant le risque de maladie grave au moment de la retraite. Il est grand temps de revaloriser les métiers de l’aide à domicile.<br/>La France insoumise réclame la création d’un service public de la dépendance, ainsi que le développement d’établissements publics et du maintien à domicile. Nous proposons de créer un guichet unique de l’autonomie sur chaque territoire, pour renforcer les dispositifs d’accompagnement et d’information. Il est urgent d’élargir le droit à la formation des proches aidants, d’œuvrer pour un réel droit au répit en permettant le relayage à domicile, et de recenser les besoins en matériel, afin qu’aucun bénéficiaire ne soit laissé pour compte.<br/>Vous le préconisiez déjà dans votre rapport, madame El Khomri : pour les professionnels, il faut dès maintenant revaloriser les carrières et les salaires. Pour ce faire, nous proposons de généraliser les CDI à temps plein, d’instaurer un fonctionnement à la tournée ou encore de prendre en compte la durée de déplacement dans le calcul des horaires de travail.<br/>En ce moment même, la proposition de loi portant mesures pour bâtir la société du bien vieillir en France est examinée en commission. Tous les amendements que nous avons déposés, visant à recenser les besoins des aides à domicile, à revaloriser les financements et à financer le secteur de la dépendance, ont été déclarés irrecevables. Ma question, qui est simple, s’adresse au Gouvernement : que proposez-vous pour revaloriser le secteur de l’aide à domicile et celui de l’autonomie en général ?</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Dafna Mouchenik" id_acteur="PA-125349" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2244715" ordre_absolu_seance="49" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077850" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2416.90">Étant donné que le Gouvernement n’est pas encore représenté, il faut qu’un des intervenants se dévoue pour vous répondre…<br/> La parole est à Mme Dafna Mouchenik.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2244716" ordre_absolu_seance="50" id_acteur="PA-125349" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077851" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Dafna Mouchenik</nom>
+              <id>-125349</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2480.69">Sans prétention, je voudrais simplement témoigner de ce que je vois sur le terrain : la situation dramatique du secteur de l’aide à domicile est directement liée à la façon dont on finance la perte d’autonomie.<br/>On ne finance que ce qu’on voit, c’est-à-dire uniquement le temps passé auprès des gens. Or, comme je l’ai dit rapidement en introduction, ce temps est très inférieur aux besoins de ces derniers. Si les auxiliaires de vie restaient plus longtemps auprès des bénéficiaires, leur temps de déplacement serait drastiquement réduit, alors qu’elles s’essoufflent à courir d’une maison à l’autre, parce que le temps accordé à chaque personne est très court. Si celui-ci était calculé en fonction du handicap, une auxiliaire de vie s’occuperait non plus de six ou sept personnes dans la journée, mais de deux ou trois seulement, pour occuper un temps plein.<br/>Je parle du handicap plutôt que de l’âge, parce que pour un même problème de santé, une personne bénéficie de plus de temps avant l’âge de 60 ans qu’après, ce qui révèle un certain âgisme dans les politiques publiques, lequel n’est pas sans soulever de questions.<br/>Il faut arrêter de croire que le travail ne se fait que lorsque l’on est près des gens. Une auxiliaire de vie, pour faire correctement son travail, a besoin de s’entretenir avec les proches et les infirmières, de communiquer avec ses collègues – du week-end et du soir –, de parler avec son service, par exemple pour dire ce qu’elle pense d’une pratique ou préconiser une autre façon de faire. Tous ces temps de travail ne se font pas en face-à-face. Ce temps, dit improductif, est invisible mais indispensable.<br/>Les services ont besoin qu’on leur redonne de l’autonomie et qu’on leur fasse à nouveau confiance. Certains plans d’aide sont très directifs : on prévoit un quart d’heure ici, une demi-heure là. L’auxiliaire de vie sait comment accompagner les gens ; elle a besoin qu’on lui fasse confiance. En tout état de cause, si la perte d’autonomie était correctement financée, les difficultés rencontrées par les professionnels seraient drastiquement réduites.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Paul Christophe (HOR)" id_acteur="PA642868" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796968">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2244721" ordre_absolu_seance="55" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077856" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2648.25">La parole est à M. Paul Christophe.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="2" id_preparation="2244722" ordre_absolu_seance="56" id_acteur="PA642868" id_mandat="PM796968" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077857" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Paul Christophe (HOR)</nom>
+              <id>642868</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2655.06">Près de 4 millions de nos concitoyens sont proches aidants d’une personne âgée de plus de 60 ans. Ces hommes et ces femmes représentent une aide indispensable pour leurs proches : ils leur portent assistance dans les tâches du quotidien, apportent un soutien moral et, bien souvent, une aide financière ou matérielle.<br/>Cependant, cette implication auprès de leurs proches n’est pas sans conséquence pour leur propre santé. En effet, selon une enquête de la direction de la recherche, des études, de l’évaluation et des statistiques – Drees –, réalisée en 2015, 47 % des proches aidants déclarent au moins une conséquence négative sur leur état de santé physique ou psychique.<br/>Afin de leur apporter une solution de répit, plusieurs pays ont instauré le baluchonnage ou le relayage – pour utiliser le terme français –, créé en 1999 au Québec. Cette pratique permet à l’aidant de se reposer, de bénéficier du relais d’un professionnel jusqu’à vingt-quatre heures sur vingt-quatre au domicile de son proche. Le professionnel prend alors la place de l’aidant, il réalise des actes de la vie quotidienne et assure une compagnie à la personne âgée. Cette pratique vertueuse permet aussi à la personne âgée de ne pas voir son équilibre de vie bouleversé par un changement d’environnement et un placement provisoire.<br/>En France, en application de l’article 53 de la loi du 10 août 2018 pour un État au service d’une société de confiance, une expérimentation nationale a été lancée. Celle-ci visait à déterminer à quelles conditions les professionnels de trente-neuf établissements des services sociaux ou médico-sociaux pouvaient réaliser une telle démarche. Cette expérimentation doit s’achever à la fin de cette année. Quel bilan en faites-vous, tant du point de vue du financement du service rendu à la personne qu’en matière de droit du travail, notamment eu égard aux distorsions horaires ?<br/>Vous avez parlé des métiers. Ne croyez-vous pas qu’il faudrait organiser une sorte de transversalité entre les métiers exercés dans les Ehpad, au domicile de la personne dépendante et dans les établissements médico-sociaux, afin de garantir une certaine fluidité des métiers en fonction des appétences et de la difficulté à maintenir l’exercice de certaines professions ?<br/>Enfin, ne faudrait-il pas changer l’expression auxiliaire de vie, qui comporte le terme auxiliaire, afin d’anoblir ce métier si beau ?</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Jocelyne Cabanal" id_acteur="PA-125339" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2244770" ordre_absolu_seance="62" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077937" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2696.70">La parole est à Mme Jocelyne Cabanal.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2244771" ordre_absolu_seance="63" id_acteur="PA-125339" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077938" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Jocelyne Cabanal</nom>
+              <id>-125339</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2792.31">S’agissant du baluchonnage, nous sommes très sensibles à la question du droit au répit des aidants, qui est fondamental et que nous reconnaissons. Disposer de professionnels disponibles, formés et qualifiés constitue une solution de secours qui pourrait leur être apportée.<br/>Il nous semble toutefois difficile d’instaurer le baluchonnage en France, aux dépens du code du travail, œuvre d’intelligence collective. On ne peut pas, pour aider certains, mettre des travailleurs en difficulté. Très souvent, dans le cadre du baluchonnage, ce sont des travailleuses qui interviennent à domicile. Elles sont parfois en fin de carrière et fatiguées – d’après certaines observations qu’on nous a transmises. Selon les conditions dans lesquelles le relayage est organisé, elles se trouvent parfois confrontées à une vraie détresse de l’aidant. Ce répit intervient au moment des crises, au moment où la famille ne peut plus accompagner la personne au quotidien.<br/>Il est donc très important qu’on puisse rester dans le cadre du code du travail. Des expérimentations montrent que c’est possible, à condition d’adosser des services de soin à des établissements et d’encadrer le temps de travail. En effet, travailler six jours d’affilée, vingt-quatre heures sur vingt-quatre, crée un risque tant pour la personne accompagnée que pour la travailleuse. Il faut prévoir à froid un répit, et l’anticiper en l’accompagnant de mesures de prévention, afin que la personne accompagnée puisse rencontrer les personnes qui s’occuperont d’elle. Ce dispositif nous semble meilleur.<br/>Pour répondre à votre dernière question, les travailleurs du secteur du grand âge sont parfois enfermés dans des spécialités. Dès lors, organiser une filière du grand âge, comportant un comité de filières et offrant des formations transversales, accompagnées de passerelles et de grilles les rendant compatibles, fait partie des éléments de nature à stabiliser le secteur et à garantir, enfin, une qualité de travail, des vrais parcours professionnels et la reconnaissance de ceux-ci.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Eva Sas (Écolo-NUPES)" id_acteur="PA610002" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM797286">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2244775" ordre_absolu_seance="67" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077942" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2968.89">La parole est à Mme Eva Sas.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2244776" ordre_absolu_seance="68" id_acteur="PA610002" id_mandat="PM797286" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077943" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Eva Sas (Écolo-NUPES)</nom>
+              <id>610002</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2976.74">Ma question s’adresse à Dafna Mouchenik. Mme El Khomri a indiqué qu’on comptait 18 % de travailleurs pauvres dans le secteur du grand âge. Vous avez souligné le problème du fractionnement des interventions auprès des personnes aidées et la nécessité d’augmenter le temps d’intervention auprès d’elles.<br/>Vous avez tout à fait raison de souligner que le temps passé est au cœur de l’amélioration de leur prise en charge. Avez-vous chiffré le coût de vos propositions ? Quelles seraient les pistes de financement que vous envisagez ? Comment garantir aux aidants des parcours professionnels et des possibilités d’évolution de carrière, de promotion et de formation ? Comment les modalités de financement devraient-elles évoluer pour mettre en œuvre ces parcours professionnels ?</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Dafna Mouchenik" id_acteur="PA-125349" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2244778" ordre_absolu_seance="70" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077945" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="2996.43">La parole est à Mme Dafna Mouchenik.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2244779" ordre_absolu_seance="71" id_acteur="PA-125349" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077946" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Dafna Mouchenik</nom>
+              <id>-125349</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3031.67">Je suis très embarrassée, car je ne sais que vous répondre. De mon point de vue – et c’est ce que disait Myriam El Khomri dans son intervention liminaire –, financer ce secteur permettra de faire des économies sur de nombreux autres postes de dépenses. Maintenir les personnes en bonne santé plus longtemps fait faire des économies à la collectivité, au-delà du fait que c’est une meilleure solution plutôt que de les laisser tomber malades et perdre en autonomie.<br/>Il s’agit également de permettre aux hommes et surtout aux femmes qui les accompagnent de vivre dignement. Elles doivent être soutenues et aidées, elles mettent leur santé en péril. Il faut savoir que celles et ceux qui prennent soin d’autres personnes sont celles et ceux qui s’abîment le plus et qui sont le plus exposés à des accidents de travail et à des licenciements pour inaptitude, ce qui représente un coût très important. Toutefois, je suis la personne la moins à l’aise avec les chiffres. Je suis donc très embêtée de ne pouvoir vous en dire davantage.<br/>On a un peu avancé sur la question de la formation, notamment grâce à l’instauration de l’alternance. Cette voie très intéressante permet aux personnes de suivre des formations tout en étant rémunérées. La difficulté que nous rencontrons est que de nombreuses personnes travaillant dans nos services les ont intégrés sans être qualifiées. Lorsque la réforme de la formation a été appliquée, de nombreux financements ont été fléchés en direction des chercheurs d’emplois, ce qui a considérablement réduit le budget alloué à nos plans d’aide internes. La formation par les pairs, dans les services et dans les établissements, tout au long de la vie professionnelle, fonctionne très bien – Myriam El Khomri l’a également souligné. Il faudrait donc la renforcer d’une manière ou d’une autre.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Pierre Dharréville (GDR-NUPES)" id_acteur="PA718926" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796326">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2244782" ordre_absolu_seance="74" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077949" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3167.92">La parole est à M. Pierre Dharréville.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2244783" ordre_absolu_seance="75" id_acteur="PA718926" id_mandat="PM796326" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077950" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Pierre Dharréville (GDR-NUPES)</nom>
+              <id>718926</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3177.71">Vous avez dressé plusieurs constats et formulé de nombreuses propositions qui nous semblent devoir être au cœur du débat public, car elles mettent en lumière des enjeux considérables auxquels nous sommes tous et toutes plus ou moins confrontés à un moment ou à un autre de notre existence. Vous avez beaucoup évoqué la question de l’attractivité des métiers, qui est très récurrente, celle des conditions de travail et de rémunération, et celle du temps dont on dispose pour s’occuper d’une personne, afin que ce travail ait lui-même du sens. Nous parlons très régulièrement de ces questions, sur lesquelles on n’avance pas beaucoup – pour le dire de manière indulgente.<br/>Derrière ces questions, il y a deux sujets.<br/>Le premier, c’est le niveau de protection sociale dont nous bénéficions tout au long de notre vie. Je m’adresse plutôt à Mme Cabanal, mais je ne veux pas que d’autres intervenants se privent de me répondre ensuite, si Mme la présidente le permet. Quelles évolutions pouvons-nous envisager pour garantir à chacun des droits, y compris en cas de perte d’autonomie ?<br/>Le second sujet, c’est la véritable ambition de service public, comme outil de réponse aux besoins, qui fait un peu défaut.<br/>Vous avez indiqué que vos propositions apporteraient des bénéfices cachés, que l’on ne mesure pas. Peut-on envisager de les chiffrer ? Je pense notamment aux aidants, que Paul Christophe a évoqués. Il s’avère qu’on fait reposer sur eux toute une part de la solidarité nationale, ce qui a un coût considérable pour eux, mais aussi pour l’ensemble de la société. Cette situation est insupportable, il y a donc urgence à agir.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Jocelyne Cabanal " id_acteur="PA-125339" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2244787" ordre_absolu_seance="80" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077954" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3309.95">Comme vous l’avez demandé très gentiment, j’autorise deux réponses qui sont limitées à deux minutes. La parole est à Mme Jocelyne Cabanal.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2244788" ordre_absolu_seance="81" id_acteur="PA-125339" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077955" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Jocelyne Cabanal</nom>
+              <id>-125339</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3323.90">Le financement existe déjà car on finit toujours par payer. Soit on paye lorsque la dépendance survient, en mobilisant des ressources personnelles. Or, dans ce cas, selon la capacité de financement de chacun, il existe une grande injustice. Soit les femmes paient avec leur propre santé et la sinistralité, soit ce sont les aidants, ce qui représente un coût pour eux et pour les entreprises – les talents, lorsqu’ils deviennent aidants, ne peuvent plus s’exprimer – et induit un sous-financement du secteur.<br/>La question n’est pas tant de trouver un financement que de le mutualiser et de déterminer la répartition du poids – qui pèse de façon très inégale sur les personnes en perte d’autonomie et leurs proches – en fonction des moyens dont ils disposent.<br/>Il est très important d’avoir un financement public. On a évoqué la question du financement privé. Dans tous les cas, on mettra des moyens sur la table, donc autant prévoir une répartition rationnelle et juste, en fonction des besoins et des moyens des personnes.<br/>Plusieurs pistes sont avancées. J’ai évoqué la taxation des transmissions à partir du premier euro, ce qui rapporterait 3 milliards par an. Dès lors, il serait dommage de s’en priver, d’autant que cette mesure n’affecterait aucunement le pouvoir d’achat. Nous proposons également d’élargir la contribution solidarité autonomie (CSA), afin que tout le monde y contribue. On disposerait alors d’un financement comparable à celui de la sécurité sociale, porté par la CNSA, dans le cadre du service public.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Thierry d'Aboville" id_acteur="PA-125319" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2244792" ordre_absolu_seance="85" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077959" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3391.25">La parole est à M. Thierry d’Aboville.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="3" id_preparation="2244793" ordre_absolu_seance="86" id_acteur="PA-125319" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077960" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Thierry d’Aboville</nom>
+              <id>-125319</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3471.11">La solidarité nationale doit financer cette politique. Un autre véritable sujet lié à cette question est l’égalité de traitement entre les personnes âgées, qui varie de manière importante d’un département à l’autre. Il vaut mieux être bénéficiaire de l’allocation personnalisée d’autonomie – APA – dans certains départements que dans d’autres.<br/>Un début de travail a été accompli avec l’instauration du tarif socle, qui va dans le bon sens. Néanmoins, lorsque l’avenant 43 à la convention collective de la branche de l’aide, de l’accompagnement et des soins et des services à domicile (BAD), qui compte quand même 250 000 salariés, est entré en vigueur, certains départements n’ont pas appliqué la revalorisation des salaires de 4,10 euros, alors que la CNSA prend en charge 50 % – bien que de nombreux autres départements aient joué le jeu. Il en résulte des distorsions entre les territoires.<br/>C’est un véritable enjeu. Il convient donc de trouver des moyens, de façon à constituer un socle commun à l’ensemble des départements. Bien entendu, chaque conseil départemental peut mener par ailleurs sa propre politique ; c’est une harmonisation que nous réclamons.<br/>Il est vrai que la question de la tarification, de l’habilitation, est importante. Certains départements sont en train de « détarifer » nos structures, ce qui risque de se traduire par des restes à charge plus importants pour les usagers et par la fin de l’opposabilité des conventions collectives.</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="M. Jocelyn Dessigny (RN)" id_acteur="PA793166" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796185">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2244578" ordre_absolu_seance="90" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077993" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3578.76">La parole est à M. Jocelyn Dessigny.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2244579" ordre_absolu_seance="91" id_acteur="PA793166" id_mandat="PM796185" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077994" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Jocelyn Dessigny (RN)</nom>
+              <id>793166</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3644.26">Madame la ministre, puisque vous avez été chargée du travail et de l’emploi, vous n’êtes pas sans connaître les problèmes liés au recrutement d’aides-soignants à domicile. Vous avez évoqué les difficultés que ceux d’entre eux qui sont à temps plein rencontrent pour payer les frais liés à leurs trajets. Néanmoins, actuellement, le principal frein au recrutement est dû au fait qu’on leur propose des emplois à temps partiel et non à temps plein.<br/>Est-il envisageable de verser aux aides-soignants une aide financière afin de mieux indemniser leurs trajets et de les inciter à accepter des contrats de 35 heures ? Peut-on envisager d’aider financièrement les enfants qui s’occupent de leurs parents à domicile et prennent leurs soins en charge ?</texte>
+        </paragraphe>
+      </interExtraction>
+      <interExtraction nom_orateur="Mme Myriam El Khomri" id_acteur="PA-125309" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="-1">
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2244581" ordre_absolu_seance="93" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077996" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3697.91">La parole est à Mme Myriam El Khomri.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2244582" ordre_absolu_seance="94" id_acteur="PA-125309" id_mandat="-1" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077997" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme Myriam El Khomri</nom>
+              <id>-125309</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3703.98">Lorsque nous avons élaboré nos propositions, nous nous sommes efforcés de réfléchir à toutes les solutions qui permettent d’augmenter le pouvoir d’achat. Nous proposons notamment de solliciter France 2030, qui est un fonds spécifique, pour mettre à disposition des personnes intervenant à domicile des véhicules de service qui puissent être remisés à leur domicile et non pas à la structure. Nous devons cependant être vigilants quant à la situation des départements d’outre-mer où, en raison de l’octroi de mer, très peu de services peuvent mettre en œuvre ce type de mesures.<br/>Par ailleurs, la fragmentation des heures, liée au fait que les besoins sont plus importants le matin et le soir, explique les difficultés de créer un temps plein – mais, dans certaines structures, celle de Dafna Mouchenik par exemple, il en existe. En outre, la taxe sur les salaires, qui est de cinq points pour un mi-temps au Smic, est de treize points pour un plein-temps au Smic ; cette taxe ne contribue donc pas à un emploi de qualité.<br/>Si, en 2019, nous avions le sentiment que beaucoup de temps partiels étaient subis, nous avons constaté, lors des ateliers que nous avons animés, que le temps partiel est désormais davantage choisi, pour le dire ainsi, et que les CDD sont préférés aux CDI. Cela s’explique en partie par le fait que les titulaires de CDD perçoivent la prime de précarité. Au-delà, ces personnes particulièrement investies ont des horaires très fragmentés et si, en théorie, elles devraient être d’astreinte un week-end par mois, elles le sont bien souvent trois week-ends par mois, de sorte qu’elles ressentent le besoin de se « décoller » de la structure.<br/>Les choses, on le voit bien, ont changé, et la pénurie de personnels a aggravé la situation. En effet, 10 % des demandes d’aide à domicile ne trouvent pas preneur, de sorte que des personnes peuvent rester alitées parce que nul n’intervient auprès d’elles. C’est ainsi que beaucoup de personnels non formés interviennent dans les services d’aide à domicile.<br/>Voilà l’urgence. C’est pourquoi nous préconisons de mettre en œuvre une réforme systémique en actionnant tous les leviers. On a évoqué la question des financements. En 2019, le coût de la sinistralité pour la branche accidents du travail et maladies professionnelles (AT-MP) était d’environ 600 millions d’euros.<br/>Créer un autre système beaucoup plus fonctionnel permettrait, en définitive, de rendre ces métiers attractifs. Mais il ne suffit pas d’améliorer les conditions de rémunération ; il faut également prendre en compte le temps passé auprès du public – j’y insiste – et permettre de véritables parcours professionnels car, faute d’un financement suffisant de la formation continue, les personnes démissionnent et vont à Pôle emploi pour faire financer leur formation par la rémunération de fin de formation, la R2F. Le financement de la formation continue est donc également un enjeu.</texte>
+        </paragraphe>
+      </interExtraction>
+      <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2244588" ordre_absolu_seance="100" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PRESIDE_DISCOURS_1_10" sommaire="0" id_syceron="3078003" valeur="">
+        <orateurs>
+          <orateur>
+            <nom>Mme la présidente</nom>
+            <id>720286</id>
+            <qualite/>
+          </orateur>
+        </orateurs>
+        <texte stime="3926.37">Je remercie nos invités pour leur participation à nos travaux.<br/>Avant de passer à la seconde partie du débat, je suspends la séance pour cinq minutes.</texte>
+      </paragraphe>
+      <point nivpoint="99" valeur_ptsodj="1" ordinal_prise="4" id_preparation="2244590" ordre_absolu_seance="102" code_grammaire="SUSP_SEANCE_1_1" code_style="Suspension rappel" code_parole="" sommaire="1" id_syceron="3078005" valeur="">
+        <orateurs/>
+        <texte>
+          <italique>Suspension et reprise de la séance</italique>
+        </texte>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2244591" ordre_absolu_seance="103" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="SUSP_SEANCE_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3078006" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="3930.73">La séance est suspendue.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2244592" ordre_absolu_seance="104" code_grammaire="SUSP_SEANCE_2_2" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="3078007" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>(La séance, suspendue à vingt-deux heures vingt, est reprise à vingt-deux heures vingt-cinq.)</italique>
+          </texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2244593" ordre_absolu_seance="105" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="SUSP_SEANCE_2_3" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3078008" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4219.58">La séance est reprise.<br/>La parole est à M. le ministre des solidarités, de l’autonomie et des personnes handicapées.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="4" id_preparation="2244595" ordre_absolu_seance="107" id_acteur="PA801864" id_mandat="-1" id_nomination_oe="PM801950" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3078010" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Jean-Christophe Combe</nom>
+              <id>801864</id>
+              <qualite>ministre des solidarités, de l’autonomie et des personnes handicapées</qualite>
+            </orateur>
+          </orateurs>
+          <texte stime="4232.88">Je veux tout d’abord remercier le groupe Libertés, indépendants, outre-mer et territoires d’avoir pris l’initiative d’organiser ce débat sur un thème ô combien important.<br/>Demain, vous le savez sans doute, je conclurai, au ministère des solidarités, de l’autonomie et des personnes handicapées, avec plusieurs centaines de personnes, le volet « bien vieillir » du Conseil national de la refondation. Par ailleurs, la commission des affaires sociales a commencé l’examen d’une proposition de loi, soutenue par les groupes de la majorité présidentielle, relative à la même thématique. C’est dire combien l’attente est forte dans ce domaine.<br/>Cette attente s’explique notamment par le fait que nous partageons tous, ici, des constats et des objectifs.<br/>Les constats sont les suivants. Nous avons affaire à un secteur fragilisé par les crises successives et déstabilisé par des difficultés de recrutement et d’organisation du travail ; les Français n’ont plus confiance dans les Ehpad et l’attente est forte, dans la population, de pouvoir vieillir chez soi jusqu’à la fin de sa vie.<br/>Les objectifs sont avant tout de préparer la société au vieillissement, de diversifier, de rendre attractif, d’innover, de reconnaître que l’avancée en âge est un formidable levier de richesse humaine et de croissance partagée. Pour cela, la question essentielle est bien sûr celle de savoir comment faire en sorte que les professionnels soient heureux, épanouis et qu’ils vivent le sens de leur engagement.<br/>Tous ces enjeux, je les percevais en prenant mes fonctions. Je connaissais l’expérience des gestionnaires d’établissement, qui voyaient les personnes et les familles exprimer chaque jour davantage leurs inquiétudes et les équipes peiner à exercer pleinement leurs missions. Je sentais monter les incertitudes, tout en percevant la formidable énergie que nous avons vue à l’œuvre pendant la crise de la covid, lorsque des liens de proximité se sont créés hors de tout réseau établi, du simple fait des initiatives citoyennes.<br/>Je n’ai donc pas attendu pour agir ; j’ai voulu apaiser les inquiétudes et amplifier cette énergie.<br/>Le Gouvernement, je le rappelle, a agi avec force, ces derniers mois.<br/>D’abord, dans un contexte économique difficile pour les structures, face à l’inflation, l’État a procédé à une majoration des dotations soins des Ehpad fin 2022 en effectuant<italique> </italique>des versements complémentaires, à hauteur de 440 millions, délégués aux établissements par les ARS pour leur permettre de remédier aux difficultés budgétaires. Nous avons également défendu l’intégration des Ehpad au bouclier tarifaire applicable aux dépenses d’électricité et de gaz, avec effet rétroactif en juillet 2022.<br/> <br/>Surtout, la loi de financement de la sécurité sociale pour 2023 a permis d’afficher un objectif global de dépenses en hausse de 5,1 % pour le champ du grand âge et du handicap, soit un niveau historiquement élevé. Ont également été budgétés 300 millions supplémentaires pour renforcer les moyens des Ehpad et leur permettre d’accomplir leurs missions d’accompagnement dans de meilleures conditions, par exemple en entamant les recrutements correspondant à la trajectoire de 50 000 professionnels soignants supplémentaires sur les prochaines années ou en développant le modèle de l’Ehpad centre de ressource territorial.<br/>En ce qui concerne le domicile, une enveloppe de 64 millions a été prévue pour la création de 4 000 places supplémentaires en Ssiad. Au total, ce sont 25 000 places qu’il est prévu d’ouvrir d’ici à 2030 pour répondre aux besoins démographiques.<br/>Une réforme de la tarification, à laquelle on travaillait depuis plusieurs années, a par ailleurs été votée et entrera en vigueur en 2023, sachant que sont prévus, d’une part, des moyens supplémentaires pour les prises en charge plus complexes, d’autre part, des dotations visant à améliorer la coordination avec les Saad, dans la logique de la mise en place des futurs services autonomie. J’ajoute que le tarif plancher créé en 2022 a été revalorisé et indexé sur un indicateur proche de l’inflation, là encore pour tenir compte des difficultés financières des structures.<br/>En tout, nous réalisons un investissement massif, de plus de 10 milliards, dans la branche autonomie entre 2021 et 2026, puisque les financements qui lui sont dédiés vont passer de 32 milliards à 42 milliards au cours de cette période.<br/>Au-delà des enjeux financiers, nous avons bien sûr agi pour les personnes âgées elles-mêmes. Je ne souhaite pas être trop long et concentrerai mon propos introductif  sur les questions de confiance. Les difficultés et les scandales ont malheureusement miné la confiance que les Français doivent avoir dans notre politique globale du grand âge et dans ses relais.<br/>C’est bien pour cela que la loi de financement de la sécurité sociale que vous avez votée comporte un certain nombre de mesures renforçant la transparence financière des établissements et des groupes d’Ehpad, participant ainsi à l’indispensable choc de confiance et de transparence. C’est aussi pour cela que j’ai moi-même lancé des états généraux de la maltraitance qui, en plus de plusieurs saisines effectuées auprès de l’Inspection générale des affaires sociales (Igas), du Haut Conseil de la santé publique (HCSP) ou encore de la Conférence nationale de santé (CNS), doivent nous permettre de renforcer notre arsenal contre ces violences qui nous indignent tous. Enfin, nous avons fixé le cap de l’amélioration de notre système d’accompagnement des personnes à domicile, afin de conforter le virage domiciliaire, que l’immense majorité des Français appelle de ses vœux. L’ajout de deux heures de vie sociale à tous les plans d’aide, inscrites là encore dans la loi de financement de la sécurité sociale, y contribuera pleinement.<br/>Bien sûr, au-delà de ces premières mesures, j’ai toujours eu conscience de l’importance d’aller encore plus loin. C’est pour cela que tous ces sujets ont irrigué les discussions qui se sont tenues dans le cadre du Conseil national de la refondation, qui m’a conduit aux quatre coins de la France, en métropole comme en outre-mer, au contact des personnes âgées, des professionnels mais aussi des experts.<br/>L’objectif n’était pas de reproduire à l’identique ce qui avait déjà été fait mais, pour la première fois, d’aller à la rencontre des citoyens engagés sur l’ensemble de ces questions, parce que j’ai la conviction que c’est d’abord un enjeu de société, au-delà des questions techniques qui occupent déjà notre quotidien.<br/>En 2030, un tiers de la population française sera âgé de plus de 60 ans, et les plus de 65 ans seront alors plus nombreux que les moins de 15 ans. Nous devons donc anticiper collectivement cette transition démographique, et c’était bien l’objet du Conseil national de la refondation. Collectivement, parce que ça nous concerne toutes et tous. Ce n’est pas que l’affaire des aînés ou des professionnels du grand âge. C’est une question de solidarité intergénérationnelle, de création d’emplois pour les jeunes, d’espaces publics inclusifs qui profitent autant aux parents avec leurs poussettes qu’à nos compatriotes qui utilisent un fauteuil roulant.<br/>Voilà, mesdames, et messieurs les députés, le cadre dans lequel j’ai inscrit ma réflexion sur cette grande transformation de notre politique du grand âge, que nous appelons de nos vœux. Dans le détail, il m’avait semblé indispensable de retenir trois thématiques pour le CNR, et c’est sur ces trois thématiques que j’aurai l’occasion de revenir demain ; vous comprendrez que je réserve l’essentiel de mes annonces aux participants à cette séquence.<br/>Trois thématiques pour donner corps à trois grandes priorités, et d’abord à la promotion du lien social et de la citoyenneté. Nous constatons que les personnes âgées souffrent aujourd’hui d’un défaut de représentation. Bien vieillir dans la cité requiert peut-être avant tout de redonner leur pleine citoyenneté à nos aînés, de prévoir des dispositions qui permettent de s’assurer que leur voix soit entendue dans toutes les décisions de politique publique qui les concernent, de reconnaître et de valoriser leur engagement et leur contribution propre, de mieux prévenir enfin toutes les formes de maltraitance qui les touchent. J’en suis convaincu, à 20 ans comme à 70 ans, personne ne doit décider de notre destin à notre place.<br/>Nous devons donc faire progresser notre démocratie et nous assurer que la participation des plus âgés est facilitée et reconnue, avec, à mon sens, deux grands enjeux : d’abord la lutte contre l’âgisme, qui passe par l’encouragement et la valorisation de l’engagement des aînés ; ensuite, l’amélioration de la lutte contre les maltraitances et les violences.<br/>La deuxième thématique abordée dans le cadre du CNR concerne la valorisation des professionnels qui entourent les aînés. Il est urgent de travailler à l’amélioration de l’attractivité des métiers de l’autonomie, ces métiers qui représentent le quatrième pourvoyeur d’activité en France. Les femmes et les hommes engagés auprès de nos aînés constituent un véritable vivier de talents. Nous devons aujourd’hui leur donner les moyens d’agir et faciliter, par nos modes d’organisation et de formation, leur accomplissement et leur épanouissement professionnels. Pouvoir s’appuyer sur des professionnels qualifiés engagés, épanouis, est une condition majeure pour rendre effective la société du bien vieillir, tout en répondant à la logique du plein emploi.<br/>Les nombreux professionnels que j’ai rencontrés ces derniers mois m’ont toujours dit la fierté qui était la leur de travailler dans ce secteur. Je m’en suis encore rendu compte, le 17 mars, lorsque j’ai organisé, avec l’ensemble du secteur, la première Journée nationale dédiée aux aides à domicile, qui a été un véritable succès.<br/>Enfin la troisième thématique s’articule autour de la mise en place d’une politique globale d’adaptation de la société. Car oui, prévenir la perte d’autonomie est un enjeu sociétal majeur. Il s’agit, bien sûr, d’investir dans la prévention et d’adapter le comportement individuel des personnes âgées pour maintenir leur autonomie le plus longtemps possible, en repérant les fragilités le plus en amont possible, en facilitant l’accès au sport ou encore en prévenant les chutes, première cause de mortalité des personnes de plus de 65 ans. Il s’agit tout autant d’adapter le logement que de faciliter pour les personnes âgées le recours aux aides techniques leur permettant de rester le plus longtemps possible chez elles. C’est enfin, plus globalement, l’adaptation des territoires, notamment des villes et des villages, au vieillissement, en termes de mobilité, de mobilier urbain, de services de proximité. Cet aménagement de l’espace collectif est sans doute ce qui montre le mieux l’enjeu sociétal qui est devant nous.<br/>Maintenant, bien sûr, le ministre que je suis doit relever un défi, celui de porter la parole de tous les citoyens, de tous les professionnels, de tous les experts et de tous les élus locaux qui ont participé au Conseil national de la refondation, et de la traduire en actes. Il y a une première étape, demain, avec la restitution ; il en aura une seconde, la semaine prochaine, avec l’examen de la proposition de loi de la majorité présidentielle en séance publique. Fin mai, je présenterai le plan d’action concret et opérationnel, qui replacera dans une vision globale des mesures relevant de la loi et d’autres qui n’en relèvent pas. Enfin, à la fin de l’année, nous aurons rendez-vous avec les mesures de financement, dans le cadre de l’examen du projet de loi de financement de la sécurité sociale (PLFSS).<br/>C’est l’ensemble de ces mesures qui constituent la réforme du grand âge dont je donne le coup d’envoi aujourd’hui. Cette réforme est attendue par tout un secteur, mais surtout par les Français. Je me tiens donc à votre disposition, pour répondre à vos questions sur cette perspective qui est bien celle qui nous permettra d’apporter ensemble une réponse aux problèmes dont nous discutons ce soir.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2244621" ordre_absolu_seance="133" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PRESIDE_DISCOURS_1_10" sommaire="0" id_syceron="3077603" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4890.55">Nous en venons aux questions. Je vous rappelle que la durée des questions et des réponses est limitée à deux minutes sans droit de réplique.<br/>La parole est à M. Olivier Serva.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2244623" ordre_absolu_seance="135" id_acteur="PA720960" id_mandat="PM797643" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077605" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>M. Olivier Serva (LIOT)</nom>
+              <id>720960</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="4907.55">D’ici à 2050, la Guadeloupe sera le sixième département le plus vieux de France, alors qu’il occupait le quatre-vingt-sixième rang en 2013. D’ici à 2030, il y aura sur notre archipel 100 jeunes pour 134 seniors ; pire, à côté, la Martinique sera dans vingt-sept ans le département le plus vieux de France. Ces chiffres, monsieur le ministre, nous commandent d’intensifier les politiques publiques à l’endroit de nos aînés aux Antilles.<br/>Particulièrement préoccupé par ce vieillissement accéléré de la population, j’avais lancé, en 2019, en tant que président de la délégation aux outre-mer de l’Assemblée nationale, une mission d’information sur le grand âge. Étaient ressorties du rapport rédigé par les députées Stéphanie Atger et Ericka Bareigts une quarantaine de propositions, qui m’amènent à vous poser les questions suivantes.<br/>Premièrement, le dispositif législatif en vigueur au moment de la remise du rapport, en février 2020, empêchait la construction en outre-mer des résidences autonomie mentionnées à l’article L. 312-1 du code de l’action sociale et des familles. La caisse générale de sécurité sociale de La Réunion préconisait, lors de son audition, que soit levé ce verrou législatif. La situation a-t-elle évolué depuis ?<br/>En second lieu, les rapporteures préconisaient également un développement de la télémédecine, en permettant notamment à des auxiliaires de vie de déclencher des téléconsultations avec des praticiens, dans les domiciles dotés d’une connexion internet. En effet, vous savez combien nos territoires sont touchés par les déserts médicaux. Le Conseil national de l’Ordre des médecins a d’ailleurs indiqué que les médecins des Antilles et de la Guyane y étaient favorables. Votre ministère a-t-il déjà engagé des réflexions à ce sujet, afin d’accompagner des départements et collectivités uniques en ce sens ?</texte>
+        </paragraphe>
+        <interExtraction nom_orateur="M. Jean-Christophe Combe, quali  ministre" id_acteur="PA801864" id_nomination_oe="PM801950" id_nomination_op="-1" id_mandat="-1">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2244627" ordre_absolu_seance="139" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077609" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="4939.74">La parole est à M. le ministre.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2244628" ordre_absolu_seance="140" id_acteur="PA801864" id_mandat="-1" id_nomination_oe="PM801950" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077610" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Jean-Christophe Combe</nom>
+                <id>801864</id>
+                <qualite>ministre</qualite>
+              </orateur>
+            </orateurs>
+            <texte stime="5016.02">Je vous avoue que, sur la première question, je n’ai pas de réponse précise à vous apporter, mais nous allons vérifier. Quoi qu’il en soit, le modèle des résidences autonomie me semble, même si je n’en ai pas parlé dans mon intervention, extrêmement important, dans la mesure où la promesse du virage domiciliaire, c’est aussi faire en sorte qu’on puisse, entre l’Ehpad et le domicile, créer d’autres types d’habitat et de domicile collectifs, qui permettent de maintenir du lien social chez les personnes âgées et leur procurent les services nécessaires, sachant que ce modèle s’adresse à des personnes dont le degré d’autonomie est en général beaucoup plus élevé que celui des résidents en Ehpad. J’aurai donc à cœur, si le verrou n’a toujours pas été levé, de regarder ce qu’il est possible de faire.<br/>De la même façon, la question de la télémédecine est une question pertinente. Pour bien vieillir, l’accès à la santé est essentiel, et nous devons d’ailleurs parvenir à mieux coordonner l’ensemble des professionnels d’un territoire, pourquoi pas grâce à la télémédecine, lorsqu’il s’agit de territoires avec des spécificités particulières.<br/>Quoi qu’il en soit, je serai extrêmement attaché, dans la conduite des politiques publiques dont j’ai la responsabilité, à ce que les actions menées s’adaptent aux spécificités des territoires ultramarins. C’est d’ailleurs pour cela que j’avais choisi d’organiser un atelier du Conseil national de la refondation en Martinique, compte tenu, notamment, du vieillissement accéléré et prématuré de la population que connaît ce territoire, résultat – et c’est une bonne nouvelle – de l’allongement de la durée de vie, mais aussi, malheureusement, du départ des jeunes et de la faible natalité. C’est pour nous un défi collectif majeur que de permettre, demain, à la population ultramarine de bien vieillir.</texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Christian Girard (RN)" id_acteur="PA793102" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796143">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2244631" ordre_absolu_seance="143" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077613" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5134.04">La parole est à M. Christian Girard.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2244632" ordre_absolu_seance="144" id_acteur="PA793102" id_mandat="PM796143" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077614" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Christian Girard (RN)</nom>
+                <id>793102</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5141.61">Nous sommes ravis de pouvoir mettre à l’honneur le sujet du grand âge et de la politique ambitieuse qui doit l’accompagner. En effet, les travaux menés en 2021 par l’Insee indiquent qu’en 2040, 15 % de la population française aura plus de 75 ans, contre 6 % il y a trente ans. Ce sujet est donc d’autant plus fondamental qu’avec ce vieillissement accéléré de la population française, la part de dépendance va s’accroître à proportion du manque de soignants et de la multiplication des déserts médicaux.<br/>La crise sanitaire et les derniers scandales de maltraitance ont révélé que le système de prise en charge de nos aînés était clairement à bout de souffle. Le rapport sénatorial intitulé « Bien vieillir chez soi : c’est possible aussi ! », du 17 mars 2021, donne un certain nombre de pistes à explorer, en partant d’un constat simple : notre outil national en faveur du grand âge et grandement défaillant ; en cause, le manque croissant de personnels médico-sociaux l’isolement, la solitude, l’absence de services de soins palliatifs, et j’en passe.<br/>Une politique ambitieuse doit donc passer par une réflexion approfondie, voire une remise en cause de notre modèle. Sachant que nos aînés veulent avant tout vieillir chez eux et non en Ehpad, nous souhaitions vous demander si, dans le prolongement des recommandations du rapport mentionné, vous jugez également opportun d’arrêter la construction d’Ehpad et quelles sont les mesures que vous envisagez pour favoriser le maintien à la maison des personnes âgées dépendantes.</texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Jean-Christophe Combe, quali  ministre" id_acteur="PA801864" id_nomination_oe="PM801950" id_nomination_op="-1" id_mandat="-1">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2244635" ordre_absolu_seance="147" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077617" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5237.38">La parole est à M. le ministre.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2244636" ordre_absolu_seance="148" id_acteur="PA801864" id_mandat="-1" id_nomination_oe="PM801950" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077618" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Jean-Christophe Combe</nom>
+                <id>801864</id>
+                <qualite>ministre</qualite>
+              </orateur>
+            </orateurs>
+            <texte stime="5249.44">Je vous confirme que ma volonté est bien de répondre au souhait des Français de vieillir à domicile. Pour cela, en effet, il faut changer de braquet. Comme je l’ai dit, le domicile, ce peut être le domicile classique, qui nécessite une adaptation structurelle et matérielle, à quoi doit contribuer l’entrée en vigueur, à partir du 1<exposant>er</exposant> janvier 2024, de MaPrimeAdapt’, destinée à accompagner les foyers les plus modestes dans l’aménagement de leur logement. C’est aussi, plus largement, l’adaptation de la ville, puisque, pour bien vieillir à domicile, il faut aussi que l’environnement immédiat soit aussi adapté pour que l’on puisse faire ses courses, bénéficier de transports accessibles et d’un mobilier urbain adéquat. C’est enfin le développement d’une offre d’habitat intermédiaire. À ce sujet, je vous confirme, monsieur Serva, qu’en ce qui concerne les résidences autonomie, sur lesquelles vous m’interrogiez il y a un instant, le verrou a bien été levé – je viens d’en avoir confirmation – dans le cadre de la loi relative à la différenciation, la décentralisation, la déconcentration et portant diverses mesures de simplification de l’action publique locale, dite 3DS, en outre-mer comme en métropole.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2244637" ordre_absolu_seance="149" id_acteur="PA720960" id_mandat="PM797643" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3077619" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Olivier Serva</nom>
+                <id>720960</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5282.04">C’est une bonne nouvelle.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="5" id_preparation="2244638" ordre_absolu_seance="150" id_acteur="PA801864" id_mandat="-1" id_nomination_oe="PM801950" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="3077620" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Jean-Christophe Combe</nom>
+                <id>801864</id>
+                <qualite>ministre</qualite>
+              </orateur>
+            </orateurs>
+            <texte stime="5333.74">Je suis très favorable à ce qu’on aille plus loin et qu’on puisse donner un vrai statut à ces résidences autonomie, qui se développent aussi dans les territoires ruraux – je pense notamment aux maisons d’accueil et de résidence pour l’autonomie (Marpa), soutenus par la Mutualité sociale agricole (MSA). Ce sont des structures qui permettent de vieillir à proximité de l’endroit où on a toujours vécu, dans son village, à la campagne.<br/>Il faudra également continuer à développer les Ehpad en tant que centres ressources, qui viendront appuyer l’offre domiciliaire notamment grâce à leurs plateaux techniques et à la mutualisation des professionnels.</texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Jean-Hugues Ratenon (LFI-NUPES)" id_acteur="PA721062" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM797799">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2244723" ordre_absolu_seance="152" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077785" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5373.56">La parole est à M. Jean-Hugues Ratenon.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2244724" ordre_absolu_seance="153" id_acteur="PA721062" id_mandat="PM797799" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077786" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Jean-Hugues Ratenon (LFI-NUPES)</nom>
+                <id>721062</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5380.31">Au-delà des grandes déclarations du Gouvernement, il n’y a pas de politique à la hauteur des défis pour nos seniors alors qu’il y a urgence, particulièrement en outre-mer.<br/>Il y a urgence d’abord dans le domaine du logement. Selon la Fédération hospitalière de France (FHF), seuls 6 % des logements sont adaptés à ce public. L’hébergement dans les Ehpad, ensuite, est trop rare et trop cher, avec un personnel certes dévoué, mais épuisé faute d’effectifs supplémentaires. S’agissant des aides à domicile, ce sont les grands oubliés de la politique du Gouvernement. Quand y aura-t-il de nouveaux emplois, une revalorisation des salaires et l’amélioration de leurs conditions de travail ? Enfin, quelles aides incitatives prévoyez-vous pour les aidants familiaux qui, pour certains, sacrifient leur propre vie ?<br/>Continuer à faire du marketing ou de la com’ sur le vieillissement de la population est à mon sens irresponsable et indécent ! Il n’est pas digne d’un grand pays comme la France de maltraiter nos seniors, tant ici dans l’Hexagone que dans les territoires ultramarins, où les conditions de vie des personnes âgées sont encore plus difficiles.<br/>La France attend toujours la loi grand âge, monsieur le ministre. Pourquoi avoir créé une cinquième branche de la sécurité sociale si les sources de financement sont dérisoires et très éloignées des besoins ? Si nous voulons bien faire, ne faudrait-il pas créer un grand service public d’aide à la personne ?</texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Jean-Christophe Combe, quali  ministre" id_acteur="PA801864" id_nomination_oe="PM801950" id_nomination_op="-1" id_mandat="-1">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2244731" ordre_absolu_seance="157" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077793" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5426.54">La parole est à M. le ministre.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2244732" ordre_absolu_seance="158" id_acteur="PA801864" id_mandat="-1" id_nomination_oe="PM801950" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077794" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Jean-Christophe Combe</nom>
+                <id>801864</id>
+                <qualite>ministre</qualite>
+              </orateur>
+            </orateurs>
+            <texte stime="5470.25">L’objectif de la réforme relative au grand âge que j’ai mentionnée dans mon propos introductif vise précisément à relever ce défi majeur. Cela étant, je ne considère pas que l’actuelle trajectoire de la branche autonomie soit dérisoire. En effet, 10 milliards d’euros supplémentaires lui seront alloués entre 2021 et 2026, ce qui représente une somme considérable.<br/>Par ailleurs, je confirme que nous avons un problème s’agissant de l’accessibilité de l’offre d’hébergement en Ehpad. C’est pour cette raison que la Première ministre a confié à la députée Christine Pires Beaune une mission sur cette question, dont les conclusions doivent être rendues au mois de mai. Nous en tirerons les enseignements et, le cas échéant, nous inscrirons dans la loi une transformation du modèle actuel. Comme vous, j’estime que cet élément est attendu et que nous devons aux Français d’améliorer l’accessibilité de l’offre en Ehpad.<br/>Nous serons également attentifs à ce que notre plan inclue la question de l’attractivité des métiers, en poursuivant les revalorisations salariales et en travaillant sur les modèles de financement – je pense que vous en avez parlé précédemment – ainsi que sur les modèles économiques tant des services à domicile que des Ehpad. Nous nous pencherons aussi sur l’organisation, sur la qualité de vie au travail, sur les parcours professionnels et sur la formation – éléments que nous avons largement abordés durant les ateliers organisés dans le cadre du Conseil national de la refondation.<br/>J’ajoute qu’une attention particulière sera accordée aux aidants familiaux. En tant que ministre des solidarités, de l’autonomie et des personnes handicapées, je crois profondément que nous devons développer la capacité des familles à assurer un premier niveau de solidarité. Je le répète, la cellule familiale constitue un premier niveau de solidarité qui doit être entretenu et préservé. Nous devons soutenir les familles et les aidants familiaux et leur permettre de se reposer, de prendre du répit. Ainsi aurons-nous à cœur de développer, dans le cadre de la réforme relative au grand âge, toutes les solutions à même de les soutenir.</texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="Mme Josiane Corneloup (LR)" id_acteur="PA722390" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM797214">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2244736" ordre_absolu_seance="162" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077798" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5605.08">La parole est à Mme Josiane Corneloup.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2244737" ordre_absolu_seance="163" id_acteur="PA722390" id_mandat="PM797214" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077799" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme Josiane Corneloup (LR)</nom>
+                <id>722390</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5609.54">Eu égard aux conclusions du CNR et aux nombreux rapports rédigés sur cette question, j’appelle également de mes vœux l’élaboration d’une loi de programmation pluriannuelle relative au grand âge. Il convient en effet de déterminer une trajectoire de finances publiques afin de préserver et d’accompagner l’autonomie des personnes âgées et des personnes handicapées. Cette loi devra définir les objectifs de financement public attendu pour assurer le bien vieillir de ces personnes, tant à domicile qu’en établissement, et pour recruter les professionnels nécessaires. J’insiste, nous avons besoin d’une vraie trajectoire sur la durée, tout comme nous avons besoin que le grand âge soit considéré dans sa globalité.<br/>Il faut bien sûr une augmentation adéquate des moyens financiers et humains. Nous devons développer la formation et l’attractivité des métiers du soin et du domicile, renforcer la médicalisation, et disposer d’une offre de logements diversifiée répondant aux besoins spécifiques des personnes âgées et des personnes handicapées ainsi qu’à leur niveau de dépendance. J’ajoute que nous devons accorder une attention particulière au rôle des aidants. Vous l’avez dit, la population âgée de plus de 60 ans va passer de 17 millions à 27 millions de personnes en 2050, tandis que 4 millions de Français seront en perte d’autonomie.<br/>Nous parlons beaucoup de la préservation de l’autonomie dans le cadre de l’examen en commission de la proposition de loi portant mesures pour bâtir la société du bien vieillir en France ; or cette préservation requiert absolument de remettre les résidents au cœur des priorités, en rendant les Ehpad plus humains. Nous constatons en effet un manque considérable de moyens humains et financiers, si bien que par manque de temps, les soignants agissent à la place des résidents, ce qui nuit évidemment à leur autonomie. Les soignants ne peuvent accompagner les résidents comme ils le souhaitent, ce qui suscite énormément de démotivation et entraîne des arrêts de travail – phénomènes tout à fait préjudiciables.<br/>De plus, un virage domiciliaire s’impose, 85 % de la population souhaitant demeurer à son domicile. Les Ehpad sont donc appelés à prendre en charge les personnes de plus en plus tardivement, avec par conséquent un besoin accru de médicalisation. Nous ne pourrons pas correctement accompagner les personnes âgées si nous ne les soignons pas dans la dignité.<br/>C’est pourquoi j’estime qu’il faut véritablement tenir compte des astreintes de nuit et du grand problème d’absence de médecins traitants. En effet, la moitié des résidents de l’Ehpad dans lequel je me suis rendu il y a quelques jours n’avaient plus de médecin traitant. J’ai donc déposé des amendements à la proposition de loi visant, d’une part, à ce que les médecins coordonnateurs aient la possibilité de prescrire lorsque les résidents n’ont plus de médecin traitant – j’insiste sur le fait qu’il s’agit d’un véritable problème – et, d’autre part, à développer la télémédecine, la téléconsultation et la télé-expertise, qui sont selon moi des outils très intéressants.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2244742" ordre_absolu_seance="168" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3077804" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5732.06">Merci, madame Corneloup.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2244743" ordre_absolu_seance="169" id_acteur="PA722390" id_mandat="PM797214" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="3077805" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme Josiane Corneloup</nom>
+                <id>722390</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5774.45">Si nous voulons redonner de la confiance aux Françaises et aux Français ainsi qu’aux soignants, j’estime qu’il faut une véritable stratégie et que tous constatent des avancées en adéquation avec leurs attentes.</texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Jean-Christophe Combe, quali  ministre" id_acteur="PA801864" id_nomination_oe="PM801950" id_nomination_op="-1" id_mandat="-1">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2244744" ordre_absolu_seance="170" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077806" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5784.65">La parole est à M. le ministre.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2244745" ordre_absolu_seance="171" id_acteur="PA801864" id_mandat="-1" id_nomination_oe="PM801950" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077807" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Jean-Christophe Combe</nom>
+                <id>801864</id>
+                <qualite>ministre</qualite>
+              </orateur>
+            </orateurs>
+            <texte stime="5790.30">Je confirme que nous avons besoin de la visibilité et de la programmation pluriannuelle que vous appelez de vos vœux. C’est d’ailleurs pour cette raison que nous avons créé la cinquième branche. Chaque année, lors de la discussion du projet de loi de financement de la sécurité sociale, a lieu un débat nous permettant d’ajuster notre trajectoire. Cette année, ce débat interviendra à la suite des travaux que nous avons entrepris et sera l’occasion de rediscuter ensemble des moyens à affecter à cette branche autonomie, laquelle nous permettra d’atteindre les objectifs que nous nous fixerons dans le cadre de la réforme relative au grand âge.<br/>J’ai évoqué tout à l’heure la question du virage domiciliaire : nous sommes tous d’accord sur ce point, les Ehpad vont avoir besoin de se transformer et de fortement se médicaliser. En effet, le niveau de dépendance et les besoins en soins augmentent étant donné que, depuis maintenant quelques années, les résidents arrivent de plus en plus tard dans ces structures, et de plus en plus dépendants.<br/>J’y insiste, la médicalisation constitue une vraie question, raison pour laquelle le Président de la République a souhaité que nous lancions la trajectoire de recrutement de 50 000 soignants dans les Ehpad dès la loi de financement de la sécurité sociale pour 2023. Le but est d’augmenter le taux d’encadrement des résidents et le nombre de personnels à leur chevet d’ici à la fin de la législature.<br/>Cela étant, vous avez raison, il faut sans doute aller plus loin. J’estime à cet égard que vos propositions relatives à l’évolution du rôle du médecin coordonnateur vont dans le bon sens : j’y suis, en tout cas, extrêmement favorable. Il convient de faire en sorte que le médecin coordonnateur devienne le médecin référent pour les résidents et qu’il puisse prescrire en tant que de besoin dans les structures. Nous sommes toutefois confrontés aujourd’hui à un problème de recrutement de ces médecins coordonnateurs. Avec mes collègues François Braun et Agnès Firmin Le Bodo, du ministère de la santé et de la prévention, nous devrons donc œuvrer pour mener à bien ces recrutements dans des établissements de plus en plus médicalisés. </texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Paul Christophe (HOR)" id_acteur="PA642868" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796968">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2244749" ordre_absolu_seance="175" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077811" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5914.70">La parole est à M. Paul Christophe.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2244750" ordre_absolu_seance="176" id_acteur="PA642868" id_mandat="PM796968" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077812" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Paul Christophe (HOR)</nom>
+                <id>642868</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5919.71">En tant que corapporteur de la loi du 7 août 2020 relative à la dette sociale et à l’autonomie, j’avais introduit par amendement la création de la cinquième branche de la sécurité sociale – une branche plutôt qu’un risque, car il s’agissait d’embrasser aussi bien les champs du handicap et du vieillissement que les questions de perte et de gain d’autonomie.<br/>Nous sommes actuellement au milieu du gué et nous attendons avec impatience les conclusions du CNR, ainsi que vos propositions qui en découleront. J’en profite pour rappeler que nous avions prévu de flécher 0,15 point de CSG – contribution sociale généralisée – vers cette cinquième branche à l’horizon 2024, soit environ 2,4 milliards d’euros.<br/>Nous saluons les évolutions récentes que vous avez évoquées, même si elles en appellent d’autres. Je pense particulièrement à l’AJPA – allocation journalière du proche aidant. Indexée sur le Smic, elle concerne les GIR 1 à 4, mais elle demeure limitée, pour l’intégralité d’une carrière professionnelle, à soixante-six jours et à l’aide d’une seule personne. Envisagez-vous de faire évoluer ce plafond de soixante-six jours et d’autoriser le versement de cette allocation pour l’aide de plus d’une personne – au cours d’une vie professionnelle, on peut avoir besoin de devenir aidant de différentes personnes ?<br/>De la même manière, ne pensez-vous pas qu’il conviendrait de repenser l’offre globale, en commençant par modifier la communication des différents dispositifs existants grâce à une porte d’entrée unique ? En effet, nous voyons bien que ces divers dispositifs ne sont pas toujours accessibles, alors qu’ils ont le mérite d’exister.<br/>De plus, toujours dans l’optique de repenser l’organisation de l’offre, il apparaît nécessaire de conforter les passerelles entre les Ehpad, les services d’accompagnement à domicile, les établissements médico-sociaux et, pourquoi pas, le relayage. À cet égard, je serais heureux de connaître votre position sur cette dernière possibilité, son expérimentation devant se conclure en fin d’année. Quelle perspective entendez-vous donner à ce dispositif ?<br/>Enfin, une nouvelle organisation devrait engendrer une offre globale renforcée et améliorer la capacité des professionnels à diversifier leur carrière : ce sont autant de passerelles à connecter. Quel est votre sentiment sur les évolutions de carrière qui pourraient être proposées demain grâce une telle offre globale ?</texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Jean-Christophe Combe, quali  ministre" id_acteur="PA801864" id_nomination_oe="PM801950" id_nomination_op="-1" id_mandat="-1">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2244756" ordre_absolu_seance="182" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077818" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="5968.28">La parole est à M. le ministre.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2244757" ordre_absolu_seance="183" id_acteur="PA801864" id_mandat="-1" id_nomination_oe="PM801950" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077819" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Jean-Christophe Combe</nom>
+                <id>801864</id>
+                <qualite>ministre</qualite>
+              </orateur>
+            </orateurs>
+            <texte stime="6052.92">Je confirme qu’à partir de l’année prochaine, ce sera bien 0,15 point de CSG qui sera affecté à la branche autonomie, soit probablement un peu plus de 2,4 milliards d’euros en année pleine. La branche bénéficiera ainsi d’une forte progression, du moins plus dynamique que les quatre autres.<br/>S’agissant de l’AJPA, il faut un débat global sur l’accompagnement et le statut des aidants. La mise à jour de la stratégie nationale Agir pour les aidants 2020-2022 doit nous permettre de mettre cette question à l’ordre du jour. Je l’ai dit, il me semble important d’aider tous les aidants familiaux à agir auprès de leurs proches. Vous connaissez mon engagement sur d’autres sujets ou d’autres types de situations : il faut que nous allions plus loin concernant les personnes âgées.<br/>Pour ce qui concerne l’organisation de l’offre, il est vrai que nous avons assez peu parlé d’accessibilité. J’ai évoqué la question du reste à charge : il nous faut simplifier le parcours des familles et des personnes en perte d’autonomie. Cette situation est en effet source d’angoisse, surtout lorsque l’on a pour interlocuteurs un maquis de services administratifs. J’insiste, il faut absolument simplifier les choses. Je défendrai en conséquence des dispositions visant à enrichir la proposition de loi qui sera examinée la semaine prochaine en séance publique à l’Assemblée, afin de lancer le « service public territorial de l’autonomie », tel qu’il a été imaginé dans le cadre du rapport de M. Dominique Libault de mars 2022. Il est important et attendu que nous disposions demain d’un guichet unique dans les territoires et que nous établissions clairement le département comme chef de file du parcours des personnes âgées sur le territoire.<br/>Quant au relayage, il est bien prévu que nous élargissions son utilisation, que nous sanctuarisions cette bonne pratique, l’expérimentation ayant bien fonctionné. Nous devons néanmoins ouvrir des négociations avec les partenaires sociaux, afin de cadrer le dispositif. Mon intention est de l’inscrire durablement comme solution d’accompagnement des personnes âgées.</texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="Mme Eva Sas (Écolo-NUPES)" id_acteur="PA610002" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM797286">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2244761" ordre_absolu_seance="187" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077823" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="6080.23">La parole est à Mme Eva Sas.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="6" id_preparation="2244762" ordre_absolu_seance="188" id_acteur="PA610002" id_mandat="PM797286" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077824" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme Eva Sas (Écolo-NUPES)</nom>
+                <id>610002</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="6205.38">Malgré les annonces, la perte d’autonomie demeure le parent pauvre des politiques sociales, tandis que les familles sont souvent livrées à elles-mêmes devant cette épreuve de la vie.<br/>Les besoins financiers ont été évalués à 10 milliards d’euros supplémentaires par le rapport Libault, somme que vous avez affirmé vouloir débloquer à terme, même si, à ce jour, les sources de financement, comme la fraction de 0,15 point de la CSG que vous avez annoncée à partir de 2024, ne représentent que 2,4 milliards d’euros. Il semble donc qu’il y ait un écart entre les discours du Gouvernement et les moyens réels consacrés à l’autonomie. Ma première question est donc la suivante : quelles ressources supplémentaire pourriez-vous mobiliser dès 2024 afin de financer la prise en charge de la dépendance à la hauteur des besoins ?<br/>Deuxièmement, les professionnels invités ce soir ont tous indiqué préférer un financement global des Ehpad et des structures d’aide à domicile à une dotation horaire. Seriez-vous disposé à faire évoluer les modalités de financement de la prise en charge de la dépendance pour répondre à cette recommandation des professionnels du secteur ?</texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Jean-Christophe Combe, quali  ministre" id_acteur="PA801864" id_nomination_oe="PM801950" id_nomination_op="-1" id_mandat="-1">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2244640" ordre_absolu_seance="191" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077963" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="6268.90">La parole est à M. le ministre.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2244641" ordre_absolu_seance="192" id_acteur="PA801864" id_mandat="-1" id_nomination_oe="PM801950" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077964" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Jean-Christophe Combe</nom>
+                <id>801864</id>
+                <qualite>ministre</qualite>
+              </orateur>
+            </orateurs>
+            <texte stime="6283.71">Le financement des structures doit encore être traité. Ainsi, le modèle économique des Ehpad est extrêmement complexe et cloisonné, partagé entre les ARS, pour les soins et la dépendance, et les départements pour l’hébergement. Une réflexion est en cours pour simplifier le dispositif car tout le monde est d’accord : le système actuel est trop complexe, ce n’est pas efficace et cela nuit à sa lisibilité. Nous devons continuer de travailler avec les départements afin de trouver la solution la plus adaptée.<br/>Il en est de même pour les services à domicile. Les pilotes du CNR sur l’attractivité des métiers, notamment celle des services à domicile, présenteront leurs propositions demain, à l’occasion de la restitution. Je compte m’en saisir. Le modèle actuel doit évoluer car tout le monde s’accorde à dire qu’il a atteint ses limites et qu’il sera difficile, dans un tel cadre, d’apporter une réponse massive et réellement transformante aux difficultés que connaissent les professionnels du secteur.<br/>Quant à la question du financement, la trajectoire est prévue et nous discuterons de son évolution au moment des débats sur le projet de loi de financement de la sécurité sociale, qui permettra d’aborder la question de façon globale. Je l’ai souvent dit, l’ensemble de notre système de protection sociale se tient et, si nous avons défendu cette réforme des retraites pour équilibrer la branche retraite, c’est aussi pour être ambitieux pour les autres branches de la sécurité sociale, en particulier la branche autonomie. En fonction de la façon dont les choses évolueront d’ici là, il est probable que nous n’aborderons pas la situation de la même façon.</texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Pierre Dharréville (GDR-NUPES)" id_acteur="PA718926" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796326">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2244645" ordre_absolu_seance="195" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077968" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="6433.11">La parole est à M. Pierre Dharréville.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2244646" ordre_absolu_seance="196" id_acteur="PA718926" id_mandat="PM796326" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077969" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Pierre Dharréville (GDR-NUPES)</nom>
+                <id>718926</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="6443.86">J’entends l’argument que vous venez d’avancer, mais il n’a pas vraiment été mis en avant durant les débats sur la réforme des retraites. Cela ne m’aurait de toute façon pas fait changer d’avis ! Votre logique de vases communicants est très problématique. Au contraire, il faut garantir un âge de départ à la retraite raisonnable – et un véritable droit à la retraite – car cela a des conséquences sur l’autonomie si on ne le fait pas. Vous prenez donc les choses à l’envers !<br/>S’agissant du débat qui nous occupe aujourd’hui, on est face à une urgence qui dure. Il faut désormais prendre des dispositions. Quel est votre calendrier ? Où en est la grande loi qui avait été annoncée ? Aurons-nous ce débat ? Si oui, à quel horizon ? La proposition de loi que nous sommes en train d’examiner en commission des affaires sociales est-elle cette grande loi – si tant est qu’elle puisse l’être ?<br/>Qu’en est-il de la construction d’un véritable service public de l’autonomie, dont nous avons besoin ? C’est la première jambe sur laquelle il faudrait marcher. La deuxième, c’est celle du niveau de protection sociale, aujourd’hui insuffisant, le reste à charge étant trop élevé pour beaucoup de familles. En réalité, on fait reposer sur les aidants ce qui devrait relever de la solidarité nationale. Je suis assez inquiet quand j’entends parler de dérogations au droit du travail pour permettre le relayage. Nous partageons les inquiétudes formulées tout à l’heure à ce sujet par la représentante de la CFDT.<br/>Pour aider les aidants, la première chose à faire est d’aider les aidés. Il faut qu’ils soient mieux pris en charge par la protection sociale, et que le service public de l’autonomie soit à la hauteur. Avez-vous prévu un grand plan de formation ? En effet, le plan de mobilisation nationale en faveur de l’attractivité des métiers du grand âge 2020-2024, dit rapport El Khomri, estimait qu’il faudrait former 350 000 nouveaux professionnels d’ici à 2025. Où en est-on ?</texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Jean-Christophe Combe, quali  ministre" id_acteur="PA801864" id_nomination_oe="PM801950" id_nomination_op="-1" id_mandat="-1">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2244650" ordre_absolu_seance="200" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077973" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="6547.28">La parole est à M. le ministre.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2244651" ordre_absolu_seance="201" id_acteur="PA801864" id_mandat="-1" id_nomination_oe="PM801950" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077974" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Jean-Christophe Combe</nom>
+                <id>801864</id>
+                <qualite>ministre</qualite>
+              </orateur>
+            </orateurs>
+            <texte stime="6586.34">Vous abordez la question de façon large, mais pour ce qui est de la méthode, j’ai essayé de l’expliquer dans mon introduction. Nous avons annoncé aujourd’hui le lancement de la grande réforme de la politique publique du grand âge, qui comprend plusieurs composantes. La première fera l’objet d’un débat en séance publique dès la semaine prochaine. Il s’agit de la proposition de loi de la majorité, dont l’objet est, de fait, limité mais qui permettra de véritables avancées sur divers sujets sociétaux en matière de lutte contre la maltraitance, de prévention de la perte d’autonomie, de maintien dans l’autonomie ou de soutien des aidants et des professionnels. Les discussions en cours en commission permettront d’enrichir ce texte – je sais que cela vous tient tous à cœur.<br/>Deuxièmement, un plan d’action, concret et opérationnel, sera présenté au mois de mai. Il abordera d’autres questions et ne comprendra pas que des mesures législatives, mais également des dispositions réglementaires, tout en développant une vision globale et interministérielle. J’ai déjà évoqué l’aménagement de la ville ou des logements, qui ne dépendent pas que de mon ministère ; il en est de même de l’offre de soins, ou de la santé.<br/>Enfin, des discussions structurantes auront lieu au moment des débats sur le projet de loi de finances et le projet de loi de financement de la sécurité sociale, en fin d’année. Elles permettront d’aborder les questions qui ne sont pas encore mûres, notamment en matière de gouvernance ou de financement.<br/>S’agissant de la formation, avec l’ensemble des ministres concernés par les métiers du soin, de l’accompagnement et du lien, la Première ministre nous a demandé de réfléchir à un plan d’attractivité de ces métiers, qui comportera une forte dimension de formation afin de multiplier les voies d’accès – je pense en particulier au développement de l’apprentissage et des parcours de professionnalisation dans les établissements. Ainsi, il y a l’exemple des « faisant fonction » venus renforcer les équipes des établissements. Nous devons investir massivement pour les qualifier afin qu’ils puissent exercer leur métier dans de bonnes conditions et que soient assurées la qualité et la sécurité de l’accompagnement des personnes dans les établissements.</texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Bertrand Pancher (LIOT)" id_acteur="PA333421" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796881">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2244655" ordre_absolu_seance="205" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077978" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="6751.28">La parole est à M. Bertrand Pancher.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2244656" ordre_absolu_seance="206" id_acteur="PA333421" id_mandat="PM796881" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077979" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Bertrand Pancher (LIOT)</nom>
+                <id>333421</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="6755.08">On a du mal à comprendre votre méthode. Dans le cadre des travaux du CNR, vous vous engagez sur une stratégie pour le grand âge. Dont acte. Parallèlement, ces dernières années, nous avons été abreuvés de rapports, d’ailleurs souvent commandés par votre majorité. Nous connaissons donc très clairement les montants nécessaires. Ainsi, le rapport Libault, déjà largement discuté, estime à 9,2 milliards les besoins financiers supplémentaires d’ici 2030. Le rapport El Khomri estime qu’il faut former 352 000 aides-soignantes et accompagnants de plus sur cinq ans. En outre, il faudrait se fixer un objectif de 150 000 recrutements supplémentaires au cours des prochaines années – cela a déjà été dit.<br/>On nous annonce que la proposition de loi portant mesures pour bâtir la société du bien vieillir en France serait la grande loi sur le grand âge. Mais elle est débattue en ce moment avant la remise des conclusions du CNR ! Pourquoi ne présentez-vous pas un dispositif global – un projet de loi de programmation détaillé, notamment en matière de financement ? Cela fait maintenant près de dix mois que le nouveau gouvernement est installé. Pourquoi un tel morcellement de mesures : une proposition de loi sur le bien vieillir, puis un projet de loi courant mai, puis le projet de loi de finances en fin d’année ? Et ensuite ? Les moyens seront-ils vraiment à la hauteur des besoins ? Et quel est votre calendrier ?</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2244657" ordre_absolu_seance="208" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3078024" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="6871.28">Merci de conclure, cher collègue.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2244657" ordre_absolu_seance="209" id_acteur="PA333421" id_mandat="PM796881" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="3078023" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Bertrand Pancher</nom>
+                <id>333421</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="6894.60">La loi de finances est annuelle et nous sommes, malheureusement, un peu dubitatifs sur la poursuite des trajectoires pour résoudre la question du grand âge.</texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Jean-Christophe Combe, quali  ministre" id_acteur="PA801864" id_nomination_oe="PM801950" id_nomination_op="-1" id_mandat="-1">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2244658" ordre_absolu_seance="210" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077981" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="6908.95">La parole est à M. le ministre.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2244659" ordre_absolu_seance="211" id_acteur="PA801864" id_mandat="-1" id_nomination_oe="PM801950" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077982" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Jean-Christophe Combe</nom>
+                <id>801864</id>
+                <qualite>ministre</qualite>
+              </orateur>
+            </orateurs>
+            <texte stime="6914.62">Je vais vous répéter ce que j’ai ce que j’ai déjà dit : nous n’avons pas fait le choix d’un projet de loi de programmation pour cette réforme du grand âge. Nous avons choisi de la construire dans le cadre du Conseil national de la refondation, avec nos concitoyens, avec les personnes concernées, avec les familles, avec les professionnels, avec les élus, sur le territoire. Les éléments qui doivent être traduits dans la loi seront discutés au Parlement, dans le cadre de la proposition de loi déposée par la majorité puis, pour les questions de gouvernance et financières, lors des débats sur le projet de loi de programmation qui permet de débattre chaque année de la trajectoire pour les cinq ans qui suivent, en réagissant et en la réajustant aux ambitions. Ainsi, en fin d’année, vous aurez une vision globale de la réforme de la politique publique du grand âge. Vous pourrez alors la traduire en chiffres dans le projet de loi de finances et dans le projet de loi de financement de la sécurité sociale.<br/>Tout cela est donc parfaitement ordonné. Demain, la première restitution du CNR pourra aussi alimenter vos débats dès la semaine prochaine.<br/>En mai, nous présenterons un plan d’action – et non un projet de loi – concret et global, avec des mesures législatives et d’autres qui ne le sont pas, réglementaires ou autres. Vous disposerez alors d’une vision générale et transversale, et vous pourrez vous réapproprier ce plan, coconstruit avec nos concitoyens sur la base des rapports produits par chacun.<br/>Tout cela est donc séquencé et parfaitement logique. Il y aura bien un schéma global et des débats permettant de répartir les moyens nécessaires pour le mettre en œuvre.</texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Laurent Panifous (LIOT)" id_acteur="PA793210" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM796212">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2244663" ordre_absolu_seance="215" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3077986" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="7046.82">La parole est à M. Laurent Panifous.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="7" id_preparation="2244664" ordre_absolu_seance="216" id_acteur="PA793210" id_mandat="PM796212" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3077987" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Laurent Panifous (LIOT)</nom>
+                <id>793210</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="7058.67">Vous avez évoqué la société du lien, et le lien qui doit être recréé pour nos aînés, à domicile ou en établissement. Nous avons parlé des problèmes d’organisation des établissements et, en commission, de la création de conférences pour essayer de structurer la prévention. Nous nous inquiétons également de l’attractivité des métiers – le sujet a été abordé tout à l’heure avec Mme Myriam El Khomri – ou de la maltraitance, mais aussi d’aide aux aidants.<br/>Finalement, j’ai depuis très longtemps le sentiment que nous traitons des symptômes, alors qu’il faudrait traiter la maladie, c’est-à-dire le manque de moyens. Ce n’est ni votre gouvernement, ni votre ministère, ni vous, monsieur le ministre, qui avez créé cela : vous essayez, bien sûr, de trouver des solutions. Nous débattons aujourd’hui en commission d’une proposition de loi, mais, depuis des années, une multitude d’initiatives visent à créer de nouvelles structures ou à réorganiser notre système de protection sociale car nous manquons de moyens pour accompagner nos aînés, à domicile ou en établissement.<br/>Vous avez évoqué l’importance de trouver les moyens de créer des postes et vous en avez annoncé 50 000, ainsi que l’augmentation du nombre d’heures dans les plans d’aide consacrés au domicile. C’est la mère des réformes ! Le président Pancher a parlé des 10 milliards. Ils font, me semble-t-il, à peu près consensus : ce sont les moyens nécessaires dans les années à venir afin d’apporter une véritable solution, tant à domicile qu’en établissement.<br/>Ma question est donc la suivante : où trouverons-nous ces 10 milliards ? Vous avez évoqué précédemment la solidarité nationale, ainsi que le recours à l’assurance privée – proposition que, personnellement, je ne partage pas. Il existe donc une multitude de solutions permettant de trouver ce financement qui constituera, je l’espère, une étape ; c’est pourquoi j’aimerais avoir une meilleure visibilité sur notre capacité à atteindre cet objectif.</texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Jean-Christophe Combe, quali  ministre" id_acteur="PA801864" id_nomination_oe="PM801950" id_nomination_op="-1" id_mandat="-1">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2244668" ordre_absolu_seance="220" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3078026" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="7195.13">La parole est à M. le ministre.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2244669" ordre_absolu_seance="221" id_acteur="PA801864" id_mandat="-1" id_nomination_oe="PM801950" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3078027" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Jean-Christophe Combe</nom>
+                <id>801864</id>
+                <qualite>ministre</qualite>
+              </orateur>
+            </orateurs>
+            <texte stime="7205.22">La trajectoire de la branche autonomie prévoit déjà une augmentation de 10 milliards d’euros entre 2021 et 2026 : ce budget ne sera pas uniquement dédié aux personnes âgées, puisqu’il concerne également les personnes en situation de handicap, mais de nombreux financements sont croisés – par exemple, les dispositifs qui seront développés dans les territoires en matière de services d’aide et de soins ou d’adaptation des logements et de la cité profiteront à tous. La trajectoire que nous dessinons est donc bien volontariste et la discussion sera engagée au Parlement sur le sujet, dans le cadre de l’examen des lois de finances à l’automne prochain.<br/>Par ailleurs, comme je l’ai indiqué, le Gouvernement a confié une mission à votre collègue, Mme Christine Pires Beaune, qui travaille sur la question du reste à charge et formulera des propositions, tant sur le modèle économique des Ehpad que sur leur accessibilité financière et sur les leviers financiers à activer. Je pense notamment aux contributions des personnes en fonction de leurs revenus – aujourd’hui, ce dispositif n’est pas applicable partout, en particulier dans les établissements relevant de l’aide sociale – ou encore aux recours en récupération contre les successions.<br/>Nous aborderons également, lors de l’examen de la proposition de loi, le sujet de l’obligation alimentaire des enfants et des petits-enfants. Nous devrons réfléchir aussi à la mobilisation de financements privés, notamment des assurances – les mutualistes proposent des solutions afin d’accompagner les familles confrontées au « risque » de perte d’autonomie. Enfin, il existe des solutions simples à mobiliser : des initiatives citoyennes et associatives permettent d’apporter des services peu coûteux dans les territoires ; la solidarité familiale doit également être encouragée.</texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Pascal Lecamp (Dem)" id_acteur="PA795374" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM797448">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2244671" ordre_absolu_seance="224" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3078029" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="7345.22">Nous restons avec les orateurs du groupe LIOT.<br/>La parole est à M. Pascal Lecamp.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2244672" ordre_absolu_seance="225" id_acteur="PA795374" id_mandat="PM797448" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3078030" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Pascal Lecamp (Dem)</nom>
+                <id>795374</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="7359.55">J’appartiens au groupe Démocrate, madame la présidente !</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2244672" ordre_absolu_seance="226" id_acteur="PA333421" id_mandat="PM796881" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="INTERRUPTION_1_10" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3078053" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Bertrand Pancher</nom>
+                <id>333421</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="7364.08">Mais M. Lecamp est le bienvenu chez nous ! <italique>(Sourires.)</italique></texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2244672" ordre_absolu_seance="227" id_acteur="PA795374" id_mandat="PM797448" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="0" id_syceron="3078052" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Pascal Lecamp</nom>
+                <id>795374</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="7367.03">Je poserai plusieurs questions concrètes : je suis député depuis peu, j’ai été maire jusque très récemment et président d’un Ehpad rattaché à un centre hospitalier universitaire (CHU), ainsi que d’une résidence autonomie.<br/>Grâce à ADMR et à d’autres structures, nous accompagnons de plus en plus longtemps les personnes âgées à leur domicile ; toutefois, celles-ci se retrouvent ensuite directement propulsées en Ehpad. Les résidences autonomie sont une partie de la solution, mais leur modèle économique pose problème : la situation pourrait être résolue par un système gagnant-gagnant, en les ouvrant davantage à l’intergénérationnel – dont la part, trop faible actuellement, pourrait atteindre 20 à 25 % –, ce qui permettrait d’assurer leur pérennité. À défaut, ces résidences risquent de ne pas être viables pour les collectivités territoriales – c’est du moins ce que j’ai ressenti lorsque je gérais un établissement de ce type.<br/>Ensuite, pourriez-vous clarifier la répartition des compétences entre les départements et les ARS ? Le maintien des personnes âgées à domicile relève plutôt du département, tandis que leur accompagnement en Ehpad relève des ARS. Envisagez-vous d’évoluer vers un financeur unique, afin de limiter le reste à charge, comme vous le souhaitez ?<br/>J’aimerais également évoquer la question du statut des aidants : j’ai découvert il y a peu que les familles qui accueillent des enfants bénéficient d’un véritable statut, ce qui n’est pas le cas de celles qui accueillent des adultes ou des personnes handicapées et qui ne bénéficient pas de l’assurance chômage. Serait-il possible de se pencher sur le sujet ?<br/>Pour soulager les aidants et leur permettre de souffler, une généralisation du service d’accueil de nuit est-elle envisageable ? S’agissant des soignants, serait-il possible de prévoir, dans le cadre du service public territorial de l’autonomie (SPTA) que vous appelez de vos vœux, un service de remplacement, comme cela existe dans le secteur de l’agriculture ?<br/>Enfin, j’ai organisé une forme de CNR local dans ma circonscription, qui a réuni une cinquantaine d’établissements ainsi que l’ARS et le département : le taux d’encadrement y est en moyenne de 0,61 pour 1, alors que les professionnels estiment qu’avec un taux de 0,80, ils fonctionneraient correctement. Je ne sais pas si les 50 000 recrutements suffiront pour passer de 0,61 à 0,80. J’aimerais donc connaître votre trajectoire, à moyen et à long terme. <italique>(M. Olivier Serva et M. Laurent Panifous applaudissent.)</italique></texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Jean-Christophe Combe, quali  ministre" id_acteur="PA801864" id_nomination_oe="PM801950" id_nomination_op="-1" id_mandat="-1">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2244678" ordre_absolu_seance="233" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3078036" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="7420.18">La parole est à M. le ministre.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2244679" ordre_absolu_seance="234" id_acteur="PA801864" id_mandat="-1" id_nomination_oe="PM801950" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3078037" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Jean-Christophe Combe</nom>
+                <id>801864</id>
+                <qualite>ministre</qualite>
+              </orateur>
+            </orateurs>
+            <texte stime="7519.39">Je m’efforcerai de répondre rapidement à l’ensemble de vos questions. Je vous rejoins sur l’idée que les résidences autonomie constituent un modèle à développer ; malheureusement, de nombreuses communes se retirent de ce type de projets, parce que ces établissements sont coûteux et difficiles à gérer. Nous devrons donc mieux encadrer et soutenir ces résidences qui offrent une solution plus accessible pour les ménages modestes que les Ehpad, les loyers y étant de l’ordre de 500 à 800 euros. Il faudra lever les freins afin de favoriser davantage de mixité et de cohabitation intergénérationnelle, et étayer l’offre de soins et d’accompagnements à domicile de ces résidents qui, avec le temps, perdront en autonomie mais qui peuvent finir leurs jours dans ces établissements, notamment grâce à des services d’hospitalisation à domicile lorsqu’il s’agit notamment d’apporter des soins palliatifs.<br/>Vous avez raison de lier la question du reste à charge à celle de la simplification de la gouvernance et du modèle économique des Ehpad ; le sujet est sur la table et nous sommes tous d’accord pour tendre vers cette simplification. Reste à déterminer celui qui assumera la charge des Ehpad. Cette discussion doit être menée avec les départements, qui ont formulé des propositions d’expérimentations. Il faudra toutefois trouver une solution plus pérenne à court terme, parce que l’expérimentation peut aussi introduire de la complexité s’agissant d’une transformation assez lourde.<br/>En ce qui concerne l’accueil familial, il faut en effet donner un statut à ces familles et leur permettre de bénéficier de l’assurance chômage notamment. Nous aborderons ces questions dans le cadre de l’examen de la proposition de loi, mais j’y suis pour ma part favorable.<br/>Vous avez également évoqué les services d’accueil de nuit : de façon générale, il faudra favoriser les offres de répit dans les établissements, afin de soulager les familles. Je ne sais pas si le service de remplacement que vous avez évoqué doit être organisé dans le cadre du SPTA, mais nous pourrons y réfléchir. Des opérateurs se sont d’ores et déjà regroupés pour pallier ces difficultés et créer des pools de professionnels, afin d’apporter un soutien et d’organiser des remplacements face à une massification des besoins.<br/>Enfin, la trajectoire de recrutement des 50 000 personnels soignants supplémentaires devrait nous permettre d’atteindre un taux d’encadrement de l’ordre de 0,75 – ce n’est certes pas encore 0,80, mais cela constitue déjà une progression considérable.</texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Benjamin Saint-Huile (LIOT)" id_acteur="PA794626" id_nomination_oe="-1" id_nomination_op="-1" id_mandat="PM797028">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2244683" ordre_absolu_seance="239" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3078041" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="7665.36">La parole est à M. Benjamin Saint-Huile.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2244684" ordre_absolu_seance="240" id_acteur="PA794626" id_mandat="PM797028" id_nomination_oe="-1" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3078042" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Benjamin Saint-Huile (LIOT)</nom>
+                <id>794626</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="7715.65">Question sympathique pour clore la soirée : tout au long de nos échanges, il a largement été question des moyens, en particulier des effectifs de personnels soignants. La Haute Autorité de santé (HAS) a rendu il y a quelques jours son avis relatif à la réintégration des soignants non vaccinés. Cette question a été, vous le savez, l’occasion de débats parfois houleux au sein de l’hémicycle : j’ai souvenir de la proposition de loi déposée par nos collègues de La France insoumise dans le cadre de leur niche parlementaire, proposition qui nous avait plongés en fin de soirée dans une situation difficile. Orateur du groupe LIOT, j’ai aussi en tête les problèmes des territoires ultramarins où la situation a été plus prégnante que sur le territoire hexagonal.<br/>À la suite des premières déclarations, ce matin, de François Braun, ministre de la santé et de la prévention, je souhaiterais vous entendre sur la manière dont vous envisagez, tant sur le plan du calendrier que de la méthode, la réintégration des soignants, en particulier dans les territoires ultramarins et dans les Ehpad. Même si cette réintégration n’apportera pas une réponse définitive à la pression constante qu’ils subissent, elle est le début du commencement de la réponse.</texte>
+          </paragraphe>
+        </interExtraction>
+        <interExtraction nom_orateur="M. Jean-Christophe Combe, quali  ministre" id_acteur="PA801864" id_nomination_oe="PM801950" id_nomination_op="-1" id_mandat="-1">
+          <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2244685" ordre_absolu_seance="242" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_1" sommaire="0" id_syceron="3078043" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>Mme la présidente</nom>
+                <id>720286</id>
+                <qualite/>
+              </orateur>
+            </orateurs>
+            <texte stime="7779.95">La parole est à M. le ministre.</texte>
+          </paragraphe>
+          <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2244686" ordre_absolu_seance="243" id_acteur="PA801864" id_mandat="-1" id_nomination_oe="PM801950" id_nomination_op="-1" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PAROLE_1_2" sommaire="1" id_syceron="3078044" valeur="">
+            <orateurs>
+              <orateur>
+                <nom>M. Jean-Christophe Combe</nom>
+                <id>801864</id>
+                <qualite>ministre</qualite>
+              </orateur>
+            </orateurs>
+            <texte stime="7783.79">Je ne suis pas en mesure de vous indiquer ce soir un calendrier précis. Nous y travaillerons avec François Braun, dans la droite ligne de ses annonces et de l’avis de la HAS. Je vois M. le député Olivier Serva à vos côtés : je sais que cette question est plus prégnante en Guadeloupe que dans d’autres départements, avec des actualités qui nécessitent des réponses rapides si l’on veut éviter des ruptures de contrats et des départs de professionnels. Nous devons aussi en discuter avec l’ensemble des organisations du secteur, afin d’assurer la réintégration des professionnels concernés dans les meilleures conditions possibles.</texte>
+          </paragraphe>
+        </interExtraction>
+        <paragraphe valeur_ptsodj="1" ordinal_prise="8" id_preparation="2244687" ordre_absolu_seance="244" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="PAROLE_GENERIQUE" code_style="NORMAL" code_parole="PRESIDE_DISCOURS_1_10" sommaire="0" id_syceron="3078045" valeur="">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7860.26">Le débat est clos.</texte>
+        </paragraphe>
+      </point>
+    </point>
+    <finSeance>
+      <point nivpoint="1" valeur_ptsodj="2" ordinal_prise="8" id_preparation="2244689" ordre_absolu_seance="246" code_grammaire="FIN_SEAN_1_2" code_style="Titre" code_parole="" sommaire="1" id_syceron="3078047" valeur="">
+        <orateurs/>
+        <texte>Ordre du jour de la prochaine séance</texte>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="8" id_preparation="2244690" ordre_absolu_seance="247" id_acteur="PA720286" id_mandat="PM796878" id_nomination_oe="-1" id_nomination_op="PM801151" code_grammaire="FIN_SEAN_2_1" code_style="NORMAL" code_parole="" sommaire="0" id_syceron="3078048" valeur="" roledebat="president">
+          <orateurs>
+            <orateur>
+              <nom>Mme la présidente</nom>
+              <id>720286</id>
+              <qualite/>
+            </orateur>
+          </orateurs>
+          <texte stime="7861.92">Prochaine séance, demain, à quinze heures :<br/>Questions au Gouvernement ;<br/> Vote solennel sur la proposition de loi, examinée en deuxième lecture, visant à protéger les logements contre l’occupation illicite ;<br/> Questions sur les errements de Parcoursup et les difficultés de l’enseignement supérieur.<br/>La séance est levée.</texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="8" id_preparation="2244691" ordre_absolu_seance="248" code_grammaire="FIN_SEAN_2_4" code_style="Info Italiques" code_parole="" sommaire="0" id_syceron="3078049" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>(La séance est levée à vingt-trois heures vingt-cinq.)</italique>
+          </texte>
+        </paragraphe>
+        <paragraphe valeur_ptsodj="2" ordinal_prise="8" id_preparation="2244692" ordre_absolu_seance="249" code_grammaire="FIN_SEAN_2_5" code_style="Signature droite" code_parole="" sommaire="0" id_syceron="3078050" valeur="">
+          <orateurs/>
+          <texte>
+            <italique>Le directeur des comptes rendus</italique>
+            <br/>
+            <italique>Serge Ezdra</italique>
+          </texte>
+        </paragraphe>
+      </point>
+    </finSeance>
+  </contenu>
+</compteRendu>

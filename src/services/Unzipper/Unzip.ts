@@ -1,8 +1,9 @@
 import * as yauzl from "yauzl";
 import * as fs from "fs";
+import * as path from "path";
 import { LOCAL_FILES_PATHS } from "../../constants.js";
 
-/** Class for open and unzip a file  */
+/** Class for open and unzip a file(s)  */
 export class Unzipper {
   private readonly outputFileType: string;
 
@@ -10,7 +11,6 @@ export class Unzipper {
    * Create a unzipper.
    * @const outputFileType - ".xml"
    */
-
   constructor() {
     this.outputFileType = ".xml";
   }
@@ -21,7 +21,6 @@ export class Unzipper {
    * Print error message.
    * @return
    */
-
   error(message: string): never {
     throw new Error(message);
   }
@@ -29,36 +28,42 @@ export class Unzipper {
   /**
    * Open and unzip a file method with package
    * @param fileName - The filename value.
+   * @param baseName - The base value for create output directory.
    * @return when the work is done or @function error if an error occur
    */
-  //return LOCAL_FILES_PATHS.output + fileName + this.outputFileType
-  unzipOneFile(fileName: string): void {
+  unzipFile(fileName: string, baseName: string): void {
     try {
       yauzl.open(
-        LOCAL_FILES_PATHS.input + fileName,
+        `${LOCAL_FILES_PATHS}${fileName}`, 
         { lazyEntries: true },
         function (err: Error, zipfile: any) {
           if (err) throw err;
           zipfile.readEntry();
-          zipfile.on("entry", function (entry: any) {
-            if (/\/$/.test(entry.fileName)) {
+          zipfile.on("entry", (entry: any) => {
+            if (/\/$/.test(entry.fileName)) { 
               zipfile.readEntry();
             } else {
-              zipfile.openReadStream(entry, function (err: Error, readStream: any) {
-                if (err) throw err;
-                readStream.on("end", function () {
-                  zipfile.readEntry();
-                });
-                readStream.pipe(
-                  fs.createWriteStream(
-                    LOCAL_FILES_PATHS.output + fileName + ".xml"
-                  )
-                );
-              });
-            } 
+              zipfile.openReadStream(
+                entry,
+                function (err: Error, readStream: any) {
+                  if (err) throw err;
+                  readStream.on("end", function () {
+                    zipfile.readEntry(); 
+                  }); 
+                  let extractPath = `${LOCAL_FILES_PATHS}${baseName}`;
+                  if(!fs.existsSync(extractPath)) fs.mkdirSync(extractPath); 
+                  console.log(path.join(extractPath, path.basename(`${entry.fileName}`)))
+                  readStream.pipe( 
+                    fs.createWriteStream( 
+                      path.join(extractPath, path.basename(`${entry.fileName}`))
+                    )
+                  ); 
+                }
+              ); 
+            }
           });
         }
-      );
+      ); 
     } catch (err) {
       this.error(err);
     }

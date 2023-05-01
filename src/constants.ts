@@ -6,10 +6,7 @@ import { Object } from "../utils/Types"
   *  @default
 */
 
-export const LOCAL_FILES_PATHS: Object = {
-  input: "./tmp/",
-  output: "./tmp/",
-};
+export const LOCAL_FILES_PATHS: string = "./tmp/";
 
 /** App interval execution
   *  @constant FETCH_URL_INTERVAL

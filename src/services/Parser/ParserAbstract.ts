@@ -39,7 +39,7 @@ export abstract class ParserAbstract {
   readFile(): void {
     try {
       const data = fs.readFileSync(
-        `${LOCAL_FILES_PATHS.input}${this.fileName}${this.fileType}`,
+        `${LOCAL_FILES_PATHS}${this.fileName}${this.fileType}`,
         { encoding: "utf8", flag: "r" }
       );
       this.rawdata = data;
