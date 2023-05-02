@@ -43,13 +43,19 @@ export class ReadReport {
    * @return {Promise<number>} report's id.
    */
   async createReport(): Promise<number> {
+    let fixedPresidency: string | null = null;
+    if (typeof this.data.metadonnees.sommaire.presidentSeance === "object") {
+      fixedPresidency = this.data.metadonnees.sommaire.presidentSeance["#text"];
+    }
     const report = new Report();
     report.sourceURL = `https://www.assemblee-nationale.fr/dyn/opendata/${this.data.uid}.xml`;
     report.externalId = this.data.uid;
     report.legislature = this.data.metadonnees.legislature;
     report.date = this.data.metadonnees.dateSeanceJour;
     report.daySessionNumber = this.data.metadonnees.numSeanceJour;
-    report.presidency = this.data.metadonnees.sommaire.presidentSeance;
+    report.presidency = fixedPresidency
+      ? fixedPresidency
+      : this.data.metadonnees.sommaire.presidentSeance;
     await AppDataSource.manager.save(report);
     return report.id;
   }
@@ -60,7 +66,6 @@ export class ReadReport {
    */
   async readSummary(): Promise<void> {
     let summary = this.data.metadonnees.sommaire;
-
     let i: number = 1;
     while (summary[`sommaire${i}`]) {
       let currentObj = summary[`sommaire${i}`];
@@ -92,20 +97,23 @@ export class ReadReport {
         this.summaryWrapper(currentObj[element]), delete currentObj[element];
       }
     });
-    let agendaItemId = await this.createAgendaItems(currentObj.titreStruct);
-    if (currentObj.hasOwnProperty("para")) {
-      Object.values(currentObj.para).forEach(async (element: object) => {
-        this.searchParagraphs(
-          this.data.contenu,
-          element["@_id_syceron" as keyof object],
-          agendaItemId
-        );
-      });
+    if (currentObj.titreStruct) {
+      let agendaItemId = await this.createAgendaItems(currentObj.titreStruct);
+      if (currentObj.hasOwnProperty("para")) {
+        Object.values(currentObj.para).forEach(async (element: object) => {
+          this.searchParagraphs(
+            this.data.contenu,
+            element["@_id_syceron" as keyof object],
+            agendaItemId
+          );
+        });
+      }
     }
   }
 
   /**
    * Create a new agenda item in database.
+   * @param {any} title - Object title with one title and his id
    * @return {Promise<number>} item's id.
    */
   async createAgendaItems(title: any): Promise<number> {
@@ -115,6 +123,7 @@ export class ReadReport {
         fixedTitle = fixedTitle.concat(" ", title.intitule[element]);
       });
     }
+
     const agendaRepository = AppDataSource.getRepository(AgendaItem);
     const findAgendas = await agendaRepository.findOneBy({
       externalId: title["@_id_syceron"],
@@ -176,26 +185,28 @@ export class ReadReport {
    * @return {Promise<void>} return nothing.
    */
   async readParagraph(paragraph: any, agendaItemId: number): Promise<void> {
-    const actorRepository = AppDataSource.getRepository(Actor);
-    const findActors = await actorRepository.findOneBy({
-      externalId: paragraph["orateurs"]["orateur"]["id"],
-    });
+    if (paragraph["orateurs"]) {
+      const actorRepository = AppDataSource.getRepository(Actor);
+      const findActors = await actorRepository.findOneBy({
+        externalId: paragraph["orateurs"]["orateur"]["id"],
+      });
 
-    let actorId: number = null;
+      let actorId: number = null;
+ 
+      if (findActors == null) {
+        actorId = await this.createActor(paragraph);
+      } else {
+        actorId = findActors.id;
+      }
 
-    if (findActors == null) {
-      actorId = await this.createActor(paragraph);
-    } else {
-      actorId = findActors.id;
-    }
+      const speechRepository = AppDataSource.getRepository(Speech);
+      const findSpeeches = await speechRepository.findOneBy({
+        externalId: paragraph["@_id_syceron"],
+      });
 
-    const speechRepository = AppDataSource.getRepository(Speech);
-    const findSpeeches = await speechRepository.findOneBy({
-      externalId: paragraph["@_id_syceron"],
-    });
-
-    if (findSpeeches == null) {
-      await this.createSpeeches(paragraph, agendaItemId, actorId);
+      if (findSpeeches == null) {
+        await this.createSpeeches(paragraph, agendaItemId, actorId);
+      }
     }
   }
 
@@ -217,7 +228,7 @@ export class ReadReport {
    * @param {any} paragraph - The 'paragraph' object that content text and actor's data
    * @param {number} agendaItemId - The 'agendaItemId' number refer to the current Agenda Item id in our database
    * @param {number} actorId - The 'actorId' number refer to the speaker id in our database
-   * @return {Promise<void>} return nothing.
+   * @return {Promise<void>} return nothing. 
    */
   async createSpeeches(
     paragraph: any,

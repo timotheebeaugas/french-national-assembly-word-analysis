@@ -6,40 +6,59 @@ import { ReadReport } from "./src/services/Read/ReadReport.js";
 import { Unzipper } from "./src/services/Unzipper/Unzip.js";
 
 // JOB FOR DOWNLOAD, UNZIP, PARSE AND SAVE ALL REPORTS OF THE LEGISLATURE NUMBER XVI
-const REMOTE_ADRESS = "https://data.assemblee-nationale.fr/static/openData/repository/16/vp/syceronbrut/syseron.xml.zip"
+const job = false; // is job must be excecuted
+const REMOTE_ADRESS =
+  "https://data.assemblee-nationale.fr/static/openData/repository/16/vp/syceronbrut/syseron.xml.zip";
 const FILENAME = path.basename(REMOTE_ADRESS);
-const BASENAME = path.basename(REMOTE_ADRESS, '.xml.zip');
+const BASENAME = path.basename(REMOTE_ADRESS, ".xml.zip");
 
-try {
-  // IF ZIP FILE HAS BEEN DOWNLOADED LOCALLY
-  let file = fs.existsSync(`tmp/${FILENAME}`);
-  if (file) {
-    // IF FILE HAS BEEN UNZIPPED 
-    let unzipped = fs.existsSync(`tmp/${BASENAME}`); 
-    if(false){
+if (job) {
+  try {
+    // IF ZIP FILE HAS BEEN DOWNLOADED LOCALLY
+    let file = fs.existsSync(`tmp/${FILENAME}`);
+    if (file) {
+      // IF FILE HAS BEEN UNZIPPED
+      let unzipped = fs.existsSync(`tmp/${BASENAME}`);
+      if (unzipped) {
+        let folder = fs.readdirSync(`tmp/${BASENAME}`);
 
-      // PARSING ONE EACH REPORTS
-      const report = new ParserXML("CRSANR5L16S2023O1N204"); 
-      const parsedReport = report.parse();
+        folder.forEach((file) => {
+        
+          // PARSING ONE EACH REPORTS
+          const report = new ParserXML(`${BASENAME}/${path.basename(file, ".xml")}`);
+          const parsedReport = report.parse();
 
-      // SAVING DATA IN LOCAL DB
-      (async () => {
-        const saveReport = new ReadReport(parsedReport);
-        await saveReport.Read();
-      })();
-    }else{ 
-      // UNZIP THE FILE
-      console.log("UNZIP FILE") 
-      const unzipper = new Unzipper();
-      unzipper.unzipFile(FILENAME, BASENAME);   
-    } 
-  } else { 
-    // IF NOT DOWNLOAD THE REPORT BY REMOTE URL
-    console.log("DOWNLOAD FILE")
-    const report = new Fetch(REMOTE_ADRESS); 
-    report.download();
+          // SAVING DATA IN LOCAL DB
+          (async () => {
+            const saveReport = new ReadReport(parsedReport);
+            await saveReport.Read();
+          })();
+        });
+      } else {
+        // UNZIP THE FILE
+        console.log("UNZIP FILE");
+        const unzipper = new Unzipper();
+        unzipper.unzipFile(FILENAME, BASENAME);
+      }
+    } else {
+      // IF NOT DOWNLOAD THE REPORT BY REMOTE URL
+      console.log("DOWNLOAD FILE");
+      const report = new Fetch(REMOTE_ADRESS);
+      report.download();
+    }
+  } catch (err) {
+    // PRINT ERR(S)
+    console.log(err);
   }
-} catch (err) {
-  // PRINT ERR(S)
-  console.log(err);
-} 
+}
+
+
+
+const report = new ParserXML(`${BASENAME}/${path.basename("CRSANR5L16S2023O1N216", ".xml")}`);
+const parsedReport = report.parse();
+
+// SAVING DATA IN LOCAL DB
+(async () => {
+  const saveReport = new ReadReport(parsedReport);
+  await saveReport.Read();
+})();
