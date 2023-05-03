@@ -3,6 +3,7 @@ import { Report } from "../../models/entities/Report.entity.js";
 import { AgendaItem } from "../../models/entities/AgendaItem.entity.js";
 import { Actor } from "../../models/entities/Actor.entity.js";
 import { Speech } from "../../models/entities/Speech.entity.js";
+import { LOCAL_FILES_PATHS } from "../../constants.js"
 
 /**
  * Interfaces
@@ -21,6 +22,7 @@ interface Logs {
 /** Once dataset parse this class can read the raw datas and register them in the database if they aren't yet */
 export class ReadReport {
   /**
+   * @const fileName - filename in .xml 
    * @const data - save report data for easier access inside methods
    * @const reportId - local variable to save current report id
    * @const logs - variable created for save entries logs during reading process
@@ -37,7 +39,8 @@ export class ReadReport {
    * @constructor
    * @param data - incoming parsed raw datas.
    */
-  constructor(readonly data: any) {
+  constructor(readonly fileName: string, readonly data: any) {
+    this.fileName = fileName;
     this.data = data.compteRendu;
   }
 
@@ -285,7 +288,7 @@ export class ReadReport {
       const found2: number = metadataString.match(regexAgendaItem).length;
       
       this.logs.count.report.inDatabase = 1;
-      console.log(found2)
+      console.log(this.fileName)
 /*       for(const prop in this.logs.count){
         // this.logs.count[prop].inReport
         console.log(found)

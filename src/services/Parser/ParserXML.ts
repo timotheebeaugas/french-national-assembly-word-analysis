@@ -7,12 +7,10 @@ export class ParserXML extends ParserAbstract {
   /**
    * Create a parser.
    * @param fileName - The filename value.
-   * @const fileType - .xml format
    */
 
   constructor(public fileName: string) {
     super(fileName);
-    this.fileType = ".xml";
   }
 
   /**

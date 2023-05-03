@@ -7,7 +7,6 @@ import { LOCAL_FILES_PATHS } from "../../constants.js"
 export abstract class ParserAbstract {
 
   protected rawdata: string;
-  protected fileType: string;
 
   /**
    * Create a parser.
@@ -39,7 +38,7 @@ export abstract class ParserAbstract {
   readFile(): void {
     try {
       const data = fs.readFileSync(
-        `${LOCAL_FILES_PATHS}${this.fileName}${this.fileType}`,
+        `${LOCAL_FILES_PATHS}${this.fileName}`,
         { encoding: "utf8", flag: "r" }
       );
       this.rawdata = data;
