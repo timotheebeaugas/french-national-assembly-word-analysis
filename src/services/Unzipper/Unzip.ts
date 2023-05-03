@@ -34,7 +34,7 @@ export class Unzipper {
   unzipFile(fileName: string, baseName: string): void {
     try {
       yauzl.open(
-        `${LOCAL_FILES_PATHS}${fileName}`, 
+        `${LOCAL_FILES_PATHS}${fileName}`, // input filename
         { lazyEntries: true },
         function (err: Error, zipfile: any) {
           if (err) throw err;
@@ -51,11 +51,10 @@ export class Unzipper {
                     zipfile.readEntry(); 
                   }); 
                   let extractPath = `${LOCAL_FILES_PATHS}${baseName}`;
-                  if(!fs.existsSync(extractPath)) fs.mkdirSync(extractPath); 
-                  console.log(path.join(extractPath, path.basename(`${entry.fileName}`)))
+                  if(!fs.existsSync(extractPath)) fs.mkdirSync(extractPath); // create output directory before files extraction
                   readStream.pipe( 
                     fs.createWriteStream( 
-                      path.join(extractPath, path.basename(`${entry.fileName}`))
+                      path.join(extractPath, path.basename(`${entry.fileName}`)) // output filename
                     )
                   ); 
                 }

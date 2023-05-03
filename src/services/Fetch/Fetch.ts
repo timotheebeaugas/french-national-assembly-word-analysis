@@ -28,7 +28,6 @@ export class Fetch {
     try {
       const response: any = await fetch(this.remoteSourceUrl);
       if (response.status == "200") {
-        console.log(response);
         this.fileName = path.basename(response.url);
         await response.body.pipe(
           fs.createWriteStream(`${LOCAL_FILES_PATHS}${this.fileName}`)

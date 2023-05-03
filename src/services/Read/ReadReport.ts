@@ -4,13 +4,33 @@ import { AgendaItem } from "../../models/entities/AgendaItem.entity.js";
 import { Actor } from "../../models/entities/Actor.entity.js";
 import { Speech } from "../../models/entities/Speech.entity.js";
 
+/**
+ * Interfaces
+ */
+interface LogsDetails {
+  inReport: number;
+  inDatabase: number;
+}
+
+interface Logs {
+  id: (string | number)[];
+  proportion: number | null;
+  count: { [key: string]: Partial<LogsDetails> };
+}
+
 /** Once dataset parse this class can read the raw datas and register them in the database if they aren't yet */
 export class ReadReport {
   /**
    * @const data - save report data for easier access inside methods
    * @const reportId - local variable to save current report id
+   * @const logs - variable created for save entries logs during reading process
    */
   protected reportId: null | number = null;
+  readonly logs: Logs = {
+    id: [],
+    proportion: null,
+    count: { report: {}, agendaItems: {}, actors: {}, speeches: {} },
+  };
 
   /**
    * Create a parser.
@@ -26,15 +46,20 @@ export class ReadReport {
    * @return {Promise<void>} report's id.
    */
   async readMetadata(): Promise<void> {
-    const reportRepository = AppDataSource.getRepository(Report);
-    const findReports = await reportRepository.findOneBy({
-      externalId: this.data.uid,
-    });
+    try {
+      const reportRepository = AppDataSource.getRepository(Report);
+      const findReports = await reportRepository.findOneBy({
+        externalId: this.data.uid,
+      });
 
-    if (findReports == null) {
-      this.reportId = await this.createReport();
-    } else {
-      this.reportId = findReports.id;
+      if (findReports == null) {
+        this.reportId = await this.createReport();
+      } else {
+        this.reportId = findReports.id;
+      }
+
+    } catch (error) {
+      throw new Error(`Can't save Report ${this.data.uid} in database`);
     }
   }
 
@@ -181,7 +206,7 @@ export class ReadReport {
   /**
    * Read one paragraph and check if is it necessary to create a new actor and a new speech in database.
    * @param {any} paragraph - One 'paragraph' object that content text and actor data
-   * * @param {number} agendaItemId - The 'agendaItemId' number refer to the current Agenda Item id in our database
+   * @param {number} agendaItemId - The 'agendaItemId' number refer to the current Agenda Item id in our database
    * @return {Promise<void>} return nothing.
    */
   async readParagraph(paragraph: any, agendaItemId: number): Promise<void> {
@@ -192,7 +217,7 @@ export class ReadReport {
       });
 
       let actorId: number = null;
- 
+
       if (findActors == null) {
         actorId = await this.createActor(paragraph);
       } else {
@@ -228,7 +253,7 @@ export class ReadReport {
    * @param {any} paragraph - The 'paragraph' object that content text and actor's data
    * @param {number} agendaItemId - The 'agendaItemId' number refer to the current Agenda Item id in our database
    * @param {number} actorId - The 'actorId' number refer to the speaker id in our database
-   * @return {Promise<void>} return nothing. 
+   * @return {Promise<void>} return nothing.
    */
   async createSpeeches(
     paragraph: any,
@@ -245,8 +270,34 @@ export class ReadReport {
   }
 
   /**
+   * Test the document with Regex before reading to identify all the data to be recorded.
+   */
+  dataAnalysis(): void {
+    this.logs.id = [this.data.uid];
+
+    try {
+      const regexAgendaItem = /"titreStruct":/gi;
+      const regexActor = /"orateur":/gi;
+      const regexSpeech = /"texte":/gi;
+      const metadataString: string = JSON.stringify(this.data.metadonnees.sommaire);
+      const dataString: string = JSON.stringify(this.data.contenu);
+      const found: number = dataString.match(regexSpeech).length;
+      const found2: number = metadataString.match(regexAgendaItem).length;
+      
+      this.logs.count.report.inDatabase = 1;
+      console.log(found2)
+/*       for(const prop in this.logs.count){
+        // this.logs.count[prop].inReport
+        console.log(found)
+      } */
+    } catch (error) {
+      throw new Error(`Can't test this Report`);
+    }
+  }
+
+  /**
    * Main method for trigger the other methods.
-   * @return {Promise<void>} returns nothing or error.
+   * @return {Promise<void>} returns nothing.
    */
   async Read(): Promise<void> {
     try {
@@ -255,6 +306,8 @@ export class ReadReport {
       await this.readMetadata();
 
       await this.readSummary();
+
+      this.dataAnalysis();
 
       return;
     } catch (error) {
