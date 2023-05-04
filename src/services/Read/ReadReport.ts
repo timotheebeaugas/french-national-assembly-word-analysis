@@ -14,7 +14,7 @@ interface LogsDetails {
 
 interface Logs {
   externalId: string | null;
-  recordingRate: number | null;
+  recordingRate: `${number}%` | null;
   count: { [key: string]: Partial<LogsDetails> };
 }
 
@@ -60,6 +60,7 @@ export class ReadReport {
       } else {
         this.reportId = findReports.id;
       }
+      if (this.reportId) this.increaseLogsCounter("report");
     } catch (error) {
       throw new Error(`Can't save Report ${this.data.uid} in database`);
     }
@@ -109,6 +110,7 @@ export class ReadReport {
       }
       i++;
     }
+     
   }
 
   /**
@@ -249,6 +251,7 @@ export class ReadReport {
       }
 
       if (speechId) await this.increaseLogsCounter("speeches");
+      
     }
   }
 
@@ -297,6 +300,7 @@ export class ReadReport {
       this.logs.count[prop].inDatabase
         ? this.logs.count[prop].inDatabase++
         : (this.logs.count[prop].inDatabase = 1);
+        
     } catch (error) {
       throw new Error(`Can't update object logs`);
     }
@@ -321,7 +325,7 @@ export class ReadReport {
         this.logs.count[prop].inReport = found.length;
         i++;
       }
-      if (this.reportId) this.increaseLogsCounter("report");
+      
 
       let totalInReport = 0;
       let totalInDatabase = 0;
@@ -331,7 +335,8 @@ export class ReadReport {
         totalInDatabase = totalInDatabase + this.logs.count[prop].inDatabase;
       }
 
-      this.logs.recordingRate = totalInReport / totalInDatabase;
+      this.logs.recordingRate = `${Math.trunc(totalInDatabase / totalInReport * 100)}%`;
+      
     } catch (error) {
       throw new Error(`Can't test this Report`);
     }
@@ -348,9 +353,8 @@ export class ReadReport {
       await this.readMetadata();
 
       await this.readSummary();
-
+      
       this.testReport();
-
       return;
     } catch (error) {
       return error;
