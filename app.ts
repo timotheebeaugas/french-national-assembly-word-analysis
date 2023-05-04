@@ -25,13 +25,12 @@ if (job) {
         folder.forEach((file) => {
         
           // PARSING ONE EACH REPORTS
-          const currentFileName = `${BASENAME}/${path.basename(file, ".zip")}`;
-          const report = new ParserXML(currentFileName);
+          const report = new ParserXML(`${BASENAME}/${path.basename(file, ".zip")}`);
           const parsedReport = report.parse();
 
           // SAVING DATA IN LOCAL DB
           (async () => {
-            const saveReport = new ReadReport(currentFileName, parsedReport);
+            const saveReport = new ReadReport(report.rawdata, parsedReport);
             await saveReport.Read();
           })();
         });
@@ -54,13 +53,12 @@ if (job) {
 }
 
 let file = "CRSANR5L16S2023O1N216.xml.zip"
-const currentFileName = `${BASENAME}/${path.basename(file, ".zip")}`;
-const report = new ParserXML(currentFileName);
+const report = new ParserXML(`${BASENAME}/${path.basename(file, ".zip")}`);
 const parsedReport = report.parse();
 
 // SAVING DATA IN LOCAL DB
 (async () => {
-  const saveReport = new ReadReport(currentFileName, parsedReport);
+  const saveReport = new ReadReport(report.rawdata, parsedReport);
   await saveReport.Read();
   console.log(saveReport.logs)
 })();

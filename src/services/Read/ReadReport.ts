@@ -3,7 +3,6 @@ import { Report } from "../../models/entities/Report.entity.js";
 import { AgendaItem } from "../../models/entities/AgendaItem.entity.js";
 import { Actor } from "../../models/entities/Actor.entity.js";
 import { Speech } from "../../models/entities/Speech.entity.js";
-import { LOCAL_FILES_PATHS } from "../../constants.js"
 
 /**
  * Interfaces
@@ -14,33 +13,34 @@ interface LogsDetails {
 }
 
 interface Logs {
-  id: (string | number)[];
-  proportion: number | null;
+  externalId: string | null;
+  recordingRate: number | null;
   count: { [key: string]: Partial<LogsDetails> };
 }
 
 /** Once dataset parse this class can read the raw datas and register them in the database if they aren't yet */
 export class ReadReport {
   /**
-   * @const fileName - filename in .xml 
+   * @const dataString - Unparsed data in string format for analysis in parallel to reading
    * @const data - save report data for easier access inside methods
    * @const reportId - local variable to save current report id
    * @const logs - variable created for save entries logs during reading process
    */
   protected reportId: null | number = null;
   readonly logs: Logs = {
-    id: [],
-    proportion: null,
+    externalId: null,
+    recordingRate: null,
     count: { report: {}, agendaItems: {}, actors: {}, speeches: {} },
   };
 
   /**
    * Create a parser.
    * @constructor
-   * @param data - incoming parsed raw datas.
+   * @param dataString - incoming unparsed datas.
+   * @param data - incoming parsed datas.
    */
-  constructor(readonly fileName: string, readonly data: any) {
-    this.fileName = fileName;
+  constructor(readonly dataString: string, readonly data: any) {
+    this.dataString = dataString;
     this.data = data.compteRendu;
   }
 
@@ -60,7 +60,7 @@ export class ReadReport {
       } else {
         this.reportId = findReports.id;
       }
-
+      if (this.reportId) await this.increaseLogsCounter("report");
     } catch (error) {
       throw new Error(`Can't save Report ${this.data.uid} in database`);
     }
@@ -120,22 +120,33 @@ export class ReadReport {
    */
 
   async summaryWrapper(currentObj: any): Promise<void> {
-    Object.keys(currentObj).forEach((element) => {
-      if (element.match("sommaire")) {
-        this.summaryWrapper(currentObj[element]), delete currentObj[element];
+    try {
+      Object.keys(currentObj).forEach((element) => {
+        if (element.match("sommaire")) {
+          this.summaryWrapper(currentObj[element]), delete currentObj[element];
+        } else if(element.match("titreStruct")){
+          console.log("currentObj")
+        }else{
+          console.log(Object.values(currentObj))
+        }
+      });
+      if (currentObj.titreStruct) {
+        let agendaItemId = await this.createAgendaItems(currentObj.titreStruct);
+        if (agendaItemId) this.increaseLogsCounter("agendaItems");
+        if (currentObj.hasOwnProperty("para")) {
+          Object.values(currentObj.para).forEach(async (element: object) => {
+            this.searchParagraphs(
+              this.data.contenu,
+              element["@_id_syceron" as keyof object],
+              agendaItemId
+            );
+          });
+        }
       }
-    });
-    if (currentObj.titreStruct) {
-      let agendaItemId = await this.createAgendaItems(currentObj.titreStruct);
-      if (currentObj.hasOwnProperty("para")) {
-        Object.values(currentObj.para).forEach(async (element: object) => {
-          this.searchParagraphs(
-            this.data.contenu,
-            element["@_id_syceron" as keyof object],
-            agendaItemId
-          );
-        });
-      }
+    } catch (error) {
+      throw new Error(
+        `Can't read or unstructured this object`
+      );
     }
   }
 
@@ -173,14 +184,14 @@ export class ReadReport {
    * @param {object} contentObject - ONbject that needs to be checked and/or destructured
    * @param {string} paragraphId - The 'paragraphId' string refer to the wanted paragraph in the report
    * @param {number} agendaItemId - The 'agendaItemId' number refer to the current Agenda Item id in our database
-   * @return {void} return nothing.
+   * @return {Promise<void>} return nothing.
    */
 
-  searchParagraphs(
+  async searchParagraphs(
     contentObject: object,
     paragraphId: string,
     agendaItemId: number
-  ): void {
+  ): Promise<void> {
     try {
       for (const key in contentObject) {
         let obj: any | never =
@@ -219,29 +230,35 @@ export class ReadReport {
         externalId: paragraph["orateurs"]["orateur"]["id"],
       });
 
-      let actorId: number = null;
+      let actorId: number | null = null;
 
       if (findActors == null) {
         actorId = await this.createActor(paragraph);
       } else {
         actorId = findActors.id;
       }
+      if (actorId) await this.increaseLogsCounter("actors");
 
       const speechRepository = AppDataSource.getRepository(Speech);
       const findSpeeches = await speechRepository.findOneBy({
         externalId: paragraph["@_id_syceron"],
       });
+      let speechId: number | null = null;
 
       if (findSpeeches == null) {
-        await this.createSpeeches(paragraph, agendaItemId, actorId);
+        speechId = await this.createSpeeches(paragraph, agendaItemId, actorId);
+      } else {
+        speechId = findSpeeches.id;
       }
+
+      if (speechId) await this.increaseLogsCounter("speeches");
     }
   }
 
   /**
    * Create a new actor in database.
    * @param {any} paragraph - The 'paragraph' object that content actor name and id
-   * @return {Promise<number>} return actor's id.
+   * @return {Promise<number>} return actor id.
    */
   async createActor(paragraph: any): Promise<number> {
     const actor = new Actor();
@@ -256,13 +273,13 @@ export class ReadReport {
    * @param {any} paragraph - The 'paragraph' object that content text and actor's data
    * @param {number} agendaItemId - The 'agendaItemId' number refer to the current Agenda Item id in our database
    * @param {number} actorId - The 'actorId' number refer to the speaker id in our database
-   * @return {Promise<void>} return nothing.
+   * @return {Promise<number>} return speech id.
    */
   async createSpeeches(
     paragraph: any,
     agendaItemId: number,
     actorId: number
-  ): Promise<void> {
+  ): Promise<number> {
     const speech = new Speech();
     speech.externalId = paragraph["@_id_syceron"];
     speech.report = this.reportId;
@@ -270,29 +287,43 @@ export class ReadReport {
     speech.actor = actorId;
     speech.content = paragraph["texte"]["#text"];
     await AppDataSource.manager.save(speech);
+    return speech.id;
   }
 
   /**
-   * Test the document with Regex before reading to identify all the data to be recorded.
+   * Update logs object during reading process
+   * @param {string} prop - target object property
+   * @return {Promise<void>} return nothing.
    */
-  dataAnalysis(): void {
-    this.logs.id = [this.data.uid];
-
+  async increaseLogsCounter(prop: string): Promise<void> {
     try {
-      const regexAgendaItem = /"titreStruct":/gi;
-      const regexActor = /"orateur":/gi;
-      const regexSpeech = /"texte":/gi;
-      const metadataString: string = JSON.stringify(this.data.metadonnees.sommaire);
-      const dataString: string = JSON.stringify(this.data.contenu);
-      const found: number = dataString.match(regexSpeech).length;
-      const found2: number = metadataString.match(regexAgendaItem).length;
-      
-      this.logs.count.report.inDatabase = 1;
-      console.log(this.fileName)
-/*       for(const prop in this.logs.count){
-        // this.logs.count[prop].inReport
-        console.log(found)
-      } */
+      this.logs.count[prop].inDatabase
+        ? this.logs.count[prop].inDatabase++
+        : (this.logs.count[prop].inDatabase = 1);
+    } catch (error) {
+      throw new Error(`Can't update object logs`);
+    }
+  }
+
+  /**
+   * Test unparsed data with regex for compare the result with the work done by the reading methods.
+   */
+  testReport(): void {
+    try {
+      this.logs.externalId = this.data.uid;
+      const regex: RegExp[] = [
+        /<uid>/gi,
+        /<\/titreStruct>/gi,
+        /<orateur>/gi,
+        /<texte stime=/gi,
+      ];
+      let i = 0;
+
+      for (const prop in this.logs.count) {
+        const found = this.dataString.match(regex[i]);
+        this.logs.count[prop].inReport = found.length;
+        i++;
+      }
     } catch (error) {
       throw new Error(`Can't test this Report`);
     }
@@ -310,7 +341,7 @@ export class ReadReport {
 
       await this.readSummary();
 
-      this.dataAnalysis();
+      this.testReport();
 
       return;
     } catch (error) {

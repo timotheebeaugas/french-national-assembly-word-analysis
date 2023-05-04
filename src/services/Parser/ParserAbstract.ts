@@ -6,7 +6,7 @@ import { LOCAL_FILES_PATHS } from "../../constants.js"
 
 export abstract class ParserAbstract {
 
-  protected rawdata: string;
+  public rawdata: string;
 
   /**
    * Create a parser.
