@@ -92,25 +92,31 @@ export class ReadReport {
    * Read summaray and check if alerady exist.
    * @return {Promise<void>} Return nothing. Throw an error if one summary object has no 'titreStruct'.
    */
-  async readSummary(): Promise<void> {
-    let summary = this.data.metadonnees.sommaire;
-    let i: number = 1;
-    while (summary[`sommaire${i}`]) {
-      let currentObj = summary[`sommaire${i}`];
-      try {
-        if (currentObj.hasOwnProperty("titreStruct")) {
-          this.summaryWrapper(currentObj);
-        } else if (typeof currentObj === "object") {
-          Object.keys(currentObj).forEach((element) => {
-            this.summaryWrapper(currentObj[element]);
+  async readSummary(obj: any): Promise<void> {
+    try {
+      if (obj) {
+        if (typeof obj === "object") {
+          Object.keys(obj).forEach((el) => {
+            if (el.match("presidentSeance")) {
+              delete obj[el];
+            }
+            if (el.match("titreStruct")) {
+              this.summaryWrapper(obj[el]);
+              delete obj[el];
+              this.readSummary(obj[el]);
+            } else {
+              this.readSummary(obj[el]);
+            }
           });
+        } else {
+          if (obj.hasOwnProperty("titreStruct")) {
+            this.summaryWrapper(obj);
+          }
         }
-      } catch (error) {
-        throw new Error(`Error in summary on position ${i}`);
       }
-      i++;
+    } catch (error) {
+      throw new Error(`Error in summary:${error}`);
     }
-     
   }
 
   /**
@@ -120,22 +126,13 @@ export class ReadReport {
    * @return {void} return nothing.
    */
 
-  async summaryWrapper(currentObj: any): Promise<void> {
+  async summaryWrapper(obj: any): Promise<void> {
     try {
-      Object.keys(currentObj).forEach((element) => {
-        if (element.match("sommaire")) {
-          this.summaryWrapper(currentObj[element]), delete currentObj[element];
-        } else if (element.match("titreStruct")) {
-          console.log("no problem");
-        } else {
-          console.log("problem");
-        }
-      });
-      if (currentObj.titreStruct) {
-        let agendaItemId = await this.createAgendaItems(currentObj.titreStruct);
+      if (obj.titreStruct) {
+        let agendaItemId = await this.createAgendaItems(obj.titreStruct);
         if (agendaItemId) this.increaseLogsCounter("agendaItems");
-        if (currentObj.hasOwnProperty("para")) {
-          Object.values(currentObj.para).forEach(async (element: object) => {
+        if (obj.hasOwnProperty("para")) {
+          Object.values(obj.para).forEach(async (element: object) => {
             this.searchParagraphs(
               this.data.contenu,
               element["@_id_syceron" as keyof object],
@@ -251,7 +248,7 @@ export class ReadReport {
       }
 
       if (speechId) await this.increaseLogsCounter("speeches");
-      
+      this.testReport();
     }
   }
 
@@ -300,7 +297,6 @@ export class ReadReport {
       this.logs.count[prop].inDatabase
         ? this.logs.count[prop].inDatabase++
         : (this.logs.count[prop].inDatabase = 1);
-        
     } catch (error) {
       throw new Error(`Can't update object logs`);
     }
@@ -325,7 +321,6 @@ export class ReadReport {
         this.logs.count[prop].inReport = found.length;
         i++;
       }
-      
 
       let totalInReport = 0;
       let totalInDatabase = 0;
@@ -335,8 +330,9 @@ export class ReadReport {
         totalInDatabase = totalInDatabase + this.logs.count[prop].inDatabase;
       }
 
-      this.logs.recordingRate = `${Math.trunc(totalInDatabase / totalInReport * 100)}%`;
-      
+      this.logs.recordingRate = `${Math.trunc(
+        (totalInDatabase / totalInReport) * 100
+      )}%`;
     } catch (error) {
       throw new Error(`Can't test this Report`);
     }
@@ -352,9 +348,8 @@ export class ReadReport {
 
       await this.readMetadata();
 
-      await this.readSummary();
-      
-      this.testReport();
+      await this.readSummary(this.data.metadonnees.sommaire);
+
       return;
     } catch (error) {
       return error;
