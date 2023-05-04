@@ -90,6 +90,7 @@ export class ReadReport {
 
   /**
    * Read summaray and check if alerady exist.
+   * @param {any} obj - The object to be processed (initialized with the summary)
    * @return {Promise<void>} Return nothing. Throw an error if one summary object has no 'titreStruct'.
    */
   async readSummary(obj: any): Promise<void> {
@@ -122,14 +123,14 @@ export class ReadReport {
   /**
    * Call two methods: createAgendaItems() and searchParagraphs()
    * If there is a summary items nested inside another, this method call herself on each one
-   * @param {any} currentObj - The object to be processed
+   * @param {any} obj - The object to be processed
    * @return {void} return nothing.
    */
 
   async summaryWrapper(obj: any): Promise<void> {
     try {
-      if (obj.titreStruct) {
-        let agendaItemId = await this.createAgendaItems(obj.titreStruct);
+      console.log(obj.intitule)
+        let agendaItemId = await this.createAgendaItems(obj);
         if (agendaItemId) this.increaseLogsCounter("agendaItems");
         if (obj.hasOwnProperty("para")) {
           Object.values(obj.para).forEach(async (element: object) => {
@@ -140,9 +141,9 @@ export class ReadReport {
             );
           });
         }
-      }
+      
     } catch (error) {
-      throw new Error(`Can't read or unstructured this object`);
+      throw new Error(`Can't read this object? ${error}`);
     }
   }
 
