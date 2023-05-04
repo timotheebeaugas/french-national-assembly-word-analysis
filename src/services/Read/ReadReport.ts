@@ -60,7 +60,6 @@ export class ReadReport {
       } else {
         this.reportId = findReports.id;
       }
-      if (this.reportId) await this.increaseLogsCounter("report");
     } catch (error) {
       throw new Error(`Can't save Report ${this.data.uid} in database`);
     }
@@ -124,10 +123,10 @@ export class ReadReport {
       Object.keys(currentObj).forEach((element) => {
         if (element.match("sommaire")) {
           this.summaryWrapper(currentObj[element]), delete currentObj[element];
-        } else if(element.match("titreStruct")){
-          console.log("currentObj")
-        }else{
-          console.log(Object.values(currentObj))
+        } else if (element.match("titreStruct")) {
+          console.log("no problem");
+        } else {
+          console.log("problem");
         }
       });
       if (currentObj.titreStruct) {
@@ -144,9 +143,7 @@ export class ReadReport {
         }
       }
     } catch (error) {
-      throw new Error(
-        `Can't read or unstructured this object`
-      );
+      throw new Error(`Can't read or unstructured this object`);
     }
   }
 
@@ -324,6 +321,17 @@ export class ReadReport {
         this.logs.count[prop].inReport = found.length;
         i++;
       }
+      if (this.reportId) this.increaseLogsCounter("report");
+
+      let totalInReport = 0;
+      let totalInDatabase = 0;
+
+      for (const prop in this.logs.count) {
+        totalInReport = totalInReport + this.logs.count[prop].inReport;
+        totalInDatabase = totalInDatabase + this.logs.count[prop].inDatabase;
+      }
+
+      this.logs.recordingRate = totalInReport / totalInDatabase;
     } catch (error) {
       throw new Error(`Can't test this Report`);
     }
