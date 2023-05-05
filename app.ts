@@ -60,5 +60,4 @@ const parsedReport = report.parse();
 (async () => {
   const saveReport = new ReadReport(report.rawdata, parsedReport);
   await saveReport.Read();
-  console.log(saveReport.logs)
 })();

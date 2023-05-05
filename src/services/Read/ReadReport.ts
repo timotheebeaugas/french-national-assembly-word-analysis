@@ -27,7 +27,7 @@ export class ReadReport {
    * @const logs - variable created for save entries logs during reading process
    */
   protected reportId: null | number = null;
-  readonly logs: Logs = {
+  private logs: Logs = {
     externalId: null,
     recordingRate: null,
     count: { report: {}, agendaItems: {}, actors: {}, speeches: {} },
@@ -60,6 +60,7 @@ export class ReadReport {
       } else {
         this.reportId = findReports.id;
       }
+      
       if (this.reportId) this.increaseLogsCounter("report");
     } catch (error) {
       throw new Error(`Can't save Report ${this.data.uid} in database`);
@@ -107,7 +108,7 @@ export class ReadReport {
               this.readSummary(obj[el]);
             } else {
               this.readSummary(obj[el]);
-            }
+            } 
           });
         } else {
           if (obj.hasOwnProperty("titreStruct")) {
@@ -129,19 +130,16 @@ export class ReadReport {
 
   async summaryWrapper(obj: any): Promise<void> {
     try {
-      console.log(obj.intitule)
-        let agendaItemId = await this.createAgendaItems(obj);
-        if (agendaItemId) this.increaseLogsCounter("agendaItems");
-        if (obj.hasOwnProperty("para")) {
-          Object.values(obj.para).forEach(async (element: object) => {
-            this.searchParagraphs(
-              this.data.contenu,
-              element["@_id_syceron" as keyof object],
-              agendaItemId
-            );
-          });
-        }
-      
+      let agendaItemId = await this.createAgendaItems(obj);
+      if (obj.hasOwnProperty("para")) {
+        Object.values(obj.para).forEach(async (element: object) => {
+          this.searchParagraphs(
+            this.data.contenu,
+            element["@_id_syceron" as keyof object],
+            agendaItemId
+          );
+        });
+      }
     } catch (error) {
       throw new Error(`Can't read this object? ${error}`);
     }
@@ -164,16 +162,23 @@ export class ReadReport {
     const findAgendas = await agendaRepository.findOneBy({
       externalId: title["@_id_syceron"],
     });
+
+    let itemId: number | null = null;
+
     if (findAgendas == null) {
       const item = new AgendaItem();
       item.externalId = title["@_id_syceron"];
       item.report = this.reportId;
       item.title = fixedTitle.trim() || title.intitule;
       await AppDataSource.manager.save(item);
-      return item.id;
+      
+      itemId = item.id;
     } else {
-      return findAgendas.id;
+      
+      itemId = findAgendas.id;
     }
+    await this.increaseLogsCounter("agendaItems");
+    return itemId
   }
 
   /**
@@ -234,7 +239,7 @@ export class ReadReport {
       } else {
         actorId = findActors.id;
       }
-      if (actorId) await this.increaseLogsCounter("actors");
+      if (actorId)await this.increaseLogsCounter("actors");
 
       const speechRepository = AppDataSource.getRepository(Speech);
       const findSpeeches = await speechRepository.findOneBy({
@@ -249,7 +254,6 @@ export class ReadReport {
       }
 
       if (speechId) await this.increaseLogsCounter("speeches");
-      this.testReport();
     }
   }
 
@@ -306,7 +310,7 @@ export class ReadReport {
   /**
    * Test unparsed data with regex for compare the result with the work done by the reading methods.
    */
-  testReport(): void {
+  async testReport(): Promise<void> {
     try {
       this.logs.externalId = this.data.uid;
       const regex: RegExp[] = [
@@ -334,6 +338,8 @@ export class ReadReport {
       this.logs.recordingRate = `${Math.trunc(
         (totalInDatabase / totalInReport) * 100
       )}%`;
+
+      console.log(this.logs);
     } catch (error) {
       throw new Error(`Can't test this Report`);
     }
@@ -341,7 +347,7 @@ export class ReadReport {
 
   /**
    * Main method for trigger the other methods.
-   * @return {Promise<void>} returns nothing.
+   * @return {Promise<void>} returns completed logs object.
    */
   async Read(): Promise<void> {
     try {
