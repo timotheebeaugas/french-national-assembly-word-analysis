@@ -60,7 +60,7 @@ export class ReadReport {
       } else {
         this.reportId = findReports.id;
       }
-      
+
       if (this.reportId) this.increaseLogsCounter("report");
     } catch (error) {
       throw new Error(`Can't save Report ${this.data.uid} in database`);
@@ -103,12 +103,12 @@ export class ReadReport {
               delete obj[el];
             }
             if (el.match("titreStruct")) {
-              this.summaryWrapper(obj[el]);
+              this.summaryWrapper(obj);
               delete obj[el];
               this.readSummary(obj[el]);
             } else {
               this.readSummary(obj[el]);
-            } 
+            }
           });
         } else {
           if (obj.hasOwnProperty("titreStruct")) {
@@ -130,7 +130,7 @@ export class ReadReport {
 
   async summaryWrapper(obj: any): Promise<void> {
     try {
-      let agendaItemId = await this.createAgendaItems(obj);
+      let agendaItemId = await this.createAgendaItems(obj["titreStruct"]);  
       if (obj.hasOwnProperty("para")) {
         Object.values(obj.para).forEach(async (element: object) => {
           this.searchParagraphs(
@@ -138,7 +138,7 @@ export class ReadReport {
             element["@_id_syceron" as keyof object],
             agendaItemId
           );
-        });
+        });  
       }
     } catch (error) {
       throw new Error(`Can't read this object? ${error}`);
@@ -163,22 +163,19 @@ export class ReadReport {
       externalId: title["@_id_syceron"],
     });
 
-    let itemId: number | null = null;
-
     if (findAgendas == null) {
       const item = new AgendaItem();
       item.externalId = title["@_id_syceron"];
       item.report = this.reportId;
       item.title = fixedTitle.trim() || title.intitule;
       await AppDataSource.manager.save(item);
-      
-      itemId = item.id;
+
+      await this.increaseLogsCounter("agendaItems");
+      return item.id;
     } else {
-      
-      itemId = findAgendas.id;
+      await this.increaseLogsCounter("agendaItems");
+      return findAgendas.id;
     }
-    await this.increaseLogsCounter("agendaItems");
-    return itemId
   }
 
   /**
@@ -239,7 +236,7 @@ export class ReadReport {
       } else {
         actorId = findActors.id;
       }
-      if (actorId)await this.increaseLogsCounter("actors");
+      if (actorId) await this.increaseLogsCounter("actors");
 
       const speechRepository = AppDataSource.getRepository(Speech);
       const findSpeeches = await speechRepository.findOneBy({
@@ -289,6 +286,7 @@ export class ReadReport {
     speech.actor = actorId;
     speech.content = paragraph["texte"]["#text"];
     await AppDataSource.manager.save(speech);
+
     return speech.id;
   }
 
@@ -302,6 +300,7 @@ export class ReadReport {
       this.logs.count[prop].inDatabase
         ? this.logs.count[prop].inDatabase++
         : (this.logs.count[prop].inDatabase = 1);
+      this.testReport();
     } catch (error) {
       throw new Error(`Can't update object logs`);
     }
@@ -338,8 +337,6 @@ export class ReadReport {
       this.logs.recordingRate = `${Math.trunc(
         (totalInDatabase / totalInReport) * 100
       )}%`;
-
-      console.log(this.logs);
     } catch (error) {
       throw new Error(`Can't test this Report`);
     }
