@@ -98,50 +98,45 @@ export class ReadReport {
     try {
       if (obj) {
         if (typeof obj === "object") {
-          Object.keys(obj).forEach((el) => {
-            if (el.match("presidentSeance")) {
-              delete obj[el];
-            }
-            if (el.match("titreStruct")) {
-              this.summaryWrapper(obj);
-              delete obj[el];
-              this.readSummary(obj[el]);
-            } else {
-              this.readSummary(obj[el]);
-            }
-          });
-        } else {
-          if (obj.hasOwnProperty("titreStruct")) {
-            this.summaryWrapper(obj);
+          let agendaItemId: null | number;
+          if (obj.presidentSeance) {
+            delete obj.presidentSeance;
           }
+          if (obj.titreStruct && obj.para) {
+            agendaItemId = await this.createAgendaItems(obj.titreStruct);
+            Object.values(obj.para).forEach((element: object | string) => {
+              if (element["@_id_syceron" as keyof object]) {
+                this.searchParagraphs(
+                  this.data.contenu,
+                  agendaItemId,
+                  element["@_id_syceron" as keyof object]
+                );
+              } else {
+                Object.values(element).forEach((el: object) => {
+                  if (el["@_id_syceron" as keyof object]) {
+                    this.searchParagraphs(
+                      this.data.contenu,
+                      agendaItemId,
+                      el["@_id_syceron" as keyof object]
+                    );
+                  }
+                });
+              }
+            });
+            delete obj.titreStruct;
+            delete obj.para;
+          }
+          if (obj.titreStruct) {
+            agendaItemId = await this.createAgendaItems(obj.titreStruct);
+            delete obj.titreStruct;
+          }
+          Object.keys(obj).forEach(async (key) => {
+            this.readSummary(obj[key]);
+          });
         }
       }
     } catch (error) {
       throw new Error(`Error in summary:${error}`);
-    }
-  }
-
-  /**
-   * Call two methods: createAgendaItems() and searchParagraphs()
-   * If there is a summary items nested inside another, this method call herself on each one
-   * @param {any} obj - The object to be processed
-   * @return {void} return nothing.
-   */
-
-  async summaryWrapper(obj: any): Promise<void> {
-    try {
-      let agendaItemId = await this.createAgendaItems(obj["titreStruct"]);  
-      if (obj.hasOwnProperty("para")) {
-        Object.values(obj.para).forEach(async (element: object) => {
-          this.searchParagraphs(
-            this.data.contenu,
-            element["@_id_syceron" as keyof object],
-            agendaItemId
-          );
-        });  
-      }
-    } catch (error) {
-      throw new Error(`Can't read this object? ${error}`);
     }
   }
 
@@ -181,21 +176,23 @@ export class ReadReport {
   /**
    * Iterate paragraphs array from summary and found each paragraph in report's content by '@_id_syceron'
    * @param {object} contentObject - ONbject that needs to be checked and/or destructured
-   * @param {string} paragraphId - The 'paragraphId' string refer to the wanted paragraph in the report
    * @param {number} agendaItemId - The 'agendaItemId' number refer to the current Agenda Item id in our database
+   * @param {string} paragraphId - The 'paragraphId' string refer to the wanted paragraph in the report
    * @return {Promise<void>} return nothing.
    */
 
   async searchParagraphs(
     contentObject: object,
-    paragraphId: string,
-    agendaItemId: number
+    agendaItemId: number,
+    paragraphId: string
   ): Promise<void> {
     try {
-      for (const key in contentObject) {
+      console.count()
+/*       for (const key in contentObject) {
         let obj: any | never =
           contentObject[key as keyof object]["@_id_syceron"];
         if (obj && obj != undefined) {
+          if(obj === paragraphId) console.log(obj === paragraphId)
           if (obj.match(paragraphId)) {
             this.readParagraph(
               contentObject[key as keyof object],
@@ -206,11 +203,11 @@ export class ReadReport {
         if (typeof contentObject[key as keyof object] === "object") {
           this.searchParagraphs(
             contentObject[key as keyof object],
-            paragraphId,
-            agendaItemId
+            agendaItemId,
+            paragraphId
           );
         }
-      }
+      } */
     } catch (error) {
       throw new Error(`Paragraph ${paragraphId} not found in content`);
     }
@@ -223,6 +220,7 @@ export class ReadReport {
    * @return {Promise<void>} return nothing.
    */
   async readParagraph(paragraph: any, agendaItemId: number): Promise<void> {
+    
     if (paragraph["orateurs"]) {
       const actorRepository = AppDataSource.getRepository(Actor);
       const findActors = await actorRepository.findOneBy({
@@ -242,15 +240,11 @@ export class ReadReport {
       const findSpeeches = await speechRepository.findOneBy({
         externalId: paragraph["@_id_syceron"],
       });
-      let speechId: number | null = null;
 
       if (findSpeeches == null) {
-        speechId = await this.createSpeeches(paragraph, agendaItemId, actorId);
-      } else {
-        speechId = findSpeeches.id;
+        await this.createSpeeches(paragraph, agendaItemId, actorId);
       }
-
-      if (speechId) await this.increaseLogsCounter("speeches");
+      await this.increaseLogsCounter("speeches");
     }
   }
 
@@ -300,7 +294,6 @@ export class ReadReport {
       this.logs.count[prop].inDatabase
         ? this.logs.count[prop].inDatabase++
         : (this.logs.count[prop].inDatabase = 1);
-      this.testReport();
     } catch (error) {
       throw new Error(`Can't update object logs`);
     }
@@ -337,6 +330,7 @@ export class ReadReport {
       this.logs.recordingRate = `${Math.trunc(
         (totalInDatabase / totalInReport) * 100
       )}%`;
+      console.log(this.logs);
     } catch (error) {
       throw new Error(`Can't test this Report`);
     }
