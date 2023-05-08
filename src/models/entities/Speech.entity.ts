@@ -1,6 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, JoinColumn } from "typeorm";
 import { Actor } from "./Actor.entity.js";
-import { AgendaItem } from "./AgendaItem.entity.js";
+import { Report } from "./Report.entity.js";
 
 @Entity()
 export class Speech {
@@ -12,11 +12,8 @@ export class Speech {
   })
   externalId: string;
 
-  @Column()
+  @ManyToOne(() => Report, (report) => report.speeches)
   report: number;
-
-  @ManyToOne(() => AgendaItem, (agendaItem) => agendaItem.speeches)
-  agendaItem: number;
 
   @ManyToOne(() => Actor, (actor) => actor.speeches)
   actor: number;

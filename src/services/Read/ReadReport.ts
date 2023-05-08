@@ -98,36 +98,11 @@ export class ReadReport {
     try {
       if (obj) {
         if (typeof obj === "object") {
-          let agendaItemId: null | number;
           if (obj.presidentSeance) {
             delete obj.presidentSeance;
           }
-          if (obj.titreStruct && obj.para) {
-            agendaItemId = await this.createAgendaItems(obj.titreStruct);
-            Object.values(obj.para).forEach((element: object | string) => {
-              if (element["@_id_syceron" as keyof object]) {
-                this.searchParagraphs(
-                  this.data.contenu,
-                  agendaItemId,
-                  element["@_id_syceron" as keyof object]
-                );
-              } else {
-                Object.values(element).forEach((el: object) => {
-                  if (el["@_id_syceron" as keyof object]) {
-                    this.searchParagraphs(
-                      this.data.contenu,
-                      agendaItemId,
-                      el["@_id_syceron" as keyof object]
-                    );
-                  }
-                });
-              }
-            });
-            delete obj.titreStruct;
-            delete obj.para;
-          }
           if (obj.titreStruct) {
-            agendaItemId = await this.createAgendaItems(obj.titreStruct);
+            await this.createAgendaItems(obj.titreStruct);
             delete obj.titreStruct;
           }
           Object.keys(obj).forEach(async (key) => {
@@ -143,9 +118,9 @@ export class ReadReport {
   /**
    * Create a new agenda item in database.
    * @param {any} title - Object title with one title and his id
-   * @return {Promise<number>} item's id.
+   * @return {Promise<void>} return nothing.
    */
-  async createAgendaItems(title: any): Promise<number> {
+  async createAgendaItems(title: any): Promise<void> {
     let fixedTitle: string = "";
     if (typeof title.intitule === "object") {
       Object.keys(title.intitule).forEach((element) => {
@@ -166,29 +141,20 @@ export class ReadReport {
       await AppDataSource.manager.save(item);
 
       await this.increaseLogsCounter("agendaItems");
-      return item.id;
-    } else {
-      await this.increaseLogsCounter("agendaItems");
-      return findAgendas.id;
     }
+    await this.increaseLogsCounter("agendaItems");
   }
 
   /**
    * Iterate paragraphs array from summary and found each paragraph in report's content by '@_id_syceron'
    * @param {object} contentObject - ONbject that needs to be checked and/or destructured
-   * @param {number} agendaItemId - The 'agendaItemId' number refer to the current Agenda Item id in our database
-   * @param {string} paragraphId - The 'paragraphId' string refer to the wanted paragraph in the report
    * @return {Promise<void>} return nothing.
    */
 
-  async searchParagraphs(
-    contentObject: object,
-    agendaItemId: number,
-    paragraphId: string
-  ): Promise<void> {
+  async searchParagraphs(contentObject: object): Promise<void> {
     try {
-      console.count()
-/*       for (const key in contentObject) {
+      console.count();
+      /*       for (const key in contentObject) {
         let obj: any | never =
           contentObject[key as keyof object]["@_id_syceron"];
         if (obj && obj != undefined) {
@@ -209,7 +175,7 @@ export class ReadReport {
         }
       } */
     } catch (error) {
-      throw new Error(`Paragraph ${paragraphId} not found in content`);
+      throw new Error(error);
     }
   }
 
@@ -220,7 +186,6 @@ export class ReadReport {
    * @return {Promise<void>} return nothing.
    */
   async readParagraph(paragraph: any, agendaItemId: number): Promise<void> {
-    
     if (paragraph["orateurs"]) {
       const actorRepository = AppDataSource.getRepository(Actor);
       const findActors = await actorRepository.findOneBy({
@@ -276,7 +241,6 @@ export class ReadReport {
     const speech = new Speech();
     speech.externalId = paragraph["@_id_syceron"];
     speech.report = this.reportId;
-    speech.agendaItem = agendaItemId;
     speech.actor = actorId;
     speech.content = paragraph["texte"]["#text"];
     await AppDataSource.manager.save(speech);
@@ -330,7 +294,6 @@ export class ReadReport {
       this.logs.recordingRate = `${Math.trunc(
         (totalInDatabase / totalInReport) * 100
       )}%`;
-      console.log(this.logs);
     } catch (error) {
       throw new Error(`Can't test this Report`);
     }
@@ -347,6 +310,8 @@ export class ReadReport {
       await this.readMetadata();
 
       await this.readSummary(this.data.metadonnees.sommaire);
+
+      await this.searchParagraphs(this.data.contenu);
 
       return;
     } catch (error) {

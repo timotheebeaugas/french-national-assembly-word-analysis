@@ -7,7 +7,6 @@ import {
     JoinColumn,
   } from "typeorm";
   
-  import { Speech } from "./Speech.entity.js";
   import { Report } from "./Report.entity.js";
 
 @Entity()
@@ -27,7 +26,4 @@ export class AgendaItem {
     length: 255,
   })
   title: string;
-
-  @OneToMany(() => Speech, (speech) => speech.agendaItem)
-  speeches: Speech[];
 }
