@@ -124,7 +124,7 @@ export class ReadReport {
     let fixedTitle: string = "";
     if (typeof title.intitule === "object") {
       Object.keys(title.intitule).forEach((element) => {
-        fixedTitle = fixedTitle.concat(" ", title.intitule[element]);
+        fixedTitle = fixedTitle.concat(" ", title.intitule[element]).trim();
       });
     }
 
@@ -137,7 +137,7 @@ export class ReadReport {
       const item = new AgendaItem();
       item.externalId = title["@_id_syceron"];
       item.report = this.reportId;
-      item.title = fixedTitle.trim() || title.intitule;
+      item.title = fixedTitle || title.intitule;
       await AppDataSource.manager.save(item);
 
       await this.increaseLogsCounter("agendaItems");
@@ -146,106 +146,87 @@ export class ReadReport {
   }
 
   /**
-   * Iterate paragraphs array from summary and found each paragraph in report's content by '@_id_syceron'
-   * @param {object} contentObject - ONbject that needs to be checked and/or destructured
+   * Iterates the content of the object.
+   * Reads the paragraphs one by one and checks if it is necessary to create a new actor and a new speech in the database.
+   * @param {object} obj - ONbject that needs to be checked and/or destructured
    * @return {Promise<void>} return nothing.
    */
 
-  async searchParagraphs(contentObject: object): Promise<void> {
+  async readContent(obj: any): Promise<void> {
     try {
-      console.count();
-      /*       for (const key in contentObject) {
-        let obj: any | never =
-          contentObject[key as keyof object]["@_id_syceron"];
-        if (obj && obj != undefined) {
-          if(obj === paragraphId) console.log(obj === paragraphId)
-          if (obj.match(paragraphId)) {
-            this.readParagraph(
-              contentObject[key as keyof object],
-              agendaItemId
-            );
-          }
+      if (obj) {
+        if (typeof obj === "object") {
+          let actorId: number | null = null;
+          Object.keys(obj).forEach(async (key) => {
+            if (key === "orateurs" && obj[key].orateur) {
+              actorId = await this.createActor(obj[key].orateur);
+              await this.increaseLogsCounter("actors");
+            }
+            if (key === "texte") {
+              await this.createSpeeches(obj, actorId);
+              await this.increaseLogsCounter("speeches");
+            }
+            this.readContent(obj[key]);
+          });
         }
-        if (typeof contentObject[key as keyof object] === "object") {
-          this.searchParagraphs(
-            contentObject[key as keyof object],
-            agendaItemId,
-            paragraphId
-          );
-        }
-      } */
+      }
     } catch (error) {
       throw new Error(error);
     }
   }
 
   /**
-   * Read one paragraph and check if is it necessary to create a new actor and a new speech in database.
-   * @param {any} paragraph - One 'paragraph' object that content text and actor data
-   * @param {number} agendaItemId - The 'agendaItemId' number refer to the current Agenda Item id in our database
-   * @return {Promise<void>} return nothing.
+   * Create a new actor in database.
+   * @param {any} obj - The 'obj' object that content actor name and id
+   * @return {Promise<number>} return actor id.
    */
-  async readParagraph(paragraph: any, agendaItemId: number): Promise<void> {
-    if (paragraph["orateurs"]) {
-      const actorRepository = AppDataSource.getRepository(Actor);
-      const findActors = await actorRepository.findOneBy({
-        externalId: paragraph["orateurs"]["orateur"]["id"],
-      });
-
-      let actorId: number | null = null;
-
-      if (findActors == null) {
-        actorId = await this.createActor(paragraph);
-      } else {
-        actorId = findActors.id;
-      }
-      if (actorId) await this.increaseLogsCounter("actors");
-
-      const speechRepository = AppDataSource.getRepository(Speech);
-      const findSpeeches = await speechRepository.findOneBy({
-        externalId: paragraph["@_id_syceron"],
-      });
-
-      if (findSpeeches == null) {
-        await this.createSpeeches(paragraph, agendaItemId, actorId);
-      }
-      await this.increaseLogsCounter("speeches");
+  async createActor(obj: any): Promise<number> {
+    const actorRepository = AppDataSource.getRepository(Actor);
+    const findActors = await actorRepository.findOneBy({
+      externalId: obj.id,
+    });
+    if (findActors && findActors.hasOwnProperty("id")) {
+      return findActors.id;
+    } else {
+      const actor = new Actor();
+      (actor.externalId = obj.id), (actor.name = obj.nom);
+      await AppDataSource.manager.save(actor);
+      return actor.id;
     }
   }
 
   /**
    * Create a new actor in database.
-   * @param {any} paragraph - The 'paragraph' object that content actor name and id
-   * @return {Promise<number>} return actor id.
-   */
-  async createActor(paragraph: any): Promise<number> {
-    const actor = new Actor();
-    (actor.externalId = paragraph["orateurs"]["orateur"]["id"]),
-      (actor.name = paragraph.orateurs.orateur.nom);
-    await AppDataSource.manager.save(actor);
-    return actor.id;
-  }
-
-  /**
-   * Create a new actor in database.
    * @param {any} paragraph - The 'paragraph' object that content text and actor's data
-   * @param {number} agendaItemId - The 'agendaItemId' number refer to the current Agenda Item id in our database
    * @param {number} actorId - The 'actorId' number refer to the speaker id in our database
    * @return {Promise<number>} return speech id.
    */
-  async createSpeeches(
-    paragraph: any,
-    agendaItemId: number,
-    actorId: number
-  ): Promise<number> {
-    const speech = new Speech();
-    speech.externalId = paragraph["@_id_syceron"];
-    speech.report = this.reportId;
-    speech.actor = actorId;
-    speech.content = paragraph["texte"]["#text"];
-    await AppDataSource.manager.save(speech);
+  async createSpeeches(obj: any, actorId?: number): Promise<number> {
+    let fixedText: string = "";
+    if (typeof obj.texte === "object") {
+      Object.keys(obj.texte).forEach((element) => {
+        fixedText = fixedText.concat(" ", obj.texte[element]).trim();
+      });
+    } else { 
+      fixedText = obj.texte;
+    }
 
-    return speech.id;
+    const actorRepository = AppDataSource.getRepository(Speech);
+    const findSpeech = await actorRepository.findOneBy({
+      externalId: obj["@_id_syceron"],
+    });
+    if (findSpeech && findSpeech.hasOwnProperty("id")) {
+      return findSpeech.id;
+    } else {
+      const speech = new Speech();
+      speech.externalId = obj["@_id_syceron"];
+      speech.report = this.reportId;
+      speech.actor = actorId ? actorId : null;
+      speech.content = fixedText;
+      await AppDataSource.manager.save(speech);
+
+      return speech.id;
+    }
   }
 
   /**
@@ -311,7 +292,7 @@ export class ReadReport {
 
       await this.readSummary(this.data.metadonnees.sommaire);
 
-      await this.searchParagraphs(this.data.contenu);
+      await this.readContent(this.data.contenu);
 
       return;
     } catch (error) {

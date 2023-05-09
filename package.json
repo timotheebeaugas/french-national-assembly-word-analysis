@@ -37,7 +37,7 @@
     "node-fetch": "3.3.1",
     "pg": "8.10.0",
     "reflect-metadata": "0.1.13",
-    "typeorm": "^0.3.15",
+    "typeorm": "0.3.15",
     "yauzl": "2.10.0"
   },
   "devDependencies": {

@@ -15,6 +15,7 @@ export class Speech {
   @ManyToOne(() => Report, (report) => report.speeches)
   report: number;
 
+  @Column({nullable: true})
   @ManyToOne(() => Actor, (actor) => actor.speeches)
   actor: number;
 
