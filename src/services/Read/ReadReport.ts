@@ -7,40 +7,27 @@ import { Speech } from "../../models/entities/Speech.entity.js";
 /**
  * Interfaces
  */
-interface LogsDetails {
-  inReport: number;
-  inDatabase: number;
-}
 
 interface Logs {
-  externalId: string | null;
-  recordingRate: `${number}%` | null;
-  count: { [key: string]: Partial<LogsDetails> };
+  [key: string]: number;
 }
 
 /** Once dataset parse this class can read the raw datas and register them in the database if they aren't yet */
 export class ReadReport {
   /**
-   * @const dataString - Unparsed data in string format for analysis in parallel to reading
    * @const data - save report data for easier access inside methods
    * @const reportId - local variable to save current report id
    * @const logs - variable created for save entries logs during reading process
    */
   protected reportId: null | number = null;
-  private logs: Logs = {
-    externalId: null,
-    recordingRate: null,
-    count: { report: {}, agendaItems: {}, actors: {}, speeches: {} },
-  };
+  private logs: Logs = {};
 
   /**
-   * Create a parser.
+   * Create a reading object.
    * @constructor
-   * @param dataString - incoming unparsed datas.
    * @param data - incoming parsed datas.
    */
-  constructor(readonly dataString: string, readonly data: any) {
-    this.dataString = dataString;
+  constructor(readonly data: any) {
     this.data = data.compteRendu;
   }
 
@@ -207,7 +194,7 @@ export class ReadReport {
       Object.keys(obj.texte).forEach((element) => {
         fixedText = fixedText.concat(" ", obj.texte[element]).trim();
       });
-    } else { 
+    } else {
       fixedText = obj.texte;
     }
 
@@ -236,47 +223,9 @@ export class ReadReport {
    */
   async increaseLogsCounter(prop: string): Promise<void> {
     try {
-      this.logs.count[prop].inDatabase
-        ? this.logs.count[prop].inDatabase++
-        : (this.logs.count[prop].inDatabase = 1);
+      this.logs[prop] ? this.logs[prop]++ : (this.logs[prop] = 1);
     } catch (error) {
       throw new Error(`Can't update object logs`);
-    }
-  }
-
-  /**
-   * Test unparsed data with regex for compare the result with the work done by the reading methods.
-   */
-  async testReport(): Promise<void> {
-    try {
-      this.logs.externalId = this.data.uid;
-      const regex: RegExp[] = [
-        /<uid>/gi,
-        /<\/titreStruct>/gi,
-        /<orateur>/gi,
-        /<texte stime=/gi,
-      ];
-      let i = 0;
-
-      for (const prop in this.logs.count) {
-        const found = this.dataString.match(regex[i]);
-        this.logs.count[prop].inReport = found.length;
-        i++;
-      }
-
-      let totalInReport = 0;
-      let totalInDatabase = 0;
-
-      for (const prop in this.logs.count) {
-        totalInReport = totalInReport + this.logs.count[prop].inReport;
-        totalInDatabase = totalInDatabase + this.logs.count[prop].inDatabase;
-      }
-
-      this.logs.recordingRate = `${Math.trunc(
-        (totalInDatabase / totalInReport) * 100
-      )}%`;
-    } catch (error) {
-      throw new Error(`Can't test this Report`);
     }
   }
 
