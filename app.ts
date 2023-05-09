@@ -4,7 +4,7 @@ import { ParserXML } from "./src/services/Parser/ParserXML.js";
 import { Fetch } from "./src/services/Fetch/Fetch.js";
 import { ReadReport } from "./src/services/Read/ReadReport.js";
 import { Unzipper } from "./src/services/Unzipper/Unzip.js";
-import { ReadStringifyReaport } from "./src/services/Read/ReadStringifyReport.js";
+import { ReadStringifyReport } from "./src/services/Read/ReadStringifyReport.js";
 
 // JOB FOR DOWNLOAD, UNZIP, PARSE AND SAVE ALL REPORTS OF THE LEGISLATURE NUMBER XVI
 const job = false; // is job must be excecuted
@@ -32,7 +32,7 @@ if (job) {
           // SAVING DATA IN LOCAL DB
           (async () => {
             const saveReport = new ReadReport(parsedReport);
-            const readRowReport = new ReadStringifyReaport(report.rawdata);
+            const readRowReport = new ReadStringifyReport(report.rawdata);
             console.log(readRowReport.testReport())
             await saveReport.Read();
           })();
