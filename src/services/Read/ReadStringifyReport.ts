@@ -7,7 +7,7 @@ interface Logs {
 }
 
 /** Read the document with regex to make a comparison with the method ReadReport  */
-export class ReadStringifyReaport {
+export class ReadStringifyReport {
   /**
    * @const dataString - Unparsed data in string format for analysis in parallel to reading
    * @const logs - variable created for save entries logs during reading process

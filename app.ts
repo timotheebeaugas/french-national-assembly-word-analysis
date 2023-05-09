@@ -62,7 +62,7 @@ const parsedReport = report.parse();
 // SAVING DATA IN LOCAL DB
 (async () => {
   const saveReport = new ReadReport(parsedReport);
-  //const readRowReport = new ReadStringifyReaport(report.rawdata);
+  //const readRowReport = new ReadStringifyReport(report.rawdata);
   //console.log(readRowReport.testReport())
   await saveReport.Read();
 })();
