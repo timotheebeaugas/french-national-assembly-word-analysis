@@ -132,33 +132,94 @@ export class ReadReport {
     await this.increaseLogsCounter("agendaItems");
   }
 
+  async readSpeech(pointItem: any): Promise<void> {
+    if (!pointItem.orateurs.orateur) {
+      return;
+    }
+
+    const actorId = await this.createActor(pointItem.orateurs.orateur);
+    await this.increaseLogsCounter("actors");
+
+    await this.createSpeeches(pointItem, actorId);
+    await this.increaseLogsCounter("speeches");
+  }
+
+  async readParagraph(paragraph: any): Promise<void> {    
+    if (!Array.isArray(paragraph)) {
+      return this.readSpeech(paragraph);
+    }
+
+    for (const paragraphItem of paragraph) {
+      await this.readSpeech(paragraphItem);
+    }
+  }
+
+  async readInterExtraction(interExtraction: any): Promise<void> {
+    if (!Array.isArray(interExtraction)) {
+      const paragraph = interExtraction.paragraphe;
+
+      return this.readParagraph(paragraph);
+    }
+
+    for (const interExtractionItem of interExtraction) {
+      const paragraph = interExtractionItem.paragraphe;
+
+      await this.readParagraph(paragraph);
+    }
+  }
+
+  async readPointItem(pointItem: any): Promise<void> {
+    const {
+      orateurs: {
+        orateur: actor = null,
+      } = {},
+      texte: text = null,
+      paragraphe: paragraph = null,
+      interExtraction = null,
+      point = null,
+    } = pointItem;
+
+    if (actor && text !== '') {
+      return this.readSpeech(pointItem);
+    }
+
+    if (paragraph) {
+      await this.readParagraph(paragraph);
+    }
+
+    if (interExtraction) {
+      await this.readInterExtraction(interExtraction);
+    }
+
+    if (point) {
+      await this.readPoint(point);
+    }
+  }
+
+  async readPoint(point: any): Promise<void> {
+    if (!Array.isArray(point)) {
+      return this.readPointItem(point);
+    }
+
+    for (const pointItem of point) {
+      await this.readPointItem(pointItem);
+    }
+  }
+
   /**
    * Iterates the content of the object.
    * Reads the paragraphs one by one and checks if it is necessary to create a new actor and a new speech in the database.
-   * @param {object} obj - ONbject that needs to be checked and/or destructured
+   * @param {object} content - ONbject that needs to be checked and/or destructured
    * @return {Promise<void>} return nothing.
    */
 
-  async readContent(obj: any): Promise<void> {
+  async readContent(content: any): Promise<void> {
+    const point = content.point;
+
     try {
-      if (obj) {
-        if (typeof obj === "object") {
-          let actorId: number | null = null;
-          Object.keys(obj).forEach(async (key) => {
-            if (key === "orateurs" && obj[key].orateur) {
-              actorId = await this.createActor(obj[key].orateur);
-              await this.increaseLogsCounter("actors");
-            }
-            if (key === "texte") {
-              await this.createSpeeches(obj, actorId);
-              await this.increaseLogsCounter("speeches");
-            }
-            this.readContent(obj[key]);
-          });
-        }
-      }
+      await this.readPoint(point); 
     } catch (error) {
-      throw new Error(error);
+      console.log(error);
     }
   }
 
@@ -190,12 +251,11 @@ export class ReadReport {
    */
   async createSpeeches(obj: any, actorId?: number): Promise<number> {
     let fixedText: string = "";
-    if (typeof obj.texte === "object") {
-      Object.keys(obj.texte).forEach((element) => {
-        fixedText = fixedText.concat(" ", obj.texte[element]).trim();
-      });
-    } else {
+    if (typeof obj.texte === "string") {
       fixedText = obj.texte;
+    }
+    else {
+      fixedText = obj.texte['#text'];
     }
 
     const actorRepository = AppDataSource.getRepository(Speech);
