@@ -44,7 +44,6 @@ export class Actor {
   professionalCategory: string;
 
   @OneToMany(() => Speech, (speech) => speech.actor)
-  @JoinColumn()
   speeches: Speech[];
 
   @OneToMany(() => Mandate, (mandate) => mandate.actor)

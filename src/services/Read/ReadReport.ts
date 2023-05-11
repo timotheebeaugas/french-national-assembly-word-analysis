@@ -36,7 +36,7 @@ export class ReadReport {
    * @return {Promise<void>} report's id.
    */
   async readMetadata(): Promise<void> {
-    console.log(this.data.uid)
+    
     try {
       const reportRepository = AppDataSource.getRepository(Report);
       const findReports = await reportRepository.findOneBy({
@@ -255,6 +255,7 @@ export class ReadReport {
     const findActors = await actorRepository.findOneBy({
       externalId: obj.id,
     });
+    
     if (findActors && findActors.hasOwnProperty("id")) {
       return findActors.id;
     } else {
@@ -276,7 +277,7 @@ export class ReadReport {
     if (typeof obj.texte === "string") {
       fixedText = obj.texte;
     } else {
-      fixedText = obj.texte["#text"];
+      fixedText = obj.texte["#text"] || obj.texte.italique;
     }
 
     const actorRepository = AppDataSource.getRepository(Speech);
@@ -316,7 +317,8 @@ export class ReadReport {
    */
   async Read(): Promise<void> {
     try {
-      await AppDataSource.initialize();
+
+      console.log(this.data.uid);
 
       await this.readMetadata();
 

@@ -1,4 +1,4 @@
-import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, JoinColumn } from "typeorm";
+import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, JoinColumn, Relation } from "typeorm";
 import { Actor } from "./Actor.entity.js";
 import { Report } from "./Report.entity.js";
 
@@ -15,11 +15,10 @@ export class Speech {
   @ManyToOne(() => Report, (report) => report.speeches)
   report: number;
 
-  @Column({nullable: true})
   @ManyToOne(() => Actor, (actor) => actor.speeches)
   actor: number;
 
-  @Column("text")
+  @Column("text") 
   content: string;
-
+ 
 }

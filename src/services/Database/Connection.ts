@@ -23,6 +23,5 @@ export const AppDataSource = new DataSource({
   schema: process.env.DB_SCHEMA,
   entities: [ Mandate, AgendaItem, Actor, Speech, Report, PoliticalBody, Constituency], // [`../../models/entities/*.entity.{js,ts}`] don't works
   synchronize: true,
-  logging: false,
-});
- 
+  logging: true,
+}); 

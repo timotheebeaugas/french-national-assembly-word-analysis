@@ -5,6 +5,7 @@ import { Fetch } from "./src/services/Fetch/Fetch.js";
 import { ReadReport } from "./src/services/Read/ReadReport.js";
 import { Unzipper } from "./src/services/Unzipper/Unzip.js";
 import { ReadStringifyReport } from "./src/services/Read/ReadStringifyReport.js";
+import { AppDataSource } from "./src/services/Database/Connection.js";
 
 // JOB FOR DOWNLOAD, UNZIP, PARSE AND SAVE ALL REPORTS OF THE LEGISLATURE NUMBER XVI
 const job = false; // is job must be excecuted
@@ -13,59 +14,61 @@ const REMOTE_ADRESS =
 const FILENAME = path.basename(REMOTE_ADRESS);
 const BASENAME = path.basename(REMOTE_ADRESS, ".xml.zip");
 
-if (job) {
-  try {
-    // IF ZIP FILE HAS BEEN DOWNLOADED LOCALLY
-    let file = fs.existsSync(`tmp/${FILENAME}`);
-    if (file) {
-      // IF FILE HAS BEEN UNZIPPED
-      let unzipped = fs.existsSync(`tmp/${BASENAME}`);
-      if (unzipped) {
-        // READ FILE
-        console.log("READ FILE");
-        let folder = fs.readdirSync(`tmp/${BASENAME}`);
+AppDataSource.initialize().then(() => {
+  if (job) {
+    try {
+      // IF ZIP FILE HAS BEEN DOWNLOADED LOCALLY
+      let file = fs.existsSync(`tmp/${FILENAME}`);
+      if (file) {
+        // IF FILE HAS BEEN UNZIPPED
+        let unzipped = fs.existsSync(`tmp/${BASENAME}`);
+        if (unzipped) {
+          // READ FILE
+          console.log("READ FILE");
+          let folder = fs.readdirSync(`tmp/${BASENAME}`);
 
-        folder.forEach(async (file) => {
-          // PARSING ONE EACH REPORTS
-          const report = new ParserXML(
-            `${BASENAME}/${path.basename(file, ".zip")}`
-          );
-          const parsedReport = report.parse();
+          folder.forEach(async (file) => {
+            // PARSING ONE EACH REPORTS
+            const report = new ParserXML(
+              `${BASENAME}/${path.basename(file, ".zip")}`
+            );
+            const parsedReport = report.parse();
 
-          // SAVING DATA IN LOCAL DB
-          (async () => {
-            const saveReport = new ReadReport(parsedReport);
-            //const readRowReport = new ReadStringifyReport(report.rawdata);
-            //console.log(readRowReport.testReport())
-            await saveReport.Read();
-            console.log(saveReport.logs);
-          })();
-        });
+            // SAVING DATA IN LOCAL DB
+            (async () => {
+              const saveReport = new ReadReport(parsedReport);
+              //const readRowReport = new ReadStringifyReport(report.rawdata);
+              //console.log(readRowReport.testReport())
+              await saveReport.Read();
+              console.log(saveReport.logs);
+            })();
+          });
+        } else {
+          // UNZIP THE FILE
+          console.log("UNZIP FILE");
+          const unzipper = new Unzipper();
+          unzipper.unzipFile(FILENAME, BASENAME);
+        }
       } else {
-        // UNZIP THE FILE
-        console.log("UNZIP FILE");
-        const unzipper = new Unzipper();
-        unzipper.unzipFile(FILENAME, BASENAME);
+        // IF NOT DOWNLOAD THE REPORT BY REMOTE URL
+        console.log("DOWNLOAD FILE");
+        const report = new Fetch(REMOTE_ADRESS);
+        report.download();
       }
-    } else {
-      // IF NOT DOWNLOAD THE REPORT BY REMOTE URL
-      console.log("DOWNLOAD FILE");
-      const report = new Fetch(REMOTE_ADRESS);
-      report.download();
+    } catch (err) {
+      // PRINT ERR(S)
+      console.log(err);
     }
-  } catch (err) {
-    // PRINT ERR(S)
-    console.log(err);
   }
-}
 
-const report = new ParserXML(`${BASENAME}/${path.basename("CRSANR5L16S2023O1N001.xml", ".zip")}`);
-const parsedReport = report.parse();
-// SAVING DATA IN LOCAL DB
-(async () => {
-  const saveReport = new ReadReport(parsedReport);
-  //const readRowReport = new ReadStringifyReport(report.rawdata);
-  //console.log(readRowReport.testReport())
-  await saveReport.Read();
-  console.log(saveReport.logs);
-})();
+  const report = new ParserXML(`${BASENAME}/${path.basename("CRSANR5L16S2023O1N186.xml", ".zip")}`);
+  const parsedReport = report.parse();
+  // SAVING DATA IN LOCAL DB
+  (async () => { 
+    const saveReport = new ReadReport(parsedReport);
+    const readRowReport = new ReadStringifyReport(report.rawdata);
+    console.log(readRowReport.testReport())
+    await saveReport.Read();
+    console.log(saveReport.logs);
+  })();
+});
