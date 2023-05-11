@@ -20,7 +20,7 @@ export class ReadReport {
    * @const logs - variable created for save entries logs during reading process
    */
   protected reportId: null | number = null;
-  private logs: Logs = {};
+  public logs: Logs = {};
 
   /**
    * Create a reading object.
@@ -36,6 +36,7 @@ export class ReadReport {
    * @return {Promise<void>} report's id.
    */
   async readMetadata(): Promise<void> {
+    console.log(this.data.uid)
     try {
       const reportRepository = AppDataSource.getRepository(Report);
       const findReports = await reportRepository.findOneBy({
@@ -98,7 +99,7 @@ export class ReadReport {
         }
       }
     } catch (error) {
-      throw new Error(`Error in summary:${error}`);
+      throw new Error(error);
     }
   }
 
@@ -132,6 +133,11 @@ export class ReadReport {
     await this.increaseLogsCounter("agendaItems");
   }
 
+  /**
+   * Read speeches object and call createActor() and createSpeeches() methods for save the data.
+   * @param {any} pointItem - Object with actor and text content
+   * @return {Promise<void>} return nothing.
+   */
   async readSpeech(pointItem: any): Promise<void> {
     if (!pointItem.orateurs.orateur) {
       return;
@@ -144,7 +150,12 @@ export class ReadReport {
     await this.increaseLogsCounter("speeches");
   }
 
-  async readParagraph(paragraph: any): Promise<void> {    
+  /**
+   * Read paragraph object and call readSpeech() on each speech found.
+   * @param {any} paragraph - Object with actor and text content
+   * @return {Promise<void>} return nothing.
+   */
+  async readParagraph(paragraph: any): Promise<void> {
     if (!Array.isArray(paragraph)) {
       return this.readSpeech(paragraph);
     }
@@ -154,6 +165,11 @@ export class ReadReport {
     }
   }
 
+  /**
+   * Read interExtraction object and call readParagraph() on each paragraphs found.
+   * @param {any} interExtraction - Object with multiples paragraphs
+   * @return {Promise<void>} return nothing.
+   */
   async readInterExtraction(interExtraction: any): Promise<void> {
     if (!Array.isArray(interExtraction)) {
       const paragraph = interExtraction.paragraphe;
@@ -168,18 +184,21 @@ export class ReadReport {
     }
   }
 
+  /**
+   * Unstructure an object and trigger enhanced methods.
+   * @param {any} interExtraction - Object to be destructured
+   * @return {Promise<void>} return nothing.
+   */
   async readPointItem(pointItem: any): Promise<void> {
     const {
-      orateurs: {
-        orateur: actor = null,
-      } = {},
+      orateurs: { orateur: actor = null } = {},
       texte: text = null,
       paragraphe: paragraph = null,
       interExtraction = null,
       point = null,
     } = pointItem;
 
-    if (actor && text !== '') {
+    if (actor && text !== "") {
       return this.readSpeech(pointItem);
     }
 
@@ -196,6 +215,11 @@ export class ReadReport {
     }
   }
 
+  /**
+   * Read point object and call readPointItem() on each items found.
+   * @param {any} interExtraction - Object with one or many points
+   * @return {Promise<void>} return nothing.
+   */
   async readPoint(point: any): Promise<void> {
     if (!Array.isArray(point)) {
       return this.readPointItem(point);
@@ -207,17 +231,15 @@ export class ReadReport {
   }
 
   /**
-   * Iterates the content of the object.
-   * Reads the paragraphs one by one and checks if it is necessary to create a new actor and a new speech in the database.
-   * @param {object} content - ONbject that needs to be checked and/or destructured
+   * Calls readPoint() method on content's point
+   * @param {object} content - Object that needs to be checked and/or destructured
    * @return {Promise<void>} return nothing.
    */
-
   async readContent(content: any): Promise<void> {
     const point = content.point;
 
     try {
-      await this.readPoint(point); 
+      await this.readPoint(point);
     } catch (error) {
       console.log(error);
     }
@@ -253,9 +275,8 @@ export class ReadReport {
     let fixedText: string = "";
     if (typeof obj.texte === "string") {
       fixedText = obj.texte;
-    }
-    else {
-      fixedText = obj.texte['#text'];
+    } else {
+      fixedText = obj.texte["#text"];
     }
 
     const actorRepository = AppDataSource.getRepository(Speech);

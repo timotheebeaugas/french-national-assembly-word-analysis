@@ -7,7 +7,7 @@ import { Unzipper } from "./src/services/Unzipper/Unzip.js";
 import { ReadStringifyReport } from "./src/services/Read/ReadStringifyReport.js";
 
 // JOB FOR DOWNLOAD, UNZIP, PARSE AND SAVE ALL REPORTS OF THE LEGISLATURE NUMBER XVI
-const job = false; // is job must be excecuted
+const job = true; // is job must be excecuted
 const REMOTE_ADRESS =
   "https://data.assemblee-nationale.fr/static/openData/repository/16/vp/syceronbrut/syseron.xml.zip";
 const FILENAME = path.basename(REMOTE_ADRESS);
@@ -21,20 +21,24 @@ if (job) {
       // IF FILE HAS BEEN UNZIPPED
       let unzipped = fs.existsSync(`tmp/${BASENAME}`);
       if (unzipped) {
+        // READ FILE
+        console.log("READ FILE");
         let folder = fs.readdirSync(`tmp/${BASENAME}`);
 
         folder.forEach((file) => {
-        
           // PARSING ONE EACH REPORTS
-          const report = new ParserXML(`${BASENAME}/${path.basename(file, ".zip")}`);
+          const report = new ParserXML(
+            `${BASENAME}/${path.basename(file, ".zip")}`
+          );
           const parsedReport = report.parse();
 
           // SAVING DATA IN LOCAL DB
           (async () => {
             const saveReport = new ReadReport(parsedReport);
-            const readRowReport = new ReadStringifyReport(report.rawdata);
-            console.log(readRowReport.testReport())
+            //const readRowReport = new ReadStringifyReport(report.rawdata);
+            //console.log(readRowReport.testReport())
             await saveReport.Read();
+            console.log(saveReport.logs);
           })();
         });
       } else {
@@ -54,15 +58,3 @@ if (job) {
     console.log(err);
   }
 }
-
-let file = "CRSANR5L16S2023O1N216.xml.zip"
-const report = new ParserXML(`${BASENAME}/${path.basename(file, ".zip")}`);
-const parsedReport = report.parse();
-
-// SAVING DATA IN LOCAL DB
-(async () => {
-  const saveReport = new ReadReport(parsedReport);
-  //const readRowReport = new ReadStringifyReport(report.rawdata);
-  //console.log(readRowReport.testReport())
-  await saveReport.Read();
-})();
