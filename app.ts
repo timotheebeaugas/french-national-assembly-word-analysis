@@ -6,16 +6,19 @@ import { ReadReport } from "./src/services/Read/ReadReport.js";
 import { Unzipper } from "./src/services/Unzipper/Unzip.js";
 import { ReadStringifyReport } from "./src/services/Read/ReadStringifyReport.js";
 import { AppDataSource } from "./src/services/Database/Connection.js";
+import { Actor } from "./src/models/entities/Actor.entity.js";
 
 // JOB FOR DOWNLOAD, UNZIP, PARSE AND SAVE ALL REPORTS OF THE LEGISLATURE NUMBER XVI
-const job = false; // is job must be excecuted
+const readDirectoryJob = true; // is first job must be excecuted
+const readOneFileJob = false; // is second job must be excecuted
 const REMOTE_ADRESS =
   "https://data.assemblee-nationale.fr/static/openData/repository/16/vp/syceronbrut/syseron.xml.zip";
 const FILENAME = path.basename(REMOTE_ADRESS);
 const BASENAME = path.basename(REMOTE_ADRESS, ".xml.zip");
 
-AppDataSource.initialize().then(() => {
-  if (job) {
+// MULTIPLE FILES JOB
+if (readDirectoryJob) {
+  AppDataSource.initialize().then(async () => {
     try {
       // IF ZIP FILE HAS BEEN DOWNLOADED LOCALLY
       let file = fs.existsSync(`tmp/${FILENAME}`);
@@ -34,14 +37,24 @@ AppDataSource.initialize().then(() => {
             );
             const parsedReport = report.parse();
 
-            // SAVING DATA IN LOCAL DB
-            (async () => {
+            const actorsRepository = AppDataSource.getRepository(Actor);
+            const actors = await actorsRepository.find({
+              where: {
+                externalId: 719938, // Marc Fesneau id
+              },
+            });
+
+            if (Object.keys(actors).length > 1) {
+              console.log("ACTOR ALREADY EXIST");
+              console.log(file);
+            } else {
+              // SAVING DATA IN LOCAL DB
+              console.log("SAVING DATA");
               const saveReport = new ReadReport(parsedReport);
               //const readRowReport = new ReadStringifyReport(report.rawdata);
               //console.log(readRowReport.testReport())
               await saveReport.Read();
-              console.log(saveReport.logs);
-            })();
+            }
           });
         } else {
           // UNZIP THE FILE
@@ -59,16 +72,23 @@ AppDataSource.initialize().then(() => {
       // PRINT ERR(S)
       console.log(err);
     }
-  }
+  });
+}
 
-  const report = new ParserXML(`${BASENAME}/${path.basename("CRSANR5L16S2023O1N186.xml", ".zip")}`);
+// SPECIFIC FILE JOB
+if (readOneFileJob) {
+  const fesneau1 = "CRSANR5L16S2022E1N004.xml";
+  const fesneau2 = "CRSANR5L16S2023O1N186.xml";
+  const report = new ParserXML(
+    `${BASENAME}/${path.basename(fesneau1, ".zip")}`
+  );
   const parsedReport = report.parse();
   // SAVING DATA IN LOCAL DB
-  (async () => { 
+  AppDataSource.initialize().then(async () => {
     const saveReport = new ReadReport(parsedReport);
     const readRowReport = new ReadStringifyReport(report.rawdata);
-    console.log(readRowReport.testReport())
+    console.log(readRowReport.testReport());
     await saveReport.Read();
     console.log(saveReport.logs);
-  })();
-});
+  });
+}

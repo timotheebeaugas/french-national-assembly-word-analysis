@@ -3,7 +3,7 @@ import * as dotenv from 'dotenv';
 
 import { DataSource } from "typeorm"
 import { Report } from "../../models/entities/Report.entity.js";
-import {Mandate} from "../../models/entities/Mandate.entity.js";
+import { Mandate } from "../../models/entities/Mandate.entity.js";
 import { Speech } from "../../models/entities/Speech.entity.js";
 import { AgendaItem } from "../../models/entities/AgendaItem.entity.js";
 import { PoliticalBody } from "../../models/entities/PoliticalBody.entity.js";
@@ -23,5 +23,5 @@ export const AppDataSource = new DataSource({
   schema: process.env.DB_SCHEMA,
   entities: [ Mandate, AgendaItem, Actor, Speech, Report, PoliticalBody, Constituency], // [`../../models/entities/*.entity.{js,ts}`] don't works
   synchronize: true,
-  logging: true,
+  logging: false,
 }); 

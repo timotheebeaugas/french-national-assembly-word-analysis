@@ -19,6 +19,6 @@ export class Speech {
   actor: number;
 
   @Column("text") 
-  content: string;
+  content: string; 
  
 }

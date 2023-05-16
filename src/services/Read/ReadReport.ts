@@ -317,9 +317,6 @@ export class ReadReport {
    */
   async Read(): Promise<void> {
     try {
-
-      console.log(this.data.uid);
-
       await this.readMetadata();
 
       await this.readSummary(this.data.metadonnees.sommaire);
