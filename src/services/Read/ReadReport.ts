@@ -36,7 +36,6 @@ export class ReadReport {
    * @return {Promise<void>} report's id.
    */
   async readMetadata(): Promise<void> {
-    
     try {
       const reportRepository = AppDataSource.getRepository(Report);
       const findReports = await reportRepository.findOneBy({
@@ -251,18 +250,22 @@ export class ReadReport {
    * @return {Promise<number>} return actor id.
    */
   async createActor(obj: any): Promise<number> {
-    const actorRepository = AppDataSource.getRepository(Actor);
-    const findActors = await actorRepository.findOneBy({
-      externalId: obj.id,
-    });
-    
-    if (findActors && findActors.hasOwnProperty("id")) {
-      return findActors.id;
-    } else {
-      const actor = new Actor();
-      (actor.externalId = obj.id), (actor.name = obj.nom);
-      await AppDataSource.manager.save(actor);
-      return actor.id;
+    if (obj.id && obj.id != 0) {
+      const actorRepository = AppDataSource.getRepository(Actor);
+      const findActors = await actorRepository.findOneBy({
+        externalId: Math.abs(obj.id),
+      });
+
+      if (findActors && findActors.hasOwnProperty("id")) {
+        return findActors.id;
+      } else {
+        const actor = new Actor();
+        (actor.externalId = Math.abs(obj.id)), (actor.name = obj.nom);
+        await AppDataSource.manager.save(actor);
+        return actor.id;
+      }
+    }else{
+      return;
     }
   }
 
