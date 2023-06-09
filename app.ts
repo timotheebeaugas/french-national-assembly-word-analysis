@@ -18,61 +18,49 @@ const BASENAME = path.basename(REMOTE_ADRESS, ".xml.zip");
 
 // MULTIPLE FILES JOB
 if (readDirectoryJob) {
-  AppDataSource.initialize().then(async () => {
-    try {
-      // IF ZIP FILE HAS BEEN DOWNLOADED LOCALLY
-      let file = fs.existsSync(`tmp/${FILENAME}`);
-      if (file) {
-        // IF FILE HAS BEEN UNZIPPED
-        let unzipped = fs.existsSync(`tmp/${BASENAME}`);
-        if (unzipped) {
-          // READ FILE
-          console.log("READ FILE");
-          let folder = fs.readdirSync(`tmp/${BASENAME}`);
-
-          folder.forEach(async (file) => {
+  try {
+    // IF ZIP FILE HAS BEEN DOWNLOADED LOCALLY
+    let file = fs.existsSync(`tmp/${FILENAME}`);
+    if (file) {
+      // IF FILE HAS BEEN UNZIPPED
+      let unzipped = fs.existsSync(`tmp/${BASENAME}`);
+      if (unzipped) {
+        // READ FILE
+        console.log("READ FILE");
+        let folder = fs.readdirSync(`tmp/${BASENAME}`);
+        AppDataSource.initialize().then(async () => {
+          folder.forEach(async (file, position) => {
             // PARSING ONE EACH REPORTS
             const report = new ParserXML(
               `${BASENAME}/${path.basename(file, ".zip")}`
             );
             const parsedReport = report.parse();
-
-            const actorsRepository = AppDataSource.getRepository(Actor);
-            const actors = await actorsRepository.find({
-              where: {
-                externalId: 719938, // Marc Fesneau id
-              },
-            });
-
-            if (Object.keys(actors).length > 1) {
-              console.log("ACTOR ALREADY EXIST");
-              console.log(file);
-            } else {
+            setTimeout(async () => {
               // SAVING DATA IN LOCAL DB
               console.log("SAVING DATA");
               const saveReport = new ReadReport(parsedReport);
               //const readRowReport = new ReadStringifyReport(report.rawdata);
               //console.log(readRowReport.testReport())
               await saveReport.Read();
-            }
+            }, 60000);
           });
-        } else {
-          // UNZIP THE FILE
-          console.log("UNZIP FILE");
-          const unzipper = new Unzipper();
-          unzipper.unzipFile(FILENAME, BASENAME);
-        }
-      } else {
-        // IF NOT DOWNLOAD THE REPORT BY REMOTE URL
-        console.log("DOWNLOAD FILE");
-        const report = new Fetch(REMOTE_ADRESS);
-        report.download();
+        });
+      } else { 
+        // UNZIP THE FILE
+        console.log("UNZIP FILE");
+        const unzipper = new Unzipper();
+        unzipper.unzipFile(FILENAME, BASENAME);
       }
-    } catch (err) {
-      // PRINT ERR(S)
-      console.log(err);
+    } else {
+      // IF NOT DOWNLOAD THE REPORT BY REMOTE URL
+      console.log("DOWNLOAD FILE");
+      const report = new Fetch(REMOTE_ADRESS);
+      report.download();
     }
-  });
+  } catch (err) {
+    // PRINT ERR(S)
+    console.log(err);
+  }
 }
 
 // SPECIFIC FILE JOB
