@@ -1,8 +1,12 @@
+import { XMLParser } from "fast-xml-parser";
+
 import { AppDataSource } from "../Database/Connection.js";
 import { Report } from "../../models/entities/Report.entity.js";
 import { AgendaItem } from "../../models/entities/AgendaItem.entity.js";
 import { Actor } from "../../models/entities/Actor.entity.js";
 import { Speech } from "../../models/entities/Speech.entity.js";
+import { ReportManager } from '../../models/managers/index.js';
+import createOne from './createOne.js';
 
 /**
  * Interfaces
@@ -13,7 +17,7 @@ interface Logs {
 }
 
 /** Once dataset parse this class can read the raw datas and register them in the database if they aren't yet */
-export class ReadReport {
+class ReadReport {
   /**
    * @const data - save report data for easier access inside methods
    * @const reportId - local variable to save current report id
@@ -29,51 +33,6 @@ export class ReadReport {
    */
   constructor(readonly data: any) {
     this.data = data.compteRendu;
-  }
-
-  /**
-   * Check if current report exist in database.
-   * @return {Promise<void>} report's id.
-   */
-  async readMetadata(): Promise<void> {
-    try {
-      const reportRepository = AppDataSource.getRepository(Report);
-      const findReports = await reportRepository.findOneBy({
-        externalId: this.data.uid,
-      });
-
-      if (findReports == null) {
-        this.reportId = await this.createReport();
-      } else {
-        this.reportId = findReports.id;
-      }
-
-      if (this.reportId) this.increaseLogsCounter("report");
-    } catch (error) {
-      throw new Error(`Can't save Report ${this.data.uid} in database`);
-    }
-  }
-
-  /**
-   * Create a new report in database.
-   * @return {Promise<number>} report's id.
-   */
-  async createReport(): Promise<number> {
-    let fixedPresidency: string | null = null;
-    if (typeof this.data.metadonnees.sommaire.presidentSeance === "object") {
-      fixedPresidency = this.data.metadonnees.sommaire.presidentSeance["#text"];
-    }
-    const report = new Report();
-    report.sourceURL = `https://www.assemblee-nationale.fr/dyn/opendata/${this.data.uid}.xml`;
-    report.externalId = this.data.uid;
-    report.legislature = this.data.metadonnees.legislature;
-    report.date = this.data.metadonnees.dateSeanceJour;
-    report.daySessionNumber = this.data.metadonnees.numSeanceJour;
-    report.presidency = fixedPresidency
-      ? fixedPresidency
-      : this.data.metadonnees.sommaire.presidentSeance;
-    await AppDataSource.manager.save(report);
-    return report.id;
   }
 
   /**
@@ -320,8 +279,6 @@ export class ReadReport {
    */
   async Read(): Promise<void> {
     try {
-      await this.readMetadata();
-
       await this.readSummary(this.data.metadonnees.sommaire);
 
       await this.readContent(this.data.contenu);
@@ -332,3 +289,69 @@ export class ReadReport {
     }
   }
 }
+
+function getExternalId(rawReport: any) {
+  return rawReport.uid;
+}
+
+function getPresidency(rawReport: any) {
+  const isFixedPresidency = typeof rawReport.metadonnees.sommaire.presidentSeance === 'object';
+
+  if (isFixedPresidency) {
+    return rawReport.metadonnees.sommaire.presidentSeance['#text'];
+  }
+
+  return rawReport.metadonnees.sommaire.presidentSeance;
+}
+
+function getSourceURL (rawReport: any) {
+  const externalId = getExternalId(rawReport);
+
+  return `https://www.assemblee-nationale.fr/dyn/opendata/${externalId}.xml`
+}
+
+function getLegislature(rawReport: any) {
+  return rawReport.metadonnees.legislature;
+}
+
+function getDate(rawReport: any) {
+  return rawReport.metadonnees.dateSeanceJour;
+}
+
+function getDaySessionNumber(rawReport: any) {
+  return rawReport.metadonnees.numSeanceJour;
+}
+
+async function parseOne(file: string) {
+  const parser = new XMLParser({
+    ignoreAttributes: false,
+  });
+
+  const parsedFile = parser.parse(file);
+  const rawReport = parsedFile.compteRendu;
+
+  const externalId = getExternalId(rawReport);
+
+  let report = await ReportManager.findByExternalId(externalId);
+
+  if (report) {
+    return;
+  }
+
+  const presidency = getPresidency(rawReport);
+  const sourceURL = getSourceURL(rawReport);
+  const legislature = getLegislature(rawReport);
+  const date = getDate(rawReport);
+  const daySessionNumber = getDaySessionNumber(rawReport);
+
+  report = await createOne({
+    externalId,
+    presidency,
+    sourceURL,
+    legislature,
+    date,
+    daySessionNumber,
+  });
+}
+
+export default parseOne;
