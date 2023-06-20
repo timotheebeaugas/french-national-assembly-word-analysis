@@ -1,8 +1,6 @@
 import { XMLParser } from "fast-xml-parser";
 
 import { AppDataSource } from "../Database/Connection.js";
-import { Report } from "../../models/entities/Report.entity.js";
-import { AgendaItem } from "../../models/entities/AgendaItem.entity.js";
 import { Actor } from "../../models/entities/Actor.entity.js";
 import { Speech } from "../../models/entities/Speech.entity.js";
 import { ReportManager } from '../../models/managers/index.js';
@@ -33,62 +31,6 @@ class ReadReport {
    */
   constructor(readonly data: any) {
     this.data = data.compteRendu;
-  }
-
-  /**
-   * Read summaray and check if alerady exist.
-   * @param {any} obj - The object to be processed (initialized with the summary)
-   * @return {Promise<void>} Return nothing. Throw an error if one summary object has no 'titreStruct'.
-   */
-  async readSummary(obj: any): Promise<void> {
-    try {
-      if (obj) {
-        if (typeof obj === "object") {
-          if (obj.presidentSeance) {
-            delete obj.presidentSeance;
-          }
-          if (obj.titreStruct) {
-            await this.createAgendaItems(obj.titreStruct);
-            delete obj.titreStruct;
-          }
-          Object.keys(obj).forEach(async (key) => {
-            this.readSummary(obj[key]);
-          });
-        }
-      }
-    } catch (error) {
-      throw new Error(error);
-    }
-  }
-
-  /**
-   * Create a new agenda item in database.
-   * @param {any} title - Object title with one title and his id
-   * @return {Promise<void>} return nothing.
-   */
-  async createAgendaItems(title: any): Promise<void> {
-    let fixedTitle: string = "";
-    if (typeof title.intitule === "object") {
-      Object.keys(title.intitule).forEach((element) => {
-        fixedTitle = fixedTitle.concat(" ", title.intitule[element]).trim();
-      });
-    }
-
-    const agendaRepository = AppDataSource.getRepository(AgendaItem);
-    const findAgendas = await agendaRepository.findOneBy({
-      externalId: title["@_id_syceron"],
-    });
-
-    if (findAgendas == null) {
-      const item = new AgendaItem();
-      item.externalId = title["@_id_syceron"];
-      item.report = this.reportId;
-      item.title = fixedTitle || title.intitule;
-      await AppDataSource.manager.save(item);
-
-      await this.increaseLogsCounter("agendaItems");
-    }
-    await this.increaseLogsCounter("agendaItems");
   }
 
   /**
@@ -279,8 +221,6 @@ class ReadReport {
    */
   async Read(): Promise<void> {
     try {
-      await this.readSummary(this.data.metadonnees.sommaire);
-
       await this.readContent(this.data.contenu);
 
       return;
