@@ -3,11 +3,9 @@ import {
   Column,
   PrimaryGeneratedColumn,
   OneToMany,
-  JoinColumn,
 } from "typeorm";
 
 import { Speech } from "./Speech.entity.js";
-import { Mandate } from "./Mandate.entity.js";
 
 @Entity()
 export class Actor {
@@ -45,8 +43,4 @@ export class Actor {
 
   @OneToMany(() => Speech, (speech) => speech.actor)
   speeches: Speech[];
-
-  @OneToMany(() => Mandate, (mandate) => mandate.actor)
-  @JoinColumn()
-  mandates: Mandate[];
 }

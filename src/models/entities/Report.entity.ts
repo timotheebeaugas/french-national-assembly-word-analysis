@@ -3,11 +3,8 @@ import {
   Column,
   PrimaryGeneratedColumn,
   OneToMany,
-  ManyToOne,
-  JoinColumn,
 } from "typeorm";
 
-import { AgendaItem } from "./AgendaItem.entity.js";
 import { Speech } from "./Speech.entity.js";
 
 @Entity()
@@ -40,10 +37,6 @@ export class Report {
     length: 255,
   })
   presidency: string;
-
-  @OneToMany(() => AgendaItem, (agendaItem) => agendaItem.report)
-  @JoinColumn()
-  agendaItems: AgendaItem[];
 
   @OneToMany(() => Speech, (speech) => speech.report)
   speeches: Speech[];
