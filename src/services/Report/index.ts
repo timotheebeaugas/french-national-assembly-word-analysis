@@ -1,1 +1,1 @@
-export { default as parseOne } from './parseOne.js';
+export { default as parseOne } from './parseOne/index.js';

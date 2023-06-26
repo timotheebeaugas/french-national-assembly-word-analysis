@@ -41,6 +41,6 @@ export class Actor {
   })
   professionalCategory: string;
 
-  @OneToMany(() => Speech, (speech) => speech.actor)
+  @OneToMany(() => Speech, (speech) => speech.actorId)
   speeches: Speech[];
 }

@@ -13,12 +13,12 @@ export class Speech {
   externalId: string;
 
   @ManyToOne(() => Report, (report) => report.speeches)
-  report: number;
+  reportId: number;
 
   @ManyToOne(() => Actor, (actor) => actor.speeches)
-  actor: number;
+  actorId: number;
 
-  @Column("text") 
-  content: string; 
- 
+  @Column("text")
+  content: string;
+
 }

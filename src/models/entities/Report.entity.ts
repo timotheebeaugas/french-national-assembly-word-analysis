@@ -38,6 +38,6 @@ export class Report {
   })
   presidency: string;
 
-  @OneToMany(() => Speech, (speech) => speech.report)
+  @OneToMany(() => Speech, (speech) => speech.reportId)
   speeches: Speech[];
 }
