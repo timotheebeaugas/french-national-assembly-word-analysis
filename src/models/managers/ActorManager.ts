@@ -7,6 +7,6 @@ export async function insert(payload: Partial<ActorEntity>) {
   return actorRepository.insert(payload);
 }
 
-export async function findByExternalId(externalId: number) {
+export async function findByExternalId(externalId: string) {
   return actorRepository.findOneBy({ externalId });
 }

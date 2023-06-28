@@ -18,7 +18,7 @@ async function parseActor(rawActor: any) {
     return null;
   }
 
-  const externalId = Math.abs(rawExternalId);
+  const externalId = Math.abs(rawExternalId).toString();
   const existingActor = await ActorManager.findByExternalId(externalId);
 
   if (existingActor) {

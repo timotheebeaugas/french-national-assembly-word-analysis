@@ -13,7 +13,7 @@ export class Actor {
   id: number;
 
   @Column()
-  externalId: number;
+  externalId: string;
 
   @Column({
     length: 255,

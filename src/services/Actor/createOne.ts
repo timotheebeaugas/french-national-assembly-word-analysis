@@ -2,7 +2,7 @@ import { Actor } from '../../models/entities/Actor.entity.js';
 import { ActorManager } from '../../models/managers/index.js';
 
 type actorCreationPayloadType = {
-  externalId: number,
+  externalId: string,
   name: string,
 }
 
