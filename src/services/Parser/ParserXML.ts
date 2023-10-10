@@ -4,28 +4,29 @@ import { XMLParser, XMLBuilder } from "fast-xml-parser";
 /** Child class for parsing raw data  */
 
 export class ParserXML extends ParserAbstract {
-
   /**
    * Create a parser.
    * @param fileName - The filename value.
-   * @const fileType - .xml format
    */
 
-  constructor(fileName: string) {
+  constructor(public fileName: string) {
     super(fileName);
-    this.fileType = ".xml";
   }
 
   /**
    * Parse data with external package named fast-xml-parser.
-   * @return 
+   * @return {Object} return parsed data in one object
    */
 
-  parse(): void {
+  parse(): Object {
+    this.readFile();
     try {
-      const parser = new XMLParser();
+      const options = {
+        ignoreAttributes: false,
+      };
+      const parser = new XMLParser(options);
       const JSONObject = parser.parse(this.rawdata);
-      this.parsedData = JSONObject;
+      return JSONObject;
     } catch {
       this.error("cannot parse data");
     }
