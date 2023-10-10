@@ -15,9 +15,9 @@ async function createOne(rawActor: actorCreationPayloadType) {
   const actor = new Actor();
 
   actor.externalId = externalId;
-  actor.name = name;
+  actor.name = name;   
 
-  await ActorManager.insert(actor);
+  await ActorManager.insert(actor);   
 
   return ActorManager.findByExternalId(externalId);
 }

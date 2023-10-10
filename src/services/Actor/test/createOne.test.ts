@@ -1,5 +1,8 @@
-const assert = require('assert'); 
 
+import * as assert from "assert";
+
+import createOne from "../createOne";
+ 
 describe('services', function () {
   describe('Actor', function () {
     describe('createOne', function () {

@@ -5,7 +5,7 @@
   "main": "dist/app.js",
   "scripts": {
     "start": "nodemon ./dist/app.js",
-    "test": "mocha 'src/**/*.test.ts' --recursive",
+    "test": "tsc & mocha 'dist/**/*.test.js' --recursive",
     "build": "tsc",
     "dev": "tsc -w"
   },
